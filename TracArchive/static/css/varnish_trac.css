@@ -1,0 +1,58 @@
+/* Overrides for Trac. Varnish styles */
+
+/* Body */
+
+body {margin: 0; padding: 0; color: #333;}
+
+p {font-size: 0.9em;}
+
+/* Banner */
+
+div#banner {background: #336FB6; padding: 0.5em; height:100px;}
+#metanav {padding: 1em;}
+#metanav a {color: #fff;}
+#metanav {color: #fff;}
+
+/* Mainnav */
+
+#mainnav {margin: 0; padding: 0.5em; border: none; height: 24px; background: #fff;}
+#mainnav a:link, #mainnav a:visited {background: none; border: none;  font-size: 1.4em; margin: 10px;}
+#mainnav .active a:link, #mainnav .active a:visited, #mainnav .active a:hover {background: #124263;  font-size: 1.4em; font-weight: normal; border: none; margin: 10px;}
+#mainnav a:link:hover, #mainnav a:visited:hover {background: #336FB6; border: none; color: #fff; font-size: 1.4em; margin: 10px;}
+#mainnav .active :link:hover, #mainnav .active :visited:hover {border: 0 !important;}
+
+/* Main */
+
+div#main {padding: 1em;}
+div#main a {color: #0066B3;}
+
+div#main h2 a { color: white; }
+
+dt em {color: #666;}
+
+li.milestone div.info h2 {background: #1C75BC; border-bottom: 3px solid #124263; height: 1.6em; padding: 0.3em;}
+li.milestone div.info a {color: #fff !important;}
+li.milestone div.info h2 em {color: #fff;}
+
+table.listing thead {background: #1C75BC; border-bottom: 3px solid #124263;}
+table.listing thead th {background: #1C75BC !important; color: #fff;}
+table.listing thead tr th a {color: #fff !important;}
+
+form#prefs {background: #fff; font-size: 0.9em;}
+
+h2 {color: #fff; background: #1C75BC; border-bottom: 3px solid #124263; height: 1.4em; padding: 0.4em;}
+
+.diff li.entry h2 a {color: #fff !important;}
+.diff h2 .switch span.active {color: #fff;}
+
+#content h2 .numresults {color: #fff;}
+
+#ticket .date a {color: #fff; text-decoration: underline;}
+#ticket .date a:hover {background: #000;}
+#ticket .date p {color: #fff;}
+h2 .searchword0 {color: #000;}
+#metanav a:hover {color: #000;}
+
+ul.milestones dl :link {color: #222 !important;}
+h2.report-result {color: #222 !important;}
+
