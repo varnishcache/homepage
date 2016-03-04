@@ -14,10 +14,11 @@ find static pygments -print | cpio -dump $D
 
 sh cook_ticket.sh
 sh cook_attachment.sh
-sh cook_wiki.sh
 
 find Dest/. -type d -print |
 while read d
 do
 	echo "Nothing to see here" > $d/index.html
 done
+
+sh cook_wiki.sh
