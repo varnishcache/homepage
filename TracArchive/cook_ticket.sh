@@ -32,5 +32,5 @@ do
 	s/<a class="timeline.*title="\([^ ]*\) in Timeline[^<]*<\/a>/\1/g
 	/mainnav/a\
 <h1>NB: This is a frozen copy of the old ticket from Trac</h1>
-	' $i > /usr/local/www/apache24/data/trac/ticket/$b
+	' $i > Dest/ticket/$b
 done 
