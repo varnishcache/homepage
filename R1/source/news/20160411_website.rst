@@ -1,0 +1,18 @@
+.. _20160411_website:
+
+We have a new website
+=====================
+
+Well, sorta...
+
+As part of the server migration, we want to redo the project homepage,
+but as is so often the case in volunterism, something happened, and
+then something else came in the way and ...
+
+So this temporary home-page happened, and since nothing is as permanent
+as that which is erected as temporary, the Tower of Eiffel comes to mind,
+you might have to get used to this page.
+
+We'll see where it goes...
+
+2016-04-11 /phk
