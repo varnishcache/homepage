@@ -24,8 +24,11 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 all:	html
 
 pub:	html
-	cd build/html && scp -C -P200 -r . \
-	    root@r.varnish-cache.org:/usr/local/www/apache24/data/
+	#cd build/html && scp -C -P200 -r . \
+	#    root@r.varnish-cache.org:/usr/local/www/apache24/data/
+	cd build/html && \
+	    rsync -v -e "/usr/bin/ssh -p 200" \
+		root@r.varnish-cache.org:/usr/local/www/apache24/data/
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
