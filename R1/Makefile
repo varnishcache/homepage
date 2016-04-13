@@ -26,8 +26,7 @@ all:	html
 pub:	html
 	#cd build/html && scp -C -P200 -r . \
 	#    root@r.varnish-cache.org:/usr/local/www/apache24/data/
-	cd build/html && \
-	    rsync -v -e "/usr/bin/ssh -p 200" \
+	rsync -r -v -e "/usr/bin/ssh -p 200" build/html/. \
 		root@r.varnish-cache.org:/usr/local/www/apache24/data/
 
 help:
