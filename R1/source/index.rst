@@ -26,9 +26,6 @@ of moving the Varnish Cache project to its own infrastructure. /phk
 2016-05-13 (Auckland) `Varnish-Software Summit
 <http://info.varnish-software.com/nz-summit-2016>`_
 
-2016-05-13 (Auckland) `Varnish-Software Summit
-<http://info.varnish-software.com/nz-summit-2016>`_
-
 2016-07-16 & 17 (Amsterdam) `VarnishCon Europe 2016
 <http://varnishcon2016.eventbrite.com>`_
 
