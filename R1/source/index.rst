@@ -37,3 +37,4 @@ of moving the Varnish Cache project to its own infrastructure. /phk
    faq/index
    releases/index
    docs/index
+   support/index

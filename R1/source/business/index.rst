@@ -1,3 +1,5 @@
+.. _business:
+
 Varnish HTTP Cache Business
 ===========================
 
