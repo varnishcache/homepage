@@ -1,7 +1,7 @@
-.. _intro:
+.. _docs:
 
-Introduction to Varnish
-=======================
+Varnish Documentation
+=====================
 
 Being written, check back in a few hours.
 
