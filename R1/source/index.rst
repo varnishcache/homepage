@@ -8,8 +8,16 @@ Varnish HTTP Cache
 Whats happening
 ---------------
 
-2016-04-11 Sorry if it looks a bit sparse around here, we're in the process
-of moving the Varnish Cache project to its own infrastructure. /phk
+2016-04-11
+
+Sorry if it looks a bit sparse around here, we're in the process
+of moving the Varnish Cache project to its own infrastructure.
+
+If you want to help out, we will gladly take pull requests to the
+new homepage, you can find it in
+`this github repos <https://github.com/varnishcache/homepage>`_.
+
+/phk
 
 2016-04-21 (Copenhagen) `Varnish-Software Summit
 <http://info.varnish-software.com/copenhagen-summit-2016>`_
