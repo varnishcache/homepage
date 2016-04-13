@@ -44,3 +44,4 @@ of moving the Varnish Cache project to its own infrastructure. /phk
    releases/index
    docs/index
    support/index
+   extras/index
