@@ -14,6 +14,13 @@ first version to be developed.
 Here is an interview with Anders about `how it all began
 <http://info.varnish-software.com/blog/celebrating-10-years-of-varnish-cache-qa-with-the-man-behind-the-idea>`_
 
+Dag-Erling Smørgrav
+~~~~~~~~~~~~~~~~~~~
+
+DES was working at Redpill-Linpro, a norvegian UNIX/Open Source company
+when Anders floatet his idea for a "forward HTTP cache", he
+lured PHK into joining, and managed the project during its infancy.
+
 Poul-Henning Kamp
 ~~~~~~~~~~~~~~~~~
 
@@ -26,3 +33,29 @@ that seems useful too.
 
 PHK's `random outbursts </docs/trunk/phk/index.html>`_ has their own
 section in the varnish documentation.
+
+Per Buer
+~~~~~~~~
+
+Per also worked at Redpill-Linpro, and at somepoint the impedance
+mismatch between Linpros "normal way of doing things" and the
+potential of Varnish became to steep, he convinced the company to
+spin off `Varnish Software <https://varnish-software.com/>`_
+with himself at the helm.
+
+Kristian Lyngstøl
+~~~~~~~~~~~~~~~~~
+
+Kristian was the first Varnish SuperUser, and he quite literally
+wrote the book, while giving Varnish courses for Redpill-Linpro,
+and he pushed boundaries where no boundaries had been pushed before
+which caused a lot of improvements and "aha!" moments in Varnish.
+
+Artur Bergman
+~~~~~~~~~~~~~
+
+Artur ran Wikias webservers and CDN when he discovered Varnish and
+eagerly adopted it, causing many bugreports, suggestions, patches
+and improvements.  At some point, he pivoted Wikias CDN into the
+Varnish based startup-CDN named `Fastly <http://www.fastly.com/>`_
+
