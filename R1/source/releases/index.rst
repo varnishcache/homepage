@@ -9,6 +9,10 @@ Currently supported releases
 
 `Changelog for all releases <https://github.com/varnishcache/varnish-cache/blob/master/doc/changes.rst>`_
 
+:ref:`VMODs <vmods>`
+
+:ref:`Extras, Utilities, etc. <extras>`
+
 By Operating System 
 -------------------
 
