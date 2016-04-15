@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`null - Binary data in synthetic",
-    "github": [
-        "varnish",
-        "libvmod-null"
-    ],
+    "desc": "null - Binary data in synthetic",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-null",
+        "user": "varnish",
+        "vcc_path": "src/vmod_null.vcc"
+    },
     "license": "FreeBSD",
     "name": "null",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-null/master/src/vmod_null.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

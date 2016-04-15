@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Cookie",
-    "github": [
-        "lkarsten",
-        "libvmod-cookie"
-    ],
+    "desc": "Cookie",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-cookie",
+        "user": "lkarsten",
+        "vcc_path": "src/vmod_cookie.vcc"
+    },
     "license": "FreeBSD",
     "name": "cookie",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/lkarsten/libvmod-cookie/master/src/vmod_cookie.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

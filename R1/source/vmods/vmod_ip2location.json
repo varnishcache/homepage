@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`ip2location",
-    "github": [
-        "thlc",
-        "libvmod-ip2location"
-    ],
+    "desc": "ip2location",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-ip2location",
+        "user": "thlc",
+        "vcc_path": "src/vmod_ip2location.vcc"
+    },
     "license": "FreeBSD",
     "name": "ip2location",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/thlc/libvmod-ip2location/master/src/vmod_ip2location.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Lua",
-    "github": [
-        "flygoast",
-        "libvmod-lua"
-    ],
+    "desc": "Lua",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-lua",
+        "user": "flygoast",
+        "vcc_path": "src/vmod_lua.vcc"
+    },
     "license": "FreeBSD",
     "name": "lua",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/flygoast/libvmod-lua/master/src/vmod_lua.vcc"
-        }
-    },
-    "status": "Proof of concept"
+    "status": "prototype"
 }

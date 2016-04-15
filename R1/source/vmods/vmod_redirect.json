@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`redirect",
-    "github": [
-        "xcir",
-        "libvmod-redirect"
-    ],
+    "desc": "redirect",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-redirect",
+        "user": "xcir",
+        "vcc_path": "src/vmod_redirect.vcc"
+    },
     "license": "FreeBSD",
     "name": "redirect",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/xcir/libvmod-redirect/master/src/vmod_redirect.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`synth",
-    "github": [
-        "carlosabalde",
-        "libvmod-synth"
-    ],
+    "desc": "synth",
+    "github": {
+        "branches": {
+            "4.1": "4.1"
+        },
+        "project": "libvmod-synth",
+        "user": "carlosabalde",
+        "vcc_path": "src/vmod_synth.vcc"
+    },
     "license": "FreeBSD",
     "name": "synth",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/carlosabalde/libvmod-synth/4.1/src/vmod_synth.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`ipcast",
-    "github": [
-        "lkarsten",
-        "libvmod-ipcast"
-    ],
+    "desc": "ipcast",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-ipcast",
+        "user": "lkarsten",
+        "vcc_path": "src/vmod_ipcast.vcc"
+    },
     "license": "FreeBSD",
     "name": "ipcast",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/lkarsten/libvmod-ipcast/master/src/vmod_ipcast.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

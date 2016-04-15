@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Statsd - Varnish stats",
-    "github": [
-        "jib",
-        "libvmod-statsd"
-    ],
+    "desc": "Statsd - Varnish stats",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-statsd",
+        "user": "jib",
+        "vcc_path": "src/vmod_statsd.vcc"
+    },
     "license": "FreeBSD",
     "name": "statsd",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/jib/libvmod-statsd/master/src/vmod_statsd.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

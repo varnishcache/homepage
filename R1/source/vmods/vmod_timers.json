@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Varnish Timers (timing&duration)",
-    "github": [
-        "jib",
-        "libvmod-timers"
-    ],
+    "desc": "Varnish Timers (timing&duration)",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-timers",
+        "user": "jib",
+        "vcc_path": "src/vmod_timers.vcc"
+    },
     "license": "FreeBSD",
     "name": "timers",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/jib/libvmod-timers/master/src/vmod_timers.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

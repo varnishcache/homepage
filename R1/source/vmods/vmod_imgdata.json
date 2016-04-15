@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`imgdata",
-    "github": [
-        "webcarrot",
-        "libvmod-imgdata"
-    ],
+    "desc": "imgdata",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-imgdata",
+        "user": "webcarrot",
+        "vcc_path": "src/vmod_imgdata.vcc"
+    },
     "license": "Other",
     "name": "imgdata",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/webcarrot/libvmod-imgdata/master/src/vmod_imgdata.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

@@ -4,64 +4,130 @@ from __future__ import print_function
 
 import glob
 import json
+import sys
 
-vmods = {}
+class vmod(object):
+	def __init__(self, filename):
+		self.filename = filename
+		self.load()
 
-for fn in glob.glob("vmod_*.json"):
-	print(fn)
-	fi = open(fn)
-	j = json.loads(fi.read())
-	assert "name" in j
-	assert j["name"] not in vmods
-	vmods[j["name"]] = j
+	def load(self):
+		fi = open(self.filename)
+		self.j = json.loads(fi.read())
+		fi.close()
 
-nms = vmods.keys()
-nms.sort()
+	def save(self):
+		fo = open(self.filename, "w")
+		fo.write(json.dumps(self.j, sort_keys=True, indent=4, separators=(",", ": ")))
+		fo.close()
 
-#######################################################################
-# Polish
+	def name(self):
+		return self.j["name"]
 
-for i in nms:
-	v = vmods[i]
-	v["link1"] = ""
-	v["link2"] = ""
-	if "github" in v:
-		v["repos"] = "https://github.com/" + v["github"][0] + "/" + v["github"][1]
-		v["link1"] += " `Github <%s>`_ " % v["repos"]
-	elif "repos" in v:
-		v["link1"] += " `Repos <%s>`_ " % v["repos"]
-	elif "product" in v:
-		v["link1"] = "`Product <" + v["product"] + ">`_"
-	if "rev" in v:
-		for j in v["rev"]:
-			u = v["rev"][j]["url_vcc"]
-			v["link2"] += " `%s <%s>`_ " % (j, u)
-	if "support" in v and v["support"] == "Uplex":
-		v["support"] = ":ref:`business_uplex`"
-	if "support" in v and v["support"] == "Varnish Software":
-		v["support"] = ":ref:`business_varnish_software`"
+	def repos(self):
+		i = self.j.get("repos")
+		if i != None:
+			return i
+		g = self.j.get("github")
+		if g != None:
+			return "https://github.com/" + g["user"] + "/" + g["project"]
 
-#######################################################################
-# Size columns
+	def versions(self):
+		r = self.j.get("rev")
+		if r != None:
+			return r.keys()
+		g = self.j.get("github")
+		if g != None:
+			return g["branches"].keys()
+		return list()
 
-h = ["VMOD", "License", "Status", "Support", "Link", "VCC"]
-f = ["name", "license", "status", "support", "link1", "link2"]
-w = [0] * len(h)
+	def url_vcc(self, rev):
+		r = self.j.get("rev")
+		if r != None:
+			return r[rev]["url_vcc"]
+		g = self.j.get("github")
+		if g != None:
+			s = "https://raw.githubusercontent.com/" 
+			s += g["user"] + "/"
+			s += g["project"] + "/"
+			s += g["branches"][rev] + "/"
+			s += g["vcc_path"]
+			return s
+		return None
 
-for i in nms:
-	v = vmods[i]
-	for j in range(len(w)):
-		if f[j] in v:
-			v[f[j]] = v[f[j]].strip()
-			w[j] = max(w[j], len(v[f[j]]))
+	def www_table(self):
+		l = []
+		l.append(self.j.get("name"))
+		l.append(self.j.get("desc"))
+		l.append(self.j.get("license"))
+		l.append(self.j.get("status"))
 
-#######################################################################
-# Emit output
+		s = ""
+		if "github" in self.j:
+			s += " `Github <%s>`_ " % self.repos()
+		elif "repos" in self.j:
+			s += " `Repos <%s>`_ " % self.repos()
+		l.append(s)
+
+		s = ""
+		for r in self.versions():
+			vcc = self.url_vcc(r)
+			s += " `%s <%s>`_ " % (r, vcc)
+		l.append(s)
+
+		i = self.j.get("support")
+		s = ""
+		if i != None:
+			for j in i:
+				if j == "Uplex":
+					s += " :ref:`business_uplex`"
+				elif j == "Varnish Software":
+					s += ":ref:`business_varnish_software`"
+				elif j != None:
+					s += " " + j
+		l.append(s)
+
+		return l
 
 
-fo = open("index.rst", "w")
+def load_all():
+	vmods = {}
+	for fn in glob.glob("vmod_*.json"):
+		v = vmod(fn)
+		vmods[v.name()] = v
+	return vmods
 
-fo.write('''
+def make_www_table():
+
+	vmods = load_all()
+
+	nms = vmods.keys()
+	nms.sort()
+
+	l = []
+
+	#######################################################################
+	# Size columns
+
+	h = ["VMOD", "Description", "License", "Status", "Link", "VCC", "Support"]
+	w = [0] * len(h)
+
+	for i in nms:
+		x = vmods[i].www_table()
+		l.append(x)
+		for j in range(len(w)):
+			if x[j] == None:
+				x[j] = ""
+			else:
+				x[j] = x[j].strip()
+				w[j] = max(w[j], len(x[j]))
+
+	#######################################################################
+	# Emit output
+
+	fo = open("index.rst", "w")
+
+	fo.write('''
 .. _vmods:
 
 Varnish Modules
@@ -77,28 +143,39 @@ we will be happy to include it.
 For other Varnish Cache related projects and utilities, please see the
 :ref:`Varnish Extras <extras>`
 
+Instructions :ref:`how to get your VMOD on this list <vmods_reg>`.
+
+.. toctree::
+   :hidden:
+
+   howto.rst
+
 ''')
 
-def sep(ln="-"):
-	for i in w:
-		fo.write("+" + ln * (i + 2))
-	fo.write("+\n")
+	def sep(ln="-"):
+		for i in w:
+			fo.write("+" + ln * (i + 2))
+		fo.write("+\n")
 
-sep("-")
-for i in range(len(h)):
-	fo.write("| " + h[i].ljust(w[i]) + " ")
-fo.write("|\n")
-sep("-")
-
-for i in nms:
-	v = vmods[i]
-	for j in range(len(w)):
-		if f[j] in v:
-			fo.write("| " + v[f[j]].ljust(w[j]) + " ")
-		else:
-			fo.write("| " + "".ljust(w[j]) + " ")
+	sep("-")
+	for i in range(len(h)):
+		fo.write("| " + h[i].ljust(w[i]) + " ")
 	fo.write("|\n")
-	sep()
+	sep("=")
 
-exit (0)
+	for i in l:
+		for j in range(len(w)):
+			fo.write("| " + i[j].ljust(w[j]) + " ")
+		fo.write("|\n")
+		sep()
 
+if __name__ == "__main__":
+
+	vmods = load_all()
+
+	if len(sys.argv) == 1:
+		make_www_table()
+	elif len(sys.argv) == 2 and sys.argv[1] == "--polish":
+		vmods = load_all()
+		for i in vmods:
+			vmods[i].save()

@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`memcached",
-    "github": [
-        "sodabrew",
-        "libvmod-memcached"
-    ],
+    "desc": "memcached",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-memcached",
+        "user": "sodabrew",
+        "vcc_path": "src/vmod_memcached.vcc"
+    },
     "license": "FreeBSD",
     "name": "memcached",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/sodabrew/libvmod-memcached/master/src/vmod_memcached.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`URL Code",
-    "github": [
-        "fastly",
-        "libvmod-urlcode"
-    ],
+    "desc": "URL Code",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-urlcode",
+        "user": "fastly",
+        "vcc_path": "src/vmod_urlcode.vcc"
+    },
     "license": "FreeBSD",
     "name": "urlcode",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/fastly/libvmod-urlcode/master/src/vmod_urlcode.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

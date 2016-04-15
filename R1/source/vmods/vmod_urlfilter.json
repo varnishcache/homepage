@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`libvmod-urlfilter",
-    "github": [
-        "kataweb",
-        "libvmod-urlfilter"
-    ],
+    "desc": "libvmod-urlfilter",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-urlfilter",
+        "user": "kataweb",
+        "vcc_path": "src/vmod_urlfilter.vcc"
+    },
     "license": "Other",
     "name": "urlfilter",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/kataweb/libvmod-urlfilter/master/src/vmod_urlfilter.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

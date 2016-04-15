@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`QueryString",
-    "github": [
-        "Dridi",
-        "libvmod-querystring"
-    ],
+    "desc": "QueryString",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-querystring",
+        "user": "Dridi",
+        "vcc_path": "src/vmod.vcc"
+    },
     "license": "FreeBSD",
     "name": "querystring",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/Dridi/libvmod-querystring/master/src/vmod.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

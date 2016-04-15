@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Soft purge",
-    "github": [
-        "varnish",
-        "libvmod-softpurge"
-    ],
+    "desc": "Soft purge",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-softpurge",
+        "user": "varnish",
+        "vcc_path": "src/vmod_softpurge.vcc"
+    },
     "license": "FreeBSD",
     "name": "softpurge",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-softpurge/master/src/vmod_softpurge.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

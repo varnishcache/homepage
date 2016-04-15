@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Authentication",
-    "github": [
-        "pariahsoft",
-        "libvmod-authentication"
-    ],
+    "desc": "Authentication",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-authentication",
+        "user": "pariahsoft",
+        "vcc_path": "src/vmod_authentication.vcc"
+    },
     "license": "FreeBSD",
     "name": "authentication",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/pariahsoft/libvmod-authentication/master/src/vmod_authentication.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

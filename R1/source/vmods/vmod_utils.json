@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`libvmod-utils",
-    "github": [
-        "thomsonreuters",
-        "libvmod-utils"
-    ],
+    "desc": "libvmod-utils",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-utils",
+        "user": "thomsonreuters",
+        "vcc_path": "src/vmod_utils.vcc"
+    },
     "license": "Other",
     "name": "utils",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/thomsonreuters/libvmod-utils/master/src/vmod_utils.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

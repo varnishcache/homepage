@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Ratelimit",
-    "github": [
-        "tobixen",
-        "libvmod-ratelimit"
-    ],
+    "desc": "Ratelimit",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-ratelimit",
+        "user": "tobixen",
+        "vcc_path": "src/vmod_ratelimit.vcc"
+    },
     "license": "FreeBSD",
     "name": "ratelimit",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/tobixen/libvmod-ratelimit/master/src/vmod_ratelimit.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

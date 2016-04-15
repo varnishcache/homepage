@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Digest",
-    "github": [
-        "varnish",
-        "libvmod-digest"
-    ],
+    "desc": "Digest",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-digest",
+        "user": "varnish",
+        "vcc_path": "src/vmod_digest.vcc"
+    },
     "license": "FreeBSD",
     "name": "digest",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-digest/master/src/vmod_digest.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

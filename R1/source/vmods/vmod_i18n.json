@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`libvmod-i18n",
-    "github": [
-        "cosimo",
-        "libvmod-i18n"
-    ],
+    "desc": "libvmod-i18n",
+    "github": {
+        "branches": {
+            "3.0": "3.0"
+        },
+        "project": "libvmod-i18n",
+        "user": "cosimo",
+        "vcc_path": "src/vmod.vcc"
+    },
     "license": "Other",
     "name": "i18n",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/cosimo/libvmod-i18n/3.0/src/vmod.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

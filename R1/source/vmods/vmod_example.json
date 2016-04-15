@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`example vmod - hello world!",
-    "github": [
-        "varnish",
-        "libvmod-example"
-    ],
+    "desc": "example vmod - hello world!",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-example",
+        "user": "varnish",
+        "vcc_path": "src/vmod_example.vcc"
+    },
     "license": "FreeBSD",
     "name": "example",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-example/master/src/vmod_example.vcc"
-        }
-    },
-    "status": "Proof of concept",
-    "support": "Varnish Software"
+    "status": "prototype",
+    "support": [
+        "Varnish Software"
+    ]
 }

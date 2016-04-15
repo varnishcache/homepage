@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`POST/GET/Cookie parse",
-    "github": [
-        "xcir",
-        "libvmod-parsereq"
-    ],
+    "desc": "POST/GET/Cookie parse",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-parsereq",
+        "user": "xcir",
+        "vcc_path": "src/vmod_parsereq.vcc"
+    },
     "license": "FreeBSD",
     "name": "parsereq",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/xcir/libvmod-parsereq/master/src/vmod_parsereq.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Variable Support",
-    "github": [
-        "varnish",
-        "libvmod-var"
-    ],
+    "desc": "Variable Support",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-var",
+        "user": "varnish",
+        "vcc_path": "src/vmod_var.vcc"
+    },
     "license": "FreeBSD",
     "name": "var",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-var/master/src/vmod_var.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

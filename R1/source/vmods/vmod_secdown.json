@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Secure download",
-    "github": [
-        "footplus",
-        "libvmod-secdown"
-    ],
+    "desc": "Secure download",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-secdown",
+        "user": "footplus",
+        "vcc_path": "src/vmod.vcc"
+    },
     "license": "FreeBSD",
     "name": "secdown",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/footplus/libvmod-secdown/master/src/vmod.vcc"
-        }
-    },
-    "status": "Proof of concept"
+    "status": "prototype"
 }

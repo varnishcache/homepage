@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`rfc6052",
-    "github": [
-        "toreanderson",
-        "libvmod-rfc6052"
-    ],
+    "desc": "rfc6052",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-rfc6052",
+        "user": "toreanderson",
+        "vcc_path": "src/vmod_rfc6052.vcc"
+    },
     "license": "FreeBSD",
     "name": "rfc6052",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/toreanderson/libvmod-rfc6052/master/src/vmod_rfc6052.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

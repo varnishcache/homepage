@@ -1,6 +1,6 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Database-driven rewrites",
+    "desc": "Database-driven rewrites",
     "license": "GPLv2",
     "name": "dbrw",
     "repos": "http://git.gnu.org.ua/cgit/vmod-dbrw.git",
@@ -9,6 +9,8 @@
             "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
         }
     },
-    "status": "Used in production",
-    "support": "NXC International"
+    "status": "mature",
+    "support": [
+        "NXC International"
+    ]
 }

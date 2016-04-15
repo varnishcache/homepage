@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Dgram",
-    "github": [
-        "mmb",
-        "vmod_dgram"
-    ],
+    "desc": "Dgram",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "vmod_dgram",
+        "user": "mmb",
+        "vcc_path": "src/vmod_dgram.vcc"
+    },
     "license": "FreeBSD",
     "name": "dgram",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/mmb/vmod_dgram/master/src/vmod_dgram.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

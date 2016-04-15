@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`API Proxy",
-    "github": [
-        "3scale",
-        "libvmod-3scale"
-    ],
+    "desc": "API Proxy",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-3scale",
+        "user": "3scale",
+        "vcc_path": "src/vmod_threescale.vcc"
+    },
     "license": "FreeBSD",
     "name": "threescale",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/3scale/libvmod-3scale/master/src/vmod_threescale.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

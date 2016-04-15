@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Redis",
-    "github": [
-        "brandonwamboldt",
-        "libvmod-redis"
-    ],
+    "desc": "Redis",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-redis",
+        "user": "brandonwamboldt",
+        "vcc_path": "src/vmod_redis.vcc"
+    },
     "license": "FreeBSD",
     "name": "redis",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/brandonwamboldt/libvmod-redis/master/src/vmod_redis.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

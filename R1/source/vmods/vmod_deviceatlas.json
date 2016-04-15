@@ -1,9 +1,11 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`DeviceAtlas Mobile Detection",
+    "desc": "DeviceAtlas Mobile Detection",
     "license": "Other",
     "name": "deviceatlas",
     "product": "https://www.varnish-software.com/product/varnish-mobile-device-detection",
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

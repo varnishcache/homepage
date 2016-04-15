@@ -1,6 +1,6 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`esicookies",
+    "desc": "esicookies",
     "license": "FreeBSD",
     "name": "esicookies",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-esicookies",
@@ -9,6 +9,8 @@
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-esicookies/blobs/raw/master/src/vmod_esicookies.vcc"
         }
     },
-    "status": "Used in production",
-    "support": "Uplex"
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
 }

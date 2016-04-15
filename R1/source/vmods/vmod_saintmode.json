@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Saint mode (4.1 or later)",
-    "github": [
-        "varnish",
-        "libvmod-saintmode"
-    ],
+    "desc": "Saint mode (4.1 or later)",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-saintmode",
+        "user": "varnish",
+        "vcc_path": "src/vmod_saintmode.vcc"
+    },
     "license": "FreeBSD",
     "name": "saintmode",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-saintmode/master/src/vmod_saintmode.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

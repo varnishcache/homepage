@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Maxmind Geoip",
-    "github": [
-        "simonvik",
-        "libvmod_maxminddb"
-    ],
+    "desc": "Maxmind Geoip",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod_maxminddb",
+        "user": "simonvik",
+        "vcc_path": "src/vmod_maxminddb.vcc"
+    },
     "license": "FreeBSD",
     "name": "maxminddb",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/simonvik/libvmod_maxminddb/master/src/vmod_maxminddb.vcc"
-        }
-    },
-    "status": "Proof of concept"
+    "status": "prototype"
 }

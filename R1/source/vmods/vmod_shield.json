@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Shield",
-    "github": [
-        "varnish",
-        "libvmod-shield"
-    ],
+    "desc": "Shield",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-shield",
+        "user": "varnish",
+        "vcc_path": "src/vmod_shield.vcc"
+    },
     "license": "FreeBSD",
     "name": "shield",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-shield/master/src/vmod_shield.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

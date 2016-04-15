@@ -1,8 +1,21 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`directors - the directors VMOD",
+    "desc": "Backend selection directors",
+    "github": {
+        "branches": {
+            "3.0": "3.0",
+            "4.0": "4.0",
+            "4.1": "4.1",
+            "master": "master"
+        },
+        "project": "varnish-cache",
+        "user": "varnishcache",
+        "vcc_path": "lib/libvmod_directors/vmod.vcc"
+    },
     "license": "FreeBSD",
     "name": "directors",
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "included",
+    "support": [
+        "Varnish Software"
+    ]
 }

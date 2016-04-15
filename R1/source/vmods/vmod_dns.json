@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`DNS",
-    "github": [
-        "kenshaw",
-        "libvmod-dns"
-    ],
+    "desc": "DNS",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-dns",
+        "user": "kenshaw",
+        "vcc_path": "src/vmod_dns.vcc"
+    },
     "license": "Apache2",
     "name": "dns",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/kenshaw/libvmod-dns/master/src/vmod_dns.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

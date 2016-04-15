@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Time Utils",
-    "github": [
-        "jthomerson",
-        "libvmod-timeutils"
-    ],
+    "desc": "Time Utils",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-timeutils",
+        "user": "jthomerson",
+        "vcc_path": "src/vmod_timeutils.vcc"
+    },
     "license": "FreeBSD",
     "name": "timeutils",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/jthomerson/libvmod-timeutils/master/src/vmod_timeutils.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

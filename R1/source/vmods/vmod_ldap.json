@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`LDAP authentication",
-    "github": [
-        "xcir",
-        "libvmod-ldap"
-    ],
+    "desc": "LDAP authentication",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-ldap",
+        "user": "xcir",
+        "vcc_path": "src/vmod_ldap.vcc"
+    },
     "license": "FreeBSD",
     "name": "ldap",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/xcir/libvmod-ldap/master/src/vmod_ldap.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

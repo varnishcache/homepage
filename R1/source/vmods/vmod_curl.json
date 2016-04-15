@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`cURL",
-    "github": [
-        "varnish",
-        "libvmod-curl"
-    ],
+    "desc": "cURL",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-curl",
+        "user": "varnish",
+        "vcc_path": "src/vmod_curl.vcc"
+    },
     "license": "FreeBSD",
     "name": "curl",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-curl/master/src/vmod_curl.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

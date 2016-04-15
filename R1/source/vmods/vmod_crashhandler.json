@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Crashhandler",
-    "github": [
-        "varnish",
-        "libvmod-crashhandler"
-    ],
+    "desc": "Crashhandler",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-crashhandler",
+        "user": "varnish",
+        "vcc_path": "src/vmod_crashhandler.vcc"
+    },
     "license": "FreeBSD",
     "name": "crashhandler",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-crashhandler/master/src/vmod_crashhandler.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

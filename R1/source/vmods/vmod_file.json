@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`File",
-    "github": [
-        "academia-edu",
-        "libvmod-file"
-    ],
+    "desc": "File",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-file",
+        "user": "academia-edu",
+        "vcc_path": "src/vmod_file.vcc"
+    },
     "license": "FreeBSD",
     "name": "file",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/academia-edu/libvmod-file/master/src/vmod_file.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

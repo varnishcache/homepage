@@ -1,6 +1,6 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`backend\\_dyn -- create and delete backends at runtime",
+    "desc": "backend\\_dyn -- create and delete backends at runtime",
     "license": "FreeBSD",
     "name": "backend_dyn",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn",
@@ -9,6 +9,8 @@
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn/blobs/raw/master/src/vmod.vcc"
         }
     },
-    "status": "In development",
-    "support": "Uplex"
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
 }

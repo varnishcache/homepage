@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`Logger",
-    "github": [
-        "Dridi",
-        "libvmod-logger"
-    ],
+    "desc": "Logger",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-logger",
+        "user": "Dridi",
+        "vcc_path": "src/vmod_logger.vcc"
+    },
     "license": "FreeBSD",
     "name": "logger",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/Dridi/libvmod-logger/master/src/vmod_logger.vcc"
-        }
-    },
-    "status": "Proof of concept"
+    "status": "prototype"
 }

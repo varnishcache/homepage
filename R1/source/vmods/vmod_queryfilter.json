@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`libvmod-queryfilter",
-    "github": [
-        "andrew-canaday",
-        "libvmod-queryfilter"
-    ],
+    "desc": "libvmod-queryfilter",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-queryfilter",
+        "user": "andrew-canaday",
+        "vcc_path": "src/vmod_queryfilter.vcc"
+    },
     "license": "Apache2",
     "name": "queryfilter",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/andrew-canaday/libvmod-queryfilter/master/src/vmod_queryfilter.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }

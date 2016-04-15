@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`RealTime Status Page",
-    "github": [
-        "varnish",
-        "libvmod-rtstatus"
-    ],
+    "desc": "RealTime Status Page",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-rtstatus",
+        "user": "varnish",
+        "vcc_path": "src/vmod_rtstatus.vcc"
+    },
     "license": "FreeBSD",
     "name": "rtstatus",
-    "rev": {
-        "3.0": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-rtstatus/master/src/vmod_rtstatus.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

@@ -1,8 +1,21 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`std - the standard VMOD",
+    "desc": "std - the standard VMOD",
+    "github": {
+        "branches": {
+            "3.0": "3.0",
+            "4.0": "4.0",
+            "4.1": "4.1",
+            "master": "master"
+        },
+        "project": "varnish-cache",
+        "user": "varnishcache",
+        "vcc_path": "lib/libvmod_std/vmod.vcc"
+    },
     "license": "FreeBSD",
     "name": "std",
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "included",
+    "support": [
+        "Varnish Software"
+    ]
 }

@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`AWS Signature",
-    "github": [
-        "xcir",
-        "libvmod-awsrest"
-    ],
+    "desc": "AWS Signature",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-awsrest",
+        "user": "xcir",
+        "vcc_path": "src/vmod_awsrest.vcc"
+    },
     "license": "FreeBSD",
     "name": "awsrest",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/xcir/libvmod-awsrest/master/src/vmod_awsrest.vcc"
-        }
-    },
-    "status": "In development"
+    "status": "development"
 }

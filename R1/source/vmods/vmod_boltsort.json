@@ -1,17 +1,18 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`boltsort - QueryString params sort",
-    "github": [
-        "vimeo",
-        "libvmod-boltsort"
-    ],
+    "desc": "boltsort - QueryString params sort",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-boltsort",
+        "user": "vimeo",
+        "vcc_path": "src/vmod_boltsort.vcc"
+    },
     "license": "FreeBSD",
     "name": "boltsort",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/vimeo/libvmod-boltsort/master/src/vmod_boltsort.vcc"
-        }
-    },
-    "status": "Used in production",
-    "support": "Varnish Software"
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
 }

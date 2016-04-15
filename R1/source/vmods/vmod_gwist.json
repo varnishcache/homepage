@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`gwist",
-    "github": [
-        "gquintard",
-        "libvmod-gwist"
-    ],
+    "desc": "gwist",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-gwist",
+        "user": "gquintard",
+        "vcc_path": "src/vmod_gwist.vcc"
+    },
     "license": "Other",
     "name": "gwist",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/gquintard/libvmod-gwist/master/src/vmod_gwist.vcc"
-        }
-    },
-    "status": "Proof of concept"
+    "status": "prototype"
 }

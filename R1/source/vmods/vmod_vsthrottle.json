@@ -1,16 +1,15 @@
 {
     "date": "YYYY-MM-DD",
-    "desc": "`vsthrottle - Rate-limiting/throttling (v4 and later)",
-    "github": [
-        "varnish",
-        "libvmod-vsthrottle"
-    ],
+    "desc": "vsthrottle - Rate-limiting/throttling (v4 and later)",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-vsthrottle",
+        "user": "varnish",
+        "vcc_path": "src/vmod_vsthrottle.vcc"
+    },
     "license": "FreeBSD",
     "name": "vsthrottle",
-    "rev": {
-        "4.1": {
-            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-vsthrottle/master/src/vmod_vsthrottle.vcc"
-        }
-    },
-    "status": "Used in production"
+    "status": "mature"
 }
