@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "redirect",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/xcir/libvmod-redirect",
-    "status": "In development",
-    "vccurl": "https:raw.githubusercontent.com/xcir/libvmod-redirect/master/src/vmod_redirect.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/xcir/libvmod-redirect/master/src/vmod_redirect.vcc"
+        }
+    },
+    "status": "In development"
 }

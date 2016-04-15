@@ -7,8 +7,10 @@
     ],
     "license": "Other",
     "name": "utils",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/thomsonreuters/libvmod-utils",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/thomsonreuters/libvmod-utils/master/src/vmod_utils.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/thomsonreuters/libvmod-utils/master/src/vmod_utils.vcc"
+        }
+    },
+    "status": "Used in production"
 }

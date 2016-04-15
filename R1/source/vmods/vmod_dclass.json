@@ -1,9 +1,16 @@
 {
     "date": "YYYY-MM-DD",
     "desc": "`dClass Apache DeviceMap",
+    "github": [
+        "TheWeatherChannel",
+        "dClass"
+    ],
     "license": "Apache2",
     "name": "dclass",
-    "repos": "https://github.com/TheWeatherChannel/dClass",
-    "status": "Used in production",
-    "vccurl": "https://raw.githubusercontent.com/TheWeatherChannel/dClass/master/servers/src/vmod_dclass4.vcc"
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/TheWeatherChannel/dClass/master/servers/src/vmod_dclass4.vcc"
+        }
+    },
+    "status": "Used in production"
 }

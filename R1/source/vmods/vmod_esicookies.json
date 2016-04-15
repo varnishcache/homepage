@@ -3,9 +3,12 @@
     "desc": "`esicookies",
     "license": "FreeBSD",
     "name": "esicookies",
-    "notes": "Old (V3) VMOD",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-esicookies",
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-esicookies/blobs/raw/master/src/vmod_esicookies.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Uplex",
-    "vccurl": "https:code.uplex.de/uplex-varnish/libvmod-esicookies/blobs/raw/master/src/vmod_esicookies.vcc"
+    "support": "Uplex"
 }

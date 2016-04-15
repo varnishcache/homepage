@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "timers",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/jib/libvmod-timers",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/jib/libvmod-timers/master/src/vmod_timers.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/jib/libvmod-timers/master/src/vmod_timers.vcc"
+        }
+    },
+    "status": "Used in production"
 }

@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "secdown",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/footplus/libvmod-secdown",
-    "status": "Proof of concept",
-    "vccurl": "https:raw.githubusercontent.com/footplus/libvmod-secdown/master/src/vmod.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/footplus/libvmod-secdown/master/src/vmod.vcc"
+        }
+    },
+    "status": "Proof of concept"
 }

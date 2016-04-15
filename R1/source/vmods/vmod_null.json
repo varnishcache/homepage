@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "null",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/varnish/libvmod-null",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-null/master/src/vmod_null.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-null/master/src/vmod_null.vcc"
+        }
+    },
+    "status": "Used in production"
 }

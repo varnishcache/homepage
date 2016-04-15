@@ -7,7 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "vsthrottle",
-    "repos": "https://github.com/varnish/libvmod-vsthrottle",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-vsthrottle/master/src/vmod_vsthrottle.vcc"
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-vsthrottle/master/src/vmod_vsthrottle.vcc"
+        }
+    },
+    "status": "Used in production"
 }

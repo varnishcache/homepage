@@ -7,9 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "rtstatus",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/varnish/libvmod-rtstatus",
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-rtstatus/master/src/vmod_rtstatus.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-rtstatus/master/src/vmod_rtstatus.vcc"
+    "support": "Varnish Software"
 }

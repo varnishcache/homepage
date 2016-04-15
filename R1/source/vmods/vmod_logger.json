@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "logger",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/Dridi/libvmod-logger",
-    "status": "Proof of concept",
-    "vccurl": "https:raw.githubusercontent.com/Dridi/libvmod-logger/master/src/vmod_logger.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/Dridi/libvmod-logger/master/src/vmod_logger.vcc"
+        }
+    },
+    "status": "Proof of concept"
 }

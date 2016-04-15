@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "redis",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/brandonwamboldt/libvmod-redis",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/brandonwamboldt/libvmod-redis/master/src/vmod_redis.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/brandonwamboldt/libvmod-redis/master/src/vmod_redis.vcc"
+        }
+    },
+    "status": "Used in production"
 }

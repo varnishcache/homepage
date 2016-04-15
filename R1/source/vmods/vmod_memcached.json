@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "memcached",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/sodabrew/libvmod-memcached",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/sodabrew/libvmod-memcached/master/src/vmod_memcached.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/sodabrew/libvmod-memcached/master/src/vmod_memcached.vcc"
+        }
+    },
+    "status": "Used in production"
 }

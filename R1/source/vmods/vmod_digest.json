@@ -7,8 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "digest",
-    "repos": "https://github.com/varnish/libvmod-digest",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-digest/master/src/vmod_digest.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-digest/master/src/vmod_digest.vcc"
+    "support": "Varnish Software"
 }

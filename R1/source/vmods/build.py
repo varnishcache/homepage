@@ -18,12 +18,45 @@ for fn in glob.glob("vmod_*.json"):
 nms = vmods.keys()
 nms.sort()
 
+#######################################################################
+# Polish
+
 for i in nms:
 	v = vmods[i]
-	if "repos" in v:
-		v["link"] = "`Repository <" + v["repos"] + ">`_"
+	v["link1"] = ""
+	v["link2"] = ""
+	if "github" in v:
+		v["repos"] = "https://github.com/" + v["github"][0] + "/" + v["github"][1]
+		v["link1"] += " `Github <%s>`_ " % v["repos"]
+	elif "repos" in v:
+		v["link1"] += " `Repos <%s>`_ " % v["repos"]
 	elif "product" in v:
-		v["link"] = "`Product <" + v["product"] + ">`_"
+		v["link1"] = "`Product <" + v["product"] + ">`_"
+	if "rev" in v:
+		for j in v["rev"]:
+			u = v["rev"][j]["url_vcc"]
+			v["link2"] += " `%s <%s>`_ " % (j, u)
+	if "support" in v and v["support"] == "Uplex":
+		v["support"] = ":ref:`business_uplex`"
+	if "support" in v and v["support"] == "Varnish Software":
+		v["support"] = ":ref:`business_varnish_software`"
+
+#######################################################################
+# Size columns
+
+h = ["VMOD", "License", "Status", "Support", "Link", "VCC"]
+f = ["name", "license", "status", "support", "link1", "link2"]
+w = [0] * len(h)
+
+for i in nms:
+	v = vmods[i]
+	for j in range(len(w)):
+		if f[j] in v:
+			v[f[j]] = v[f[j]].strip()
+			w[j] = max(w[j], len(v[f[j]]))
+
+#######################################################################
+# Emit output
 
 
 fo = open("index.rst", "w")
@@ -46,18 +79,6 @@ For other Varnish Cache related projects and utilities, please see the
 
 ''')
 
-w = [0, 0, 0, 0, 0]
-h = ["VMOD", "License", "Status", "Support", "Link"]
-for i in nms:
-	v = vmods[i]
-	w[0] = max(w[0], len(i))
-	w[1] = max(w[1], len(v["license"]))
-	w[2] = max(w[2], len(v["status"]))
-	if "support" in v:
-		w[3] = max(w[3], len(v["support"]))
-	if "link" in v:
-		w[4] = max(w[4], len(v["link"]))
-
 def sep(ln="-"):
 	for i in w:
 		fo.write("+" + ln * (i + 2))
@@ -71,18 +92,12 @@ sep("-")
 
 for i in nms:
 	v = vmods[i]
-	fo.write("| " + i.ljust(w[0]))
-	fo.write(" | " + v["license"].ljust(w[1]))
-	fo.write(" | " + v["status"].ljust(w[2]))
-	if "support" in v:
-		fo.write(" | " + v["support"].ljust(w[3]))
-	else:
-		fo.write(" | " + "".ljust(w[3]))
-	if "link" in v:
-		fo.write(" | " + v["link"].ljust(w[4]))
-	else:
-		fo.write(" | " + "".ljust(w[4]))
-	fo.write(" |\n")
+	for j in range(len(w)):
+		if f[j] in v:
+			fo.write("| " + v[f[j]].ljust(w[j]) + " ")
+		else:
+			fo.write("| " + "".ljust(w[j]) + " ")
+	fo.write("|\n")
 	sep()
 
 exit (0)

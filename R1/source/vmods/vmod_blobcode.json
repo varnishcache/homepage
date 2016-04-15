@@ -4,7 +4,11 @@
     "license": "FreeBSD",
     "name": "blobcode",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobcode",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blobs/raw/master/src/vmod_blobcode.vcc"
+        }
+    },
     "status": "In development",
-    "support": "Uplex",
-    "vccurl": "https:code.uplex.de/uplex-varnish/libvmod-blobcode/blobs/raw/master/src/vmod_blobcode.vcc"
+    "support": "Uplex"
 }

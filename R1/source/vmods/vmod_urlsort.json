@@ -1,9 +1,16 @@
 {
     "date": "YYYY-MM-DD",
     "desc": "`URL Sort",
+    "github": [
+        "cyberroadie",
+        "varnish-urlsort"
+    ],
     "license": "FreeBSD",
     "name": "urlsort",
-    "repos": "https://github.com/cyberroadie/varnish-urlsort",
-    "status": "Used in production",
-    "vccurl": "https://raw.githubusercontent.com/cyberroadie/varnish-urlsort/master/vmod/src/vmod_urlsort.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/cyberroadie/varnish-urlsort/master/vmod/src/vmod_urlsort.vcc"
+        }
+    },
+    "status": "Used in production"
 }

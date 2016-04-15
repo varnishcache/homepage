@@ -4,7 +4,11 @@
     "license": "GPLv2",
     "name": "variable",
     "repos": "http://git.gnu.org.ua/cgit/vmod-variable.git/",
+    "rev": {
+        "4.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-variable.git/plain/src/variable.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "NXC International",
-    "vccurl": "http://git.gnu.org.ua/cgit/vmod-variable.git/plain/src/variable.vcc"
+    "support": "NXC International"
 }

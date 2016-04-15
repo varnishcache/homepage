@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "ldap",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/xcir/libvmod-ldap",
-    "status": "In development",
-    "vccurl": "https:raw.githubusercontent.com/xcir/libvmod-ldap/master/src/vmod_ldap.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/xcir/libvmod-ldap/master/src/vmod_ldap.vcc"
+        }
+    },
+    "status": "In development"
 }

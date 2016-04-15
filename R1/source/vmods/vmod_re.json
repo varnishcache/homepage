@@ -4,7 +4,11 @@
     "license": "FreeBSD",
     "name": "re",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-re",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/blobs/raw/master/src/vmod_re.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Uplex",
-    "vccurl": "https:code.uplex.de/uplex-varnish/libvmod-re/blobs/raw/master/src/vmod_re.vcc"
+    "support": "Uplex"
 }

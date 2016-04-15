@@ -7,8 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "curl",
-    "repos": "https://github.com/varnish/libvmod-curl",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-curl/master/src/vmod_curl.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-curl/master/src/vmod_curl.vcc"
+    "support": "Varnish Software"
 }

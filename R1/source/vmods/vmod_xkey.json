@@ -7,8 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "xkey",
-    "repos": "https://github.com/varnish/libvmod-xkey",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-xkey/master/src/vmod_xkey.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-xkey/master/src/vmod_xkey.vcc"
+    "support": "Varnish Software"
 }

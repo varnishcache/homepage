@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "ratelimit",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/tobixen/libvmod-ratelimit",
-    "status": "In development",
-    "vccurl": "https:raw.githubusercontent.com/tobixen/libvmod-ratelimit/master/src/vmod_ratelimit.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/tobixen/libvmod-ratelimit/master/src/vmod_ratelimit.vcc"
+        }
+    },
+    "status": "In development"
 }

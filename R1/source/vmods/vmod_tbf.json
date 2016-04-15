@@ -4,7 +4,11 @@
     "license": "GPLv2",
     "name": "tbf",
     "repos": "http://git.gnu.org.ua/cgit/vmod-tbf.git",
+    "rev": {
+        "4.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "NXC International",
-    "vccurl": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
+    "support": "NXC International"
 }

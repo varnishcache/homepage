@@ -7,8 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "header",
-    "repos": "https://github.com/varnish/libvmod-header",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-header/master/src/vmod_header.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-header/master/src/vmod_header.vcc"
+    "support": "Varnish Software"
 }

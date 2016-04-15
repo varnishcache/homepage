@@ -7,8 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "example",
-    "repos": "https://github.com/varnish/libvmod-example",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-example/master/src/vmod_example.vcc"
+        }
+    },
     "status": "Proof of concept",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-example/master/src/vmod_example.vcc"
+    "support": "Varnish Software"
 }

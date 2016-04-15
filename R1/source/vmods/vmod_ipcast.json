@@ -7,9 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "ipcast",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/lkarsten/libvmod-ipcast",
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/lkarsten/libvmod-ipcast/master/src/vmod_ipcast.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/lkarsten/libvmod-ipcast/master/src/vmod_ipcast.vcc"
+    "support": "Varnish Software"
 }

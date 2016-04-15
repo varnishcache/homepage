@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "abtest",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/Destination/libvmod-abtest",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/Destination/libvmod-abtest/master/src/vmod_abtest.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/Destination/libvmod-abtest/master/src/vmod_abtest.vcc"
+        }
+    },
+    "status": "Used in production"
 }

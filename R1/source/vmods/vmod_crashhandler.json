@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "crashhandler",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/varnish/libvmod-crashhandler",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-crashhandler/master/src/vmod_crashhandler.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-crashhandler/master/src/vmod_crashhandler.vcc"
+        }
+    },
+    "status": "Used in production"
 }

@@ -7,8 +7,10 @@
     ],
     "license": "Other",
     "name": "i18n",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/cosimo/libvmod-i18n/",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/cosimo/libvmod-i18n/3.0/src/vmod.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/cosimo/libvmod-i18n/3.0/src/vmod.vcc"
+        }
+    },
+    "status": "Used in production"
 }

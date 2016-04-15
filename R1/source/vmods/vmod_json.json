@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "json",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/academia-edu/libvmod-json",
-    "status": "In development",
-    "vccurl": "https:raw.githubusercontent.com/academia-edu/libvmod-json/master/src/vmod_json.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/academia-edu/libvmod-json/master/src/vmod_json.vcc"
+        }
+    },
+    "status": "In development"
 }

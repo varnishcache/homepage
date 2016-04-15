@@ -7,7 +7,10 @@
     ],
     "license": "Other",
     "name": "gwist",
-    "repos": "https://github.com/gquintard/libvmod-gwist",
-    "status": "Proof of concept",
-    "vccurl": "https:raw.githubusercontent.com/gquintard/libvmod-gwist/master/src/vmod_gwist.vcc"
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/gquintard/libvmod-gwist/master/src/vmod_gwist.vcc"
+        }
+    },
+    "status": "Proof of concept"
 }

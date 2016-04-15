@@ -7,8 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "shield",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/varnish/libvmod-shield",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-shield/master/src/vmod_shield.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-shield/master/src/vmod_shield.vcc"
+        }
+    },
+    "status": "Used in production"
 }

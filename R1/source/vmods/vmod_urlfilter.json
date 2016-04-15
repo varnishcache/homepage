@@ -7,8 +7,10 @@
     ],
     "license": "Other",
     "name": "urlfilter",
-    "notes": "Old (V3) VMOD",
-    "repos": "https://github.com/kataweb/libvmod-urlfilter",
-    "status": "In development",
-    "vccurl": "https:raw.githubusercontent.com/kataweb/libvmod-urlfilter/master/src/vmod_urlfilter.vcc"
+    "rev": {
+        "3.0": {
+            "url_vcc": "https://raw.githubusercontent.com/kataweb/libvmod-urlfilter/master/src/vmod_urlfilter.vcc"
+        }
+    },
+    "status": "In development"
 }

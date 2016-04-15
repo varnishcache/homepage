@@ -4,7 +4,11 @@
     "license": "GPLv2",
     "name": "dbrw",
     "repos": "http://git.gnu.org.ua/cgit/vmod-dbrw.git",
+    "rev": {
+        "4.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "NXC International",
-    "vccurl": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
+    "support": "NXC International"
 }

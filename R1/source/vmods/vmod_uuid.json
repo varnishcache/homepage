@@ -7,7 +7,10 @@
     ],
     "license": "Apache2",
     "name": "uuid",
-    "repos": "https://github.com/Sharecare/libvmod-uuid",
-    "status": "Used in production",
-    "vccurl": "https:raw.githubusercontent.com/Sharecare/libvmod-uuid/master/src/vmod_uuid.vcc"
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/Sharecare/libvmod-uuid/master/src/vmod_uuid.vcc"
+        }
+    },
+    "status": "Used in production"
 }

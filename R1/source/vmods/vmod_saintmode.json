@@ -7,8 +7,11 @@
     ],
     "license": "FreeBSD",
     "name": "saintmode",
-    "repos": "https://github.com/varnish/libvmod-saintmode",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/varnish/libvmod-saintmode/master/src/vmod_saintmode.vcc"
+        }
+    },
     "status": "Used in production",
-    "support": "Varnish Software",
-    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-saintmode/master/src/vmod_saintmode.vcc"
+    "support": "Varnish Software"
 }

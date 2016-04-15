@@ -7,7 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "lua",
-    "repos": "https://github.com/flygoast/libvmod-lua",
-    "status": "Proof of concept",
-    "vccurl": "https:raw.githubusercontent.com/flygoast/libvmod-lua/master/src/vmod_lua.vcc"
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/flygoast/libvmod-lua/master/src/vmod_lua.vcc"
+        }
+    },
+    "status": "Proof of concept"
 }

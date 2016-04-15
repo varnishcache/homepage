@@ -7,7 +7,10 @@
     ],
     "license": "FreeBSD",
     "name": "ip2location",
-    "repos": "https://github.com/thlc/libvmod-ip2location",
-    "status": "In development",
-    "vccurl": "https:raw.githubusercontent.com/thlc/libvmod-ip2location/master/src/vmod_ip2location.vcc"
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://raw.githubusercontent.com/thlc/libvmod-ip2location/master/src/vmod_ip2location.vcc"
+        }
+    },
+    "status": "In development"
 }
