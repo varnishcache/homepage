@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`gwist",
+    "github": [
+        "gquintard",
+        "libvmod-gwist"
+    ],
+    "license": "Other",
+    "name": "gwist",
+    "repos": "https://github.com/gquintard/libvmod-gwist",
+    "status": "Proof of concept",
+    "vccurl": "https:raw.githubusercontent.com/gquintard/libvmod-gwist/master/src/vmod_gwist.vcc"
+}

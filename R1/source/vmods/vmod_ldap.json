@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`LDAP authentication",
+    "github": [
+        "xcir",
+        "libvmod-ldap"
+    ],
+    "license": "FreeBSD",
+    "name": "ldap",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/xcir/libvmod-ldap",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/xcir/libvmod-ldap/master/src/vmod_ldap.vcc"
+}

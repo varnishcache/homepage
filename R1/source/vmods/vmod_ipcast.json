@@ -1,0 +1,15 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`ipcast",
+    "github": [
+        "lkarsten",
+        "libvmod-ipcast"
+    ],
+    "license": "FreeBSD",
+    "name": "ipcast",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/lkarsten/libvmod-ipcast",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/lkarsten/libvmod-ipcast/master/src/vmod_ipcast.vcc"
+}

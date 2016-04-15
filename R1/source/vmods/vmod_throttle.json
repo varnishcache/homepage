@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Throttle",
+    "github": [
+        "nand2",
+        "libvmod-throttle"
+    ],
+    "license": "FreeBSD",
+    "name": "throttle",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/nand2/libvmod-throttle",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/nand2/libvmod-throttle/master/src/vmod_throttle.vcc"
+}

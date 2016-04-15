@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`memcached",
+    "github": [
+        "sodabrew",
+        "libvmod-memcached"
+    ],
+    "license": "FreeBSD",
+    "name": "memcached",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/sodabrew/libvmod-memcached",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/sodabrew/libvmod-memcached/master/src/vmod_memcached.vcc"
+}

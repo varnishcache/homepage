@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Lua",
+    "github": [
+        "flygoast",
+        "libvmod-lua"
+    ],
+    "license": "FreeBSD",
+    "name": "lua",
+    "repos": "https://github.com/flygoast/libvmod-lua",
+    "status": "Proof of concept",
+    "vccurl": "https:raw.githubusercontent.com/flygoast/libvmod-lua/master/src/vmod_lua.vcc"
+}

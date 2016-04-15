@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`AWS Signature",
+    "github": [
+        "xcir",
+        "libvmod-awsrest"
+    ],
+    "license": "FreeBSD",
+    "name": "awsrest",
+    "repos": "https://github.com/xcir/libvmod-awsrest",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/xcir/libvmod-awsrest/master/src/vmod_awsrest.vcc"
+}

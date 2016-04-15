@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Saint mode (4.1 or later)",
+    "github": [
+        "varnish",
+        "libvmod-saintmode"
+    ],
+    "license": "FreeBSD",
+    "name": "saintmode",
+    "repos": "https://github.com/varnish/libvmod-saintmode",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-saintmode/master/src/vmod_saintmode.vcc"
+}

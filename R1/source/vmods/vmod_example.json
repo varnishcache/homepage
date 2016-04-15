@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`example vmod - hello world!",
+    "github": [
+        "varnish",
+        "libvmod-example"
+    ],
+    "license": "FreeBSD",
+    "name": "example",
+    "repos": "https://github.com/varnish/libvmod-example",
+    "status": "Proof of concept",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-example/master/src/vmod_example.vcc"
+}

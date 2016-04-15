@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`VSLP (StateLess Persistence) - consistent hashing Director VMOD",
+    "license": "FreeBSD",
+    "name": "vslp",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-vslp",
+    "status": "Used in production",
+    "support": "Uplex",
+    "vccurl": "https:code.uplex.de/uplex-varnish/libvmod-vslp/blobs/raw/master/src/vmod_vslp.vcc"
+}

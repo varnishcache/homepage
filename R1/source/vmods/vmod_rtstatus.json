@@ -1,0 +1,15 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`RealTime Status Page",
+    "github": [
+        "varnish",
+        "libvmod-rtstatus"
+    ],
+    "license": "FreeBSD",
+    "name": "rtstatus",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/varnish/libvmod-rtstatus",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-rtstatus/master/src/vmod_rtstatus.vcc"
+}

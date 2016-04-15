@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`boltsort - QueryString params sort",
+    "github": [
+        "vimeo",
+        "libvmod-boltsort"
+    ],
+    "license": "FreeBSD",
+    "name": "boltsort",
+    "repos": "https://github.com/vimeo/libvmod-boltsort",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/vimeo/libvmod-boltsort/master/src/vmod_boltsort.vcc"
+}

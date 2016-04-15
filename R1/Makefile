@@ -21,9 +21,12 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext
 
-all:	html
+all:	build html
 
-pub:	html
+build:
+	cd source/vmods && python build.py
+
+pub:	all
 	#cd build/html && scp -C -P200 -r . \
 	#    root@r.varnish-cache.org:/usr/local/www/apache24/data/
 	rsync -r -v -e "/usr/bin/ssh -p 200" build/html/. \

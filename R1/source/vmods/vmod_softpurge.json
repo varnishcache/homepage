@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Soft purge",
+    "github": [
+        "varnish",
+        "libvmod-softpurge"
+    ],
+    "license": "FreeBSD",
+    "name": "softpurge",
+    "repos": "https://github.com/varnish/libvmod-softpurge",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-softpurge/master/src/vmod_softpurge.vcc"
+}

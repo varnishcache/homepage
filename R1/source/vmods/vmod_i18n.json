@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`libvmod-i18n",
+    "github": [
+        "cosimo",
+        "libvmod-i18n"
+    ],
+    "license": "Other",
+    "name": "i18n",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/cosimo/libvmod-i18n/",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/cosimo/libvmod-i18n/3.0/src/vmod.vcc"
+}

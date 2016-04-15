@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Basicauth",
+    "license": "GPLv2",
+    "name": "basicauth",
+    "repos": "http://git.gnu.org.ua/cgit/vmod-basicauth.git",
+    "status": "Used in production",
+    "support": "NXC International",
+    "vccurl": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/src/vmod_basicauth.vcc"
+}

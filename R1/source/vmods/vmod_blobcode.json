@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`blobcode -- binary-to-text encodings and decodings for BLOBs",
+    "license": "FreeBSD",
+    "name": "blobcode",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobcode",
+    "status": "In development",
+    "support": "Uplex",
+    "vccurl": "https:code.uplex.de/uplex-varnish/libvmod-blobcode/blobs/raw/master/src/vmod_blobcode.vcc"
+}

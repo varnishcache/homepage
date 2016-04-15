@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`dcs - Device Classifier Service",
+    "license": "FreeBSD",
+    "name": "dcs",
+    "repos": "https://code.uplex.de/uplex-varnish/dcs_classifier",
+    "status": "Used in production",
+    "support": "Uplex",
+    "vccurl": "https://code.uplex.de/uplex-varnish/dcs_classifier/blobs/raw/master/src/vmod_dcs4.vcc"
+}

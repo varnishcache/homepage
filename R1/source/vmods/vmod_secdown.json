@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Secure download",
+    "github": [
+        "footplus",
+        "libvmod-secdown"
+    ],
+    "license": "FreeBSD",
+    "name": "secdown",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/footplus/libvmod-secdown",
+    "status": "Proof of concept",
+    "vccurl": "https:raw.githubusercontent.com/footplus/libvmod-secdown/master/src/vmod.vcc"
+}

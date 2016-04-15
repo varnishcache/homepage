@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`rfc6052",
+    "github": [
+        "toreanderson",
+        "libvmod-rfc6052"
+    ],
+    "license": "FreeBSD",
+    "name": "rfc6052",
+    "repos": "https://github.com/toreanderson/libvmod-rfc6052",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/toreanderson/libvmod-rfc6052/master/src/vmod_rfc6052.vcc"
+}

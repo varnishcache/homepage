@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Redis",
+    "github": [
+        "brandonwamboldt",
+        "libvmod-redis"
+    ],
+    "license": "FreeBSD",
+    "name": "redis",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/brandonwamboldt/libvmod-redis",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/brandonwamboldt/libvmod-redis/master/src/vmod_redis.vcc"
+}

@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Variable Support",
+    "github": [
+        "varnish",
+        "libvmod-var"
+    ],
+    "license": "FreeBSD",
+    "name": "var",
+    "repos": "https://github.com/varnish/libvmod-var",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-var/master/src/vmod_var.vcc"
+}

@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`URL Code",
+    "github": [
+        "fastly",
+        "libvmod-urlcode"
+    ],
+    "license": "FreeBSD",
+    "name": "urlcode",
+    "repos": "https://github.com/fastly/libvmod-urlcode",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/fastly/libvmod-urlcode/master/src/vmod_urlcode.vcc"
+}

@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`synth",
+    "github": [
+        "carlosabalde",
+        "libvmod-synth"
+    ],
+    "license": "FreeBSD",
+    "name": "synth",
+    "repos": "https://github.com/carlosabalde/libvmod-synth",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/carlosabalde/libvmod-synth/4.1/src/vmod_synth.vcc"
+}

@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`ip2location",
+    "github": [
+        "thlc",
+        "libvmod-ip2location"
+    ],
+    "license": "FreeBSD",
+    "name": "ip2location",
+    "repos": "https://github.com/thlc/libvmod-ip2location",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/thlc/libvmod-ip2location/master/src/vmod_ip2location.vcc"
+}

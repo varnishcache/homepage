@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`POST/GET/Cookie parse",
+    "github": [
+        "xcir",
+        "libvmod-parsereq"
+    ],
+    "license": "FreeBSD",
+    "name": "parsereq",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/xcir/libvmod-parsereq",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/xcir/libvmod-parsereq/master/src/vmod_parsereq.vcc"
+}

@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`oob\\_probe -- assign an out-of-band health probe to a backend",
+    "license": "FreeBSD",
+    "name": "oob_probe",
+    "repos": "https://code.uplex.de/uplex-varnish/oob_probe",
+    "status": "In development",
+    "support": "Uplex",
+    "vccurl": "https:code.uplex.de/uplex-varnish/oob_probe/blobs/raw/master/src/vmod.vcc"
+}

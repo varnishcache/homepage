@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Dgram",
+    "license": "FreeBSD",
+    "name": "dgram",
+    "github": [ "mmb", "vmod_dgram" ],
+    "repos": "https://github.com/mmb/vmod_dgram",
+    "status": "In development",
+    "vccurl": "https://raw.githubusercontent.com/mmb/vmod_dgram/master/src/vmod_dgram.vcc"
+}

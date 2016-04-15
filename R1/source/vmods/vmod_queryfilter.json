@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`libvmod-queryfilter",
+    "github": [
+        "andrew-canaday",
+        "libvmod-queryfilter"
+    ],
+    "license": "Apache2",
+    "name": "queryfilter",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/andrew-canaday/libvmod-queryfilter/",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/andrew-canaday/libvmod-queryfilter/master/src/vmod_queryfilter.vcc"
+}

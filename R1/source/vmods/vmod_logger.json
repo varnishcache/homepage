@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Logger",
+    "github": [
+        "Dridi",
+        "libvmod-logger"
+    ],
+    "license": "FreeBSD",
+    "name": "logger",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/Dridi/libvmod-logger",
+    "status": "Proof of concept",
+    "vccurl": "https:raw.githubusercontent.com/Dridi/libvmod-logger/master/src/vmod_logger.vcc"
+}

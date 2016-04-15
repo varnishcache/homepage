@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`re - regexp matches and backreferences",
+    "license": "FreeBSD",
+    "name": "re",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-re",
+    "status": "Used in production",
+    "support": "Uplex",
+    "vccurl": "https:code.uplex.de/uplex-varnish/libvmod-re/blobs/raw/master/src/vmod_re.vcc"
+}

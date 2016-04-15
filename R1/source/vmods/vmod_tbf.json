@@ -1,0 +1,10 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`tbf - Token Bucket Filtering",
+    "license": "GPLv2",
+    "name": "tbf",
+    "repos": "http://git.gnu.org.ua/cgit/vmod-tbf.git",
+    "status": "Used in production",
+    "support": "NXC International",
+    "vccurl": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
+}

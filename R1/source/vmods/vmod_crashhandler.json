@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Crashhandler",
+    "github": [
+        "varnish",
+        "libvmod-crashhandler"
+    ],
+    "license": "FreeBSD",
+    "name": "crashhandler",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/varnish/libvmod-crashhandler",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-crashhandler/master/src/vmod_crashhandler.vcc"
+}

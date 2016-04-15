@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`libvmod-urlfilter",
+    "github": [
+        "kataweb",
+        "libvmod-urlfilter"
+    ],
+    "license": "Other",
+    "name": "urlfilter",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/kataweb/libvmod-urlfilter",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/kataweb/libvmod-urlfilter/master/src/vmod_urlfilter.vcc"
+}

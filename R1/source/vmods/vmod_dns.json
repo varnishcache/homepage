@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`DNS",
+    "github": [
+        "kenshaw",
+        "libvmod-dns"
+    ],
+    "license": "Apache2",
+    "name": "dns",
+    "repos": "https://github.com/kenshaw/libvmod-dns",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/kenshaw/libvmod-dns/master/src/vmod_dns.vcc"
+}

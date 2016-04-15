@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`API Proxy",
+    "github": [
+        "3scale",
+        "libvmod-3scale"
+    ],
+    "license": "FreeBSD",
+    "name": "threescale",
+    "repos": "https://github.com/3scale/libvmod-3scale",
+    "status": "Used in production",
+    "vccurl": "https://raw.githubusercontent.com/3scale/libvmod-3scale/master/src/vmod_threescale.vcc"
+}

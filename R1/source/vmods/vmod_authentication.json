@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Authentication",
+    "github": [
+        "pariahsoft",
+        "libvmod-authentication"
+    ],
+    "license": "FreeBSD",
+    "name": "authentication",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/pariahsoft/libvmod-authentication",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/pariahsoft/libvmod-authentication/master/src/vmod_authentication.vcc"
+}

@@ -1,0 +1,8 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`std - the standard VMOD",
+    "license": "FreeBSD",
+    "name": "std",
+    "status": "Used in production",
+    "support": "Varnish Software"
+}

@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Statsd - Varnish stats",
+    "github": [
+        "jib",
+        "libvmod-statsd"
+    ],
+    "license": "FreeBSD",
+    "name": "statsd",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/jib/libvmod-statsd",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/jib/libvmod-statsd/master/src/vmod_statsd.vcc"
+}

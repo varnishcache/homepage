@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`QueryString",
+    "github": [
+        "Dridi",
+        "libvmod-querystring"
+    ],
+    "license": "FreeBSD",
+    "name": "querystring",
+    "repos": "https://github.com/Dridi/libvmod-querystring",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/Dridi/libvmod-querystring/master/src/vmod.vcc"
+}

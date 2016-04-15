@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Shield",
+    "github": [
+        "varnish",
+        "libvmod-shield"
+    ],
+    "license": "FreeBSD",
+    "name": "shield",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/varnish/libvmod-shield",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-shield/master/src/vmod_shield.vcc"
+}

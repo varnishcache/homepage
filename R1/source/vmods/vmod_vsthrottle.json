@@ -1,0 +1,13 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`vsthrottle - Rate-limiting/throttling (v4 and later)",
+    "github": [
+        "varnish",
+        "libvmod-vsthrottle"
+    ],
+    "license": "FreeBSD",
+    "name": "vsthrottle",
+    "repos": "https://github.com/varnish/libvmod-vsthrottle",
+    "status": "Used in production",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-vsthrottle/master/src/vmod_vsthrottle.vcc"
+}

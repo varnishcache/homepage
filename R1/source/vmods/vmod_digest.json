@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`Digest",
+    "github": [
+        "varnish",
+        "libvmod-digest"
+    ],
+    "license": "FreeBSD",
+    "name": "digest",
+    "repos": "https://github.com/varnish/libvmod-digest",
+    "status": "Used in production",
+    "support": "Varnish Software",
+    "vccurl": "https:raw.githubusercontent.com/varnish/libvmod-digest/master/src/vmod_digest.vcc"
+}

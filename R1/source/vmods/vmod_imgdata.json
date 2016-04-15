@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`imgdata",
+    "github": [
+        "webcarrot",
+        "libvmod-imgdata"
+    ],
+    "license": "Other",
+    "name": "imgdata",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/webcarrot/libvmod-imgdata",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/webcarrot/libvmod-imgdata/master/src/vmod_imgdata.vcc"
+}

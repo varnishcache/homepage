@@ -1,0 +1,9 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`URL Sort",
+    "license": "FreeBSD",
+    "name": "urlsort",
+    "repos": "https://github.com/cyberroadie/varnish-urlsort",
+    "status": "Used in production",
+    "vccurl": "https://raw.githubusercontent.com/cyberroadie/varnish-urlsort/master/vmod/src/vmod_urlsort.vcc"
+}

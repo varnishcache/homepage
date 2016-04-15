@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`JSON",
+    "github": [
+        "academia-edu",
+        "libvmod-json"
+    ],
+    "license": "FreeBSD",
+    "name": "json",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/academia-edu/libvmod-json",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/academia-edu/libvmod-json/master/src/vmod_json.vcc"
+}

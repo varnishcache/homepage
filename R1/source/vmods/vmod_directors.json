@@ -1,0 +1,8 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`directors - the directors VMOD",
+    "license": "FreeBSD",
+    "name": "directors",
+    "status": "Used in production",
+    "support": "Varnish Software"
+}

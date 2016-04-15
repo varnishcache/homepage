@@ -1,0 +1,14 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "`redirect",
+    "github": [
+        "xcir",
+        "libvmod-redirect"
+    ],
+    "license": "FreeBSD",
+    "name": "redirect",
+    "notes": "Old (V3) VMOD",
+    "repos": "https://github.com/xcir/libvmod-redirect",
+    "status": "In development",
+    "vccurl": "https:raw.githubusercontent.com/xcir/libvmod-redirect/master/src/vmod_redirect.vcc"
+}
