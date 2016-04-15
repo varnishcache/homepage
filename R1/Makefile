@@ -21,9 +21,9 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext
 
-all:	build html
+all:	generate html
 
-build:
+generate:
 	cd source/vmods && python build.py
 
 pub:	all
