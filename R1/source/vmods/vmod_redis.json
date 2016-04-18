@@ -1,15 +1,20 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "Redis",
+    "date": "2016-04-18",
+    "desc": "Access to Redis / Redis Cluster servers",
     "github": {
         "branches": {
-            "3.0": "master"
+            "3.0": "3.0",
+            "4.0": "4.0",
+            "4.1": "4.1",
+            "master": "master"
         },
         "project": "libvmod-redis",
-        "user": "brandonwamboldt",
+        "user": "carlosabalde",
         "vcc_path": "src/vmod_redis.vcc"
     },
     "license": "FreeBSD",
     "name": "redis",
-    "status": "mature"
+    "status": "mature",
+    "support": [ "Allenta Consulting S.L." ],
+    "maintainer": "carlos.abalde@gmail.com"
 }
