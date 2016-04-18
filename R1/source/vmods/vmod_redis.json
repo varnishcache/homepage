@@ -5,7 +5,8 @@
         "branches": {
             "3.0": "3.0",
             "4.0": "4.0",
-            "4.1": "4.1"
+            "4.1": "4.1",
+            "master": "master"
         },
         "project": "libvmod-redis",
         "user": "carlosabalde",
