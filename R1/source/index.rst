@@ -5,6 +5,11 @@ Varnish HTTP Cache
 
 :ref:`Questions and Answers<faq>`
 
+Please fill the `Varnish User Survey 2016
+<https://docs.google.com/a/varnish-software.com/forms/d/1XOJiTwe0q2P9P-ZO-8NHvxAdWn12dGRmUZagleKue68/viewform>`_ which is open until April 30th.
+
+
+
 Whats happening
 ---------------
 
