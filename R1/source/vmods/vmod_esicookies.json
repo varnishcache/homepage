@@ -1,5 +1,5 @@
 {
-    "date": "YYYY-MM-DD",
+    "date": "2016-04-21",
     "desc": "esicookies",
     "license": "FreeBSD",
     "name": "esicookies",
@@ -10,6 +10,7 @@
         }
     },
     "status": "mature",
+    "status": "development",
     "support": [
         "Uplex"
     ]
