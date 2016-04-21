@@ -1,15 +1,19 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "re - regexp matches and backreferences",
+    "date": "2016-04-21",
+    "desc": "regexp matches and backreferences",
     "license": "FreeBSD",
     "name": "re",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-re",
     "rev": {
+        "4.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/blobs/raw/master/src/vmod_re.vcc"
+        },
         "4.1": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/blobs/raw/master/src/vmod_re.vcc"
         }
     },
     "status": "mature",
+    "maintainer":"varnish-support@uplex.de",
     "support": [
         "Uplex"
     ]
