@@ -1,6 +1,6 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "esicookies",
+    "date": "2016-04-21",
+    "desc": "inject cookies from Set-Cookie into ESI request headers",
     "license": "FreeBSD",
     "name": "esicookies",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-esicookies",
@@ -10,6 +10,7 @@
         }
     },
     "status": "mature",
+    "status": "development",
     "support": [
         "Uplex"
     ]
