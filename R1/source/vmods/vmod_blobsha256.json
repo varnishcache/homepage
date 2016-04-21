@@ -2,7 +2,7 @@
     "date": "2016-04-21",
     "desc": "SHA256 digests and hmacs for BLOBs",
     "license": "FreeBSD",
-    "name": "blobcode",
+    "name": "blobsha256",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobsha256",
     "rev": {
         "4.1": {
