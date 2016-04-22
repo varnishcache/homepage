@@ -47,7 +47,7 @@ class vmod(object):
 			return r[rev]["url_vcc"]
 		g = self.j.get("github")
 		if g != None:
-			s = "https://raw.githubusercontent.com/" 
+			s = "https://raw.githubusercontent.com/"
 			s += g["user"] + "/"
 			s += g["project"] + "/"
 			s += g["branches"][rev] + "/"
@@ -55,9 +55,17 @@ class vmod(object):
 			return s
 		return None
 
+	def version_links(self):
+		s = ""
+		for r in self.versions():
+			vcc = self.url_vcc(r)
+			s += " `%s <%s>`_ " % (r, vcc)
+
+		return s
+
 	def www_table(self):
 		l = []
-		l.append(self.j.get("name"))
+		l.append(":ref:`" + self.j.get("name") + " <vmods_" + self.j.get("name") + ">`")
 		l.append(self.j.get("desc"))
 		l.append(self.j.get("license"))
 		l.append(self.j.get("status"))
@@ -69,11 +77,7 @@ class vmod(object):
 			s += " `Repos <%s>`_ " % self.repos()
 		l.append(s)
 
-		s = ""
-		for r in self.versions():
-			vcc = self.url_vcc(r)
-			s += " `%s <%s>`_ " % (r, vcc)
-		l.append(s)
+		l.append(self.version_links())
 
 		i = self.j.get("support")
 		s = ""
@@ -97,9 +101,7 @@ def load_all():
 		vmods[v.name()] = v
 	return vmods
 
-def make_www_table():
-
-	vmods = load_all()
+def make_www_table(vmods):
 
 	nms = vmods.keys()
 	nms.sort()
@@ -136,7 +138,7 @@ Varnish Modules
 VMODs are extensions written for Varnish Cache. This page serves as a
 directory of maintained VMODs.
 
-If you have written a VMOD and want it listed here please send a PR 
+If you have written a VMOD and want it listed here please send a PR
 to `this github repo <https://github.com/varnishcache/homepage/>`__ and
 we will be happy to include it.
 
@@ -149,8 +151,12 @@ Instructions :ref:`how to get your VMOD on this list <vmods_reg>`.
    :hidden:
 
    howto.rst
-
 ''')
+
+	for i in nms:
+		fo.write("   " + i + ".rst\n")
+
+	fo.write("\n")
 
 	def sep(ln="-"):
 		for i in w:
@@ -169,12 +175,49 @@ Instructions :ref:`how to get your VMOD on this list <vmods_reg>`.
 		fo.write("|\n")
 		sep()
 
+def make_vmod_pages(vmods):
+
+	nms = vmods.keys()
+
+	for i in nms:
+		vmod = vmods[i]
+		name = vmod.j.get("name")
+		fo = open(name + ".rst", "w")
+
+		status = vmod.j.get("status") or ""
+		license = vmod.j.get("license") or ""
+		desc = vmod.j.get("desc") or ""
+		repos = vmod.repos() or ""
+		version_links = vmod.version_links()
+
+		lst = [status, license, desc, repos, version_links]
+		table_lines = "=" * len(max(lst, key=len))
+
+		template = """
+.. _vmods_{name}:
+
+{name}
+{headerlines}
+
+{desc}
+
+=========================== {table_lines}
+Status:                     {status}
+Licence:                    {license}
+Varnish version supported:  {version_links}
+Source repository URL:      {repos}
+=========================== {table_lines}
+
+"""
+		fo.write(template.format(name =  name, headerlines = "=" * len(name), desc = desc, status = status, license = license, repos = repos, version_links = version_links, table_lines = table_lines))
+
 if __name__ == "__main__":
 
 	vmods = load_all()
 
 	if len(sys.argv) == 1:
-		make_www_table()
+		make_www_table(vmods)
+		make_vmod_pages(vmods)
 	elif len(sys.argv) == 2 and sys.argv[1] == "--polish":
 		vmods = load_all()
 		for i in vmods:
