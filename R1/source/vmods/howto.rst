@@ -41,7 +41,8 @@ desc
 ~~~~
 
 Description, compact one-line description of what the VMOD does.
-(Don't repeat the VMOD name here)
+(Don't repeat the VMOD name here, it looks silly in the table.)
+
 
 license
 ~~~~~~~
@@ -100,6 +101,11 @@ vcc_path
 
 Relative path to the VCC file for the VMOD
 
+doc_path
+~~~~~~~~
+
+Relative path of the file documenting the VMOD (default: the VCC file)
+
 branches
 ~~~~~~~~
 
@@ -131,16 +137,24 @@ repos
 
 URL of the repository
 
+
 rev
 ~~~
 
-An object mapping Varnish version to URL where the VCC file can be found.
+An object mapping Varnish version to URL where the VCC and documentation
+files can be found.
 
 For instance:
 
 	"rev": {
-	    "3.0": "http://myvmod.example.com/source/3.0/vmod.vcc",
-	    "4.1": "http://myvmod.example.com/source/4.1/vmod.vcc"
+	    "3.0": {
+		"url_vcc": "http://myvmod.example.com/source/3.0/vmod.vcc",
+		"url_doc": "http://myvmod.example.com/docs/3.0/vmod.txt"
+	    },
+	    "4.1": {
+		"url_vcc": "http://myvmod.example.com/source/4.1/vmod.vcc",
+		"url_doc": "http://myvmod.example.com/docs/4.1/vmod.txt"
+	    }
 	}
 
 Examples
@@ -159,6 +173,7 @@ A github project::
 		"project": "libvmod-murphy-cal",
 		"user": "ACME engineering",
 		"vcc_path": "src/vmod_murphy.vcc"
+		"doc_path": "doc/vmod_murphy.rst"
 	    },
 	    "license": "FreeBSD",
 	    "name": "murphy",
@@ -175,9 +190,11 @@ A VMOD not on github::
 	    "license": "BeerWare",
 	    "name": "Y2K",
 	    "repos": "https://example.com/we/are/so/hosed",
+	    "url_doc": "https://sales.example.com/QuantumMurphyCompensator",
 	    "rev": {
 		"4.1": {
-		    "url_vcc": "https://example.com/we/are/so/hosed/vmod.vcc"
+		    "url_vcc": "https://example.com/we/are/so/hosed/vmod.vcc",
+		    "url_doc": "https://example.com/we/are/so/hosed/README"
 		}
 	    },
 	    "status": "prototype"

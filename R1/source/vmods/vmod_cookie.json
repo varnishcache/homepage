@@ -5,8 +5,9 @@
         "branches": {
             "4.1": "master"
         },
-        "project": "libvmod-cookie",
-        "user": "lkarsten",
+        "doc_path": "docs/cookie.rst",
+        "project": "varnish-modules",
+        "user": "varnish",
         "vcc_path": "src/vmod_cookie.vcc"
     },
     "license": "FreeBSD",

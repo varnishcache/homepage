@@ -47,7 +47,7 @@ class vmod(object):
 			return r[rev]["url_vcc"]
 		g = self.j.get("github")
 		if g != None:
-			s = "https://raw.githubusercontent.com/" 
+			s = "https://raw.githubusercontent.com/"
 			s += g["user"] + "/"
 			s += g["project"] + "/"
 			s += g["branches"][rev] + "/"
@@ -55,10 +55,34 @@ class vmod(object):
 			return s
 		return None
 
+	def url_doc(self, rev):
+		r = self.j.get("rev")
+		if r != None and "url_doc" in r[rev]:
+			return r[rev]["url_doc"]
+		g = self.j.get("github")
+		if g != None and "doc_path" in g:
+			s = "https://github.com/"
+			s += g["user"] + "/"
+			s += g["project"] + "/"
+			s += "blob/"
+			s += g["branches"][rev] + "/"
+			s += g["doc_path"]
+			return s
+		return None
+
 	def www_table(self):
 		l = []
 		l.append(self.j.get("name"))
 		l.append(self.j.get("desc"))
+		s = ""
+		for r in self.versions():
+			doc = self.url_doc(r)
+			if doc !=  None:
+				s += " `%s <%s>`_ " % (r, doc)
+			else:
+				vcc = self.url_vcc(r)
+				s += " `%s <%s>`_ " % (r, vcc)
+		l.append(s)
 		l.append(self.j.get("license"))
 		l.append(self.j.get("status"))
 
@@ -109,7 +133,7 @@ def make_www_table():
 	#######################################################################
 	# Size columns
 
-	h = ["VMOD", "Description", "License", "Status", "Link", "VCC", "Support"]
+	h = ["VMOD", "Description", "Docs", "License", "Status", "Link", "VCC", "Support"]
 	w = [0] * len(h)
 
 	for i in nms:
@@ -136,7 +160,7 @@ Varnish Modules
 VMODs are extensions written for Varnish Cache. This page serves as a
 directory of maintained VMODs.
 
-If you have written a VMOD and want it listed here please send a PR 
+If you have written a VMOD and want it listed here please send a PR
 to `this github repo <https://github.com/varnishcache/homepage/>`__ and
 we will be happy to include it.
 
