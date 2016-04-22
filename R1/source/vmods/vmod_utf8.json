@@ -1,0 +1,16 @@
+{
+    "date": "2016-04-22",
+    "desc": "Unicode normalization, case-folding and other operations",
+    "github": {
+        "branches": {
+            "4.0": "master",
+            "4.1": "master"
+        },
+        "project": "libvmod-utf8",
+        "user": "fgsch",
+        "vcc_path": "src/vmod.vcc"
+    },
+    "license": "FreeBSD",
+    "name": "utf8",
+    "status": "mature"
+}
