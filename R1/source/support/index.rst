@@ -22,12 +22,11 @@ Internet Relay Chat (IRC), the multiuser, real time instant messaging service, i
 Social Media
 ------------
 
-In addition to the old school mailing list and IRC channel, Varnish
-is also discussed in a number of social media. Here is a overview:
+Varnish is also discussed in a number of social media. Here is a overview:
 
-* Stack Overflow, where there is a varnish tag
-* Linkedin has a group on Varnish Cache
-* Twitter is a good place to reach us out. You can find us as @varnishcache
+* Stack Overflow, where there is a `varnish <http://stackoverflow.com/questions/tagged/varnish?sort=newest&pageSize=40>`_ and a `varnish-vcl <http://stackoverflow.com/questions/tagged/varnish-vcl?sort=newest&pageSize=40>`_ tag
+* Linkedin has a `varnish topic <https://www.linkedin.com/topic/varnish-cache>`_ and a `Varnish Cache Group <https://www.linkedin.com/groups/855677>`_.
+* Twitter is a good place to reach us out. You can find us as `@varnishcache <https://twitter.com/varnishcache>`_.
 
 Commercial support
 ------------------
