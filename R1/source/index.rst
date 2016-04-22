@@ -36,6 +36,19 @@ new homepage, you can find it in
 2016-07-16 & 17 (Amsterdam) `VarnishCon Europe 2016
 <http://varnishcon2016.eventbrite.com>`_
 
+Privacy
+-------
+
+You can access the varnish-cache homepages with HTTP or HTTPS as you
+like.
+
+We save the logfiles from our Varnish instance for a limited period,
+in order to be able to debug problems.
+
+The old homepage ran Google Analytics, and we have continued that here
+for now, but unless we actually learn something useful from the data
+they collect, it will be discontinued.
+
 
 .. toctree::
    :hidden:
