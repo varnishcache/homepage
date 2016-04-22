@@ -2,18 +2,18 @@
     "date": "2016-04-21",
     "desc": "Device Classifier Service",
     "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
     "name": "dcs",
     "repos": "https://code.uplex.de/uplex-varnish/dcs_classifier",
     "rev": {
-        "4.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blobs/raw/master/src/vmod_dcs4.vcc"
-        },
         "3.0": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blobs/raw/master/src/vmod_dcs3.vcc"
+        },
+        "4.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blobs/raw/master/src/vmod_dcs4.vcc"
         }
     },
     "status": "mature",
-    "maintainer":"varnish-support@uplex.de",
     "support": [
         "Uplex"
     ]

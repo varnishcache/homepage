@@ -2,6 +2,7 @@
     "date": "2016-04-21",
     "desc": "assign an out-of-band health probe to a backend",
     "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
     "name": "oob_probe",
     "repos": "https://code.uplex.de/uplex-varnish/oob_probe",
     "rev": {
@@ -10,7 +11,6 @@
         }
     },
     "status": "development",
-    "maintainer":"varnish-support@uplex.de",
     "support": [
         "Uplex"
     ]

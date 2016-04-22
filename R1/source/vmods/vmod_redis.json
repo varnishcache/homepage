@@ -13,8 +13,10 @@
         "vcc_path": "src/vmod_redis.vcc"
     },
     "license": "FreeBSD",
+    "maintainer": "carlos.abalde@gmail.com",
     "name": "redis",
     "status": "mature",
-    "support": [ "Allenta Consulting S.L." ],
-    "maintainer": "carlos.abalde@gmail.com"
+    "support": [
+        "Allenta Consulting S.L."
+    ]
 }

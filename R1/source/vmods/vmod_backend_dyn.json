@@ -2,6 +2,7 @@
     "date": "2016-04-21",
     "desc": "create and delete backends at runtime",
     "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
     "name": "backend_dyn",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn",
     "rev": {
@@ -10,7 +11,6 @@
         }
     },
     "status": "development",
-    "maintainer":"varnish-support@uplex.de",
     "support": [
         "Uplex"
     ]

@@ -2,6 +2,7 @@
     "date": "2016-04-21",
     "desc": "regexp matches and backreferences",
     "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
     "name": "re",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-re",
     "rev": {
@@ -13,7 +14,6 @@
         }
     },
     "status": "mature",
-    "maintainer":"varnish-support@uplex.de",
     "support": [
         "Uplex"
     ]

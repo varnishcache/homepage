@@ -9,7 +9,6 @@
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-esicookies/blobs/raw/master/src/vmod_esicookies.vcc"
         }
     },
-    "status": "mature",
     "status": "development",
     "support": [
         "Uplex"
