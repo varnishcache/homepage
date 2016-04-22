@@ -1,0 +1,17 @@
+{
+    "date": "2016-04-21",
+    "desc": "digests and hmacs for BLOBs",
+    "license": "FreeBSD",
+    "name": "blobdigest",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blobs/master/src/vmod_blobdigest.vcc"
+        }
+    },
+    "status": "development",
+    "maintainer":"varnish-support@uplex.de",
+    "support": [
+        "Uplex"
+    ]
+}
