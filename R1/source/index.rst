@@ -24,12 +24,6 @@ new homepage, you can find it in
 
 /phk
 
-2016-04-21 (Copenhagen) `Varnish-Software Summit
-<http://info.varnish-software.com/copenhagen-summit-2016>`_
-
-2016-04-21 (Paris)
-`User meeting Varnish + eZ Publish <http://www.eventbrite.co.uk/e/inscription-user-meeting-varnish-ez-22169494555>`_
-
 2016-05-05 (San Francisco)
 `Cinco de Mayo / High Scale Varnish Meetup <http://www.meetup.com/San-Francisco-Varnish-Meetup/events/230233385/>`_
 
