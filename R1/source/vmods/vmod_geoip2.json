@@ -1,0 +1,16 @@
+{
+    "date": "2016-04-22",
+    "desc": "Query MaxMind GeoIP2 DB files",
+    "github": {
+        "branches": {
+            "4.0": "master",
+            "4.1": "master"
+        },
+        "project": "libvmod-geoip2",
+        "user": "fgsch",
+        "vcc_path": "src/vmod.vcc"
+    },
+    "license": "FreeBSD",
+    "name": "geoip2",
+    "status": "mature"
+}
