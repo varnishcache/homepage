@@ -43,6 +43,7 @@ rsync:	all
 		-r \
 		--del \
 		--exclude '/trac' \
+		--exclude '/comment' \
 		--exclude '/forum' \
 		--exclude '/tools' \
 		--exclude '/docs/trunk' \
