@@ -27,7 +27,7 @@ all:	generate html
 	cp source/favicon.ico build/html
 
 generate:
-	cd source/vmods && python build.py
+	cd source/vmods && python2.7 build.py
 
 pub:
 	${MAKE} rsync \
