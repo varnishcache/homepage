@@ -1,6 +1,6 @@
 #!/bin/sh
 
-D=/usr/local/www/apache24/data/trac
+D=/usr/local/www/thttpd/trac
 
 rm -rf $D
 mkdir -p $D
