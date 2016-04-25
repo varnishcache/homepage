@@ -1,6 +1,8 @@
 News, Dates & Events
 ====================
 
+* :ref:`2016-04-25 How our website works <20160425_website>`
+
 * :ref:`2016-04-11 New Website <20160411_website>`
 
 Next major release
@@ -11,6 +13,7 @@ Next major release
 .. toctree::
 	:hidden:
 
+	20160425_website.rst
 	20160411_website.rst
 
 Past events

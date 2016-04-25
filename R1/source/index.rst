@@ -13,16 +13,25 @@ Please fill the `Varnish User Survey 2016
 Whats happening
 ---------------
 
+2016-04-25
+~~~~~~~~~~
+
+If you are interested, here is an outline of the
+:ref:`projects new IT infrastructure. <20160425_website>` /phk
+
+
 2016-04-11
+~~~~~~~~~~
 
 Sorry if it looks a bit sparse around here, we're in the process
 of moving the Varnish Cache project to its own infrastructure.
 
 If you want to help out, we will gladly take pull requests to the
 new homepage, you can find it in
-`this github repos <https://github.com/varnishcache/homepage>`_.
+`this github repos <https://github.com/varnishcache/homepage>`_.  /phk
 
-/phk
+Future Events
+-------------
 
 2016-05-05 (San Francisco)
 `Cinco de Mayo / High Scale Varnish Meetup <http://www.meetup.com/San-Francisco-Varnish-Meetup/events/230233385/>`_
@@ -35,6 +44,7 @@ new homepage, you can find it in
 
 2016-07-16 & 17 (Amsterdam) `VarnishCon Europe 2016
 <http://varnishcon2016.eventbrite.com>`_
+
 
 Privacy
 -------
