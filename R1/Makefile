@@ -42,6 +42,7 @@ rsync:	all
 		${RSYNCARGS} \
 		-r \
 		--del \
+		--exclude '/trac' \
 		--exclude '/forum' \
 		--exclude '/tools' \
 		--exclude '/docs/trunk' \
