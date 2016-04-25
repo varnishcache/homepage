@@ -59,3 +59,17 @@ eagerly adopted it, causing many bugreports, suggestions, patches
 and improvements.  At some point, he pivoted Wikias CDN into the
 Varnish based startup-CDN named `Fastly <http://www.fastly.com/>`_
 
+Nils Goroll
+~~~~~~~~~~~
+
+aka 'slink' is the founder of `UPLEX <http://uplex.de/>`_, a five-head
+tech / consultancy company with negative to zero marketing (applied
+for entry into the "Earth's worst company homepage" competition). He
+fell in love with Varnish when he migrated Germany's Verdens Gang
+counterpart over a weekend in March 2009 and, since then, has
+experienced countless moments of pure joy and happiness when, after
+struggling for hours, he finally understood another piece of
+beautiful, ingenious Varnish code.
+
+Nils' primary focus are his clients and their projects. He tries to
+make those improvements to Varnish which matter to them.
