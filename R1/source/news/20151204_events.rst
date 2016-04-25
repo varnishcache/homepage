@@ -1,0 +1,192 @@
+Varnish User Group Meeting 10 (VUGX Rotterdam)
+----------------------------------------------
+
+Join and be part of the the Varnish Community on December 3-4 in Rotterdam
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`Everyone is Invited. Get your FREE ticket here NOW! <http://vug10.eventbrite.com>`__
+
+Thanks to `Dyn Inc <https://www.varnish-cache.org/dyn.com>`__ , 
+`FloorPlanner.com <http://www.FloorPlanner.com>`__ and `Varnish
+Software <https://www.varnish-software.com/>`__ we welcome you to VUGX,
+the 10th Varnish User Group Meeting which takes place on December 3rd
+and 4th, 2015 in Rotterdam, Netherlands
+
+If you have any VUG10 related proposal, inquiry, would like to hold a
+presentation (**we welcome proposals for Open Spaces Slots**) or any
+question related to the event (**i.e. need to come but do not have a
+ticket or have no invitation?**) please send an email to \ `ruben
+\_at\_ varnish-software \_dot\_
+com <mailto:ruben@varnish-software.com>`__.
+
+For those of you that are in Rotterdam on the evening of Wednesday,
+December 2nd and/or Thursday 3rd you might want to join us for
+dinner.
+
+
+Varnish User Day @ Engels Conference Center, Rotterdam, The Netherlands
+-----------------------------------------------------------------------
+
+Thursday, December 3rd 2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Kindly sponsored by:**
+
++--------------------------+--------------------------+--------------------------+
+| Dyn Inc                  | Varnish Software         |FloorPlanner.com          |
++--------------------------+--------------------------+--------------------------+
+
+**Venue: Engels Conference Center B.V. Stationsplein 45 3013 AK 
+Rotterdam Nederland**
+
+**Who:** All Varnish Cache Users, Developers, Administrators, Web
+Architects** and other techies wanting to know more about the software
+and how it is used by others.
+
+**Booking:** `Get your ticket on
+Eventbrite <http://vug10.eventbrite.co.uk>`__ !
+
+**Agenda for the day:**
+
++--------------------------+--------------------------+--------------------------+
+| **Time**                 | **Activity/Speakers**    | **Topic and duration     |
+|                          |                          | (Talk + Q&A time)**      |
++--------------------------+--------------------------+--------------------------+
+| **09.00**                | **Registration & Sign-In | **Get your badge and get |
+|                          | - 30 min                 | ready for the day!**\ ** |
+|                          | **                       | **                       |
++--------------------------+--------------------------+--------------------------+
+| 09.30                    | Rubén Romero, Varnish    | Welcome, Introduction &  |
+|                          | Software                 | Agenda for the Day (15   |
+|                          |                          | min)                     |
++--------------------------+--------------------------+--------------------------+
+| 09.45                    | Phil Stanhope, Dyn Inc   | "Look Now, Look Back,    |
+|                          |                          | See Forward." (PDF)      |
+|                          |                          | (30min)                  |
++--------------------------+--------------------------+--------------------------+
+| **10.15**                | **Poul-Henning Kamp,     | **"The future ain't what |
+|                          | Chief Architect, Varnish | it used to be" -         |
+|                          | Project                  | Keynote**\ ** `PDF <http |
+|                          | **                       | s://old.varnish-cache.or |
+|                          |                          | g/sites/default/files/ph |
+|                          |                          | k_vug10.pdf>`__          |
+|                          |                          | (45 Min)**               |
++--------------------------+--------------------------+--------------------------+
+| **11.00**                | **Break - 15 min**       | **Get some coffee and do |
+|                          |                          | some mingling**          |
++--------------------------+--------------------------+--------------------------+
+| 11.15                    | Dag Haavi Finstad,       | "Hitch - a scalable TLS  |
+|                          | Varnish Software         | proxy"                   |
+|                          |                          | ** `PDF <https://www.var |
+|                          |                          | nish-cache.org/sites/def |
+|                          |                          | ault/files/VUG10-Hitch-d |
+|                          |                          | aghf.pdf>`__ **          |
+|                          |                          | (30 min)                 |
++--------------------------+--------------------------+--------------------------+
+| 11.45                    | Kristian Lyngstøl,       | "The Varnish Agent: REST |
+|                          | Redpill Linpro           | API and more!"           |
+|                          |                          | ** `PDF <https://www.var |
+|                          |                          | nish-cache.org/sites/def |
+|                          |                          | ault/files/VUG10-kristia |
+|                          |                          | n-asfasf-varnishagent2.p |
+|                          |                          | df>`__ **                |
+|                          |                          | (30 Min)                 |
++--------------------------+--------------------------+--------------------------+
++--------------------------+--------------------------+--------------------------+
+| **12.15**                | ** **\ **Lunch Break - 1 | ** **\ **Get some food,  |
+|                          | hour**                   | hydrate and do some      |
+|                          |                          | mingling**               |
++--------------------------+--------------------------+--------------------------+
++--------------------------+--------------------------+--------------------------+
+| 13.15                    | Lasse Karstensen,        | "An update from the      |
+|                          | Varnish Software         | Release Manager"         |
+|                          |                          | ** `PDF <https://www.var |
+|                          |                          | nish-cache.org/sites/def |
+|                          |                          | ault/files/lkarsten-VUG1 |
+|                          |                          | 0-relmgr-update.pdf>`__  |
+|                          |                          | **                       |
+|                          |                          | (30 min)                 |
++--------------------------+--------------------------+--------------------------+
+| 13.45                    | Nils Goroll, Uplex       | "Lesser known VMODs"     |
+|                          |                          | ** `PDF <https://www.var |
+|                          |                          | nish-cache.org/sites/def |
+|                          |                          | ault/files/VUGX_uplex_le |
+|                          |                          | sser_known_vmods.pdf>`__ |
+|                          |                          | **                       |
+|                          |                          | (30 min)                 |
++--------------------------+--------------------------+--------------------------+
+| 14.15                    | Thijs Feryn, Combell /   | "Let the application do  |
+|                          | PHPBeNeLux               | the work, not the VCL"   |
+|                          |                          | ** `HTML <https://speake |
+|                          |                          | rdeck.com/thijsferyn/let |
+|                          |                          | -the-application-do-the- |
+|                          |                          | work-not-the-vcl>`__ **  |
+|                          |                          | (30 min)                 |
++--------------------------+--------------------------+--------------------------+
+| 14.45                    | Dridi Boukelmoune,       | "Cloudy-cloud-enabled:   |
+|                          | Varnish Software         | Dynamic backends in      |
+|                          |                          | Varnish"                 |
+|                          |                          | ** `PDF <https://www.var |
+|                          |                          | nish-cache.org/sites/def |
+|                          |                          | ault/files/vug-10-dynami |
+|                          |                          | c-backends_dridi.pdf>`__ |
+|                          |                          | **                       |
+|                          |                          | (30 min)                 |
++--------------------------+--------------------------+--------------------------+
+| 15.15                    | **Break - 15 min**       | **Get some coffee and do |
+|                          |                          | some mingling** (15 min) |
++--------------------------+--------------------------+--------------------------+
+| 15:30                    | Kacper Wysocki, WHY      | "Varnish Security        |
+|                          | Wysocki Secure Systems   | Firewall: An Update"     |
+|                          |                          | ** `HTML <http://www.del |
+|                          |                          | ta9.pl/public/whyvsf2015 |
+|                          |                          | /#/varnish-security-fire |
+|                          |                          | wall>`__ **              |
+|                          |                          | (30 min)                 |
++--------------------------+--------------------------+--------------------------+
+| 16:00                    | Rubén Romero, Varnish    | Outro, Thank you and     |
+|                          | Software                 | Good Bye (15 min)        |
++--------------------------+--------------------------+--------------------------+
+| **16.15**                | **Mingling - 1           | **Thank you so much to   |
+|                          | hour**\ ** **            | everyone, specially      |
+|                          |                          | organizers and           |
+|                          |                          | sponsors!**              |
++--------------------------+--------------------------+--------------------------+
+| 18ish                    | Dinner after the         | Grab some food together  |
+|                          | event\ **                |                          |
+|                          | **                       |                          |
++--------------------------+--------------------------+--------------------------+
+| 22ish                    | After Party              | Go for some drinks in    |
+|                          |                          | the area                 |
++--------------------------+--------------------------+--------------------------+
+
+Everyone can join.
+
+Varnish Developer Meeting @ FloorPlanner.com
+--------------------------------------------
+
+Friday, December 4th, 2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Kindly sponsored by:**
+
++--------------------------+--------------------------+--------------------------+
+| Dyn Inc                  | Varnish Software         |FloorPlanner.com          |
++--------------------------+--------------------------+--------------------------+
+
+-  **Venue: Engels Conference Center B.V. Stationsplein 45 3013 AK 
+   Rotterdam Nederland**
+
+-  **Who:** Varnish hackers, VMOD and plugin developers and any
+   other interested parties.
+
+-  **Agenda:** `See the
+   wiki <https://www.varnish-cache.org/trac/wiki/VDD15Q4>`__ for
+   additional information and registration.
+
+ 
+
+Picture of "Erasmusbrug Rotterdam" by Maarten Takens licensed under
+CC-BY-SA-2.0. As we did, you can `find it in
+Flickr <https://www.flickr.com/photos/takens/6886763338/in/photolist-buysNW-naRLjq-d6knCb-dYFNxB-pVHX5Z-o82cCX-fnyiLM-ehiwF9-8KsKZ8-nPvjiC-6SUvMc-oDyptH-bHHbTc-z12q3f-yaL3ML-os89RB-df6KTr-oGbBub-oq4CgX-7Qeaxs-bBX7gM-paXc6t-orvzh1-6MxCQ6-6UppKx-6LpyZk-6LLmUN-soRBR6-8cwBxf-dGwo4V-6N2CRV-8cevfA-owuBwk-dHczCp-cBzT5U-7AGnd9-6LyXfj-nC1Mu-oKStoP-omEKs6-8BEtQi-cPxP13-p9vVbA-oyofjh-dFTJtL-pmMVER-pXMBnH-9Evi9o-6RNg1s-6zG2pk>`__.
+Thanks! :)
