@@ -21,16 +21,32 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext
 
+DESTHTTP	?= /tmp/varnish-home-page
+
 all:	generate html
+	cp source/favicon.ico build/html
 
 generate:
 	cd source/vmods && python build.py
 
-pub:	all
-	#cd build/html && scp -C -P200 -r . \
-	#    root@r.varnish-cache.org:/usr/local/www/apache24/data/
-	rsync -r -v -e "/usr/bin/ssh -p 200" build/html/. \
-		root@r.varnish-cache.org:/usr/local/www/apache24/data/
+pub:
+	${MAKE} rsync \
+		RSYNCARGS='-e "/usr/bin/ssh -p 203"' \
+		DESTHTTP=root@r.varnish-cache.org:/usr/local/www/thttpd/
+
+@tools:
+	${MAKE} rsync DESTHTTP=/usr/local/www/thttpd/
+
+rsync:	all
+	rsync \
+		${RSYNCARGS} \
+		-r \
+		--del \
+		--exclude '/tools' \
+		--exclude '/docs/trunk' \
+		--exclude '/docs/[2-9]*' \
+		build/html/. \
+		${DESTHTTP}
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
