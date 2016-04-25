@@ -42,6 +42,7 @@ rsync:	all
 		${RSYNCARGS} \
 		-r \
 		--del \
+		--exclude '/forum' \
 		--exclude '/tools' \
 		--exclude '/docs/trunk' \
 		--exclude '/docs/[2-9]*' \
