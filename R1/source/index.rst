@@ -38,13 +38,19 @@ Future Events
 2016-05-05 (San Francisco)
 `Cinco de Mayo / High Scale Varnish Meetup <http://www.meetup.com/San-Francisco-Varnish-Meetup/events/230233385/>`_
 
+2016-05-10 (Paris)
+`Varnish Cache Meetup #2 <http://www.meetup.com/Paris-Varnish-Cache-Meetup/events/229789817/>`_
+
 2016-05-11 (Sydney) `Varnish-Software Summit
 <http://info.varnish-software.com/sydney-summit-2016>`_
 
 2016-05-13 (Auckland) `Varnish-Software Summit
 <http://info.varnish-software.com/nz-summit-2016>`_
 
-2016-07-16 & 17 (Amsterdam) `VarnishCon Europe 2016
+2016-05-26 (Madrid)
+`Varnish para meros mortales / Drupal Madrid Meetup <http://www.meetup.com/Drupal-Madrid/events/230709381/>`_
+
+2016-06-16 & 17 (Amsterdam) `VarnishCon Europe 2016
 <http://varnishcon2016.eventbrite.com>`_
 
 
