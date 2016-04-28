@@ -17,9 +17,10 @@ Here is an interview with Anders about `how it all began
 Dag-Erling Smørgrav
 ~~~~~~~~~~~~~~~~~~~
 
-DES was working at Redpill-Linpro, a norvegian UNIX/Open Source company
-when Anders floatet his idea for a "forward HTTP cache", he
-lured PHK into joining, and managed the project during its infancy.
+DES was working at Redpill-Linpro, a norwegian UNIX/Open Source company
+when Anders floatet his idea for a "forward HTTP cache", he lured PHK 
+into joining, was one of the original developers (doing Linux), project 
+manager and release engineer for the first three years of the project.
 
 Poul-Henning Kamp
 ~~~~~~~~~~~~~~~~~
@@ -43,6 +44,18 @@ potential of Varnish became to steep, he convinced the company to
 spin off `Varnish Software <https://varnish-software.com/>`_
 with himself at the helm.
 
+Do a git blame on the Varnish documentation and you will be surprised
+to see how much he cares about it. Very few people notice this.
+
+Tollef Fog Heen
+~~~~~~~~~~~~~~~
+
+Tollef was product owner and responsible for Varnish while working
+for Redpill-Linpro. later tech lead at Varnish Software and held 
+the Varnish release manager helmet for a few years. His experience with
+open source (Debian, Ubuntu and many others) brought sanity to the 
+project in ways that are hard to measure or describe.
+
 Kristian Lyngstøl
 ~~~~~~~~~~~~~~~~~
 
@@ -59,6 +72,16 @@ eagerly adopted it, causing many bugreports, suggestions, patches
 and improvements.  At some point, he pivoted Wikias CDN into the
 Varnish based startup-CDN named `Fastly <http://www.fastly.com/>`_
 
+Kacper Wysocki
+~~~~~~~~~~~~~~
+
+Kacper was probably the first VCL program writer. Combine this with
+an interest in security and a job at Redpill-Linpro and he turned 
+quickly into the author of security.vcl and, later, the Varnish Security 
+Firewall. He does not have any commits in Varnish and still has managed 
+to drive quite a few changes into the project. Similarly, he has no idea 
+or has even thought about asking for it, and still is being added here.
+
 Nils Goroll
 ~~~~~~~~~~~
 
@@ -73,3 +96,12 @@ beautiful, ingenious Varnish code.
 
 Nils' primary focus are his clients and their projects. He tries to
 make those improvements to Varnish which matter to them.
+
+Martin Blix Grydeland
+~~~~~~~~~~~~~~~~~~~~~
+
+Martin was the first full-time member of the C-team at Varnish Software. 
+He is the main responsible for the amazing revamp of the Logging 
+facilities and utilities in the 4.0 cycle and later the Stevedore 
+rework. Besides that he fixes lots of bugs, knows varnishtest better 
+than most, writes vmods and is the Varnish Cache Plus architect.
