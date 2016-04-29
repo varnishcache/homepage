@@ -124,13 +124,3 @@ He is the main responsible for the amazing revamp of the Logging
 facilities and utilities in the 4.0 cycle and later the Stevedore 
 rework. Besides that he fixes lots of bugs, knows varnishtest better 
 than most, writes vmods and is the Varnish Cache Plus architect.
-
-Federico G. Schwindt
-~~~~~~~~~~~~~~~~~~~~
-
-Federico used to keep an eye on the Varnish port for OpenBSD before 
-joining Varnish Software. Most of his contributions are patches 
-here and there and bug fixes which make sure that planned project 
-changes and reality are aligned. Of all committers he is the one that 
-takes out more LoC than he adds. He has written a few VMODs. He has 
-started writing more language bidnings and VMODs that he has published.
