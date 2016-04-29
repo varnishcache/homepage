@@ -51,17 +51,17 @@ Ingvar Hagelund
 ~~~~~~~~~~~~~~~
 
 Ingvar works as Team Leader (read very skilled sysadmin) at Redpill-Linpro, 
-but his passion is reading books and bloging about it as well as RPM 
+but his passion is reading books and blogging about it, as well as RPM 
 packaging. So every Fedora and EPEL (read RedHat and CentOS) Varnish user
 out there owe him a thanks or two. Once in a while, he also trawls the 
-internt checking for the rate of Varnish adoption among top web sites.
+internet checking for the rate of Varnish adoption among top web sites.
 
 Stig Sandbeck Mathisen
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Stig works at Redpill-Linpro and is the guy in charge of packaging Varnish 
-for Debian, which means Ubuntu users owe him also thanks. Besides this he
-maintains vcl-mode for emacs and is generally a nice and helpful guy.
+for Debian, which means Ubuntu users owe him a thanks also. Besides this,
+he maintains vcl-mode for emacs and is generally a nice and helpful guy.
 
 
 Tollef Fog Heen
