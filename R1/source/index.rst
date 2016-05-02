@@ -8,13 +8,6 @@ Varnish HTTP Cache
 Whats happening
 ---------------
 
-Survey
-~~~~~~
-
-Please fill the `Varnish User Survey 2016
-<https://docs.google.com/a/varnish-software.com/forms/d/1XOJiTwe0q2P9P-ZO-8NHvxAdWn12dGRmUZagleKue68/viewform>`_ which is open until April 30th.
-
-
 2016-04-25
 ~~~~~~~~~~
 
