@@ -144,7 +144,7 @@ rev
 An object mapping Varnish version to URL where the VCC and documentation
 files can be found.
 
-For instance:
+For instance::
 
 	"rev": {
 	    "3.0": {
