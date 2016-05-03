@@ -78,25 +78,25 @@ class vmod(object):
 		for r in self.versions():
 			doc = self.url_doc(r)
 			if doc !=  None:
-				s += " `%s <%s>`_ " % (r, doc)
+				s += " `%s <%s>`__ " % (r, doc)
 			else:
 				vcc = self.url_vcc(r)
-				s += " `%s <%s>`_ " % (r, vcc)
+				s += " `%s <%s>`__ " % (r, vcc)
 		l.append(s)
 		l.append(self.j.get("license"))
 		l.append(self.j.get("status"))
 
 		s = ""
 		if "github" in self.j:
-			s += " `Github <%s>`_ " % self.repos()
+			s += " `Github <%s>`__ " % self.repos()
 		elif "repos" in self.j:
-			s += " `Repos <%s>`_ " % self.repos()
+			s += " `Repos <%s>`__ " % self.repos()
 		l.append(s)
 
 		s = ""
 		for r in self.versions():
 			vcc = self.url_vcc(r)
-			s += " `%s <%s>`_ " % (r, vcc)
+			s += " `%s <%s>`__ " % (r, vcc)
 		l.append(s)
 
 		i = self.j.get("support")
