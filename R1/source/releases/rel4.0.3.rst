@@ -7,11 +7,11 @@ Varnish Cache 4.0.3
 
 By Operating System 
 -------------------
-`
+
 * :ref:`install_ubuntu`
 * :ref:`install_debian`
 * :ref:`install_redhat`
-* :ref:`install_freebsd
+* :ref:`install_freebsd`
 
 `Source download <https://repo.varnish-cache.org/source/varnish-4.0.3.tar.gz>`_
 

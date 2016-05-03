@@ -139,9 +139,7 @@ guess work.
 For instance I just added the forum snapshot, by working out all
 the kinks on one of my test-machines.
 
-Once it was as I wanted it, I pushed the changes the live machine and::
-
-Then::
+Once it was as I wanted it, I pushed the changes the live machine and then::
 
 	varnishadm vcl.use backup
 	# The 'backup' VCL does a "pass" of all trafic to my server
