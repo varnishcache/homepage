@@ -35,10 +35,10 @@ Future Events
 `Varnish Cache Meetup #2 <http://www.meetup.com/Paris-Varnish-Cache-Meetup/events/229789817/>`_
 
 2016-05-11 (Sydney) `Varnish-Software Summit
-<http://info.varnish-software.com/sydney-summit-2016>`_
+<http://info.varnish-software.com/sydney-summit-2016>`__
 
 2016-05-13 (Auckland) `Varnish-Software Summit
-<http://info.varnish-software.com/nz-summit-2016>`_
+<http://info.varnish-software.com/nz-summit-2016>`__
 
 2016-05-26 (Madrid)
 `Varnish para meros mortales / Drupal Madrid Meetup <http://www.meetup.com/Drupal-Madrid/events/230709381/>`_
@@ -74,3 +74,4 @@ they collect, it will be discontinued.
    support/index
    extras/index
    vmods/index
+   tips/index
