@@ -11,7 +11,7 @@ HTTP reverse proxy. You install it in front of any server that speaks
 HTTP and configure it to cache the contents. Varnish Cache is really,
 really fast. It typically speeds up delivery with a factor of 300 -
 1000x, depending on your architecture. A high level overview of what
-Varnish does can be seen in the video attached to this web page.
+Varnish does can be seen in `this video <https://www.youtube.com/watch?v=fGD14ChpcL4>`__.
 
 Performance
 ~~~~~~~~~~~
