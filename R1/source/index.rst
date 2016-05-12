@@ -40,7 +40,10 @@ Future Events
 2016-05-26 (Madrid)
 `Varnish para meros mortales / Drupal Madrid Meetup <http://www.meetup.com/Drupal-Madrid/events/230709381/>`_
 
-2016-06-16 & 17 (Amsterdam) `VarnishCon Europe 2016
+2016-06-02 (Lyon)
+`Varnish Sword & eZ - User Group à Lyon <http://ez.no/fr/Forms/Varnish-Sword-eZ-User-Group-a-Lyon>`_
+
+2016-06-16 & 17 (Amsterdam) `VarnishCon Europe 2016 (get a ticket NOW!)
 <http://varnishcon2016.eventbrite.com>`_
 
 
