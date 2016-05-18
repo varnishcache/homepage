@@ -28,12 +28,6 @@ new homepage, you can find it in
 Future Events
 -------------
 
-2016-05-11 (Sydney) `Varnish-Software Summit
-<http://info.varnish-software.com/sydney-summit-2016>`__
-
-2016-05-13 (Auckland) `Varnish-Software Summit
-<http://info.varnish-software.com/nz-summit-2016>`__
-
 2016-05-17-19 (Austin, TX) `Varnish Cache @ GitHub's Open Source Alley, O'Reilly's OSCON
 <http://conferences.oreilly.com/oscon/open-source-us>`__
 
@@ -42,6 +36,9 @@ Future Events
 
 2016-06-02 (Lyon)
 `Varnish Sword & eZ - User Group à Lyon <http://ez.no/fr/Forms/Varnish-Sword-eZ-User-Group-a-Lyon>`_
+
+2016-06-07 (Paris)
+`Meetup #3 @Oxalide <http://www.meetup.com/Paris-Varnish-Cache-Meetup/events/231121017/>`_
 
 2016-06-16 & 17 (Amsterdam) `VarnishCon Europe 2016 (get a ticket NOW!)
 <http://varnishcon2016.eventbrite.com>`_
