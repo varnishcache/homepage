@@ -1,0 +1,18 @@
+{
+    "date": "2016-05-20",
+    "desc": "Access to environment variables",
+    "github": {
+        "branches": {
+            "4.1": "4.1",
+            "master": "master"
+        },
+        "project": "libvmod-env",
+        "user": "carlosabalde",
+        "vcc_path": "src/vmod_env.vcc"
+    },
+    "license": "FreeBSD",
+    "name": "env",
+    "status": "mature",
+    "support": [ "Allenta Consulting S.L." ],
+    "maintainer": "carlos.abalde@gmail.com"
+}
