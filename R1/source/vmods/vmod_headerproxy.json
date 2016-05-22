@@ -1,7 +1,7 @@
 {
     "name": "headerproxy",
     "date": "2016-05-20",
-    "desc": "Add custom HTTP headers to the client request and response via your native programming language.",
+    "desc": "Add custom request/response headers via your native programming language.",
     "license": "FreeBSD",
     "status": "development",
     "maintainer": "tardis74@yahoo.com",
