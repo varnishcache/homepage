@@ -11,7 +11,7 @@
         },
         "4.1": {
 	    "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-vslp/blob/4.1/src/vmod_vslp.vcc"
-        }
+        },
         "master": {
 	    "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-vslp/blob/master/src/vmod_vslp.vcc"
         }
