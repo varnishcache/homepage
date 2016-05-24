@@ -13,5 +13,5 @@
         },
         "vcc_path": "src/vmod_headerproxy.vcc",
         "doc_path": "README.rst"
-    },
+    }
 }
