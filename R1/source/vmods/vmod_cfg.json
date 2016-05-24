@@ -1,0 +1,20 @@
+{
+    "date": "2016-05-21",
+    "desc": "Access to contents of environment variables and configuration files",
+    "github": {
+        "branches": {
+            "4.1": "4.1",
+            "master": "master"
+        },
+        "project": "libvmod-cfg",
+        "user": "carlosabalde",
+        "vcc_path": "src/vmod_cfg.vcc"
+    },
+    "license": "FreeBSD",
+    "maintainer": "carlos.abalde@gmail.com",
+    "name": "cfg",
+    "status": "mature",
+    "support": [
+        "Allenta Consulting S.L."
+    ]
+}
