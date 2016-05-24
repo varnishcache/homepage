@@ -1,0 +1,17 @@
+{
+    "name": "headerproxy",
+    "date": "2016-05-20",
+    "desc": "Add custom request/response headers via your native programming language.",
+    "license": "FreeBSD",
+    "status": "development",
+    "maintainer": "tardis74@yahoo.com",
+    "github": {
+        "user": "SteveEasley",
+        "project": "libvmod-headerproxy",
+        "branches": {
+            "4.1": "master"
+        },
+        "vcc_path": "src/vmod_headerproxy.vcc",
+        "doc_path": "README.rst"
+    },
+}
