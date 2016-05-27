@@ -84,7 +84,7 @@ is, unabridged::
 	# Edit the machines IP numbers in /etc/pf.conf
 	# Configure the host
 	sh build_host.sh |& tee _.bh
-	# Buld the jails
+	# Build the jails
 	foreach i (Tools Hitch Varnish)
 		(cd $i ; sh build* |& tee _.bj)
 	end
