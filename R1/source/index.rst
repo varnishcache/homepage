@@ -28,15 +28,6 @@ new homepage, you can find it in
 Future Events
 -------------
 
-2016-05-26 (Madrid)
-`Varnish para meros mortales / Drupal Madrid Meetup <http://www.meetup.com/Drupal-Madrid/events/230709381/>`_
-
-2016-06-02 (Lyon)
-`Varnish Sword & eZ / eZ Lyon Meetup <http://www.meetup.com/Lyon-eZ-Publish-Meetup/events/231164506/>`_
-
-2016-06-07 (Paris)
-`Meetup #3 @Oxalide <http://www.meetup.com/Paris-Varnish-Cache-Meetup/events/231121017/>`_
-
 2016-06-16 & 17 (Amsterdam) `VarnishCon Europe 2016 (get a ticket NOW!)
 <http://varnishcon2016.eventbrite.com>`_
 
