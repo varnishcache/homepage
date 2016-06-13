@@ -1,14 +1,18 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "libvmod-queryfilter",
+    "date": "2016-09-10",
+    "desc": "Simple query string filter/sort module",
     "github": {
         "branches": {
-            "3.0": "master"
+            "3.0": "master",
+            "4.0": "master",
+            "4.1": "master"
         },
         "project": "libvmod-queryfilter",
-        "user": "andrew-canaday",
-        "vcc_path": "src/vmod_queryfilter.vcc"
+        "user": "NYTimes",
+        "vcc_path": "src/vmod_queryfilter4.vcc",
+        "doc_path": "README.md"
     },
+    "maintainer": "code@nytimes.com",
     "license": "Apache2",
     "name": "queryfilter",
     "status": "mature"
