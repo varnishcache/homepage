@@ -18,8 +18,8 @@ Dag-Erling Smørgrav
 ~~~~~~~~~~~~~~~~~~~
 
 DES was working at Redpill-Linpro, a norwegian UNIX/Open Source company
-when Anders floatet his idea for a "forward HTTP cache", he lured PHK 
-into joining, was one of the original developers (doing Linux), project 
+when Anders floatet his idea for a "forward HTTP cache", he lured PHK
+into joining, was one of the original developers (doing Linux), project
 manager and release engineer for the first three years of the project.
 
 Poul-Henning Kamp
@@ -33,7 +33,7 @@ He does have 30+ years of experience in systems programming, and
 that seems useful too.
 
 PHK's `random outbursts </docs/trunk/phk/index.html>`_ has their own
-section in the varnish documentation.
+section in the Varnish documentation.
 
 Per Buer
 ~~~~~~~~
@@ -50,27 +50,27 @@ to see how much he cares about it. Very few people notice this.
 Ingvar Hagelund
 ~~~~~~~~~~~~~~~
 
-Ingvar works as Team Leader (read very skilled sysadmin) at Redpill-Linpro, 
-but his passion is reading books and blogging about it, as well as RPM 
+Ingvar works as Team Leader (read very skilled sysadmin) at Redpill-Linpro,
+but his passion is reading books and blogging about it, as well as RPM
 packaging. So every Fedora and EPEL (read RedHat and CentOS) Varnish user
-out there owe him a thanks or two. Once in a while, he also trawls the 
+out there owe him a thanks or two. Once in a while, he also trawls the
 internet checking for the rate of Varnish adoption among top web sites.
 
 Stig Sandbeck Mathisen
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Stig works at Redpill-Linpro and is the guy in charge of packaging Varnish 
+Stig works at Redpill-Linpro and is the guy in charge of packaging Varnish
 for Debian, which means Ubuntu users owe him a thanks also. Besides this,
-he maintains vcl-mode for emacs and is generally a nice and helpful guy.
+he maintains VCL-mode for emacs and is generally a nice and helpful guy.
 
 
 Tollef Fog Heen
 ~~~~~~~~~~~~~~~
 
 Tollef was product owner and responsible for Varnish while working
-for Redpill-Linpro. later tech lead at Varnish Software and held 
+for Redpill-Linpro. later tech lead at Varnish Software and held
 the Varnish release manager helmet for a few years. His experience with
-open source (Debian, Ubuntu and many others) brought sanity to the 
+open source (Debian, Ubuntu and many others) brought sanity to the
 project in ways that are hard to measure or describe.
 
 Kristian Lyngstøl
@@ -93,12 +93,12 @@ Kacper Wysocki
 ~~~~~~~~~~~~~~
 
 Kacper was probably the first VCL long program writer. Combine this with
-an interest in security and a job at Redpill-Linpro and he turned 
-quickly into the author of security.vcl and, later, the Varnish Security 
-Firewall. He does not have any commits in Varnish and still has managed 
-to drive quite a few changes into the project. Similarly, he has no idea 
-or has even thought about asking for it, and still is being added here.
-He maintains the VCL grammar in BNF notation, which is an unexploited 
+an interest in security and a job at Redpill-Linpro and he turned
+quickly into the author of security.vcl and, later, the Varnish Security
+Firewall. He does not have any commits in Varnish and still has managed
+to drive quite a few changes into the project. Similarly, he has no idea
+or has even thought about asking for it, and still is being added here
+He maintains the VCL grammar in BNF notation, which is an unexploited
 gold mine.
 
 Nils Goroll
@@ -119,8 +119,15 @@ make those improvements to Varnish which matter to them.
 Martin Blix Grydeland
 ~~~~~~~~~~~~~~~~~~~~~
 
-Martin was the first full-time member of the C-team at Varnish Software. 
-He is the main responsible for the amazing revamp of the Logging 
-facilities and utilities in the 4.0 cycle and later the Stevedore 
-rework. Besides that he fixes lots of bugs, knows varnishtest better 
+Martin was the first full-time member of the C-team at Varnish Software.
+He is the main responsible for the amazing revamp of the logging
+facilities and utilities in the 4.0 cycle and later the storage
+rework. Besides that he fixes lots of bugs, knows varnishtest better
 than most, writes vmods and is the Varnish Cache Plus architect.
+
+Lasse Karstensen
+~~~~~~~~~~~~~~~~
+
+Lasse is the current release manager and stable version maintainer of
+Varnish Cache. When not doing that, he maintains build infrastructure
+and runs the Varnish Software C developer team in Oslo.
