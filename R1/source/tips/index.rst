@@ -3,32 +3,23 @@
 Tips & Tricks
 =============
 
-301/302 Redirects
------------------
+The :ref:`documentation in the standard distributions <docs>` includes
+the reference manual, user guides and tutorials, installation
+instructions and various other kinds of fundamental information.
 
-Synthetic responses can be used to generate 30x redirects, and
-the usual way is to stash the new location in req.http.something,
-and move that to resp.location in ``vcl_synth{}``.
+This is a space for nuggets of knowledge and solutions for specific
+requirements, how to get your Varnish deployment to run well, how to
+discover the cause of a problem and so forth.
 
-Here is a slightly neater way, exploiting the fact that ``return(synth())``
-takes two arguments::
+In part, this section is intended as a successor to the old  \ `wiki
+<https://www.varnish-cache.org/trac/wiki>`__, which had a wide range
+of useful hints, but much of which was written for older versions and
+is now outdated.
 
-	sub vcl_recv {
-	    if (req.url ~ "^/installation/ubuntu") {
-		return (synth(301, "/releases/install_ubuntu.html"));
-	    }
-	    if (req.url ~ "^/installation/debian") {
-		return (synth(302, "/releases/install_redhat.html"));
-	    }
-	}
-
-	sub vcl_synth {
-	    if (resp.status == 301 || resp.status == 302) {
-		set resp.http.location = resp.reason;
-		set resp.reason = "Moved";
-		return (deliver);
-	    }
-	}
+A Tips & Tricks sections thrives from everyone's active contribution,
+so please feel free to add your ideas, update the content, or to correct
+errors. The :ref:`HowTo <contribdoc>` section will help you get started.
 
 .. toctree::
-	:hidden:
+   contribdoc/index
+   vcl/index
