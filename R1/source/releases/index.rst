@@ -29,7 +29,7 @@ Current and older releases
 ========================== ============ =========== ===========
 Release                    Release Date Status      Download
 ========================== ============ =========== ===========
-Varnish Cache 4.1.3-beta1  2016-06-15   pre-release `varnish-4.1.3-beta1.tar.gz`_ `beta-rpms-el6`_ `beta-rpms-el7`_
+Varnish Cache 4.1.3-beta1  2016-06-15   pre-release `varnish-4.1.3-beta1.tar.gz`_ `beta-debs`_ `beta-rpms-el6`_ `beta-rpms-el7`_
 :ref:`rel4.1.2`            2016-03-07   Supported   `varnish-4.1.2.tar.gz`_
 :ref:`rel4.0.3`            2015-02-19   Supported   `varnish-4.0.3.tar.gz`_
 Varnish Cache 4.0.2        2014-10-08   End Of Life `varnish-4.0.2.tar.gz`_
@@ -52,6 +52,7 @@ Varnish Cache 3.0.4        2013-06-17   End Of Life `varnish-3.0.4.tar.gz`_
 .. _varnish-3.0.5.tar.gz: https://repo.varnish-cache.org/source/varnish-3.0.5.tar.gz
 .. _varnish-3.0.4.tar.gz: https://repo.varnish-cache.org/source/varnish-3.0.4.tar.gz
 
+.. _beta-debs: https://jenkins.varnish-software.com/view/VC4/job/VC4-deb/lastSuccessfulBuild/artifact/deb-build/
 .. _beta-rpms-el6: https://jenkins.varnish-software.com/view/VC4/job/VC4-rpm-el6/lastSuccessfulBuild/artifact/rpm-build/varnish-4.1/el6/
 .. _beta-rpms-el7: https://jenkins.varnish-software.com/view/VC4/job/VC4-rpm-el7/lastSuccessfulBuild/artifact/rpm-build/varnish-4.1/el7/
 
