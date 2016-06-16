@@ -131,3 +131,15 @@ Lasse Karstensen
 Lasse is the current release manager and stable version maintainer of
 Varnish Cache. When not doing that, he maintains build infrastructure
 and runs the Varnish Software C developer team in Oslo.
+
+Geoff Simmons
+~~~~~~~~~~~~~
+
+Geoff started working at UPLEX in 2010 and soon learned to love
+Varnish as much as slink does. Since then he's been contributing code
+to the project, writing up various VMODs (mostly about regular
+expressions, blobs, backends and directors), developing standalone
+applications for logging that use Martin's VSL API, and adding custom
+patches to Varnish for various customer needs. He spends most of his
+days in customer projects as "the Varnish guy" on the operations
+teams.
