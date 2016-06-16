@@ -118,6 +118,10 @@ by calling make targets in the ``R1`` directory::
   dumping object inventory... done
   build succeeded.
 
+After a successful build, the newly rendered contents are saved in the
+``R1/source/build`` directory, so you can have a look with your
+browser.
+
 Send us a pull request
 ----------------------
 
