@@ -5,8 +5,8 @@ Varnish HTTP Cache
 
 :ref:`Questions and Answers<faq>`
 
-Whats happening
----------------
+What is happening
+-----------------
 
 2016-06-15
 ~~~~~~~~~~
