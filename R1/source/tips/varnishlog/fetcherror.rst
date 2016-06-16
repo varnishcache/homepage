@@ -35,4 +35,4 @@ Some common contents of a ``FetchError`` line are:
   timeout), the backend fetch timestamps will show that about exactly
   as much time expired as is defined for ``connect_timeout``. In the
   former case (unhealthy backends), Varnish decides immediately to
-  fail the fetch, so the timeouts show no time expired.
+  fail the fetch, so the timestamps show no time expired.
