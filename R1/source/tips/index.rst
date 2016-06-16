@@ -24,4 +24,4 @@ errors. The :ref:`HowTo <contribdoc>` section will help you get started.
    contribdoc/index
    vcl/index
    varnishlog/index
-
+   migration/index
