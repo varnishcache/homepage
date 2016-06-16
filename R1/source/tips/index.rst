@@ -23,3 +23,5 @@ errors. The :ref:`HowTo <contribdoc>` section will help you get started.
 .. toctree::
    contribdoc/index
    vcl/index
+   varnishlog/index
+
