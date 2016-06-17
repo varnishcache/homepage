@@ -8,6 +8,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-06-17
+~~~~~~~~~~
+
+`VarnishCon Europe 2016 <http://varnishcon2016.eventbrite.com>`_
+
+Don't miss it next time.
+
 2016-06-15
 ~~~~~~~~~~
 
@@ -30,12 +37,6 @@ of moving the Varnish Cache project to its own infrastructure.
 If you want to help out, we will gladly take pull requests to the
 new homepage, you can find it in
 `this github repos <https://github.com/varnishcache/homepage>`_.  /phk
-
-Future Events
--------------
-
-2016-06-16 & 17 (Amsterdam) `VarnishCon Europe 2016 (get a ticket NOW!)
-<http://varnishcon2016.eventbrite.com>`_
 
 
 Privacy
