@@ -1,0 +1,173 @@
+.. _20120322_vug5_paris: 
+
+**Varnish User Group Meeting 5**
+---------------------------------
+(VUG5 Paris)
+------------
+ 
+Thank you for a great VUG5 and your feedback! See the `event report here <https://www.varnish-cache.org/vug5-report>`_ .  
+ 
+Event Description and Conference Program/Slides
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sponsored by  `Capgemini <http://www.fr.capgemini.com/>`_  and `Varnish
+Software <https://www.varnish-software.com>`_ , the Fifht Varnish User Group meeting was held in Paris. The meeting went over two days: A
+conference style    User Day and an unconference toned Developer Day. 
+Thank you everyone for coming!     We had in total around 60 users on day 1 and 30 developers on day 2.   
+
+**Varnish User Day @ La Défense**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Thursday, March 22nd, 2012
+
+
+**Where: Auditorium Tour Europlaza** (La Défense 4), 20 Rue André   Prothin, 92400 Courbevoie, France.
+
+**Getting there:** Access Map (transport, GPS location) here and @GoogleMaps.
+
+**Who:** All **Varnish Cache Users, Developers, Administrators, Web Architects** and other techies wanting to know more about the software and how it is used by others. 
+ 
+**Agenda**
+
+- **09.00 - Registration & Welcome** 
+   -  Breakfast served
+
+-  **09.15 - Agenda & Introductions** 
+   - `Intro & Varnish Status Web GUI <https://www.varnish-cache.org/sites/default/files/VUG5%20-%20Introductions_0.pdf>`_ 
+	\ by Rubén Romero  
+
+-  **09.30** - Keynote (~30 min + Q&A) 
+   - `Varnish until 2020 <https://www.varnish-cache.org/sites/default/files/VUG5-Keynote_Varnish_2020-PHK.pdf>`_
+	\ by Poul-Henning Kamp
+
+-  **10.15** - Presentations (15 & 30 min)
+
+   - `The Varnish Book <http://kly.no/presentations/2012_03_22_Varnish_Book.pdf>`_
+	\ by Kristian Lyngstøl
+
+   -   `Distilled Varnish and Escenic experience <https://www.varnish-cache.org/sites/default/files/VUG5-Varnish_Escenic-%20RZ.pdf>`_
+       \ by Richard Zuidhof 
+
+-  **11.00 - Coffee break** 
+
+-  **11.15** - Presentations continued (15-30 min each)**
+     
+   - `Mobile Device Detection in Varnish <https://www.varnish-cache.org/sites/default/files/VUG5-Mobile_Device_Detection_Varnish-Lasse.pdf>`_
+	\ by Lasse Karstensen
+   - `Avoiding Configuration Pitfalls <https://www.varnish-cache.org/sites/default/files/VUG5-Varnish_common_configuration_mistakes-AndreasP.pdf>`_
+      	\ by Andreas Plesner
+   - `Dynamic E-Commerce Site acceleration <https://www.varnish-cache.org/sites/default/files/VUG5-E-Commerce_Acceleration-MdM-LT.pdf>`_
+      	\ by Lionel Touati 
+
+-   **12.30 - Lunch break (Self-covered)**   
+   -  Pick your own restaurant around La Défense 
+
+
+-  **14.30** - Presentations continued (30 min each)  
+
+   -   `Securing your web stack with Varnish <http://www.delta9.pl/public/varnishsec/>`_, 
+	\ by Kacper Wysocki
+
+   -   `A VMOD walk-through <http://kly.no/presentations/2012_03_22_Varnish_Cache_Vmods.pdf>`_, 
+	\ by Kristian Lyngstøl 
+
+-  **15.30 - Coffee break and mingling**
+
+-  **15.45** - Presentations continued (30 & 15 min)
+
+   -   `Varnish in the Financial Sector <https://www.varnish-cache.org/sites/default/files/VUG5-Financial_Sector_ESI_Varnish-FS.pdf>`_
+      	\ by Federico Schwindt
+   -   `Varnish @ Opera <http://www.slideshare.net/cstrep/vug5-varnish-at-opera-software/>`_,
+       `GeoIP, Headers, 2.1>3.0 <http://www.slideshare.net/cstrep/vug5-varnish-at-opera-software/>`_
+      	\ by Cosimo Streppone
+   -   `Upcoming Features in Varnish Cache <https://www.varnish-cache.org/sites/default/files/VUG5_Varnish-Future-TollefFH.pdf>`_
+        \ by Tollef Fog Heen
+
+-  **16.30** - **Rounding Up, VUG6 **
+   \ by Rubén Romero 
+
+-  **16.45 - We leave La Défense** 
+
+-  **Night Out @ Opéra - Paris 09 (Self-Covered)** 
+
+-  **19.30** - Beer @ \ `Hotel de L'Ocean <http://www.paris-hotel-ocean.com/pages/situation.html>`_ 
+   -  Meet up at our lobby for a beer 
+
+-  **20.00** - Dinner at \ `Le Sâotico <http://www.saotico.com/contacts.asp>`_ 
+   -  Reserved for up to 60 people (43 confirmed) 
+
+-  **23.30 - Move over to a Bar, or:**
+
+-  **...Sleep...** 
+ 
+**Varnish Developer Day @ Suresnes**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Friday, March 23rd, 2012
+
+
+**Where: Capgemini Technology Services**, 7 Rue Frédéric Clavel, 92150 Suresnes, France.
+
+**Getting there:** `Access Map (transportation, GPS) here. Do please   use it!
+
+**Who:** Tailored **only for C developers** working on the **Varnish Cache core, Varnish Tools, Varnish Modules (aka VMODs)** or any software related to these.
+
+*Remember this is a HIGHLY technical meeting.*
+
+**Agenda** 
+
+Presentations and Topics to be discussed: 
+
+**09.00 - boot** 
+
+   - Breakfast served
+
+-  Welcome and Introduction Round
+-  Varnish Governing Board status by Kristian
+-  Reiteration of “Varnish until 2020” - development
+-  SPDY / HTTP 2.0 - what is going on
+-  Dynamic Backends (defined by DNS TTL or record change)
+-  `Conditional Backend Requests`_ (aka GET If-Modified-Since) and vcl\_stale(), vcl\_refresh() by Uplex 
+
+**12.00 - Lunch**   
+	- *At some restaurant in Suresnes* (we leave together and come back together) 
+
+-  hit\_for\_pass usage in default.vcl in relation to status codes that
+   varnish gives a -1 TTL by default. (503, 500, 401, 403, etc.)
+-  Streaming Pass&Fetch On by deFault
+-  Persistent Storage - que vadis
+-  Multiple Storage Tiers (and priority) 
+-  VMOD API and Packaging 
+   -  Experiences so far
+   -  Whats in store for VMODs 
+-  X-Forwarded-For problems with IP (from the client to server)
+
+**15.30 - Coffee & Snacks Break**
+
+-  How should Etags+Gzip work (see #940)
+-  SSL Support? (PROXY support / SSL Termination)
+-  Better Documentation (specially for Web Developers)
+-  Dynamic Counters 
+
+**The order of topic discussions is subject to change.** 
+
+
+----------------
+VUG5 Description
+---------------- 
+Travel & Accommodation: Check `Hotels.com <http://www.hotels.com>`_ and see `this link <https://www.varnish-cache.org/trac/wiki/VUG5#GeneralInformation>`_ for transport help. \n Registration: The meeting is free of charge, but it requires registration, which is now closed. 
+
+----------------
+Varnish User Day
+----------------
+The idea of the User Day is for users to share their experiences with the community and voice their current and future needs to the
+development team. As you may have experienced, Varnish solves many challenges in the web today and will help you solving problems in the future. Obviously, this is something members of our community would like to know more about. So yes, this meeting will have presentations and
+even slides, but we look forward for it to be an useful in-depth meeting about Varnish, most likely topped off with some cold beer at the end of the day.
+
+----------------
+Varnish Dev Day
+---------------- 
+After gathering feedback and having discussed with the community, the developer group of Varnish Cache and Varnish modules aka VMODs will gather to discuss and shape the future of the forthcoming 3.1 and 4.0 releases.   As this meeting can be highly technical and kind of boring for others than the hardcore C-developing hackers of Varnish, the Dev Day is for Developers only.     
+
+---------------------
+Attendee Registration
+---------------------
+If you cannot see the registration form below, it is because registration is now closed.  
+

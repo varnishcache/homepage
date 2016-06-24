@@ -1,0 +1,429 @@
+.. _20121005_vug6_london:
+
+**Varnish User Group Meeting 6**
+--------------------------------
+(VUG6 London)
+-------------
+
+|VUG7 @ London|
+
+Thank you for a great event and your feedback! Make sure to check the `VUG6 report <https://www.varnish-cache.org/vug6-report>`_ and 
+the `notes from the Developer day <https://docs.google.com/a/varnish-software.com/spreadsheet/ccc?key=0Apb8MyYPKVqZdDlNTHl2dExMRllrSV9HUnBLdkxwb3c#gid=0>`_.
+
+Sponsored by `The British Broadcasting Corporation (BBC) <http://www.bbc.co.uk/>`_ and `Varnish Software <https://www.varnish-software.com/>`_, the Sixth Varnish User Group Meeting will take place on October 5th and 6th in London, UK (right after `Velocity Europe 2012 <http://velocityconf.com/velocityeu2012>`_). For any VUG6 related proposal, inquiry or anything related to the event please send an email to`ruben@varnish-software.com <mailto:ruben@varnish-software.com>`_.
+
+
+**Varnish User Day @ BBC Media Village**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Friday, October 5th, 2012
+
+`VUG 6 report <https://www.varnish-cache.org/vug6-report>`_
+
+**Venue:  BBC Media Centre**, 201 Wood Lane, London, W12 7TQ, UK
+
+**Getting there:** `Access Map <https://www.varnish-cache.org/sites/default/files/media_centre.pdf>`_ and `@GoogleMaps <http://bit.ly/LVNCtk>`_.
+`<http://www.defense-92.fr/photos/planpieton.png>`_\ **Who:** All **Varnish Cache Users, Developers, Administrators, Web Architects** and other techies wanting to know more about the software and how it is used by others.
+
+**Venue: Novotel London Paddington,** 3 Kingdom Street, Sheldon Square, London W2 6BD, UK
+**Getting there:** `Information <http://accorhosting.com/NLM0178/pdf/Meeting@Novotel_Paddington.pdf>`_ and `@GoogleMaps <http://goo.gl/maps/BukzR>`_.
+**Who:** **C developers** working on the \ **Varnish core, tools & modules (VMODs)**.
+
+**This is a HIGHLY technical meeting!**
+
+**Agenda**
+
+-  **08.45 - Registration**
+
+-  **Breakfast served** (Reception Room)
+
+-  **09.20 - Welcome**
+
+-  **Agenda & Introductions** 
+	- `(PDF) <https://www.varnish-cache.org/sites/default/files/01_VUG6%20-%20opening%20-%20Hildur%20copy.pdf>`_
+	by Hrafnhildur Smaradottir, VUG6 Hostess, Varnish Software
+
+-  **09.30** - **PHK's Keynote (on HTTP/2.0)** 
+
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/02_VUG6-PHK_Keynote.pdf>`_ `(Video) <https://www.youtube.com/watch?v=5NYQaDjfcMw&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=1>`_ (45 min)
+
+	by Poul-Henning Kamp, Varnish Chief Architect
+
+-  **10.15** - **Presentations**
+
+-  **Varnish at the BBC: Winning Gold in the London 2012 Olympics** 
+	`(PDF) <http://www.slideshare.net/grahamlyons/varnish-at-the-bbc>`_ `(Video) <https://www.youtube.com/watch?v=UBVN0CthfO4&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=2>`_ (30 min)
+	
+	by Graham Lyons, BBC
+-  **Summoning super hero powers of Varnish, Drupal and open source at KPN** 
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/04_VarnishDrupalatKPN.pdf>`_ `(Video) <https://www.youtube.com/watch?v=JeuIAtukq0c&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=3>`_ (20  min)
+	
+	by Paul Krischer, KPN
+
+- 11.15 - **Coffee break & Mingling**
+
+- 11.45 - **Presentations continued**
+
+- **Not everyone respects the rules: implementing Varnish on existing sites **
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/05_varnish_rules_vug6.pdf>`_ `(Video) <https://www.youtube.com/watch?v=WPgwn-gyoj0&list=PLZr%207OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=4>`_ (30min)
+	
+ 	by Thijs Feryn, Combell
+
+- **All the way from 0.8 to 3.0: Varnish @ VG**
+	`(HTML) <http://www.vg.no/presentations/slides/VUG2012.html#/>`_ `(Video) <https://www.youtube.com/watch?v=JYcGU0jwsdk&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=5>`_ (35min) 
+	
+	by Audun Ytterdal, VG Multimedia 
+  
+**12.30 - Lunch break**
+
+- **BBC sponsored lunch** (Reception Room)
+
+- **13.30** - Presentations continued
+
+- **Smart Pre-Fetching: Varnish @ Yakaz.com**
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/07_Warm_Up_Your_Cache_Pierre-Gilles_yakaz-com.pdf>`_ `(Video) <https://www.youtube.com/watch?v=X-JFAaVjZk0&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=6>`_ (25 min)
+	
+	by Pierre-Gilles Mialon, Yakaz.com
+
+- **Varnish Administration Console**
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/09_vac_yveshwang_vug6.pdf>`_ `(Video) <https://www.youtube.com/watch?v=n169FgDroQw&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=7>`_ (17 min)
+	
+	by Yves Hwang, Varnish Software
+
+- **mod\_pagespeed and Varnish**
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/08_mod_pagespeed_Varnish_Ilya-Google.pdf>`_ `(Video) <https://www.youtube.com/watch?v=nvhobfaMDF0&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=8>`_ (35 min)
+
+	by Ilya Grigorik, Google
+
+ - **Holiday Extras: Who are we, what do we do and why/how we Varnish**
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/10_Varnish_Presentation_Holidays-Extras.pdf>`_ `(Video) <https://www.youtube.com/watch?v=VFewu2QqyGE&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=9>`_ (25 min)
+
+	by Mark Fermor, Holiday Extras
+
+-  **15.30 - Coffee break and Mingling**
+
+-  **15.45 - Presentations continued (30 min each)**
+
+-  **Varnish Release Status**
+	`(PDF) <https://www.varnish-cache.org/sites/default/files/11_VUG6%20-%20Release%20status_Tollef.pdf>`_ `(Video) <https://www.youtube.com/watch?v=9ZPyofwy4-o&list=PLZr7OWfYMtbHOHJxO4fW-NBe7abCBrMPi&index=10>`_  (15min)
+
+  	by Tollef Fog Heen, Release Manager, Varnish Software
+
+-  **16.15** - **Rounding Up VUG6**
+	by Rubén Romero, Varnish Software
+
+-  **16.30 - Varnish Mingling (Reception Room)**
+	Sponsored Beer by BBC and T-shirts by Varnish Software
+
+-  **17.00 - We leave the BBC Media Centre**
+
+**Night Out @ Wood Lane (Self-Covered)**
+
+-  **17.15 - Food&Beer** 
+
+	@ `The Defector's Weld <http://defectors-weld.com/>`_
+
+-  `Contact/Map <http://defectors-weld.com/contact/>`_ & `Menu <http://defectors-weld.com/menus/>`_
+    	
+	Just 10 minutes away by walking
+
+**20ish - AfterParty**
+
+-  We might join forces with the **WebPerfDays, UK Scale Camp** people or just continue the night in **Central London**
+
+-  **Or, ...sleep... is always an option.**
+
+
+**Developer Day @ Paddington**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Saturday, October 6th, 2012
+
+Fully booked (20 participants)
+
+`Notes from the meeting <a href="https://docs.google.com/a/varnish-software.com/spreadsheet/ccc?key=0Apb8MyYPKVqZdDlNTHl2dExMRllrSV9HUnBLdkxwb3c#gid=0">`_
+
+**Goodies**
+
+-  Bishops Room from 9.00 to 18.00
+-  Screen, LCD projector, 2 flipcharts stationery and still
+-  WiFi for every delegate
+-  Sparkling water
+-  3 coffee breaks with refreshments, fruits and juices and cakes throughout the day
+-  3 course buffet lunch in the restaurant or hot and cold working lunc
+
+**Agenda**
+
+-  **10.00 - boot**
+
+   -  Welcome and Introductions
+   -  Topic Discussions
+
+-  **13.00 - Lunch**
+
+   -  Topic Discussions
+
+-  **17.00 - Round-up**
+
+**Topics:**
+
+Topics that have a person-in-charge:
+
+-  **Why HTTP/2.0 is hard**
+	by Poul-Henning Kamp
+
+-  **Packaging VMODs How-To (Varnish 3.1)**
+	by Tollef Fog Heen
+
+-  **Persistent Storage - Status**
+	by Martin Blix Grydeland
+
+-  **Varnish 3.1 - Status Discussion**
+	by Tollef Fog Heen
+
+-  **Body Access in VCL**
+   -  **Mangling <body> content (Mod\_PageSpeed)**
+	by Google
+
+   -  **Request Body Access (Varnish Firewall / Security.VCL project)**
+	by Kacper Wysocki
+
+-  **Backends as first class objects in Varnish**
+
+   -  **Adding Backends on the Fly (aka dynamically)**
+	by Poul-Henning Kamp
+
+   -  **Moving Directors to VMODs**
+	by Poul-Henning Kamp
+
+-  **Improving the Varnish Docs**
+	by Andreas Plesner Jacobsen
+
+**Additional Topics:**
+
+These topics need a driver during the meeting:
+
+-  General housekeeping:Trac, syncing internal Varnish Software "work items" with Trac/community
+-  Varnish with no C compiler available:In environments which do not allow compilers in production systems
+-  PROXY protocol support:Coming?
+-  External SSL Termination support:How could we go about this?
+
+*The order of topic discussions is subject to change.*
+
+
+
+General Information
+~~~~~~~~~~~~~~~~~~~
+
+The meeting goes over two days, one for all users of Varnish and one day for the developers to meet and make plans for future of the software.
+
+**Travel & Accommodation:**
+
+**Check** `Hotels.com <http://www.hotels.com>`_ and see `this link <http://www.tfl.gov.uk/>`_ for transport information.
+
+The Varnish Project crew stays in `The Shaftesbury Premier London Paddington <http://www.tripadvisor.co.uk/Hotel_Review-g186338-d735547-Reviews-Shaftesbury_Premier_Hotel_London_Paddington-London_England.html>`_.
+
+**Registration:** 
+
+The meeting is free of charge, but it requires registration, which is now closed.
+
+----------------
+Varnish User Day
+----------------
+During Varnish User Day users can share their experiences with other users in the community and voice their current and future needs to the bydevelopment team. As you may have experienced, Varnish solves many challenges in the web today and will help you solving problems in the future. Obviously, this is something members of our community would like to know more about, `as previous meetings have shown <https://www.varnish-cache.org/trac/wiki/VUG>`_. 
+
+So yes, this meeting will have presentations and even slides. We encourage users of our software to share and present their experience and talk about what they do with Varnish and what challenges it helps you solve. 
+
+We look forward for it to be an useful in-depth meeting about Varnish, most likely topped off with some cold beer at the end of the day!
+
+-------------------
+Core Developer Day
+-------------------
+
+The developer group of Varnish Cache and Varnish modules aka VMODs will gather to discuss and shape the future of the forthcoming 3.1 and 4.0 releases. This meeting is highly technical and kind of boring for others than the hardcore C-developing hackers of Varnish. The Dev Day is for Developers only.
+
+-------------------------
+**Attendee Registration**
+-------------------------
+**Registration is now closed.** 
+
+If you want to be on the waiting list for any of the activities (User Day, Dinner, Dev Day) send an email to `ruben@varnish-software.com <mailto:ruben@varnish-software.com>`_.
+
+-----------------------
+Registered Participants
+-----------------------
+
++-------------------------------+------------------+----------------+--------------+---------------+
+| **Name**                      | **(IRC-)nick**   | **User Day**   | **Dinner**   | **Dev Day**   |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Rogier Mulhuijzen             | DocWilco         | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Marcus Bergo                  | mbergo           | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Artur Bergman                 | sky              | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Tom Yandell                   | TomY             | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Jonathan Huot                 |                  | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Vincent Bontoux               |                  | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Barry Tomlinson               |                  | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Marty Hsieh                   | marty            | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Ulises Vitulli                | dererk           | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Stig Sandbeck Mathisen        | ssm              | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Andreas Plesner Jacobsen      | scoof            | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Hauke Lampe                   | lampe            | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Alistair Stead                |                  | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Tollef Fog Heen               | tfheen           | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Martin Blix Grydeland         | martin           | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Poul-Henning Kamp             | phk              | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Breger Ilia                   |                  | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Geoff Simmons                 | geoff            | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Nils Goroll                   | slink            | X              | X            | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Ronan Kerambrun               | nan0r            | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Christophe Gasmi              |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Aaron de Souza                |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Jonathan Matthews             | jpluscplusm      | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Squeeks                       |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Federico Schwindt             | fgsch            | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Felix De Vliegher             | felixdv          | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Christian Elmerot             | Chreo            | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Simon Vikström                |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Kristian Grønfeldt Sørensen   | kriller          | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Paul Krischer                 | SqyD             | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Faidon Liambotis              | paravoid         | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Robert Shilston               |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Guido Bakker                  | guidob           | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Audun Ytterdal                | ay/auduny        | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Stein Ove Rosseland           |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Roy Hvaara                    | royh             | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Nirav Patel                   |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Jaco Engelbrecht              | bje              | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Gordon Watson                 |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Ross Heritage                 |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Konstantinos Drongos          |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Yves Hwang                    | yves             | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Morten Zetlitz                |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Hrafnhildur Smaradottir       |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Stein Halvorsen               | Stein            | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Graham Lyons                  | grahamlyons      | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Craig Taylor                  |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Mialon Pierre-Gilles          | pierre-gilles    | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Graham Moore                  |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Patrick McAndrew              |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| mat rowlands                  | mat pod          | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Tomoyuki Sakurai              | @trombik         | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Tomek Klas                    |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Luke Blaney                   |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Louis McCormack               |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Martin Bianco                 |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Arnold Slootweg               |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Rubén Romero                  |                  | X              | X            |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Agustinus Kastanya            | agus             | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Mark Fermor                   |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Lenora Crow                   | ponygirl         | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Suzana Moreschi               |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Thijs Feryn                   |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Angela Pelant                 |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Mario Carvalho                | Mario Carvalho   | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Rob Whitby                    |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Ilya Grigorik                 | igrigorik        | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Julian Browne                 |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Alistair Wooldrige            |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Marcus Vinicius Jorge         |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Nicholas Humfrey              | njh              | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Dariush Marsh-Mossadeghi      |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Roland Kool                   |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Vincent van Adrighem          |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Erol Ziya                     |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Rob Baines                    |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Richard Close                 |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| David Vogel                   |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Graham Hinchly                |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Raffael Carvalho              | ffaelcdec        | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Scott Donaldson               |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Jonathan Wong                 |                  | X              |              |               |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Bjoern A. Zeeb                | battlez          |                |              | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| Kacper Wysocki                | kwy              |                |              | X             |
++-------------------------------+------------------+----------------+--------------+---------------+
+| **Name**                      | **(IRC-)nick**   | **User Day**   | **Dinner**   | **Dev Day**   |
++-------------------------------+------------------+----------------+--------------+---------------+
+
