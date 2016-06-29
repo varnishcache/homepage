@@ -2,30 +2,30 @@
 <hr />
 <ul>
     <li class="toctree-l1">
-	<a href="/news/index.html">News</a>
+	<a href="{{ pathto("news/index") }}">News</a>
     </li>
     <li class="toctree-l1">
-	<a href="/releases/index.html">Download</a>
+	<a href="{{ pathto("releases/index") }}">Download</a>
     </li>
     <li class="toctree-l1">
-	<a href="/vmods/index.html">VMODS</a> &amp;
-	<a href="/extras/index.html">Extras</a>
+	<a href="{{ pathto("vmods/index") }}">VMODS</a> &amp;
+	<a href="{{ pathto("extras/index") }}">Extras</a>
     </li>
-    <li class="toctree-l1"><a href="/support/index.html">Get help</a></li>
-    <li class="toctree-l1"><a href="/faq/index.html">FAQ</a></li>
+    <li class="toctree-l1"><a href="{{ pathto("support/index")}}">Get help</a></li>
+    <li class="toctree-l1"><a href="{{ pathto("faq/index") }}">FAQ</a></li>
     <li class="toctree-l1">
 	<a href="https://www.varnish-cache.org/lists/mailman/listinfo">Mailing Lists</a>
     </li>
     <li class="toctree-l1">
-	<a href="/security/index.html">Security</a>
+	<a href="{{ pathto("security/index") }}">Security</a>
     </li>
-    <li class="toctree-l1"><a href="/docs/index.html">Documentation</a></li>
+    <li class="toctree-l1"><a href="{{ pathto("docs/index") }}">Documentation</a></li>
     <li class="toctree-l2">
-	<a href="/docs/trunk">trunk(5.0)</a>
-        | <a href="/docs/4.1">4.1</a>
-        | <a href="/docs/4.0">4.0</a>
+	<a href="{{ pathto("docs/trunk") }}">trunk(5.0)</a>
+        | <a href="{{ pathto("docs/4.1") }}">4.1</a>
+        | <a href="{{ pathto("docs/4.0") }}">4.0</a>
     </li>
-    <li class="toctree-l1"><a href="https://www.varnish-software.com/book/">Varnish Book (PDF)</a></li>	
+    <li class="toctree-l1"><a href="https://www.varnish-software.com/book/">Varnish Book (PDF)</a></li>
     <li class="toctree-l2">
 	<a href="http://book.varnish-software.com/4.0/">4.0</a>
         | <a href="http://book.varnish-software.com/3.0/">3.0</a>
@@ -34,16 +34,16 @@
 	<a href="https://github.com/varnishcache/varnish-cache">Github project</a>
     </li>
     <li class="toctree-l1">
-	<a href="/tips/index.html">Tips and tricks</a>
+	<a href="{{ pathto("tips/index") }}">Tips and tricks</a>
     </li>
     <li class="toctree-l1">
-	<a href="/business/index.html">Varnish Business</a>
+	<a href="{{ pathto("business/index") }}">Varnish Business</a>
     </li>
 </ul>
 <h3>Hosted by:</h3>
 <hr />
-<a href="https://www.rootbsd.net"><img src="/_static/RootBSD.png"></a>
-<a href="https://www.freebsd.org"><img src="/_static/FreeBSD.gif"></a>
+<a href="https://www.rootbsd.net"><img src="{{ pathto("_static/RootBSD.png", 1) }}"></a>
+<a href="https://www.freebsd.org"><img src="{{ pathto("_static/FreeBSD.gif", 1) }}"></a>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
