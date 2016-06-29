@@ -8,6 +8,12 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-06-28
+~~~~~~~~~~
+Varnish Cache 4.1.3-beta2 is out. Most likely this will become 4.1.3 final.
+Source and packages in :ref:`Releases`. /Lasse
+
+
 2016-06-17
 ~~~~~~~~~~
 
