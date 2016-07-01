@@ -1,0 +1,141 @@
+.. _20131128_vug8_berlin:
+
+Varnish User Group Meeting 8 (VUG8 Berlin)
+------------------------------------------
+
+|Axel Springer HQ|
+
+`Varnish User Day is over now! <http://vug8.eventbrite.com>`_
+--------------------------------------------------------------
+
+**Thanks to   `Axel Springer <http://www.axelspringer.de/en/>`_, `Fastly <http://www.fastly.com>`_,   `Uplex <http://www.uplex.de>`_ and `Varnish Software <https://www.varnish-software.com/>`_ we welcome you  to VUG8, the Eight Varnish User Group Meeting will take place on November 27th to 29th, 2013 in Berlin, Germany.**  **`See this map <https://www.google.com/maps?sll=52.50759529999808%2C13.391330373074682&sspn=0.012915802928127638%2C0.04119666216337196&saddr=Hotel+Gat+Point+Charlie%2C+Mauerstra%C3%9Fe+81-82%2C+10117+Berlin%2C+Germany&t=m&output=classic&daddr=relexa+hotel+Stuttgarter+Hof%2C+Anhalter+Stra%C3%9Fe+8%2C+10963+Berlin%2C+Germany+to%3AAxel+Springer+AG%2C+Axel-Springer-Stra%C3%9Fe+65%2C+10969+Berlin%2C+Germany&dirflg=w>`_** for the hotel where the development team is staying (**Gatpoint Charlie**) and the locations (**Relexa Hotel** and **Axel Springer HQ**) we will be at during the event.  If you have any VUG8 related proposal, inquiry, would like to hold a presentation or any question related to the event (**i.e. need to come but do not have a ticket?**) please send an email to   `ruben@varnish-software.com <mailto:ruben@varnish-software.com>`_.   
+
+------------------------------------------------
+Developer Meeting @ Relexa Hotel Stuttgarter Hof
+------------------------------------------------
+
+**Wednesday, November 27th 2013**
+
+**Kindly sponsored by:**
+
++--------------------------------------+--------------------------------------+
+| **|Fastly Inc.|**                    | **|Varnish Software|**               |
+| ~~~~~~~~~~~~~~~~~                    | ~~~~~~~~~~~~~~~~~~~~~~               |                                                                           
++--------------------------------------+--------------------------------------+
+
+-  **Venue: **`relexa hotel Stuttgarter Hof Berlin, Anhalter Straße    8, 10963 Berlin,    Germany <https://www.google.com/maps/preview#!q=relexa+hotel+Stuttgarter+Hof+Berlin%2C+Anhalter+Stra%C3%9Fe+8%2C+10963+Berlin%2C+Germany&data=!4m15!1m14!4m8!1m3!1d33586856!2d-95.677068!3d37.0625!3m2!1i1920!2i989!4f13.1!10b1!26m3!1e12!1e13!1e3>`_
+-  **Who: Invite only!** **For**  **C developers** working on the **Varnish core, tools & modules (VMODs)**.
+-  **Agenda:** `See the    wiki <https://www.varnish-cache.org/trac/wiki/VDD13Q4>`_ for additional information and registration. `Notes from the meeting <https://www.varnish-cache.org/trac/wiki/VDD13Q4>`_.
+
+**This is a HIGHLY technical meeting! **
+
+-----------------------------------
+Varnish User Day @ Axel Springer HQ
+-----------------------------------
+
+**Thursday, November 28th 2013**
+
+**Kindly sponsored by:**
+
++--------------------+--------------------+--------------------+--------------------+
+| |Axel Springer|    | **|Fastly Inc.|**  | |Uplex - Understan | **|Varnish Softwar |
+| ~~~~~~~~~~~~~~~    | ~~~~~~~~~~~~~~~~~  | ding Complex Syste | e|**               |
+|                    |                    | ms|                | ~~~~~~~~~~~~~~~~~~ |
+|                    |                    | ~~~~~~~~~~~~~~~~~~ | ~~~~               |
+|                    |                    | ~~~~~~~~~~~~~~~~~~ |                    |
+|                    |                    | ~~~                |                    |                                                                                   
++--------------------+--------------------+--------------------+--------------------+
+
+-  **Venue:** `Axel Springer AG,  <https://www.google.com/maps/preview#!q=Axel+Springer&data=!1m4!1m3!1d6286!2d13.3978809!3d52.5075843!4m15!2m14!1m13!1s0x0%3A0x1b4dccf25088375e!3m8!1m3!1d393!2d13.3978809!3d52.5075843!3m2!1i1855!2i994!4f13.1!4m2!3d52.5075333!4d13.3982107>`_ 
+
+- `Room “Ernst Cramer”, 19th Floor. Axel-Springer-Str. 65, 10888 Berlin, Germany. <https://www.google.com/maps/preview#!q=Axel+Springer&data=!1m4!1m3!1d6286!2d13.3978809!3d52.5075843!4m15!2m14!1m13!1s0x0%3A0x1b4dccf25088375e!3m8!1m3!1d393!2d13.3978809!3d52.5075843!3m2!1i1855!2i994!4f13.1!4m2!3d52.5075333!4d13.3982107>`_**
+-  **Who:** All **Varnish Cache Users, Developers, Administrators, Web Architects** and other techies wanting to know more about the software and how it is used by others.
+-  **Booking:** It's free! `Get your ticket on Eventbrite now <http://vug8.eventbrite.com>`_!
+-  **Agenda for the day:**
+
+
++-------------+------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| **Time**    | **Presented by**                                           | **Topic and duration(TalkQ&Atime)**    	                                                | +---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| **08.45**   | **Registration & Morning Coffee - 30 min **                | **Get your badge then grab coffee and biscuits**
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 09.15       | Hildur Smaradottir, Varnish Software                       | Introduction & Agenda for the Day (5 min)   
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 09.20       | Michael Oertel, CTO, AS Ideas & Harald Brückner, Bild.de   | "Welcome Varnishers to Axel Springer!" (10 min)  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **09.30**   | Poul-Henning Kamp, Varnish Chief Architect                 | **Keynote: ""V4: what we did, why we did it**  **" (`PDF <https://www.varnish-cache.org/sites/default/files/01-VUG8-Keynote-phk-Varnish4-what-why_0.pdf>`_) (`Video <http://www.youtube.com/watch?v=kpJaZFzBFf0#t=0>`_)** (60 min) 
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 10.30       | Geoff Simmons, Uplex.de                                    | "Yet Another Log Reader, and Yet Another..." **(`PDF <https://www.varnish-cache.org/sites/default/files/02-VUG8-vug8_yalt_0.pdf>`_) (`Video <https://www.youtube.com/watch?v=kpJaZFzBFf0#t=2421>`_) **  (25 min) 
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 10.55       | Marco Hutzsch, Otto.de                                     | "Switching Lights On: A Backend Health Check Tool" **(`PDF <https://www.varnish-cache.org/sites/default/files/03-VUG8-varnish_status_0.pdf>`_) (`Video <https://www.youtube.com/watch?v=kpJaZFzBFf0#t=4122>`_)** (20 min) 
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **11.15**   | **Coffee Break - 30 min**                                  | **Get some coffee and do some mingling** 
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 11.45       | Luke Blaney, Financial Times                               | "One VCL to rule all our environments" **(`HTML <http://lucas42.github.io/talk-varnishenvironments/#/>`_) (`Video <https://www.youtube.com/watch?v=kpJaZFzBFf0#t=7957>`_) **  (25 min)  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 12.10       | Martin Blix Grydeland, Varnish Software                    | "Logging in Varnish 4" **(`PDF <https://www.varnish-cache.org/sites/default/files/05-VUG8-Logging%20in%20Varnish%204_0.pdf>`_) (`Video <https://www.youtube.com/watch?v=kpJaZFzBFf0#t=9120>`_) **  (20 min)           
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **12.30**   | **Lunch Break - 1 hour**                                   | **Sponsored by Axel Springer**
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 13.30       | Rogier Mulhuijzen, Fastly                                  | "Streaming Media and API Acceleration @ Fastly" **(`PDF <https://www.varnish-cache.org/sites/default/files/06-VUG8-Streaming%20Media%20and%20API%20Acceleration%20%40%20Fastly_0.pdf>`_) (`Part1 <https://www.youtube.com/watch?v=kpJaZFzBFf0#t=14340>`_ `Part2 <http://www.youtube.com/watch?v=isnJoRY7150#t=0>`_) **  (30 min)  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 14.00       | Dan Beldiman, Netcentric                                   | "Enhancing Adobe CQ5 with Varnish" **(`PDF <https://www.varnish-cache.org/sites/default/files/07-VUG8-Enhancing%20AEM%20with%20Varnish.pdf>`_) (`Video <http://www.youtube.com/watch?v=isnJoRY7150#t=634>`_) **  (30 min)          
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 14.30       | Maryam Mehrabian, Varnish Software                         | "Varnish Plus Tools" **(HTML) (`Video <http://www.youtube.com/watch?v=isnJoRY7150#t=1387>`_) **  (30min)                                                          
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 15.00       | Kacper Wysocki, Redpill Linpro                             | "Can Varnish Security Firewall protect your web apps?" **(`HTML <http://u.delta9.pl/k/public/vsf/vug8.html#/>`_) (`Video <http://www.youtube.com/watch?v=isnJoRY7150#t=2176>`_)** (30min) |
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **15.30**   | **Coffee Break - 15 min**                                  | **Get some coffee and do some more mingling**  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 15.45       | Peter van der Spek, Blue Billywig                          | "Throttling on a multi-layer setup: Escenic, Video, API" **(`PDF <https://www.varnish-cache.org/sites/default/files/10-VUG8-Presentation%20VUG8.pdf>`_) (`Video <http://www.youtube.com/watch?v=isnJoRY7150#t=5513>`_)** (20 min)
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 16.05       | Nils Goroll, Uplex.de                                      | "VAuth not a Paywall @ Bild.de" **(`PDF <https://www.varnish-cache.org/sites/default/files/11-VUG8-20131125_Vauth_is_not_a_Paywall.pdf>`_) (`Video <http://www.youtube.com/watch?v=isnJoRY7150#t=7653>`_)** (20 min)        
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 16.25       | Rubén Romero, Varnish Software                             | "VUG8 Outro & Varnish 4 Release Parties! #v4rp" **(`PDF <https://www.varnish-cache.org/sites/default/files/12-VUG8-Outro-Varnish4-Parties_2013-11-26.pdf>`_) (`Video <http://www.youtube.com/watch?v=isnJoRY7150#t=9163>`_)** (5min)
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **16.30**   | **Varnish Mingling - 45 min**                              | **Grab a t-shirt, a cold beer and do some varnish-talking**  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| 17.30       | We leave Axel Springer                                     | Thank you so much Axel Springer!  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **18ish**   | **Casual Dinner&Beer/Wine**                                | **`Löwenbräu am Gendarmenmarkt GmbH <http://www.loewenbraeu-berlin.de/contact?L=en>`_** 
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| **20ish**   | **After Party**                                            | **Go for some drinks in the area 
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Or....      | Go to Sleep                                                | That is always an option  
++-------------+------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
+**Everyone is invited!**
+------------------------
+
+ 
+
+--------------
+
+Hacking & Community Day @ Relexa Hotel Stuttgarter Hof
+------------------------------------------------------
+
+Friday, November 29th 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Kindly sponsored by:**
+
++--------------------------------------+--------------------------------------+
+| **|Fastly Inc.|**                    | **|Varnish Software|**               |
+| ~~~~~~~~~~~~~~~~~                    | ~~~~~~~~~~~~~~~~~~~~~~               |                                                                
++--------------------------------------+--------------------------------------+
+
+-  **Venue: **  **`relexa hotel Stuttgarter Hof Berlin, Anhalter Straße
+   8, 10963 Berlin,
+   Germany <https://www.google.com/maps/preview#!q=relexa+hotel+Stuttgarter+Hof+Berlin%2C+Anhalter+Stra%C3%9Fe+8%2C+10963+Berlin%2C+Germany&data=!4m15!1m14!4m8!1m3!1d33586856!2d-95.677068!3d37.0625!3m2!1i1920!2i989!4f13.1!10b1!26m3!1e12!1e13!1e3>`_**
+-  **Who:** Developers, Coders, Users and just about anyone interested
+   in contributing to Varnish in any way.
+-  **Agenda:** The plan is to have sessions to improve documentation,
+   plan the Varnish 4.0 release parties around the world, share and
+   exchange experiences with VCL, ask general questions about Varnish
+   and anything else you can think of.
+-  **Registration:** please add yourself to the `meeting's wiki
+   page <https://www.varnish-cache.org/trac/wiki/VCH13Q4>`_ or send an
+   email to `ruben@varnish-software-com <mailto:ruben@varnish-software.com>`_.
+
+**Everyone is Invited!**
+------------------------
+

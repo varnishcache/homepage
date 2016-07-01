@@ -1,0 +1,243 @@
+.. _20120322_website:
+
+Varnish User Group Meeting 5 (VUG5 Paris)
+-----------------------------------------
+
+**Thank you for a great VUG5 and your feedback! See the \
+`event report here`_.**
+
+.. _event report here: https://www.varnish-cache.org/vug5-report
+
+Event Description and Conference Program/Slides
+-----------------------------------------------
+
+**Sponsored by** \ 
+`Capgemini <http://www.fr.capgemini.com/>`_ 
+and `Varnish Software <https://www.varnish-software.com>`_ , the Fifth Varnish User
+Group meeting was held in Paris.** The meeting went over two days: A
+conference style \ **User Day** and an unconference toned \ **Developer Day**.
+ 
+
+
+.. _Varnish Software: 
+
+**Thank you everyone for coming! **\ We had in total around \ **60 users
+on day 1 and**\ ** 30 developers on day 2.**
+
++--------------------------------------+--------------------------------------+
+| **Varnish User Day @ La Défense**    | **Varnish Developer Day @ Suresnes** |
+|                                      |                                      |
+| Thursday, March 22nd, 2012           | Friday, March 23rd, 2012             |
++======================================+======================================+
+| **Where: Auditorium Tour Europlaza** | **Where: Capgemini Technology        |
+|  (La Défense 4), 20 Rue              | Services**, 7 Rue Frédéric Clavel,   |
+| André Prothin, 92400 Courbevoie,     | 92150 Suresnes, France.              |
+| France.                              | **Getting there:** `Access Map       |
+| **Getting there:** `Access Map       | (transportation, GPS) here. Do       |
+| (transport, GPS location)            | please use                           |
+| here <https://www.varnish-cache.org/ | it! <https://www.varnish-cache.org/s |
+| sites/default/files/Europlaza_AccesM | ites/default/files/Seine-Etoile_Acce |
+| ap.pdf>`_ and `@GoogleMaps <http://  | ss_Map_0.pdf>`_ /                    |
+| www.google.fr/maps?f=q&source=s_q&hl | **Who:** Tailored **only for C       |
+| =en&geocode=&q=20+Rue+Andr%C3%A9+Pro | developers** working on the          |
+| thin&sll=48.892694,2.359919&sspn=0.0 | **Varnish Cache core, Varnish Tools, |
+| 10115,0.025427&ie=UTF8&hq=&hnear=20+ | Varnish Modules (aka VMODs)** or any |
+| Avenue+Andr%C3%A9+Prothin,+92400+Cou | software related to these.           |
+| rbevoie,+Hauts-de-Seine,+Ile-de-Fran | **Remember this is a HIGHLY          |
+| ce&ll=48.891379,2.242659&spn=0.00505 | technical meeting.**                 |
+| 8,0.012714&t=h&z=17>`_.\             |                                      |
+| `<http://www.defense-92.fr/photos/pl |                                      |
+| anpieton.png>`_ \                    |                                      |
+| **Who:**                             |                                      |
+| All **Varnish Cache Users,           |                                      |
+| Developers, Administrators, Web      |                                      |
+| Architects** and other techies       |                                      |
+| wanting to know more about the       |                                      |
+| software and how it is used by       |                                      |
+| others.                              |                                      |
++--------------------------------------+--------------------------------------+
+| **Agenda**                           | **Agenda**                           |
+|                                      |                                      |
+| -  **09.00 - Registration &          | Presentations and Topics to be       |
+|    Welcome**                         | discussed:                           |
+|                                      |                                      |
+|    -  **Breakfast served**           | -  **09.00 - boot**                  |
+|                                      |                                      |
+| - **09.15 - Agenda & Introductions** | -  **Breakfast served**              |
+|                                      |                                      |
+|                                      | -  Welcome and Introduction Round    |
+| - **`Intro & Varnish Status Web      | -  Varnish Governing Board status by |
+|       GUI                            |    Kristian                          |
+|        <https://www.varnish-cache.or | -  Reiteration of "Varnish until     |
+| g/sites/default/files/VUG5%20-%20Int |    2020" - development               |
+| roductions_0.pdf>`__**\ by           | -  SPDY / HTTP 2.0 - what is going   |
+|       Rubén Romero                   |    on                                |
+|                                      | -  Dynamic Backends (defined by DNS  |
+| -  **09.30** - Keynote (~30 min +    |    TTL or record change)             |
+|    Q&A)                              | -  **`Conditional Backend            |
+|                                      |    Requests <https://www.varnish-cac |
+|    -  **`Varnish until               | he.org/sites/default/files/VUG5_IMS_ |
+|       2020 <https://www.varnish-cach | uplex.pdf>`__**                      |
+| e.org/sites/default/files/VUG5-Keyno |    (aka GET If-Modified-Since) and   |
+| te_Varnish_2020-PHK.pdf>`__          |    vcl\_stale(), vcl\_refresh()      |
+|       **\ by Poul-Henning Kamp       |    by Uplex                          |
+|                                      | -  ****12.00 - Lunch****             |
+| -  **10.15** - Presentations (15 &   |                                      |
+|    30 min)                           | -  ****At some restaurant in         |
+|                                      |       Suresnes**** (we leave         |
+|    -  **`The Varnish                 |       together and come back         |
+|       Book <http://kly.no/presentati |       together)                      |
+| ons/2012_03_22_Varnish_Book.pdf>`_** |                                      |
+|                                      | -  hit\_for\_pass usage in           |
+|       by Kristian Lyngstøl           |    default.vcl in relation to status |
+|    -  **`Distilled Varnish and       |    codes that varnish gives a -1 TTL |
+|       Escenic                        |    by default. (503, 500, 401, 403,  |
+|       experience <https://www.varnis |    etc.)                             |
+| h-cache.org/sites/default/files/VUG5 | -  Streaming Pass&Fetch On by        |
+| -Varnish_Escenic-%20RZ.pdf>`_**      |    deFault                           |
+|       by Richard Zuidhof             | -  Persistent Storage - que vadis    |
+|                                      | -  Multiple Storage Tiers (and       |
+| -  **11.00 -**\ ** Coffee break**    |    priority)                         |
+| -  ****11.15** - Presentations       | -  VMOD API and Packaging            |
+|    continued (15-30 min each)**      |                                      |
+|                                      |    -  Experiences so far             |
+|    -  ****`Mobile Device Detection   |    -  Whats in store for VMODs       |
+|       in                             |                                      |
+|       Varnish <https://www.varnish-c | -  X-Forwarded-For problems with IP  |
+| ache.org/sites/default/files/VUG5-Mo |    (from the client to server)       |
+| bile_Device_Detection_Varnish-Lasse. | -  ******15.30 - Coffe & Snacks      |
+| pdf>`__                              |    Break******                       |
+|       **\ by Lasse Karstensen**      | -  How should Etags+Gzip work (see   |
+|    -  ****`Avoiding Configuration    |    #940)                             |
+|       Pitfalls <https://www.varnish- | -  SSL Support? (PROXY support / SSL |
+| cache.org/sites/default/files/VUG5-V |    Termination)                      |
+| arnish_common_configuration_mistakes | -  Better Documentation (specially   |
+| -AndreasP.pdf>`__                    |    for Web Developers)               |
+|       **\ by Andreas Plesner**       | -  Dynamic Counters                  |
+|    -  **`Dynamic E-Commerce Site     |                                      |
+|       acceleration <https://www.varn | **The order of topic discussions is  |
+| ish-cache.org/sites/default/files/VU | subject to change.**                 |
+| G5-E-Commerce_Acceleration-MdM-LT.pd |                                      |
+| f>`__                                |                                      |
+|       **\ by Lionel Touati           |                                      |
+|                                      |                                      |
+| -  **12.30 - Lunch break             |                                      |
+|    (Self-covered)**                  |                                      |
+|                                      |                                      |
+|    -  Pick your own restaurant       |                                      |
+|       around La Défense              |                                      |
+|                                      |                                      |
+| -  **14.30** - Presentations         |                                      |
+|    continued (30 min each)           |                                      |
+|                                      |                                      |
+|    -  **`Securing your web stack     |                                      |
+|       with                           |                                      |
+|       Varnish <http://www.delta9.pl/ |                                      |
+| public/varnishsec/>`__               |                                      |
+|       **\ by Kacper Wysocki          |                                      |
+|    -  **`A VMOD                      |                                      |
+|       walk-through <http://kly.no/pr |                                      |
+| esentations/2012_03_22_Varnish_Cache |                                      |
+| _Vmods.pdf>`__                       |                                      |
+|       **\ by Kristian Lyngstøl       |                                      |
+|                                      |                                      |
+| -  **15.30 - Coffee break and        |                                      |
+|    mingling**                        |                                      |
+| -  ****15.45** - Presentations       |                                      |
+|    continued (30 & 15 min)**         |                                      |
+|                                      |                                      |
+|    -  ****`Varnish in the Financial  |                                      |
+|       Sector <https://www.varnish-ca |                                      |
+| che.org/sites/default/files/VUG5-Fin |                                      |
+| ancial_Sector_ESI_Varnish-FS.pdf>`__ |                                      |
+| **                                   |                                      |
+|       b**\ y Federico Schwindt       |                                      |
+|    -  **`Varnish @ Opera             |                                      |
+|       (G** ** <http://www.slideshare |                                      |
+| .net/cstrep/vug5-varnish-at-opera-so |                                      |
+| ftware/>`__\ **`eoIP,                |                                      |
+|       Headers,                       |                                      |
+|       2.1>3.0 <http://www.slideshare |                                      |
+| .net/cstrep/vug5-varnish-at-opera-so |                                      |
+| ftware/>`__)****                     |                                      |
+|       by Cosimo                      |                                      |
+|       Streppone\ ****** ******       |                                      |
+|    -  ******`Upcoming Features in    |                                      |
+|       Varnish                        |                                      |
+|       Cache <https://www.varnish-cac |                                      |
+| he.org/sites/default/files/VUG5_Varn |                                      |
+| ish-Future-TollefFH.pdf>`__**        |                                      |
+|       by Tollef Fog Heen****         |                                      |
+|                                      |                                      |
+| -  **16.30** - **Rounding            |                                      |
+|    Up, **\ **VUG6 **                 |                                      |
+|                                      |                                      |
+|    -  **by Rubén Romero**            |                                      |
+|                                      |                                      |
+| -  **16.45 - We leave La Défense**   |                                      |
+|                                      |                                      |
+| **Night Out **\ **@ Opéra - Paris    |                                      |
+| 09 **\ **(Self-Covered)**            |                                      |
+|                                      |                                      |
+| -  **19.30 - Beer @ **\ **`Hotel de  |                                      |
+|    L'Ocean <http://www.paris-hotel-o |                                      |
+| cean.com/pages/situation.html>`__**  |                                      |
+|                                      |                                      |
+|    -  Meet up at our lobby for a     |                                      |
+|       beer                           |                                      |
+|                                      |                                      |
+| -  **20.00 - Dinner at \ `Le         |                                      |
+|    Sâotico <http://www.saotico.com/c |                                      |
+| ontacts.asp>`__**                    |                                      |
+|                                      |                                      |
+|    -  Reserved for up to 60 people   |                                      |
+|       (43 confirmed)                 |                                      |
+|                                      |                                      |
+| -  **23.30 - Move over to a Bar,     |                                      |
+|    or:**                             |                                      |
+| -  **...Sleep...**                   |                                      |
++--------------------------------------+--------------------------------------+
+
+
+----------------
+
+VUG5 Description
+----------------
+
+| **Travel &
+Accommodation: **\ Check \ `Hotels.com <http://www.hotels.com>`__ and
+see \ `this
+link <https://www.varnish-cache.org/trac/wiki/VUG5#GeneralInformation>`__ for
+transport help.
+| **Registration:** The meeting is free of charge, but it requires
+registration, which is now closed.
+
+Varnish User Day
+~~~~~~~~~~~~~~~~
+
+The idea of the User Day is for users to share their experiences with
+the community and voice their current and future needs to the
+development team. As you may have experienced, Varnish solves many
+challenges in the web today and will help you solving problems in the
+future. Obviously, this is something members of our community would like
+to know more about. So yes, this meeting will have presentations and
+even slides, but we look forward for it to be an useful in-depth meeting
+about Varnish, most likely topped off with some cold beer at the end of
+the day.
+
+Varnish Dev Day
+~~~~~~~~~~~~~~~
+
+After gathering feedback and having discussed with the community, **the
+developer group of Varnish Cache and Varnish modules aka VMODs** will
+gather to discuss and shape the future of the forthcoming 3.1 and 4.0
+releases. **As this meeting can be highly technical and kind of boring
+for others than the hardcore C-developing hackers of Varnish, the Dev
+Day is for Developers only.**
+
+Attendee Registration
+---------------------
+
+**If you cannot see the registration form below, it is because
+registration is now closed.**
+

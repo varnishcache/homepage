@@ -1,0 +1,201 @@
+.. _20141119_website:
+
+Varnish User Group Meeting 9 (VUG9 Barcelona)
+---------------------------------------------
+
+|image1|
+
+**We invite the Varnish Cache community to meet the developer team on Nov 19-21**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**If you come for \ `Velocity EU 2014 <http://velocityconf.com/velocityeu2014/>`__ or live nearby then c**\ **ome and join us!**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Thanks to `Dyn Inc <https://www.varnish-cache.org/dyn.com>`__,
+`Telefónica <http://www.telefonica.com/en/>`__ and `Varnish
+Software <https://www.varnish-software.com/>`__ we welcome you to VUG9,
+the Ninth Varnish User Group Meeting which will take place on November
+19th to 21st, 2014 in Barcelona, Spain.**
+
+Coming up: `Map for all locations <http://goo.gl/2FjLO6>`__
+(**Telefonica**, **Ignit/FabLabBCN and where the core team lives**) we
+will be at during this short week coming up.
+
+If you have any VUG9 related proposal, inquiry, would like to hold a
+presentation (**we welcome proposals for Open Spaces Slots**) or any
+question related to the event (**i.e. need to come but do not have a
+ticket or have no invitation?**) please send an email to \ `ruben
+\_at\_ varnish-software \_dot\_
+com <mailto:ruben@varnish-software.com>`__.
+
+For those of you that are in Barcelona on the evening of **Tuesday,
+November 18th (for Velocity or otherwise) you might want to join us for
+`Dyntini <http://www.eventbrite.com/e/dyntini-barcelona-tickets-14114806767>`__**.
+Dyn Inc has kidnly invited all members of the Varnish community to join.
+
+ 
+
+--------------
+
+Varnish Barcelona Meetup @ Wayra Barcelona
+------------------------------------------
+
+Wednesday, November 19th 2014
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Kindly sponsored by:**
+
++--------------------------+--------------------------+--------------------------+
+| |Wayra España - Telefóni | **|Varnish Software|**   |                          |
+| ca's Startup Accelerator | ~~~~~~~~~~~~~~~~~~~~~~   |                          |
+| |                        |                          |                          |
+| ~~~~~~~~~~~~~~~~~~~~~~~~ |                          |                          |
+| ~~~~~~~~~~~~~~~~~~~~~~~~ |                          |                          |
+| ~                        |                          |                          |
+                                                                                
++--------------------------+--------------------------+--------------------------+
+
+-  **Venue: \ `Wayra Barcelona, Plaça d'Ernest Lluch i Martin 5,
+   Barcelona <https://www.google.com/maps/place/Pla%C3%A7a+d'Ernest+Lluch+i+Martin,+5,+08019+Barcelona,+B,+Spain/@41.4120919,2.2207155,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a3570342f1b3:0x2c00c3aa0e86bf1c?hl=en>`__**\ ** **
+-  **Who:** We invite the Catalan community to meet the Varnish team and
+   help us shape the future of our software!
+-  **Agenda:** Poul-Henning Kamp, Varnish Chief Architect will have a
+   talk. Otherwise the plan is to have a session to talk about
+   documentation improvements, talk aout what features you would like to
+   see in future Varnish releases, share and exchange experiences with
+   VCL, ask general questions about Varnish and anything else you can
+   think of.
+-  **Registration:** please register on \ `meeting's page at
+   Meetup.com <http://www.meetup.com/varnishbarcelona/events/214006872/>`__ and
+   do not forget to bring ID the day of the event.
+
+**Everyone is Invited!**
+------------------------
+
+**
+**
+
+--------------
+
+**Varnish User Day** as part of **`WebPerfDays Barcelona <http://www.webperfdays.org/events/2014-barcelona/>`__**
+-----------------------------------------------------------------------------------------------------------------
+
+Thursday, November 20th 2014
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Kindly sponsored by:**
+
++--------------------------+--------------------------+--------------------------+
+| |Dyn Inc|                | **|Varnish Software|**   | |image6|                 |
+| ~~~~~~~~~                | ~~~~~~~~~~~~~~~~~~~~~~   |                          |
+                                                                                
++--------------------------+--------------------------+--------------------------+
+
+**Venue: Carrer de Pujadas, 102, 08005 Barcelona**\ ** **
+
+**Who:** All **Varnish Cache Users, Developers, Administrators, Web
+Architects** and other techies wanting to know more about the software
+and how it is used by others.
+
+**Booking:** `Get your ticket at the WebPerfDays Barcelona
+site <http://www.webperfdays.org/events/2014-barcelona/register.html>`__!
+
+**Agenda for the day:**
+
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time**    | **Activity/Speakers**                                     | **Topic and duration (Talk + Q&A time)**                                                                                                        |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **09.00**   | **Registration & Sign-In - 45 min                         | **Get your badge and get ready for the day!**\ **                                                                                               |
+|             | **                                                        | **                                                                                                                                              |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 09.45       | Welcome & Introduction                                    | Introduction & Agenda for the Day (15 min)                                                                                                      |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 10.00       | Phil Stanhope, Dyn Inc                                    | "Detecting Internet Route Hijacking on a Global Basis" (30 min)                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **10.30**   | **Poul-Henning Kamp, Chief Architect, Varnish Project**   | **Keynote: "**\ **HTTP/2.0 and Performance" **\ (30 min)                                                                                        |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 11.00       | Almudena Vivanco, Telefónica I+D                          | "Guide to survive a World Wide Event" (30 min)                                                                                                  |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **11.30**   | **Break - 15 min**                                        | **Get some coffee and do some mingling**                                                                                                        |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 11.45       | Christian Pino Tossi, Akamai Technologies                 | Turning Akamai Network into the biggest NoSQL data store (30 min)                                                                               |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **12.15**   | **Open Spaces Introduction**                              | **`Introduction to the principles and format of how this works <http://www.webperfdays.org/events/2014-barcelona/format.html>`__ **\ (30 min)   |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 12.45       | Open Space Slot 1                                         | Proposed: "What do you want to see in afuture Varnish release"** **\ (15 min)                                                                   |
+|             |  - 3 spaces available                                     |                                                                                                                                                 |
+|             |  - Varnish Core Team                                      |                                                                                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **13.00**   | **Lunch Break - 1 hour**                                  | **Get some food, hydrate and do some mingling**                                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **14.00**   | **Ignite Session**                                        | **5 minutes attention + 20 auto-advancing slides **\ (45 min)                                                                                   |
+|             |  - Up to 5 volunteers can have a session!                 |                                                                                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 14.45       | Open Space Slot 2                                         | Proposed: "Get to Know Varnish Plus" (45 min)                                                                                                   |
+|             |  - 3 spaces available                                     |                                                                                                                                                 |
+|             |  - Rubén Romero, Varnish Software                         |                                                                                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 15.30       | Open Space Slot 3                                         | Proposed: "Ask anything about VCL" (45 min)                                                                                                     |
+|             |  - 3 spaces available                                     |                                                                                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 16.15       | **Break - 15 min**                                        | **Get some coffee and do some mingling**                                                                                                        |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 16.30       | Open Space Slot 4                                         | Proposed: "Extending Varnish with Modules" (45 min)                                                                                             |
+|             |  - 3 spaces available                                     |                                                                                                                                                 |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 17.15       | Networking & Venue Closing                                | **Do some \*Varnish\* mingling **\ (45 min)                                                                                                     |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 17.59       | We leave Ignit/FabLabBCN                                  | Thank you so much to everyone, specially organizers and sponsors!                                                                               |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **18ish**   | **Closing event (involves a brewery ++)**                 | **Sponsored by Varnish Software and Fastly**                                                                                                    |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **22ish**   | **After Party**                                           | **Go for some drinks in the area**                                                                                                              |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| Or....      | Go to Sleep                                               | That is always an option                                                                                                                        |
++-------------+-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+**Everyone can join. `Register and grab your ticket now! <http://www.webperfdays.org/events/2014-barcelona/register.html>`__**
+------------------------------------------------------------------------------------------------------------------------------
+
+**
+**
+
+--------------
+
+Core Developer Meeting @ Telefónica I+D
+---------------------------------------
+
+Friday, November 21st 2014
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Kindly sponsored by:**
+
++--------------------------------------+--------------------------------------+
+| **|Telefonica R&D|**                 | **|Varnish Software|**               |
+| ~~~~~~~~~~~~~~~~~~~~                 | ~~~~~~~~~~~~~~~~~~~~~~               |
+                                                                             
++--------------------------------------+--------------------------------------+
+
+-  **Venue: **`Telefónica I+D, Plaça d'Ernest Lluch i Martin 5,
+   Barcelona <https://www.google.com/maps/place/Pla%C3%A7a+d'Ernest+Lluch+i+Martin,+5,+08019+Barcelona,+B,+Spain/@41.4120919,2.2207155,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a3570342f1b3:0x2c00c3aa0e86bf1c?hl=en>`__** **
+-  **Who:**\ **For **\ **C developers** working on the \ **Varnish core,
+   tools & modules (VMODs)**.
+-  **Agenda:** `See the
+   wiki <https://www.varnish-cache.org/trac/wiki/VDD14Q4>`__ for
+   additional information and registration.
+
+**This is a HIGHLY technical INVITE-ONLY meeting!**
+
+--------------
+
+ 
+
+ 
+
+Picture by \ `Anyul Rivas <https://www.flickr.com/photos/anyulled/>`__.
+Adapted from the original \ `Atardecer en
+Barcelona,  <https://flic.kr/p/noZgEC>`__\ `Rambla del
+mar <https://flic.kr/p/noZgEC>`__ which is available under
+a \ `CC-BY-2.0
+license <https://creativecommons.org/licenses/by/2.0/>`__.
+
