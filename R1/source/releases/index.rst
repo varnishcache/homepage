@@ -35,7 +35,7 @@ Current and older releases
 ========================== ============ =========== ===========
 Release                    Release Date Status      Download
 ========================== ============ =========== ===========
-Varnish Cache 4.1.3        2016-07-05   Supported   `varnish-4.1.3.tar.gz`_
+:ref:`rel4.1.3`            2016-07-05   Supported   `varnish-4.1.3.tar.gz`_
 :ref:`rel4.0.3`            2015-02-19   Supported   `varnish-4.0.3.tar.gz`_
 Varnish Cache 4.0.2        2014-10-08   End Of Life `varnish-4.0.2.tar.gz`_
 Varnish Cache 4.0.1        2014-06-24   End Of Life `varnish-4.0.1.tar.gz`_
