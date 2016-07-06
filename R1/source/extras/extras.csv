@@ -1,0 +1,59 @@
+Name,Description,Category,Repository,Commercial support
+Varnish Agent,,Node Management,https://github.com/varnish/varnish-agent,Varnish Software
+Varnish Agent 2,,Node Management,https://github.com/varnish/vagent2,Varnish Software
+ScaleSimple - CDN & VCL UI,,Node Management,http://github.com/scalesimple,No
+Varnish Administration Console (VAC),,Cluster Management,https://www.varnish-software.com/vac,Varnish Software
+VaaS -,,Cluster Management,https://github.com/allegro/vaas,No
+Vaban,,Cluster Management,https://github.com/martensson/vaban,No
+Emacs VCL Mode,,Syntax Highlighting,https://github.com/ssm/elisp/blob/master/vcl-mode.el,No
+Kate/Kwrite VCL/VTC Highlighting,,Syntax Highlighting,https://kate-editor.org/,No
+SublimeText VCL plugin,,Syntax Highlighting,https://github.com/brandonwamboldt/sublime-varnish,No
+TextMate VCL plugin,,Syntax Highlighting,https://github.com/mattiasgeniar/Varnish.tmbundle,No
+Vim VCL Highlighting,,Syntax Highlighting,https://github.com/pld-linux/vim-syntax-vcl,No
+varnish-mib,,Monitoring+Statistics,http://www.gnu.org.ua/software/varnish-mib/download.html,NXC International
+Datadog,,Monitoring+Statistics,https://github.com/DataDog/dogweb/tree/prod/integration/varnish,Varnish Software
+Munin Varnish plugin,,Monitoring+Statistics,http://munin-monitoring.org/,Varnish Software
+Nagios Varnish plugin,,Monitoring+Statistics,http://repo.varnish-cache.org/source/,Varnish Software
+Varnish Custom Statistics (VCS),,Monitoring+Statistics,https://www.varnish-software.com/varnish-custom-statistics,Varnish Software
+AppDynamics Varnish plugin,,Monitoring+Statistics,https://github.com/Appdynamics/varnish-monitoring-extension,No
+Cacti Varnish plugin,,Monitoring+Statistics,https://github.com/glensc/cacti-template-varnish,No
+Collectd Varnish plugin,,Monitoring+Statistics,https://collectd.org/wiki/index.php/Plugin:Varnish,No
+Enhanced Varnish Dashboard,,Monitoring+Statistics,https://github.com/brandonwamboldt/varnish-dashboard,No
+Graphite PyVarnish,,Monitoring+Statistics,https://github.com/redsnapper8t8/pyvarnish,No
+Graphite Varnish plugin,,Monitoring+Statistics,https://github.com/jssjr/varnish-graphite,No
+Hyperic Varnish plugin,,Monitoring+Statistics,https://github.com/pbruna/varnish-hyperic,No
+LogStash Varnish plugin,,Monitoring+Statistics,http://logstash.net/,No
+New Relic Varnish plugin,,Monitoring+Statistics,https://github.com/ilons/newrelic_varnish_plugin,No
+Prometheus Exporter,,Monitoring+Statistics,https://github.com/jonnenauha/prometheus_varnish_exporter,No
+Really Simple Varnish Panel,,Monitoring+Statistics,https://github.com/benjaminbellamy/rsvp,No
+SysUsage Varnish plugin,,Monitoring+Statistics,https://github.com/huayra/sysusage_varnish_plugin,No
+Varnish Agent 2 Dashboard,,Monitoring+Statistics,https://github.com/pbruna/Varnish-Agent-Dashboard,No
+Varnish Agent 2 Dashboard for Drupal,,Monitoring+Statistics,https://drupal.org/project/varnish_dashboard,No
+varnishhoststat (per domain or url-pattern stat),,Monitoring+Statistics,https://github.com/xcir/varnishHostStat,No
+varnishkafka - varnishlog + Apache Kafka,,Monitoring+Statistics,https://github.com/wikimedia/varnishkafka,No
+Varnishlog parser / vsltrans (Python),,Monitoring+Statistics,https://github.com/xcir/vsltrans,No
+Varnishlog parser (PHP),,Monitoring+Statistics,https://github.com/TOMHTML/varnishlog-parser,No
+Varnishsentry,,Monitoring+Statistics,https://github.com/carlosabalde/varnishsentry,No
+vlogdump,,Monitoring+Statistics,https://github.com/cosimo/vlogdump,No
+Zabbix Template for Varnish Cache >= 4.0,,Monitoring+Statistics,https://github.com/allenta/zabbix-template-for-varnish-cache,No
+Super Fast Purger (part of VAC),,Cache Invalidation,https://www.varnish-software.com/vac,Varnish Software
+Xkey VMOD (Surrogate keys Hash Ninja Secondary Hash/Hash-Two),,Cache Invalidation,https://github.com/varnish/libvmod-xkey,Varnish Software
+MOC Varnish,,Cache Invalidation,https://github.com/mocdk/MOC.Varnish,No
+Thinner - Slow purges for Varnish (app friendly),,Cache Invalidation,https://github.com/propublica/thinner,No
+Umbraco & Varnish,,Cache Invalidation,https://bitbucket.org/chrisgaskell/umbraco-caches,No
+Varnish Bans Manager (VBM),,Cache Invalidation,https://github.com/dot2code/varnish-bans-manager,No
+Varnish URL Purger,,Cache Invalidation,https://github.com/mattiasgeniar/Varnish-URL-Purger,No
+Varnisher (purger+spider),,Cache Invalidation,https://github.com/robmiller/varnisher,No
+WordPress Varnish Purges/Bans,Purge Varnish Cache when post content on your site is modified,Cache Invalidation,https://wordpress.org/plugins/varnish-http-purge/,No
+Wordpress Vcaching,Complete WordPress Varnish Cache 3.x/4.x integration.,Cache Invalidation,https://wordpress.org/plugins/vcaching/,No
+Tracking Log Reader (trackrdrd),,Misc. Tools,https://code.uplex.de/uplex-varnish/trackrdrd,Uplex
+Varnishgather,,Misc. Tools,https://github.com/varnish/varnishgather,Varnish Software
+Device detection in Varnish,VCL based device detection for Varnish Cache,Misc. Tools,https://github.com/varnishcache/varnish-devicedetect,
+ESI parser 1.00 - Poor Man's ESI,,Misc. Tools,https://github.com/quintonparker/esiparser.js,No
+mobiledetect2vcl,,Misc. Tools,https://github.com/carlosabalde/mobiledetect2vcl,No
+NuCache: VCL Library & Config Templates,,Misc. Tools,https://github.com/slashsBin/nuCache,No
+python-varnishapi,,Misc. Tools,https://github.com/xcir/python-varnishapi,No
+VAC Templater,,Misc. Tools,https://github.com/allenta/vac-templater,No
+Varnish 3 Configuration Templates,,Misc. Tools,https://github.com/mattiasgeniar/varnish-3.0-configuration-templates,No
+Varnishtest Cucumber,,Misc. Tools,https://github.com/nstielau/varnishtest_cucumber,No
+Varnishtest parser / vtctrans,,Misc. Tools,https://github.com/xcir/vtctrans,No
