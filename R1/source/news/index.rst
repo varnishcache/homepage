@@ -15,28 +15,24 @@ Next major release
 
 	20160425_website.rst
 	20160411_website.rst
-	20151204_website.rst
-	20141119_website.rst
-	20131128_vug8_berlin.rst
-	20130530_vug7_newyork.rst
-	20121005_vug6_london.rst
-	20120322_vug5_paris.rst
 	
 
 Past events
 -----------
 
-* :ref:`2015-12-04 VUG10 - Rotterdam <20151204_website>`
+* 2016-06-17 VarnishCon 2016 - Amsterdam
 
-* :ref:`2014-11-19 VUG9 - Barcelone <20141119_website>`
+* 2015-12-04 VUG10 - Rotterdam
 
-* :ref:`2013-11-28 VUG8 - Berlin <20131128_vug8_berlin>`
+* 2014-11-19 VUG9 - Barcelona
 
-* :ref:`2013-05-30 VUG7 - New York <20130530_vug7_newyork>`
+* 2013-11-28 VUG8 - Berlin
 
-* :ref:`2012-10-05 VUG6 - London <20121005_vug6_london>`
+* 2013-05-30 VUG7 - New York
 
-* :ref:`2012-03-22 VUG5 - Paris <20120322_vug5_paris>`
+* 2012-10-05 VUG6 - London
+
+* 2012-03-22 VUG5 - Paris
 
 * 2012-09-28 VUG4 - Baltimore
 
