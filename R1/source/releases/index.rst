@@ -22,6 +22,12 @@ By Operating System
 * :ref:`install_ubuntu`
 * :ref:`install_debian`
 * :ref:`install_redhat`
+* `ArchLinux package`_ and `ArchLinux wiki`_
+* `Alpine Linux`_
+
+.. _`ArchLinux package`: https://www.archlinux.org/packages/extra/x86_64/varnish/
+.. _`ArchLinux wiki`: https://wiki.archlinux.org/index.php/Varnish
+.. _`Alpine Linux`: https://pkgs.alpinelinux.org/package/edge/main/x86_64/varnish
 
 Current and older releases
 --------------------------
