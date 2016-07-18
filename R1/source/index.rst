@@ -8,6 +8,17 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-07-18
+~~~~~~~~~~
+
+If you are running Varnish, protecting against the
+`HTTPOXY <https://httpoxy.org/>`_ CGI vulnerability is a simple
+as::
+
+	sub vcl_recv {
+		unset req.http.proxy;
+	}
+
 2016-07-06
 ~~~~~~~~~~
 :ref:`rel4.1.3` has been released! /Lasse
