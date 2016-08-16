@@ -8,6 +8,18 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-08-16
+~~~~~~~~~~
+
+In varnish 5.0 it will be possible to use separate VCL files
+for different kinds of requests, for instance one VCL file
+per ``Host: domain``.
+
+You can test it already now in the trunk version.
+
+`Read more about separate VCL files here
+</docs/trunk/users-guide/vcl-separate.html>`_
+
 2016-07-18
 ~~~~~~~~~~
 
