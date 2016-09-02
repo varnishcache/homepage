@@ -50,7 +50,7 @@ The name "Varnish"
 ~~~~~~~~~~~~~~~~~~
 
 The name Varnish comes from when the instigator of Varnish spent a long
-time staring at an art-poster with the word “Vernisage” and ended up
+time staring at an art-poster with the word “Vernissage” and ended up
 checking it in a dictionary, which gives the following three meanings of
 the word:
 
