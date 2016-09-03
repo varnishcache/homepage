@@ -57,3 +57,4 @@ VAC Templater,,Misc. Tools,https://github.com/allenta/vac-templater,No
 Varnish 3 Configuration Templates,,Misc. Tools,https://github.com/mattiasgeniar/varnish-3.0-configuration-templates,No
 Varnishtest Cucumber,,Misc. Tools,https://github.com/nstielau/varnishtest_cucumber,No
 Varnishtest parser / vtctrans,,Misc. Tools,https://github.com/xcir/vtctrans,No
+varnish-exec,Java library and JUnit rule for running Varnish Cache daemon.,Misc. Tools,https://github.com/platan/varnish-exec,No
