@@ -1,15 +1,35 @@
 .. _install_debian:
 
-Installation on Debian
-======================
+Installation on Debian and Ubuntu
+=================================
 
-Varnish is distributed in the Debian package repositories but the
-version there might be out of date and we generally recommend using
-the packages provided by varnish-cache.org or packages from
-backports.debian.org.
+Varnish Cache is distributed in the Debian and Ubuntu package repositories.
 
-To use the varnish-cache.org repository and install Varnish under
-Debian 8 ("jessie") do the following as root::
+The versions there might be out of date, but they provide a simple and elegant
+way of getting started with Varnish Cache.
+
+::
+    apt update
+    apt install varnish
+
+Official packages of 5.0
+------------------------
+
+Starting from Varnish Cache 5.0, we've simplified our packaging down to two,
+the main package and a development package.
+
+In due time, we may add these to some repository software. Currently
+they're available on:
+
+    https://repo.varnish-cache.org/pkg/
+
+
+
+Packages from repo.varnish-cache.org (<5.0)
+------------------------------------
+
+To use the varnish-cache.org repository and install Varnish on
+Debian jessie do the following as root::
 
     apt-get install apt-transport-https
     curl https://repo.varnish-cache.org/GPG-key.txt | apt-key add -
@@ -18,7 +38,11 @@ Debian 8 ("jessie") do the following as root::
     apt-get update
     apt-get install varnish
 
-Packages are built for wheezy and jessie on amd64. Varnish 4.0
-packages are available in the "varnish-4.0" component.
+There are Ubuntu builds available under /ubuntu/.
 
-Ubuntu LTS users please follow :ref:`these instructions <install_ubuntu>`.
+Some earlier/legacy builds are also available under the "varnish-3.0" and
+"varnish-4.0" components.
+
+List of supported platforms varies.
+
+
