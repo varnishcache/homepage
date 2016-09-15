@@ -5,7 +5,7 @@ Varnish Cache 5.0
 
 * 2016-09-15 /phk
 
-`Source download <https://repo.varnish-cache.org/source/varnish-5.0.tar.gz>`_
+`Source download <https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz>`_
 
 Varnish Cache 5.0 is a major release from the head of tree.
 
