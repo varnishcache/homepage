@@ -3,7 +3,8 @@
     "desc": "boltsort - QueryString params sort",
     "github": {
         "branches": {
-            "4.1": "master"
+            "3.0": "3.0",
+            "4.0": "master"
         },
         "project": "libvmod-boltsort",
         "user": "vimeo",
@@ -11,8 +12,6 @@
     },
     "license": "FreeBSD",
     "name": "boltsort",
-    "status": "mature",
-    "support": [
-        "Varnish Software"
-    ]
+    "status": "mature"
 }
+
