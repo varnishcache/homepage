@@ -13,9 +13,9 @@ All users on 4.1 should be able to upgrade to this version without trouble.
 
 More information:
 
-* `Release Note </docs/5.0/whats-new/relnote-5.0>`_
-* `Changes </docs/5.0/whats-new/changes-5.0>`_
-* `Upgrading </docs/5.0/whats-new/upgrading-5.0>`_
+* `Release Note </docs/5.0/whats-new/relnote-5.0.html>`_
+* `Changes </docs/5.0/whats-new/changes-5.0.html>`_
+* `Upgrading </docs/5.0/whats-new/upgrading-5.0.html>`_
 
 Operating System Specifc Installation Guides
 --------------------------------------------
