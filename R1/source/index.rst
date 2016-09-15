@@ -16,9 +16,11 @@ Varnish Cache 5.0.0 has been released!  /Lasse /phk
 See:
 
 * :ref:`Releases` 
-* `Release Note </docs/5.0/whats-new/relnote-5.0>`_
-* `Upgrading </docs/5.0/whats-new/upgrading-5.0>`_
-* `Changes </docs/5.0/whats-new/changes-5.0>`_
+* `Release Note </docs/5.0/whats-new/relnote-5.0.html>`_
+* `Upgrading </docs/5.0/whats-new/upgrading-5.0.html>`_
+* `Changes </docs/5.0/whats-new/changes-5.0.html>`_
+
+(And yes, we're dog-food running it on the varnish-cache.org site)
 
 
 2016-08-16
