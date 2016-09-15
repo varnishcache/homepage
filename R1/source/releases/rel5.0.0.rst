@@ -24,3 +24,6 @@ Operating System Specifc Installation Guides
 * :ref:`install_debian`
 * :ref:`install_redhat`
 * :ref:`install_freebsd`
+
+Binary packages for Debian, Ubuntu and Enterprise Linux: https://repo.varnish-cache.org/pkg/5.0.0/
+
