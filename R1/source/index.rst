@@ -11,10 +11,14 @@ What is happening
 2016-09-15
 ~~~~~~~~~~
 
-Varnish Cache 5.0.0 has been released! out. See :ref:`Releases` and the
-`Upgrade documentation`_. /Lasse
+Varnish Cache 5.0.0 has been released!  /Lasse /phk
 
-.. _`Upgrade documentation`: https://www.varnish-cache.org/docs/trunk/whats-new/index.html
+See:
+
+* :ref:`Releases` 
+* `Release Note </docs/5.0/whats-new/relnote-5.0>`_
+* `Upgrading </docs/5.0/whats-new/upgrading-5.0>`_
+* `Changes </docs/5.0/whats-new/changes-5.0>`_
 
 
 2016-08-16

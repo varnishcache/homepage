@@ -8,7 +8,7 @@ Varnish Cache is released every 6 months.
 ========================== ============ ===========  ===========
 Release                    Date         Notes        Download
 ========================== ============ ===========  ===========
-Varnish Cache 5.0.0        2016-09-15   Fresh        `varnish-5.0.0.tar.gz`_
+:ref:`rel5.0.0`            2016-09-15   Fresh        `varnish-5.0.0.tar.gz`_
 :ref:`rel4.1.3`            2016-07-05   Supported    `varnish-4.1.3.tar.gz`_
 :ref:`rel4.0.3`            2015-02-19   Supported    `varnish-4.0.3.tar.gz`_
 Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
@@ -55,6 +55,7 @@ Here is a list of the ones we know about:
 .. toctree::
 	:hidden:
 
+	rel5.0.0
 	rel4.1.3
 	rel4.1.2
 	rel4.0.3
