@@ -8,14 +8,14 @@ Varnish Cache is released every 6 months.
 ========================== ============ ===========  ===========
 Release                    Date         Notes        Download
 ========================== ============ ===========  ===========
-Varnish Cache 5.0.0-beta1  2016-09-09   pre-release  `varnish-5.0.0-beta1.tar.gz`_ and `beta packages`_.
+Varnish Cache 5.0.0        2016-09-15   Fresh        `varnish-5.0.0.tar.gz`_
 :ref:`rel4.1.3`            2016-07-05   Supported    `varnish-4.1.3.tar.gz`_
 :ref:`rel4.0.3`            2015-02-19   Supported    `varnish-4.0.3.tar.gz`_
 Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
 ========================== ============ ===========  ===========
 
 .. _`beta packages`: https://repo.varnish-cache.org/pkg/5.0.0-beta1/
-.. _varnish-5.0.0-beta1.tar.gz: https://repo.varnish-cache.org/source/varnish-5.0.0-beta1.tar.gz
+.. _varnish-5.0.0.tar.gz: https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz
 .. _varnish-4.1.3.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.3.tar.gz
 .. _varnish-4.0.3.tar.gz: https://repo.varnish-cache.org/source/varnish-4.0.3.tar.gz
 .. _varnish-3.0.7.tar.gz: https://repo.varnish-cache.org/source/varnish-3.0.7.tar.gz

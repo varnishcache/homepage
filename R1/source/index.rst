@@ -8,6 +8,15 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-09-15
+~~~~~~~~~~
+
+Varnish Cache 5.0.0 has been released! out. See :ref:`Releases` and the
+`Upgrade documentation`_. /Lasse
+
+.. _`Upgrade documentation`: https://www.varnish-cache.org/docs/trunk/whats-new/index.html
+
+
 2016-08-16
 ~~~~~~~~~~
 
