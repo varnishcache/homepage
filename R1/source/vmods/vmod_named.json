@@ -1,0 +1,19 @@
+{
+    "date": "2016-09-16",
+    "desc": "Dynamic Backends from DNS lookups",
+    "github": {
+        "branches": {
+            "5.0": "master",
+            "master": "master"
+        },
+        "project": "libvmod-named",
+        "user": "nigoroll",
+        "vcc_path": "src/vmod_named.vcc"
+    },
+    "license": "FreeBSD",
+    "name": "named",
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
+}
