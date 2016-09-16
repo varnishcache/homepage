@@ -5,12 +5,12 @@
         "branches": {
             "4.1": "master"
         },
-        "project": "libvmod-named",
+        "project": "libvmod-dynamic",
         "user": "nigoroll",
-        "vcc_path": "src/vmod_named.vcc"
+        "vcc_path": "src/vmod_dynamic.vcc"
     },
     "license": "FreeBSD",
-    "name": "named",
+    "name": "dynamic",
     "status": "mature",
     "support": [
         "Uplex"
