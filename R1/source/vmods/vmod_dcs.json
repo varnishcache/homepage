@@ -7,10 +7,10 @@
     "repos": "https://code.uplex.de/uplex-varnish/dcs_classifier",
     "rev": {
         "3.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blobs/raw/master/src/vmod_dcs3.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs3.vcc"
         },
         "4.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blobs/raw/master/src/vmod_dcs4.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs4.vcc"
         }
     },
     "status": "mature",

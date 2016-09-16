@@ -7,7 +7,7 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn",
     "rev": {
         "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn/blobs/raw/master/src/vmod.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn/raw/master/src/vmod.vcc"
         }
     },
     "status": "development",

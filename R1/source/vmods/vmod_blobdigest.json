@@ -7,7 +7,7 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest",
     "rev": {
         "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blobs/master/src/vmod_blobdigest.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/master/src/vmod_blobdigest.vcc"
         }
     },
     "status": "development",

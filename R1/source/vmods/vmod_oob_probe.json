@@ -7,7 +7,7 @@
     "repos": "https://code.uplex.de/uplex-varnish/oob_probe",
     "rev": {
         "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/oob_probe/blobs/raw/master/src/vmod.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/oob_probe/raw/master/src/vmod.vcc"
         }
     },
     "status": "development",

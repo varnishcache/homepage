@@ -7,7 +7,7 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobsha256",
     "rev": {
         "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobsha256/blobs/master/src/vmod_blobsha256.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobsha256/master/src/vmod_blobsha256.vcc"
         }
     },
     "status": "development",
