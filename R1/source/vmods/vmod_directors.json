@@ -16,6 +16,7 @@
     "name": "directors",
     "status": "included",
     "support": [
-        "Varnish Software"
+        "Varnish Software",
+	"Uplex"
     ]
 }
