@@ -3,8 +3,7 @@
     "desc": "Dynamic Backends from DNS lookups",
     "github": {
         "branches": {
-            "5.0": "master",
-            "master": "master"
+            "4.1": "master"
         },
         "project": "libvmod-named",
         "user": "nigoroll",
