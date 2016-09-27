@@ -8,8 +8,28 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
-2016-09-15
-~~~~~~~~~~
+2016-09-27 - Send us (more) money!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If we want to keep up the same activitly level as the last couple
+of years, we need €2000/month to buy more of Poul-Hennings time.
+
+So if Varnish improves your companys profit, please invest in a
+one-time or recurring `Varnish Moral License <http://phk.freebsd.dk/VML>`_
+to help fund the projects future.
+
+Thanks in advance!
+
+And a big thanks to the companies already sponsoring Varnish:
+
+* Fastly
+* Varnish-Software
+* UPLEX
+* [your companys name could have been here...]
+
+
+2016-09-15 - Varnish 5.0
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Varnish Cache 5.0.0 has been released!  /Lasse /phk
 
@@ -23,8 +43,8 @@ See:
 (And yes, we're dog-food running it on the varnish-cache.org site)
 
 
-2016-08-16
-~~~~~~~~~~
+2016-08-16 - Separate VCL files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In varnish 5.0 it will be possible to use separate VCL files
 for different kinds of requests, for instance one VCL file
@@ -35,8 +55,8 @@ You can test it already now in the trunk version.
 `Read more about separate VCL files here
 </docs/trunk/users-guide/vcl-separate.html>`_
 
-2016-07-18
-~~~~~~~~~~
+2016-07-18 - HTTPOXY workaround
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are running Varnish, protecting against the
 `HTTPOXY <https://httpoxy.org/>`_ CGI vulnerability is a simple
@@ -46,46 +66,9 @@ as::
 		unset req.http.proxy;
 	}
 
-2016-07-06
-~~~~~~~~~~
+2016-07-06 - Varnish 4.1.3
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 :ref:`rel4.1.3` has been released! /Lasse
-
-
-2016-06-28
-~~~~~~~~~~
-Varnish Cache 4.1.3-beta2 is out. Most likely this will become 4.1.3 final.
-Source and packages in :ref:`Releases`. /Lasse
-
-
-2016-06-17
-~~~~~~~~~~
-
-`VarnishCon Europe 2016 <http://varnishcon2016.eventbrite.com>`_
-
-Don't miss it next time.
-
-2016-06-15
-~~~~~~~~~~
-
-Varnish Cache 4.1.3-beta1 is released just in time for
-VarnishCon 2016. Please give it a go if you can. See :ref:`Releases`  /Lasse
-
-2016-04-25
-~~~~~~~~~~
-
-If you are interested, here is an outline of the
-:ref:`projects new IT infrastructure. <20160425_website>` /phk
-
-
-2016-04-11
-~~~~~~~~~~
-
-Sorry if it looks a bit sparse around here, we're in the process
-of moving the Varnish Cache project to its own infrastructure.
-
-If you want to help out, we will gladly take pull requests to the
-new homepage, you can find it in
-`this github repos <https://github.com/varnishcache/homepage>`_.  /phk
 
 
 Privacy
