@@ -1,9 +1,11 @@
 {
-    "date": "2016-09-16",
+    "date": "2016-10-04",
     "desc": "Dynamic Backends from DNS lookups",
     "github": {
         "branches": {
-            "4.1": "master"
+            "4.1": "4.1",
+            "5.0": "master",
+            "master": "master"
         },
         "project": "libvmod-dynamic",
         "user": "nigoroll",
