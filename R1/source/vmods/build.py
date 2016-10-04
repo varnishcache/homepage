@@ -34,11 +34,15 @@ class vmod(object):
 
 	def versions(self):
 		r = self.j.get("rev")
-		if r != None:
-			return r.keys()
 		g = self.j.get("github")
-		if g != None:
-			return g["branches"].keys()
+		v = None
+		if r != None:
+			v = r.keys()
+		elif g != None:
+			v = g["branches"].keys()
+		if v != None:
+			v.sort()
+			return v
 		return list()
 
 	def url_vcc(self, rev):
