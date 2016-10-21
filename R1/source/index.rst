@@ -14,7 +14,7 @@ What is happening
 If we want to keep up the same activity level as the last couple
 of years, we need €2000/month to buy more of Poul-Hennings time.
 
-So if Varnish improves your companys profit, please invest in a
+So if Varnish improves your company's profit, please invest in a
 one-time or recurring `Varnish Moral License <http://phk.freebsd.dk/VML>`_
 to help fund the projects future.
 
