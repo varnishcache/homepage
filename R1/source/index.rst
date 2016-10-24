@@ -11,10 +11,10 @@ What is happening
 2016-09-27 - Send us (more) money!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If we want to keep up the same activitly level as the last couple
+If we want to keep up the same activity level as the last couple
 of years, we need €2000/month to buy more of Poul-Hennings time.
 
-So if Varnish improves your companys profit, please invest in a
+So if Varnish improves your company's profit, please invest in a
 one-time or recurring `Varnish Moral License <http://phk.freebsd.dk/VML>`_
 to help fund the projects future.
 
