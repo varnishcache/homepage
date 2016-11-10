@@ -36,6 +36,7 @@ Varnishlog parser (PHP),,Monitoring+Statistics,https://github.com/TOMHTML/varnis
 Varnishsentry,,Monitoring+Statistics,https://github.com/carlosabalde/varnishsentry,No
 vlogdump,,Monitoring+Statistics,https://github.com/cosimo/vlogdump,No
 Zabbix Template for Varnish Cache >= 4.0,,Monitoring+Statistics,https://github.com/allenta/zabbix-template-for-varnish-cache,No
+Logana,CLI to analyse varnish logs,Monitoring+Statistics,https://github.com/thimoonxy/logana,No
 Super Fast Purger (part of VAC),,Cache Invalidation,https://www.varnish-software.com/vac,Varnish Software
 Xkey VMOD (Surrogate keys Hash Ninja Secondary Hash/Hash-Two),,Cache Invalidation,https://github.com/varnish/libvmod-xkey,Varnish Software
 MOC Varnish,,Cache Invalidation,https://github.com/mocdk/MOC.Varnish,No
