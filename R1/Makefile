@@ -46,6 +46,7 @@ rsync:	all
 		--exclude '/comment' \
 		--exclude '/forum' \
 		--exclude '/tools' \
+		--exclude '/vtest' \
 		--exclude '/docs/trunk' \
 		--exclude '/docs/[2-9]*' \
 		build/html/. \
