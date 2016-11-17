@@ -53,3 +53,16 @@ Varnish Cache is also distributed in third party package repositories.
 
 * RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on <http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/>.
 
+
+On the Cloud
+------------
+
+Varnish Cache is also made available by Varnish Software for Red Hat Enterprise
+Linux on Amazon Web Services (AWS) Elastic Compute Cloud (EC2). Here is a list 
+of the current instances available:
+
+.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01H2061O4
+
+* `Varnish Cache 4 on Red Hat Enterprise Linux 7`_
+
+Fresh releases, such as Varnish Cache 5, will be made available soon.
