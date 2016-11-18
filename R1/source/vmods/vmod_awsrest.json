@@ -3,7 +3,7 @@
     "desc": "AWS Signature",
     "github": {
         "branches": {
-            "4.1": "master"
+            "4.0": "master"
         },
         "project": "libvmod-awsrest",
         "user": "xcir",
