@@ -8,7 +8,7 @@ Anders Berg
 
 Blame Anders!  He is the one who got the crazy idea that the world
 needed another HTTP proxy server software, and convinced his employer,
-the norvegian newspaper `Verdens Gang <http://www.vg.no>`_ to pay for the
+the norwegian newspaper `Verdens Gang <http://www.vg.no>`_ to pay for the
 first version to be developed.
 
 Here is an interview with Anders about `how it all began
@@ -18,7 +18,7 @@ Dag-Erling Smørgrav
 ~~~~~~~~~~~~~~~~~~~
 
 DES was working at Redpill-Linpro, a norwegian UNIX/Open Source company
-when Anders floatet his idea for a "forward HTTP cache", he lured PHK
+when Anders floated his idea for a "forward HTTP cache", he lured PHK
 into joining, was one of the original developers (doing Linux), project
 manager and release engineer for the first three years of the project.
 
@@ -38,7 +38,7 @@ section in the Varnish documentation.
 Per Buer
 ~~~~~~~~
 
-Per also worked at Redpill-Linpro, and at somepoint the impedance
+Per also worked at Redpill-Linpro, and at some point the impedance
 mismatch between Linpros "normal way of doing things" and the
 potential of Varnish became to steep, he convinced the company to
 spin off `Varnish Software <https://varnish-software.com/>`_

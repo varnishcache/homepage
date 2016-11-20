@@ -12,7 +12,7 @@ I have found a security hole
 
 Send email to phk@, my PGP key is at the bottom of this page.
 
-I want to hear about security vulnerabilties
+I want to hear about security vulnerabilities
 --------------------------------------------
 
 Subscribe to the `Varnish Announce mailing list <https://www.varnish-cache.org/lists/mailman/listinfo/varnish-announce>`_
@@ -61,7 +61,7 @@ quantum computers we cannot even comprehend.
 
 On the other hand, if we find anything, on our own or thanks to
 external contributors, which imperil Varnish users, we will not
-hessitate to issue a CVE to get peoples attention.
+hesitate to issue a CVE to get peoples attention.
 
 
 10 years, really?
