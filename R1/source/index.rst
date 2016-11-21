@@ -20,7 +20,7 @@ You can `see the result(s) here. </vtest/index.html>`_
 If you want to run a "sandbox" for us, you just need to run
 `a small simple shell-script
 <https://github.com/varnishcache/varnish-cache/blob/master/tools/vtest.sh>`_
-`no need for a Java Runtime or anything else.
+- there is `no need for a Java Runtime or anything else.
 </docs/trunk/phk/trialerror.html>`_
 
 /phk
