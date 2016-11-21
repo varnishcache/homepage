@@ -8,6 +8,24 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-11-21 - New Tool in Town
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I finally sat down and wrote a Varnish specific "Continuous
+Integration" tool, and people are busy starting it on the various
+machines we use for testing in the project.
+
+You can `see the result(s) here. </vtest/index.html>`_
+
+If you want to run a "sandbox" for us, you just need to run
+`a small simple shell-script
+<https://github.com/varnishcache/varnish-cache/blob/master/tools/vtest.sh>`_
+`no need for a Java Runtime or anything else.
+</docs/trunk/phk/trialerror.html>`_
+
+/phk
+
+
 2016-09-27 - Send us (more) money!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
