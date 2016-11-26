@@ -142,7 +142,7 @@ the kinks on one of my test-machines.
 Once it was as I wanted it, I pushed the changes the live machine and then::
 
 	varnishadm vcl.use backup
-	# The 'backup' VCL does a "pass" of all trafic to my server
+	# The 'backup' VCL does a "pass" of all traffic to my server
 	cd Admin
 	git pull
 	cd Tools
