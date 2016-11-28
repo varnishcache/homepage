@@ -60,4 +60,4 @@ Varnishtest Cucumber,,Misc. Tools,https://github.com/nstielau/varnishtest_cucumb
 Varnishtest parser / vtctrans,,Misc. Tools,https://github.com/xcir/vtctrans,No
 varnish-exec,Java library and JUnit rule for running Varnish Cache daemon.,Misc. Tools,https://github.com/platan/varnish-exec,No
 VCLGenie, GUI and API to generate VCL from JSON API, Misc. Tools, https://github.com/iheartradio/vclgenie, No
-varnish-influxdb,Varnish counters to InfluxDB over UDP,https://github.com/lkarsten/varnish-influxdb,No
+varnish-influxdb,Varnish counters to InfluxDB over UDP,Monitoring+Statistics,https://github.com/lkarsten/varnish-influxdb,No
