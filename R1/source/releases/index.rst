@@ -47,11 +47,6 @@ Here is a list of the ones we know about:
 .. _`Alpine Linux`: https://pkgs.alpinelinux.org/package/edge/main/x86_64/varnish
 
 
-.. _beta-debs: https://jenkins.varnish-software.com/view/VC4/job/VC4-deb/lastSuccessfulBuild/artifact/deb-build/
-.. _beta-rpms-el6: https://jenkins.varnish-software.com/view/VC4/job/VC4-rpm-el6/lastSuccessfulBuild/artifact/rpm-build/varnish-4.1/el6/
-.. _beta-rpms-el7: https://jenkins.varnish-software.com/view/VC4/job/VC4-rpm-el7/lastSuccessfulBuild/artifact/rpm-build/varnish-4.1/el7/
-
-
 On the Cloud
 ------------
 
