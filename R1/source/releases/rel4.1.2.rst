@@ -14,7 +14,7 @@ bugs seen since 4.1.1.
 
 It is recommended for all users to upgrade.
 
-Operating System Specifc Installation Guides
+Operating System Specific Installation Guides
 --------------------------------------------
 
 * :ref:`install_ubuntu`
