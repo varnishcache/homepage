@@ -8,6 +8,19 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-12-02 - Maintenance release of 4.1.4, 4.0 is End Of Life
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish Cache 4.1.4 has been released and is ready for download. This
+is a maintenance release with bug fixes and performance enhancements.
+
+In other news, Varnish Cache 4.0 has reached End Of Life, and with
+this we have released Varnish Cache 4.0.4. This contains all the last
+fixes from git, and there will be no 4.0.5. Please upgrade to 4.1 or 5.0
+as soon as you can.
+
+Pål Hermunn Johansen, Varnish Software Group
+
 2016-11-21 - New Tool in Town
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
