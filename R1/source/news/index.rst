@@ -8,7 +8,7 @@ News, Dates & Events
 Next major release
 -------------------
 
-* 2016-09-xx Varnish 5.0
+* 2017-03-xx Varnish 5.1 or 6.0 (not yet decided)
 
 .. toctree::
 	:hidden:
