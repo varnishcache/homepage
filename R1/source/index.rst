@@ -8,6 +8,11 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-12-21 - Project server upgraded
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now running FreeBSD 11-RELEASE /phk
+
 2016-12-02 - Maintenance release of 4.1.4, 4.0 is End Of Life
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -72,34 +77,6 @@ See:
 * `Changes </docs/5.0/whats-new/changes-5.0.html>`_
 
 (And yes, we're dog-food running it on the varnish-cache.org site)
-
-
-2016-08-16 - Separate VCL files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In varnish 5.0 it will be possible to use separate VCL files
-for different kinds of requests, for instance one VCL file
-per ``Host: domain``.
-
-You can test it already now in the trunk version.
-
-`Read more about separate VCL files here
-</docs/trunk/users-guide/vcl-separate.html>`_
-
-2016-07-18 - HTTPOXY workaround
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you are running Varnish, protecting against the
-`HTTPOXY <https://httpoxy.org/>`_ CGI vulnerability is a simple
-as::
-
-	sub vcl_recv {
-		unset req.http.proxy;
-	}
-
-2016-07-06 - Varnish 4.1.3
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-:ref:`rel4.1.3` has been released! /Lasse
 
 
 Privacy
