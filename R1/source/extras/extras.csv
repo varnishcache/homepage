@@ -11,7 +11,7 @@ SublimeText VCL plugin,,Syntax Highlighting,https://github.com/brandonwamboldt/s
 TextMate VCL plugin,,Syntax Highlighting,https://github.com/mattiasgeniar/Varnish.tmbundle,No
 Vim VCL Highlighting,,Syntax Highlighting,https://github.com/pld-linux/vim-syntax-vcl,No
 varnish-mib,,Monitoring+Statistics,http://www.gnu.org.ua/software/varnish-mib/download.html,NXC International
-Datadog,,Monitoring+Statistics,https://github.com/DataDog/dogweb/tree/prod/integration/varnish,Varnish Software
+Datadog,,Monitoring+Statistics,https://docs.datadoghq.com/integrations/varnish/,Varnish Software
 Munin Varnish plugin,,Monitoring+Statistics,http://munin-monitoring.org/,Varnish Software
 Nagios Varnish plugin,,Monitoring+Statistics,http://repo.varnish-cache.org/source/,Varnish Software
 Varnish Custom Statistics (VCS),,Monitoring+Statistics,https://www.varnish-software.com/varnish-custom-statistics,Varnish Software

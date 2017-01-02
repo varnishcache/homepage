@@ -1,6 +1,6 @@
 Name,Description,Repository,Commercial support,
 varnish-mib,,http://www.gnu.org.ua/software/varnish-mib/download.html,NXC International,NXC International
-Datadog,,https://github.com/DataDog/dogweb/tree/prod/integration/varnish,Varnish Software,Varnish Software
+Datadog,,https://docs.datadoghq.com/integrations/varnish/,Varnish Software,Varnish Software
 Munin Varnish plugin,,http://munin-monitoring.org/,Varnish Software,Varnish Software
 Nagios Varnish plugin,,http://repo.varnish-cache.org/source/,Varnish Software,Varnish Software
 Varnish Custom Statistics (VCS),,https://www.varnish-software.com/varnish-custom-statistics,Varnish Software,Varnish Software
