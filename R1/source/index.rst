@@ -18,7 +18,7 @@ The main one is that we don't automatically test the curses(3) based
 tools (varnish{hist|top|stat|...}) - only because I havn't found a
 way to do so.
 
-For 2017 I've raised the bar: from now our goal is 90%+ on _all_ our
+For 2017 I've raised the bar: from now our goal is 90%+ on *all* our
 source code.
 
 At the same time, I have retooled our code coverage test scripts
