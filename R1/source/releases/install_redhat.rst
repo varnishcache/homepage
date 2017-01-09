@@ -65,4 +65,6 @@ of the current instances available:
 
 * `Varnish Cache 4 on Red Hat Enterprise Linux 7`_
 
-Fresh releases, such as Varnish Cache 5, will be made available soon.
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01MR09UKM
+
+* `Varnish Cache 5 on Red Hat Enterprise Linux 7`_
