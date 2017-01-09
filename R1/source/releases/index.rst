@@ -60,12 +60,18 @@ Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud
 (EC2). Here is a list of the current instances available:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04`_
+* `Varnish Cache 5 on Ubuntu LTS 14.04`_
 * `Varnish Cache 4 on Red Hat Enterprise Linux 7`_
-
-Fresh releases, such as Varnish Cache 5, will be made available soon.
+* `Varnish Cache 5 on Red Hat Enterprise Linux 7`_
 
 .. _`Varnish Cache 4 on Ubuntu LTS 14.04`: https://aws.amazon.com/marketplace/pp/B01H2063F6
+.. _`Varnish Cache 5 on Ubuntu LTS 14.04`: https://aws.amazon.com/marketplace/pp/B01MU4VLOA
 .. _`Varnish Cache 4 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01H2061O4
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01MR09UKM
+
+
+
+
 
 
 .. toctree::
