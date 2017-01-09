@@ -56,4 +56,6 @@ current instances available:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04`_
 
-Fresh releases, such as Varnish Cache 5, will be made available soon.
+.. _`Varnish Cache 5 on Ubuntu LTS 14.04`: https://aws.amazon.com/marketplace/pp/B01MU4VLOA
+
+* `Varnish Cache 5 on Ubuntu LTS 14.04`_
