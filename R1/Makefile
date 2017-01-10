@@ -42,13 +42,14 @@ rsync:	all
 		${RSYNCARGS} \
 		-r \
 		--del \
-		--exclude '/trac' \
 		--exclude '/comment' \
-		--exclude '/forum' \
-		--exclude '/tools' \
-		--exclude '/vtest' \
 		--exclude '/docs/trunk' \
 		--exclude '/docs/[2-9]*' \
+		--exclude '/forum' \
+		--exclude '/gcov' \
+		--exclude '/tools' \
+		--exclude '/trac' \
+		--exclude '/vtest' \
 		build/html/. \
 		${DESTHTTP}
 
