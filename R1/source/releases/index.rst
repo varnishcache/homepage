@@ -51,7 +51,7 @@ On the Cloud
 ------------
 
 Varnish Cache is also made available by Varnish Software in the following 
-clouds providers:
+cloud providers:
 
 Amazon Web Services (AWS EC2)
 .............................

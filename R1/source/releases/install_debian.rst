@@ -20,32 +20,27 @@ Official packages of 5.0
 Starting from Varnish Cache 5.0, we've simplified our packaging down to two:
 the main package and a development package.
 
-In due time, we may add these to some repository software. Currently
-they're available on:
+The official Varnish Cache repository is now hosted at Packagecloud.io.
+Instructions for installing the official repository containing Varnish Cache 5.0
+are available at https://packagecloud.io/varnishcache/varnish50/install#deb
 
-    https://repo.varnish-cache.org/pkg/
+Official packages of 4.1
+------------------------
 
+To use Varnish Cache 4.1 packages from the official varnish-cache.org repos,
+follow the instructions available at:
 
-Packages from repo.varnish-cache.org (<5.0)
--------------------------------------------
+* https://packagecloud.io/varnishcache/varnish41/install#deb
 
-To use the varnish-cache.org repository and install Varnish on
-Debian jessie do the following as root::
+Archival builds
+---------------
 
-    $ sudo apt-get install apt-transport-https
-    $ curl https://repo.varnish-cache.org/GPG-key.txt | sudo apt-key add -
-    $ echo "deb https://repo.varnish-cache.org/debian/ jessie varnish-4.1" \
-    	| sudo tee -a /etc/apt/sources.list.d/varnish-cache.list
-    $ sudo apt-get update
-    $ sudo apt-get install varnish
+Multiple older repositories are kept for archival purposes, note that these versions
+are unsupported:
 
+* https://packagecloud.io/varnishcache
 
-There are Ubuntu builds available under ``/ubuntu/``.
-
-Some earlier/legacy builds are also available under the "varnish-3.0" and
-"varnish-4.0" components.
-
-On the Cloud
+Cloud images
 ------------
 
 Varnish Cache is also made available by Varnish Software for Ubuntu LTS on 
