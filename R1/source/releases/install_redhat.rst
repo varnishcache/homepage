@@ -18,7 +18,10 @@ Varnish 5.0
 
 The official Varnish Cache repository is now hosted at Packagecloud.io.
 Instructions for installing the official repository containing Varnish Cache 5.0
-are available at https://packagecloud.io/varnishcache/varnish50/install#rpm
+are available at https://packagecloud.io/varnishcache/varnish50/install
+
+For manual installation instructions, use the instructions under "Manual" and
+select "rpm" for RPM-based distributions.
 
 Varnish 4.1
 ~~~~~~~~~~~
@@ -26,7 +29,10 @@ Varnish 4.1
 To use Varnish Cache 4.1 packages from the official varnish-cache.org repos,
 follow the instructions available at:
 
-* https://packagecloud.io/varnishcache/varnish41/install#rpm
+* https://packagecloud.io/varnishcache/varnish41/install
+
+For manual installation instructions, use the instructions under "Manual" and
+select "rpm" for RPM-based distributions.
 
 Archival builds
 ~~~~~~~~~~~~~~~
@@ -48,12 +54,12 @@ Varnish Cache is also distributed in third party package repositories.
 * RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on <http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/>.
 
 
-On the Cloud
+Cloud images
 ------------
 
 Varnish Cache is also made available by Varnish Software for Red Hat Enterprise
 Linux on Amazon Web Services (AWS) Elastic Compute Cloud (EC2). Here is a list 
-of the current instances available:
+of the currently available images:
 
 .. _`Varnish Cache 4 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01H2061O4
 
