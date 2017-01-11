@@ -3,7 +3,7 @@
 Installation on FreeBSD
 =======================
 
-Varnish is distributed in the FreeBSD ports collection as 'www/varnish'.
+Varnish is distributed in the FreeBSD ports collection as 'www/varnish5'.
 
 You can either install it as binary package::
 
