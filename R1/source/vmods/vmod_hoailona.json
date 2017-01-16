@@ -1,0 +1,17 @@
+{
+    "date": "2017-01-16",
+    "desc": "support use of the SecureHD Policy service provided by Akamai Media Services",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "hoailona",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-hoailona",
+    "rev": {
+        "5.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/master/src/vmod_hoailona.vcc"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
