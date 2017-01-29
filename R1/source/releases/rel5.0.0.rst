@@ -18,7 +18,7 @@ More information:
 * `Upgrading </docs/5.0/whats-new/upgrading-5.0.html>`_
 
 Operating System Specific Installation Guides
---------------------------------------------
+---------------------------------------------
 
 * :ref:`install_ubuntu`
 * :ref:`install_debian`

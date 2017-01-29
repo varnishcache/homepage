@@ -13,7 +13,7 @@ I have found a security hole
 Send email to phk@, my PGP key is at the bottom of this page.
 
 I want to hear about security vulnerabilities
---------------------------------------------
+---------------------------------------------
 
 Subscribe to the `Varnish Announce mailing list <https://www.varnish-cache.org/lists/mailman/listinfo/varnish-announce>`_
 

@@ -22,7 +22,7 @@ All users on 4.1 and 4.0 are recommended to upgrade to this version.
 
 
 Operating System Specific Installation Guides
---------------------------------------------
+---------------------------------------------
 
 * :ref:`install_ubuntu`
 * :ref:`install_debian`
