@@ -8,6 +8,14 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2016-02-09 - Maintenance release 4.1.5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish Cache 4.1.5 has been released and is ready for download. This
+is a maintenance release with bug fixes.
+
+Pål Hermunn Johansen, Varnish Software Group
+
 2017-01-05 - Source Code Coverage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
