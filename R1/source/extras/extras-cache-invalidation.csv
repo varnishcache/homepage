@@ -9,3 +9,4 @@ Varnish URL Purger,PHP code to purge a Varnish URL from cache,https://github.com
 Varnisher (purger+spider),Library and CLI tool to Purge and Repopulate your cache,https://github.com/robmiller/varnisher,No
 WordPress Varnish Purges/Bans,Purge Varnish Cache when post content on your site is modified,https://wordpress.org/plugins/varnish-http-purge/,No
 Wordpress Vcaching,Complete WordPress Varnish Cache 3.x/4.x integration.,https://wordpress.org/plugins/vcaching/,No
+ReactPHP Varnish Esi Booster,Varnish Esi Booster is an asynchronous PSR-7 compatible middleware using ReactPHP,Cache Invalidation,https://github.com/maciejmrozinski/reactphp-varnish-esi-booster,No
