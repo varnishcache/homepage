@@ -8,6 +8,18 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2017-02-25 - 5.1 Release in 18 days
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish release 5.1 is due on march 15, in only 18 days, and we
+are trying polish and test the release as much as we can before
+then.
+
+If you can, please give the trunk release from github a workout
+and report any trouble you find.
+
+/phk
+
 2016-02-09 - Maintenance release 4.1.5
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
