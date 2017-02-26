@@ -3,7 +3,6 @@
     "desc": "Dynamic Backends from DNS lookups",
     "github": {
         "branches": {
-            "4.1": "4.1",
             "5.0": "master",
             "master": "master"
         },

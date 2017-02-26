@@ -3,7 +3,7 @@
     "desc": "Header manipulation",
     "github": {
         "branches": {
-            "4.1": "master"
+            "4.0": "4.0"
         },
         "project": "libvmod-header",
         "user": "varnish",

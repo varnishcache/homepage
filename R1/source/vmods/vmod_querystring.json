@@ -7,7 +7,7 @@
         },
         "project": "libvmod-querystring",
         "user": "Dridi",
-        "vcc_path": "src/vmod.vcc"
+        "vcc_path": "src/vmod_querystring.vcc"
     },
     "license": "FreeBSD",
     "name": "querystring",
