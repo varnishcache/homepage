@@ -50,6 +50,7 @@ rsync:	all
 		--exclude '/tools' \
 		--exclude '/trac' \
 		--exclude '/vtest' \
+		--exclude '/rfc' \
 		build/html/. \
 		${DESTHTTP}
 
