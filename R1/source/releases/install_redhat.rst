@@ -54,17 +54,32 @@ Varnish Cache is also distributed in third party package repositories.
 * RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on <http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/>.
 
 
+
 On the Cloud
 ------------
 
-Varnish Cache is also made available by Varnish Software for Red Hat Enterprise
-Linux on Amazon Web Services (AWS) Elastic Compute Cloud (EC2). Here is a list 
-of the current instances available:
+Varnish Cache is also made available by Varnish Software in the following 
+clouds providers:
 
-.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01H2061O4
+Amazon Web Services (AWS EC2)
+.............................
 
-* `Varnish Cache 4 on Red Hat Enterprise Linux 7`_
+Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud 
+(EC2). Here is a list of the current instances available:
 
-.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7`: https://aws.amazon.com/marketplace/pp/B01MR09UKM
+* `Varnish Cache 4 on Red Hat Enterprise Linux 7 on AWS`_
+* `Varnish Cache 5 on Red Hat Enterprise Linux 7 on AWS`_
 
-* `Varnish Cache 5 on Red Hat Enterprise Linux 7`_
+.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on AWS`: https://aws.amazon.com/marketplace/pp/B01H2061O4
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on AWS`: https://aws.amazon.com/marketplace/pp/B01MR09UKM
+
+Microsoft Azure
+...............
+
+Varnish Cache is available on Microsoft Azure. Here is a list of the current instances available:
+
+* `Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`_
+* `Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`_
+
+.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-redhat
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-5-redhat
