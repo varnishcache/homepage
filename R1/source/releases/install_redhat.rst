@@ -15,7 +15,9 @@ the main package and a development package.
 
 The official Varnish Cache repository is now hosted at Packagecloud.io.
 Instructions for installing the official repository which contains the newest 
-Varnish Cache 5 release are available at https://packagecloud.io/varnishcache/varnish5/install
+Varnish Cache 5 release are available at:
+
+* https://packagecloud.io/varnishcache/varnish5/install
 
 For manual installation instructions, use the instructions under "Manual" and
 +select "rpm" for RPM-based distributions.
