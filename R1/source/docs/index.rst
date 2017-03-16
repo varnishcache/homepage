@@ -61,7 +61,7 @@ The Varnish (Web Developer) Wiki
 
 `Varnish Software <https://www.varnish-software.com/>`__ has compiled a 
 wiki for Web Developers with Tutorials, Step-by-step guides, tips, VCL
-snippets and more content focused on the following Web Technologies:
+snippets and more. The content focused on the following web technologies:
 
 -  `Wordpress <https://www.varnish-software.com/wiki/content/tutorials/wordpress/index.html>`__
 -  `Drupal <https://www.varnish-software.com/wiki/content/tutorials/drupal/index.html>`__
@@ -72,8 +72,8 @@ snippets and more content focused on the following Web Technologies:
 There are also some generic resources available:
 
 -  `Varnish Web Developer FAQ <https://www.varnish-software.com/wiki/faq/index.html>`__
--  `Getting start with Varnish resources <https://www.varnish-software.com/wiki/start/index.html>`__
--  `Tutorials for using Varnish on any site <https://www.varnish-software.com/wiki/content/tutorials/varnish/index.html>`__
+-  `Getting started with Varnish resources <https://www.varnish-software.com/wiki/start/index.html>`__
+-  `Using Varnish on any site Guides and Tutorials <https://www.varnish-software.com/wiki/content/tutorials/varnish/index.html>`__
 
 We welcome contributions to the Varnish Web Dev Wiki and you can help by
 `creating issues <https://github.com/varnish/Varnish-Book/issues>`__ and/or send
