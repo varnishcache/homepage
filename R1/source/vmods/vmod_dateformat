@@ -1,0 +1,18 @@
+{
+    "date": "2017-03-02",
+    "desc": "Date conversions functions accordingly to a date format (strftime)",
+    "github": {
+        "branches": {
+            "4.1": "master",
+            "5.0": "master"
+        },
+        "project": "libvmod-dateformat",
+        "user": "thomsonreuters",
+        "vcc_path": "src/vmod_dateformat.vcc",
+        "doc_path": "README.rst"
+    },
+    "license": "BSD 2-Clause",
+    "name": "dateformat",
+    "status": "mature",
+    "maintainer": "jonathan.huot@thomsonreuters.com"
+}
