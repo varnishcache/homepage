@@ -71,6 +71,7 @@ snippets and more content focused on the following Web Technologies:
 -  `Expression Engine <https://www.varnish-software.com/wiki/content/tutorials/expressionEngine.html>`__
 
 There are also some generic resources available:
+
 -  `Varnish Web Developer FAQ <https://www.varnish-software.com/wiki/faq/index.html>`__
 -  `Getting start with Varnish resources <https://www.varnish-software.com/wiki/start/index.html>`__
 -  `Tutorials for using Varnish on any site <https://www.varnish-software.com/wiki/content/tutorials/varnish/index.html>`__
