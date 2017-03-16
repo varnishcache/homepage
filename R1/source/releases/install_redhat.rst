@@ -4,43 +4,32 @@ Installation on Red Hat Linux
 =============================
 
 Varnish Cache is packaged in RPMs for easy installation and upgrade on Red Hat
-systems.
+systems. The Varnish Cache project maintains official packages for the current
+Enterprise Linux versions. Varnish Cache 4.1 and 5.x are supported on EL6 and EL7.
 
+Official packages of 5
+----------------------
 
-Official packages
------------------
+Starting from Varnish Cache 5.0, we've simplified our packaging down to two:
+the main package and a development package.
 
-The Varnish Cache project maintains official packages for the current Enterprise Linux versions.
-Varnish Cache 4.0 and 4.1 are supported on EL6 and EL7.
+The official Varnish Cache repository is now hosted at Packagecloud.io.
+Instructions for installing the official repository which contains the newest 
+Varnish Cache 5 release are available at https://packagecloud.io/varnishcache/varnish5/install
 
-Varnish 4.1
-~~~~~~~~~~~
+For manual installation instructions, use the instructions under "Manual" and
++select "rpm" for RPM-based distributions.
 
-If you are on a compatible Linux distribution, use::
+Official packages of 4.1
+------------------------
 
-    yum install epel-release
-    rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-4.1.el7.rpm
-    (or: rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-4.1.el6.rpm for RHEL6)
-    yum install varnish
+To use Varnish Cache 4.1 packages from the official varnish-cache.org repos,
+follow the instructions available at:
 
-Varnish 4.0
-~~~~~~~~~~~
+* https://packagecloud.io/varnishcache/varnish41/install
 
-If you are on RHEL 6 or a compatible distribution, use::
-
-    yum install epel-release
-    rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-4.0.el6.rpm
-    yum install varnish
-
-For RHEL 7 and compatible distributions, use::
-
-    yum install epel-release
-    rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-4.0.el7.rpm
-    yum install varnish
-
-The `--no-signature` argument is only needed on initial installation, since
-the Varnish GPG key is not yet in the yum keyring.
-
+For manual installation instructions, use the instructions under "Manual" and
++select "rpm" for RPM-based distributions.
 
 External packaging
 ------------------
@@ -51,11 +40,10 @@ Varnish Cache is also distributed in third party package repositories.
 
 * `Fedora EPEL`_ does community packaging of Varnish Cache.
 
-* RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on <http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/>.
+* RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/.
 
 
-
-On the Cloud
+Cloud images
 ------------
 
 Varnish Cache is also made available by Varnish Software in the following 
@@ -64,8 +52,8 @@ clouds providers:
 Amazon Web Services (AWS EC2)
 .............................
 
-Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud 
-(EC2). Here is a list of the current instances available:
+Here is a list of the currently available images for RHEL7 on 
+Amazon Web Services (AWS) Elastic Compute Cloud (EC2):
 
 * `Varnish Cache 4 on Red Hat Enterprise Linux 7 on AWS`_
 * `Varnish Cache 5 on Red Hat Enterprise Linux 7 on AWS`_
@@ -76,7 +64,8 @@ Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud
 Microsoft Azure
 ...............
 
-Varnish Cache is available on Microsoft Azure. Here is a list of the current instances available:
+Here is a list of the currently available images for RHEL7 on 
+Microsoft's Azure cloud:
 
 * `Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`_
 * `Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`_
