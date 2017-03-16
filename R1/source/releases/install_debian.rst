@@ -24,6 +24,9 @@ The official Varnish Cache repository is now hosted at Packagecloud.io.
 Instructions for installing the official repository which contains the newest 
 Varnish Cache 5 release are available at https://packagecloud.io/varnishcache/varnish5/install
 
+For manual installation instructions, use the instructions under "Manual" and
++select "deb" for Deb-based distributions.
+
 Official packages of 4.1
 ------------------------
 
@@ -31,6 +34,9 @@ To use Varnish Cache 4.1 packages from the official varnish-cache.org repos,
 follow the instructions available at:
 
 * https://packagecloud.io/varnishcache/varnish41/install
+
+For manual installation instructions, use the instructions under "Manual" and
++select "deb" for Deb-based distributions.
 
 Archival builds
 ---------------
@@ -49,7 +55,7 @@ clouds providers:
 Amazon Web Services (AWS EC2)
 .............................
 
-Here is a list of the current instances available for Ubuntu LTS on 
+Here is a list of the currently available images for Ubuntu LTS on 
 Amazon Web Services (AWS) Elastic Compute Cloud (EC2):
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on AWS`_
@@ -61,7 +67,7 @@ Amazon Web Services (AWS) Elastic Compute Cloud (EC2):
 Microsoft Azure
 ...............
 
-Here is a list of the current instances available for Ubuntu LTS on 
+Here is a list of the currently available images for Ubuntu LTS on 
 Microsoft's Azure cloud:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`_
