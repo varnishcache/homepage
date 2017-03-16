@@ -40,7 +40,7 @@ Varnish Cache is also distributed in third party package repositories.
 
 * `Fedora EPEL`_ does community packaging of Varnish Cache.
 
-* RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/.
+* RedHat has packaged versions of Varnish Cache available since Software Collections 2.1. Announcement on <http://developers.redhat.com/blog/2015/11/17/software-collections-2-1-generally-available/>.
 
 
 Cloud images
@@ -48,6 +48,7 @@ Cloud images
 
 Varnish Cache is also made available by Varnish Software in the following 
 clouds providers:
+
 
 Amazon Web Services (AWS EC2)
 .............................
@@ -60,6 +61,7 @@ Amazon Web Services (AWS) Elastic Compute Cloud (EC2):
 
 .. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on AWS`: https://aws.amazon.com/marketplace/pp/B01H2061O4
 .. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on AWS`: https://aws.amazon.com/marketplace/pp/B01MR09UKM
+
 
 Microsoft Azure
 ...............
