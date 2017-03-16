@@ -10,12 +10,16 @@ We're trying to keep the official documentation in sync with the code.
 Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
-   4.1 <https://www.varnish-cache.org/docs/4.1/>`__
+   5.1 <https://www.varnish-cache.org/docs/5.1/>`__
+-  `Documentation for 
+   5.0 <https://www.varnish-cache.org/docs/5.0/>`__
 -  `Documentation for the stable release
+   4.1 <https://www.varnish-cache.org/docs/4.1/>`__
+-  `Documentation for the deprecated release
    4.0 <https://www.varnish-cache.org/docs/4.0/>`__
--  `Documentation for version
+-  `Documentation for old version
    3.0 <https://www.varnish-cache.org/docs/3.0/>`__ (unsupported)
--  `Documentation for version
+-  `Documentation for older version
    2.1 <https://www.varnish-cache.org/docs/2.1/>`__ (unsupported)
 -  `Documentation for the current development
    version <https://www.varnish-cache.org/docs/trunk/>`__ (git master)
