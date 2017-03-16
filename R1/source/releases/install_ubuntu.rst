@@ -5,7 +5,7 @@ Installation on Ubuntu
 
 For installation of official packages on Ubuntu Linux, see the :ref:`Debian<install_debian>` page.
 
-On the Cloud
+Cloud images
 ------------
 
 Varnish Cache is also made available by Varnish Software in the following 
@@ -14,8 +14,8 @@ clouds providers:
 Amazon Web Services (AWS EC2)
 .............................
 
-Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud 
-(EC2). Here is a list of the current instances available:
+Here is a list of the currently available images for Ubuntu LTS on 
+Amazon Web Services (AWS) Elastic Compute Cloud (EC2):
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on AWS`_
 * `Varnish Cache 5 on Ubuntu LTS 14.04 on AWS`_
@@ -26,7 +26,8 @@ Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud
 Microsoft Azure
 ...............
 
-Varnish Cache is available on Microsoft Azure. Here is a list of the current instances available:
+Here is a list of the currently available images for Ubuntu LTS on 
+Microsoft's Azure cloud:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`_
 * `Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`_
