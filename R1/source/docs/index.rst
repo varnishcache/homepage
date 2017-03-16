@@ -52,8 +52,7 @@ Software <https://www.varnish-software.com/>`__:
    download <http://book.varnish-software.com/>`__
 
 If you have feedback or want to make improvements to the book please do
-so by `filling
-issues <https://github.com/varnish/Varnish-Book/issues>`__ and/or send
+so by `fillin issues <https://github.com/varnish/Varnish-Book/issues>`__ and/or send
 us `pull-requests <https://github.com/varnish/Varnish-Book/pulls>`__.
 
 
@@ -77,7 +76,7 @@ There are also some generic resources available:
 -  `Tutorials for using Varnish on any site <https://www.varnish-software.com/wiki/content/tutorials/varnish/index.html>`__
 
 We welcome contributions to the Varnish Web Dev Wiki and you can help by
-filling issues <https://github.com/varnish/Varnish-Wiki/issues>`__ and/or send
+`fillin issues <https://github.com/varnish/Varnish-Book/issues>`__ and/or send
 us `pull-requests <https://github.com/varnish/Varnish-Wiki/pulls>`__.
 
 
