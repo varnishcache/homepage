@@ -57,5 +57,29 @@ issues <https://github.com/varnish/Varnish-Book/issues>`__ and/or send
 us `pull-requests <https://github.com/varnish/Varnish-Book/pulls>`__.
 
 
+The Varnish (Web Developer) Wiki
+--------------------------------
+
+`Varnish Software <https://www.varnish-software.com/>`__ has compiled a 
+wiki for Web Developers with Tutorials, Step-by-step guides, tips, VCL
+snippets and more content focused on the following Web Technologies:
+
+-  `Wordpress <https://www.varnish-software.com/wiki/content/tutorials/wordpress/index.html>`__
+-  `Drupal <https://www.varnish-software.com/wiki/content/tutorials/drupal/index.html>`__
+-  `Magento 2 <https://www.varnish-software.com/wiki/content/tutorials/magento2/index.html>`__
+-  `Adobe Exprience Manager <https://www.varnish-software.com/wiki/content/tutorials/aem.html>`__
+-  `Expression Engine <https://www.varnish-software.com/wiki/content/tutorials/expressionEngine.html>`__
+
+There are also some generic resources available:
+-  `Varnish Web Developer FAQ <https://www.varnish-software.com/wiki/faq/index.html>`__
+-  `Getting start with Varnish resources <https://www.varnish-software.com/wiki/start/index.html>`__
+-  `Tutorials for using Varnish on any site <https://www.varnish-software.com/wiki/content/tutorials/varnish/index.html>`__
+
+We welcome contributions to the Varnish Web Dev Wiki and you can help by
+filling issues <https://github.com/varnish/Varnish-Wiki/issues>`__ and/or send
+us `pull-requests <https://github.com/varnish/Varnish-Wiki/pulls>`__.
+
+
+
 .. toctree::
 	:hidden:
