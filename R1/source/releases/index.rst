@@ -8,6 +8,7 @@ Varnish Cache is released every 6 months.
 ========================== ============ ===========  ===========
 Release                    Date         Notes        Download
 ========================== ============ ===========  ===========
+:ref:`rel5.1.1`            2016-03-16   Fresh        `varnish-5.1.1.tar.gz`_
 :ref:`rel5.0.0`            2016-09-15   Fresh        `varnish-5.0.0.tar.gz`_
 :ref:`rel4.1.5`            2016-02-09   Supported    `varnish-4.1.5.tar.gz`_
 :ref:`rel4.0.4`            2016-11-30   End Of Life  `varnish-4.0.4.tar.gz`_
@@ -15,6 +16,7 @@ Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
 ========================== ============ ===========  ===========
 
 .. _`beta packages`: https://repo.varnish-cache.org/pkg/5.0.0-beta1/
+.. _varnish-5.1.1.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.1.tar.gz
 .. _varnish-5.0.0.tar.gz: https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz
 .. _varnish-4.1.5.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.5.tar.gz
 .. _varnish-4.0.4.tar.gz: https://repo.varnish-cache.org/source/varnish-4.0.4.tar.gz
@@ -47,7 +49,7 @@ Here is a list of the ones we know about:
 .. _`Alpine Linux`: https://pkgs.alpinelinux.org/package/edge/main/x86_64/varnish
 
 
-On the Cloud
+Cloud images
 ------------
 
 Varnish Cache is also made available by Varnish Software in the following 
@@ -57,7 +59,7 @@ Amazon Web Services (AWS EC2)
 .............................
 
 Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud 
-(EC2). Here is a list of the current instances available:
+(EC2). Here is a list of the current images available:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on AWS`_
 * `Varnish Cache 5 on Ubuntu LTS 14.04 on AWS`_
@@ -72,7 +74,7 @@ Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud
 Microsoft Azure
 ...............
 
-Varnish Cache is available on Microsoft Azure. Here is a list of the current instances available:
+Varnish Cache is available on Microsoft Azure. Here is a list of the current images available:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`_
 * `Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`_
