@@ -15,7 +15,7 @@ Come and get it...
 
 Our `list of changes and other good reasons to update to 5.1 </docs/trunk/whats-new/changes-5.1.html>`_
 
-EL7, Debian-Jessie, Ubuntu-Trusty and Ubuntu-Xenail packages can be found
+EL7, Debian-Jessie, Ubuntu-Trusty and Ubuntu-Xenial packages can be found
 on `PackageCloud.io <https://packagecloud.io/varnishcache/varnish5>`_
 
 `Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.1.tar.gz>`_
