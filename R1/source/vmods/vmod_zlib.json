@@ -1,0 +1,17 @@
+{
+    "date": "2017-03-21",
+    "desc": "Uncompress request's body before sending it to the backend.",
+    "github": {
+        "branches": {
+            "4.1": "master"
+        },
+        "project": "libvmod-zlib",
+        "user": "thomsonreuters",
+        "vcc_path": "src/vmod_zlib.vcc",
+        "doc_path": "README.rst"
+    },
+    "license": "BSD 2-Clause",
+    "name": "zlib",
+    "status": "development",
+    "maintainer": "jonathan.huot@thomsonreuters.com"
+}
