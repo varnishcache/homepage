@@ -8,6 +8,21 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2017-04-07 - Varnish 5.1.2 is here too
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We decided that 5.1.1 had too many bugs, none of the truly horrible,
+but there were too many asserts for our taste.  
+
+We fixed that, and thanks to Simon and Xcir, the HTTP/2 code got a good
+beating out and is now much more stable as a result.
+
+EL7, Debian-Jessie, Ubuntu-Trusty and Ubuntu-Xenial packages can be found
+on `PackageCloud.io <https://packagecloud.io/varnishcache/varnish5>`_
+
+`Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.2.tar.gz>`_
+
+
 2017-03-16 - Varnish 5.1.1 is here
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
