@@ -96,6 +96,8 @@ Varnish Cache is available on Microsoft Azure. Here is a list of the current ima
 .. toctree::
 	:hidden:
 
+	rel5.1.2
+	rel5.1.1
 	rel5.0.0
 	rel4.1.3
 	rel4.1.2
