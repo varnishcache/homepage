@@ -11,7 +11,7 @@ What is happening
 2017-04-11 - Varnish 5.1 release post mortem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Poul-Henning looks at the last couple of weeks </docs/trunk/phk/somethinghappened.htm>`_
+`Poul-Henning looks at the last couple of weeks </docs/trunk/phk/somethinghappened.html>`_
 
 2017-04-07 - Varnish 5.1.2 is here too
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
