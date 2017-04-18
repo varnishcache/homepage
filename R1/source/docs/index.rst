@@ -76,7 +76,7 @@ There are also some generic resources available:
 -  `Using Varnish on any site Guides and Tutorials <https://www.varnish-software.com/wiki/content/tutorials/varnish/index.html>`__
 
 We welcome contributions to the Varnish Web Dev Wiki and you can help by
-`creating issues <https://github.com/varnish/Varnish-Book/issues>`__ and/or send
+`creating issues <https://github.com/varnish/Varnish-Wiki/issues>`__ and/or send
 us `pull-requests <https://github.com/varnish/Varnish-Wiki/pulls>`__.
 
 
