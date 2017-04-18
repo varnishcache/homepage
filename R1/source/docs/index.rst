@@ -66,7 +66,7 @@ snippets and more. The content focused on the following web technologies:
 -  `Wordpress <https://www.varnish-software.com/wiki/content/tutorials/wordpress/index.html>`__
 -  `Drupal <https://www.varnish-software.com/wiki/content/tutorials/drupal/index.html>`__
 -  `Magento 2 <https://www.varnish-software.com/wiki/content/tutorials/magento2/index.html>`__
--  `Adobe Exprience Manager <https://www.varnish-software.com/wiki/content/tutorials/aem.html>`__
+-  `Adobe Experience Manager <https://www.varnish-software.com/wiki/content/tutorials/aem.html>`__
 -  `Expression Engine <https://www.varnish-software.com/wiki/content/tutorials/expressionEngine.html>`__
 
 There are also some generic resources available:
