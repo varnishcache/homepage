@@ -76,7 +76,8 @@ Varnish Cache is available on Amazon Web Services (AWS) Elastic Compute Cloud
 Microsoft Azure
 ...............
 
-Varnish Cache is available on Microsoft Azure. Here is a list of the current images available:
+Varnish Cache is available on Microsoft Azure. 
+Here is a list of the current images available:
 
 * `Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`_
 * `Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`_
@@ -88,7 +89,21 @@ Varnish Cache is available on Microsoft Azure. Here is a list of the current ima
 .. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-redhat
 .. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-5-redhat
 
+Google Cloud Platform (GCP)
+...........................
 
+Varnish Cache is available on Google Cloud Platform (GCP). 
+Here is a list of the current images available:
+
+* `Varnish Cache 4 on Ubuntu LTS 14.04 on GCP`_
+* `Varnish Cache 5 on Ubuntu LTS 14.04 on GCP`_
+* `Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`_
+* `Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`_
+
+.. _`Varnish Cache 4 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4---payg---ubuntu
+.. _`Varnish Cache 5 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5---payg---ubuntu
+.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4---payg---red-hat
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5---payg---red-hat
 
 
 
