@@ -1,9 +1,13 @@
 {
-    "date": "YYYY-MM-DD",
+    "date": "2017-04-21",
     "desc": "AWS Signature",
     "github": {
         "branches": {
-            "4.0": "master"
+            "3.0": "varnish30",
+            "4.0": "varnish40",
+            "4.1": "varnish41",
+            "5.0": "master",
+            "5.1": "master"
         },
         "project": "libvmod-awsrest",
         "user": "xcir",
