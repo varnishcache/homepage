@@ -1,0 +1,18 @@
+{
+    "date": "2017-04-21",
+    "desc": "access the libgcrypt library of cryptographic building blocks",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "gcrypt",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-gcrypt",
+    "rev": {
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-gcrypt/raw/master/src/vmod_gcrypt.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-gcrypt/blob/master/README.rst"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
