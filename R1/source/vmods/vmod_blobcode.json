@@ -1,5 +1,5 @@
 {
-    "date": "2016-04-21",
+    "date": "2017-04-21",
     "desc": "binary-to-text encodings and decodings for BLOBs",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
@@ -7,10 +7,19 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobcode",
     "rev": {
         "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/raw/master/src/vmod_blobcode.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/raw/4.1/src/vmod_blobcode.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/4.1/README.rst"
+        },
+        "5.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/raw/5.0/src/vmod_blobcode.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/5.0/README.rst"
+        },
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/raw/master/src/vmod_blobcode.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/master/README.rst"
         }
     },
-    "status": "development",
+    "status": "mature",
     "support": [
         "Uplex"
     ]
