@@ -1,5 +1,5 @@
 {
-    "date": "2016-04-21",
+    "date": "2017-04-21",
     "desc": "digests and hmacs for BLOBs",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
@@ -7,10 +7,19 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest",
     "rev": {
         "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/master/src/vmod_blobdigest.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/4.1/src/vmod_blobdigest.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/4.1/README.rst"
+        },
+        "5.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/5.0/src/vmod_blobdigest.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/5.0/README.rst"
+        },
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/master/src/vmod_blobdigest.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/master/README.rst"
         }
     },
-    "status": "development",
+    "status": "mature",
     "support": [
         "Uplex"
     ]
