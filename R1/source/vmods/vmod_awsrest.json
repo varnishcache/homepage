@@ -7,7 +7,7 @@
             "4.0": "varnish40",
             "4.1": "varnish41",
             "5.0": "master",
-            "5.1": "master"
+            "master": "master"
         },
         "project": "libvmod-awsrest",
         "user": "xcir",
