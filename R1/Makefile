@@ -46,6 +46,7 @@ rsync:	all
 		--exclude '/docs/trunk' \
 		--exclude '/docs/[2-9]*' \
 		--exclude '/forum' \
+		--exclude '/flexelint' \
 		--exclude '/gcov' \
 		--exclude '/tools' \
 		--exclude '/trac' \
