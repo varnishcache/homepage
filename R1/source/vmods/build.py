@@ -121,6 +121,7 @@ class vmod(object):
 def load_all():
 	vmods = {}
 	for fn in glob.glob("vmod_*.json"):
+		print(fn)
 		v = vmod(fn)
 		vmods[v.name()] = v
 	return vmods
