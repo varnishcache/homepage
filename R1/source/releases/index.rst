@@ -11,7 +11,7 @@ Release                    Date         Notes        Download
 :ref:`rel5.1.2`            2017-04-07   Fresh        `varnish-5.1.2.tar.gz`_
 :ref:`rel5.1.1`            2017-03-16   Superseded   `varnish-5.1.1.tar.gz`_
 :ref:`rel5.0.0`            2016-09-15   Retired      `varnish-5.0.0.tar.gz`_
-:ref:`rel4.1.5`            2016-02-09   Supported    `varnish-4.1.5.tar.gz`_
+:ref:`rel4.1.6`            2016-04-26   Supported    `varnish-4.1.6.tar.gz`_
 :ref:`rel4.0.4`            2016-11-30   End Of Life  `varnish-4.0.4.tar.gz`_
 Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
 ========================== ============ ===========  ===========
@@ -20,7 +20,7 @@ Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
 .. _varnish-5.1.2.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.2.tar.gz
 .. _varnish-5.1.1.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.1.tar.gz
 .. _varnish-5.0.0.tar.gz: https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz
-.. _varnish-4.1.5.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.5.tar.gz
+.. _varnish-4.1.6.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.6.tar.gz
 .. _varnish-4.0.4.tar.gz: https://repo.varnish-cache.org/source/varnish-4.0.4.tar.gz
 .. _varnish-3.0.7.tar.gz: https://repo.varnish-cache.org/source/varnish-3.0.7.tar.gz
 
