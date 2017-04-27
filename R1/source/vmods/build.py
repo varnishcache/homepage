@@ -121,8 +121,11 @@ class vmod(object):
 def load_all():
 	vmods = {}
 	for fn in glob.glob("vmod_*.json"):
-		print(fn)
-		v = vmod(fn)
+		try:
+			v = vmod(fn)
+		except:
+			print("ERROR: couldn't load " + fn)
+			continue
 		vmods[v.name()] = v
 	return vmods
 
