@@ -62,3 +62,4 @@ varnish-exec,Java library and JUnit rule for running Varnish Cache daemon.,Misc.
 VCLGenie, GUI and API to generate VCL from JSON API, Misc. Tools, https://github.com/iheartradio/vclgenie, No
 varnish-influxdb,Varnish counters to InfluxDB over UDP,Monitoring+Statistics,https://github.com/lkarsten/varnish-influxdb,No
 ReactPHP Varnish Esi Booster,Varnish Esi Booster is an asynchronous PSR-7 compatible middleware using ReactPHP,Cache Invalidation,https://github.com/maciejmrozinski/reactphp-varnish-esi-booster,No
+varnishevent,Varnish log reader designed for heavy loads,Monitoring+Statistics,https://code.uplex.de/uplex-varnish/varnishevent,Uplex
