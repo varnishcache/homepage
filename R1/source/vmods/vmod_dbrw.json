@@ -1,16 +1,23 @@
 {
-    "date": "YYYY-MM-DD",
+    "name": "dbrw",
+    "date": "2017-05-10",
     "desc": "Database-driven rewrites",
     "license": "GPLv2",
-    "name": "dbrw",
+    "status": "mature",
+    "maintainer": "gray@gnu.org",
+    "support": [
+        "Norse Digital"
+    ],
+    
     "repos": "http://git.gnu.org.ua/cgit/vmod-dbrw.git",
     "rev": {
+        "4.0": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc?h=varnish-4.0",
+            "url_doc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/README?h=varnish-4.0"
+        },
         "4.1": {
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc",
+            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw"
         }
-    },
-    "status": "mature",
-    "support": [
-        "NXC International"
-    ]
+    }
 }

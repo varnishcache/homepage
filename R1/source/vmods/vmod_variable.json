@@ -1,16 +1,22 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "Variable",
-    "license": "GPLv2",
     "name": "variable",
+    "date": "2017-05-10",
+    "desc": "Enhanced variable support",
+    "license": "GPLv2",
+    "status": "mature",
+    "maintainer": "gray@gnu.org",
+    "support": [
+        "Norse Digital"
+    ],
     "repos": "http://git.gnu.org.ua/cgit/vmod-variable.git/",
     "rev": {
+        "4.0": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-variable.git/plain/src/variable.vcc?h=4.0",
+	    "url_doc": "http://git.gnu.org.ua/cgit/vmod-variable.git/plain/README?h=4.0"
+	},
         "4.1": {
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-variable.git/plain/src/variable.vcc"
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-variable.git/plain/src/variable.vcc",
+	    "url_doc": "http://www.gnu.org.ua/software/vmod-variable"
         }
-    },
-    "status": "mature",
-    "support": [
-        "NXC International"
-    ]
+    }
 }
