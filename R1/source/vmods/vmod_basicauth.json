@@ -8,16 +8,15 @@
     "support": [
         "Norse Digital"
     ],
-    
     "repos": "http://git.gnu.org.ua/cgit/vmod-basicauth.git",
     "rev": {
-	"4.0": {
-	    "url_vcc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/src/vmod_basicauth.vcc?h=varnish-4.0",
-	    "url_doc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/README?h=varnish-4.0"
-	},
+        "4.0": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/src/vmod_basicauth.vcc?h=varnish-4.0",
+            "url_doc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/README?h=varnish-4.0"
+        },
         "4.1": {
             "url_vcc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/src/vmod_basicauth.vcc",
-	    "url_doc": "http://www.gnu.org.ua/software/vmod-basicauth"
+            "url_doc": "http://www.gnu.org.ua/software/vmod-basicauth"
         }
     }
 }

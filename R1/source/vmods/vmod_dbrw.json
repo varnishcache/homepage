@@ -8,7 +8,6 @@
     "support": [
         "Norse Digital"
     ],
-    
     "repos": "http://git.gnu.org.ua/cgit/vmod-dbrw.git",
     "rev": {
         "4.0": {
