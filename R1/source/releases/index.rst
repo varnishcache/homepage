@@ -100,10 +100,10 @@ Here is a list of the current images available:
 * `Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`_
 * `Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`_
 
-.. _`Varnish Cache 4 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4---payg---ubuntu
-.. _`Varnish Cache 5 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5---payg---ubuntu
-.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4---payg---red-hat
-.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5---payg---red-hat
+.. _`Varnish Cache 4 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4-payg-ubuntu
+.. _`Varnish Cache 5 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5-payg-ubuntu
+.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4-payg-red-hat
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5-payg-red-hat
 
 
 

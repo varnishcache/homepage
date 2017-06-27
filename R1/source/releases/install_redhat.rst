@@ -87,5 +87,5 @@ Google Cloud Platform (GCP):
 * `Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`_
 * `Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`_
 
-.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4---payg---red-hat
-.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5---payg---red-hat
+.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4-payg-red-hat
+.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5-payg-red-hat
