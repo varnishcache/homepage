@@ -8,6 +8,20 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2017-06-28 - Maintenance release 4.1.7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish Cache 4.1.7 has been released and is ready for
+download. Packages will be made available for the usual platforms.
+
+The release contains bug fixes and minor enhancements. Among the bug
+fixes is `#1764 - Correctly honor nuke_limit parameter
+<https://github.com/varnishcache/varnish-cache/issues/1764>`_. Before
+this fix, Varnish would not limit the number of LRU nukes to fit a new
+object into the cache. Now nuke_limit will be honored.
+
+Pål Hermunn Johansen, Varnish Software
+
 2017-04-27 - Maintenance release 4.1.6
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
