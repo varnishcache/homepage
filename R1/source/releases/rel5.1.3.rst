@@ -7,7 +7,7 @@ Varnish Cache 5.1.3
 
 `Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.3.tar.gz>`_
 
-Varnish Cache 5.1.3 is a stability release of Varnish Cache 5.1. See separate announcement for details on this update.
+Varnish Cache 5.1.3 is a stability release of Varnish Cache 5.1. See :ref:`vsv00001` for details.
 
 More information:
 

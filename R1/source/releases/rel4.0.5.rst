@@ -17,6 +17,6 @@ By Operating System
 
 `Change log <https://github.com/varnishcache/varnish-cache/blob/4.0/doc/changes.rst>`_
 
-Varnish Cache 4.0.5 is a stability release for the 4.0 branch, released in spite of 4.0 being "end of life". See the separate announcement for full details.
+Varnish Cache 4.0.5 is a stability release for the 4.0 branch, released in spite of 4.0 being "end of life". See :ref:`vsv00001` for details.
 
 All users of 4.0.x are recommended to upgrade to this version, and then to start working on an upgrade to 4.1 or 5.0.

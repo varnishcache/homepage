@@ -14,6 +14,12 @@ What is happening
 All varnish versions from 4.0.1 are vulnerable to a Denial of Service
 attack, please see :ref:`vsv00001`
 
+2017-08-02 - Security releases: 4.0.5, 4.1.8 and 5.1.3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions 4.0.5, 4.1.8 and 5.1.3 are now available. See
+:ref:`vsv00001` for details.
+
 2017-06-28 - Maintenance release 4.1.7
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

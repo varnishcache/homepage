@@ -3,7 +3,7 @@
 Varnish Cache 4.1.7
 ===================
 
-* 2016-04-26 /Pål Hermunn
+* 2017-06-28 /Pål Hermunn
 
 `Source download <https://repo.varnish-cache.org/source/varnish-4.1.7.tar.gz>`_
 
