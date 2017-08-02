@@ -8,6 +8,12 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2017-08-02 - Security Advisory: Denial of Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All varnish versions from 4.0.1 are vulnerable to a Denial of Service
+attack, please see :ref:`vsv00001`
+
 2017-06-28 - Maintenance release 4.1.7
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

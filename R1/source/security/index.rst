@@ -1,11 +1,16 @@
 Security, bugs & vulnerabilities
 ================================
 
-* Rev. 2016-04-11 *phk*
+* Rev. 2018-08-02 *phk*
+
+.. toctree::
+	:maxdepth: 1
+
+	VSV00001.rst
 
 We take security and quality *very* seriously in the Varnish project,
-and that is why we have not had any major security scares in the
-ten year lifetime of the project.
+and we are more than a little proud that it took eleven years before
+we had a major security issue.
 
 I have found a security hole
 ----------------------------
@@ -17,20 +22,8 @@ I want to hear about security vulnerabilities
 
 Subscribe to the `Varnish Announce mailing list <https://www.varnish-cache.org/lists/mailman/listinfo/varnish-announce>`_
 
-Vulnerabilities are and will also be listed further down on this page.
-
-Security Politics
------------------
-
-To be totally honest, this is section is rather speculative, but
-this is how I expect we would react to a major security issue:
-
-* Get a CVE assigned.
-* Create a VCL workaround, if at all possible.
-* Fix the problem.
-* If it makes sense (ie: no VCL workaround), roll a point-release.
-* Announce on announce@varnish-cache.org and homepage.
-* Kick ourselves, for *months*, for missing the bug.
+Vulnerabilities are and will also be listed further at the top of this page when they are new
+and further down when they get older.
 
 I'm a VIVU goddammit!
 ---------------------
@@ -39,11 +32,39 @@ Varnish users come in all sizes and importance, some are private
 homepages, some are global CDNs, national governments or major
 news outlets.
 
-We do not have a formal structure in place to notify "Very Important
-Varnish Users", but we will try to give advance notice to them,
-if we know how to reach them.
+We want to provide some way to for Varnish users to get early warning about
+future security incidents, but we do not want to pass judgement on
+who are "Very Important Varnish Users" and much less to we want to
+try to keep a list of up to date contact information for a list
+that long.
 
-If you feel you are a VIVU, drop phk@ an email and tell him why.
+We also don't want to make this information free, because if we
+did, every criminal and his brother would sign up, to get a head
+start against the Varnish users.
+
+The rule going forward is therefore that if you contributed at least
+EUR240 towards a `Varnish Moral License <http://phk.freebsd.dk/VML/>`_
+in the 12 months previous to the disclosure-date, you will get early
+warning about security issues.
+
+On a case-by-case basis and purely at our discretion, we will also
+extend this privilege to people who have contributed significantly
+to the project in other ways.
+
+Security Politics
+-----------------
+
+To be totally honest, this is section is quite speculative, we have
+very little experience in this area, but this is how I expect we
+would react to a major security issue:
+
+* Assign a VSV number
+* Try to get a CVE assigned.
+* Create a VCL workaround, if at all possible.
+* Fix the problem.
+* If it makes sense (ie: no VCL workaround), roll a point-release.
+* Announce on announce@varnish-cache.org and homepage.
+* Kick ourselves, for *months*, for missing the bug.
 
 Define "Major"
 --------------
@@ -64,19 +85,20 @@ external contributors, which imperil Varnish users, we will not
 hesitate to issue a CVE to get peoples attention.
 
 
-10 years, really?
+11 years, really?
 -----------------
 
 Yes, indeed.  Luck probably has a lot to do with it, but luck tends
 to favour the well-prepared, and we have had a big focus on quality
 since the very start.
 
-`Here is a piece I wrote about it <https://r.varnish-cache.org/docs/trunk/phk/thatslow.html>`_
+`Here is a piece I wrote about it last year <https://r.varnish-cache.org/docs/trunk/phk/thatslow.html>`_
 
 
-List of Varnish CVEs
---------------------
+List of all Varnish security issues
+----------------------------------------
 
+* CVE-____-____ -- :ref:`vsv00001`
 * `CVE-2013-4484 -- < 3.0.5 -- DoS <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4484>`_
 * `CVE-2013-0345 -- <= 3.0.3 -- Local information leak <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0345>`_
 * `CVE-2009-4488 -- 2.0.6 -- Trophy hunting <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4488>`_
@@ -206,7 +228,4 @@ Poul-Henning Kamp, author and main developer of Varnish::
  /XVzgbjqDryBZx0fH6F1ZMZmfOf7UbSIuSS4EGHI65DMrijTCg==
  =Bvkq
  -----END PGP PUBLIC KEY BLOCK-----
-
-.. toctree::
-	:hidden:
 
