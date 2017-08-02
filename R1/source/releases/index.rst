@@ -8,20 +8,18 @@ Varnish Cache is released every 6 months.
 ========================== ============ ===========  ===========
 Release                    Date         Notes        Download
 ========================== ============ ===========  ===========
-:ref:`rel5.1.2`            2017-04-07   Fresh        `varnish-5.1.2.tar.gz`_
-:ref:`rel5.1.1`            2017-03-16   Superseded   `varnish-5.1.1.tar.gz`_
+:ref:`rel5.1.3`            2017-08-02   Fresh        `varnish-5.1.3.tar.gz`_
 :ref:`rel5.0.0`            2016-09-15   Retired      `varnish-5.0.0.tar.gz`_
-:ref:`rel4.1.7`            2017-06-28   Supported    `varnish-4.1.7.tar.gz`_
-:ref:`rel4.0.4`            2016-11-30   End Of Life  `varnish-4.0.4.tar.gz`_
+:ref:`rel4.1.8`            2017-08-02   Supported    `varnish-4.1.8.tar.gz`_
+:ref:`rel4.0.5`            2017-08-02   End Of Life  `varnish-4.0.5.tar.gz`_
 Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
 ========================== ============ ===========  ===========
 
 .. _`beta packages`: https://repo.varnish-cache.org/pkg/5.0.0-beta1/
-.. _varnish-5.1.2.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.2.tar.gz
-.. _varnish-5.1.1.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.1.tar.gz
+.. _varnish-5.1.3.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.3.tar.gz
 .. _varnish-5.0.0.tar.gz: https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz
-.. _varnish-4.1.7.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.7.tar.gz
-.. _varnish-4.0.4.tar.gz: https://repo.varnish-cache.org/source/varnish-4.0.4.tar.gz
+.. _varnish-4.1.8.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.8.tar.gz
+.. _varnish-4.0.5.tar.gz: https://repo.varnish-cache.org/source/varnish-4.0.5.tar.gz
 .. _varnish-3.0.7.tar.gz: https://repo.varnish-cache.org/source/varnish-3.0.7.tar.gz
 
 
@@ -111,11 +109,19 @@ Here is a list of the current images available:
 .. toctree::
 	:hidden:
 
+	rel5.1.3
 	rel5.1.2
 	rel5.1.1
 	rel5.0.0
+	rel4.1.8
+	rel4.1.7
+	rel4.1.6
+	rel4.1.5
+	rel4.1.4
 	rel4.1.3
 	rel4.1.2
+	rel4.0.5
+	rel4.0.4
 	rel4.0.3
 	install_freebsd
 	install_ubuntu
