@@ -3,7 +3,7 @@
 VSV00001 DoS vulnerability
 ==========================
 
-CVE-<to be assigned, we couldn't get one under embargo>
+`CVE-2017-12425 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12425>`_
 
 Date:	2017-08-02
 
