@@ -8,7 +8,7 @@ News, Dates & Events
 Next major release
 -------------------
 
-* 2017-03-xx Varnish 5.1 or 6.0 (not yet decided)
+* 2017-09-xx Varnish 5.2 or 6.0 (not yet decided)
 
 .. toctree::
 	:hidden:
@@ -16,6 +16,18 @@ Next major release
 	20160425_website.rst
 	20160411_website.rst
 	
+
+Package repository status
+-------------------------
+
+The official (apt/yum) package repositories are now located at Packagecloud.io.
+A list of all available repositories can be found at:
+https://packagecloud.io/varnishcache
+
+The old http://repo.varnish-cache.org/ is going to be removed on the 15th of
+september.
+
+For more details on packages, see :ref:`Releases & Downloads <releases>`
 
 Past events
 -----------
