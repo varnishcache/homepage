@@ -29,11 +29,9 @@ Microsoft Azure
 Here is a list of the currently available images for Ubuntu LTS on 
 Microsoft's Azure cloud:
 
-* `Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`_
-* `Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`_
+* `Varnish Cache 4 and 5 on Ubuntu LTS 14.04 on Azure`_
 
-.. _`Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache
-.. _`Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-5-ubuntu
+.. _`Varnish Cache 4 and 5 on Ubuntu LTS 14.04 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache_
 
 Google Cloud Platform (GCP)
 ...........................
