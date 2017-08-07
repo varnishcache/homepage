@@ -71,11 +71,9 @@ Microsoft Azure
 Here is a list of the currently available images for RHEL7 on 
 Microsoft's Azure cloud:
 
-* `Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`_
-* `Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`_
+* `Varnish Cache 4 and 5 on Red Hat Enterprise Linux 7 on Azure`_
 
-.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-redhat
-.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-5-redhat
+.. _`Varnish Cache 4 and 5 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache_
 
 
 Google Cloud Platform (GCP)

@@ -77,15 +77,11 @@ Microsoft Azure
 Varnish Cache is available on Microsoft Azure. 
 Here is a list of the current images available:
 
-* `Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`_
-* `Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`_
-* `Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`_
-* `Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`_
+* `Varnish Cache 4 and 5 on Ubuntu LTS 14.04 on Azure`_
+* `Varnish Cache 4 and 5 on Red Hat Enterprise Linux 7 on Azure`_
 
-.. _`Varnish Cache 4 on Ubuntu LTS 14.04 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache
-.. _`Varnish Cache 5 on Ubuntu LTS 14.04 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-5-ubuntu
-.. _`Varnish Cache 4 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-redhat
-.. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache-5-redhat
+.. _`Varnish Cache 4 and 5 on Ubuntu LTS 14.04 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache_
+.. _`Varnish Cache 4 and 5 on Red Hat Enterprise Linux 7 on Azure`: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/varnish.varnish-cache_
 
 Google Cloud Platform (GCP)
 ...........................
