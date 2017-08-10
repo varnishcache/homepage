@@ -100,10 +100,11 @@ Here is a list of the current images available:
 .. _`Varnish Cache 5 on Red Hat Enterprise Linux 7 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5-payg-red-hat
 
 
-
+Older Releases
+--------------
 
 .. toctree::
-	:hidden:
+	:maxdepth: 1
 
 	rel5.1.3
 	rel5.1.2
@@ -119,6 +120,10 @@ Here is a list of the current images available:
 	rel4.0.5
 	rel4.0.4
 	rel4.0.3
+
+.. toctree::
+	:hidden:
+
 	install_freebsd
 	install_ubuntu
 	install_debian
