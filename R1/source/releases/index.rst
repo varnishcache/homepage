@@ -137,6 +137,7 @@ Older Releases
         rel2.0.4
         rel2.0.3
         rel2.0.2
+        rel2.0
         rel2.0.1
         rel1.1.2
         rel1.1.1
