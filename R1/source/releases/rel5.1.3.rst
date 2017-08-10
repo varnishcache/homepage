@@ -3,9 +3,13 @@
 Varnish Cache 5.1.3
 ===================
 
- - 2017-08-02 /Pål Hermunn
+* Source download :download:`varnish-5.1.3.tar.gz <varnish-5.1.3.tar.gz>`
 
-`Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.3.tar.gz>`_
+* SHA=7439c93ca581340f3722b8c790160f46dc6c5328188e4c0bc233c42f3f04a54e
+
+* `SHA evidence <https://svnweb.freebsd.org/ports/head/www/varnish5/distinfo?view=markup&pathrev=447142>`_
+
+* 2017-08-02 /Pål Hermunn
 
 Varnish Cache 5.1.3 is a stability release of Varnish Cache 5.1. See :ref:`vsv00001` for details.
 

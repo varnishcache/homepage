@@ -60,7 +60,7 @@ beating out and is now much more stable as a result.
 EL7, Debian-Jessie, Ubuntu-Trusty and Ubuntu-Xenial packages can be found
 on `PackageCloud.io <https://packagecloud.io/varnishcache/varnish5>`_
 
-`Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.2.tar.gz>`_
+:download:`Source package can be found here <releases/varnish-5.1.2.tar.gz>`
 
 
 2017-03-16 - Varnish 5.1.1 is here
@@ -73,7 +73,7 @@ Our `list of changes and other good reasons to update to 5.1 </docs/trunk/whats-
 EL7, Debian-Jessie, Ubuntu-Trusty and Ubuntu-Xenial packages can be found
 on `PackageCloud.io <https://packagecloud.io/varnishcache/varnish5>`_
 
-`Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.1.tar.gz>`_
+:download:`Source package can be found here <releases/varnish-5.1.1.tar.gz>`
 
 And yes, it is called 5.1.1 and we're one day late and it's all my
 fault.  I'll tell you about it later, but first I have to do some

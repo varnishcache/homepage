@@ -3,11 +3,15 @@
 Varnish Cache 4.1.7
 ===================
 
+* Source download :download:`varnish-4.1.7.tar.gz <varnish-4.1.7.tar.gz>`
+
+* SHA=c52ee2f5d052a496f3700d8ac8eb4da45144779c863f09f7be70daec3cfed105
+
+* `SHA evidence <https://gitweb.gentoo.org/repo/gentoo.git/tree/www-servers/varnish/Manifest?id=ba4ad6bba2c8574369965f9725346b45aeb2dd5e>`_
+
+* `Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
+
 * 2017-06-28 /Pål Hermunn
-
-`Source download <https://repo.varnish-cache.org/source/varnish-4.1.7.tar.gz>`_
-
-`Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
 
 Varnish Cache 4.1.7 is a maintenance release of the 4.1 branch with
 several bug fixes. See the change log for a complete list of changes,

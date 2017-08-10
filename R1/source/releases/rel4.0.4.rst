@@ -3,6 +3,10 @@
 Varnish Cache 4.0.4
 ===================
 
+* Source download :download:`varnish-4.0.4.tar.gz <varnish-4.0.4.tar.gz>`
+
+* `Change log <https://github.com/varnishcache/varnish-cache/blob/4.0/doc/changes.rst>`_
+
 * 2016-11-30 /Pål Hermunn
 
 By Operating System 
@@ -13,9 +17,6 @@ By Operating System
 * :ref:`install_redhat`
 * :ref:`install_freebsd`
 
-`Source download <https://repo.varnish-cache.org/source/varnish-4.0.4.tar.gz>`_
-
-`Change log <https://github.com/varnishcache/varnish-cache/blob/4.0/doc/changes.rst>`_
 
 Varnish Cache 4.0.4 is the last maintenance release of the 4.0 branch,
 with severaly bug fixes. See the change log for a complete list of

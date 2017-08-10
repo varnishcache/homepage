@@ -8,19 +8,12 @@ Varnish Cache is released every 6 months.
 ========================== ============ ===========  ===========
 Release                    Date         Notes        Download
 ========================== ============ ===========  ===========
-:ref:`rel5.1.3`            2017-08-02   Fresh        `varnish-5.1.3.tar.gz`_
-:ref:`rel5.0.0`            2016-09-15   Retired      `varnish-5.0.0.tar.gz`_
-:ref:`rel4.1.8`            2017-08-02   Supported    `varnish-4.1.8.tar.gz`_
-:ref:`rel4.0.5`            2017-08-02   End Of Life  `varnish-4.0.5.tar.gz`_
-Varnish Cache 3.0.7        2015-03-23   End Of Life  `varnish-3.0.7.tar.gz`_
+:ref:`rel5.1.3`            2017-08-02   Fresh        :download:`varnish-5.1.3.tar.gz <varnish-5.1.3.tar.gz>`
+:ref:`rel5.0.0`            2016-09-15   Retired      :download:`varnish-5.0.0.tar.gz <varnish-5.0.0.tar.gz>`
+:ref:`rel4.1.8`            2017-08-02   Supported    :download:`varnish-4.1.8.tar.gz <varnish-4.1.8.tar.gz>`
+:ref:`rel4.0.5`            2017-08-02   End Of Life  :download:`varnish-4.0.5.tar.gz <varnish-4.0.5.tar.gz>`
+:ref:`rel3.0.7`            2015-03-23   End Of Life  :download:`varnish-3.0.7.tar.gz <varnish-3.0.7.tar.gz>`
 ========================== ============ ===========  ===========
-
-.. _`beta packages`: https://repo.varnish-cache.org/pkg/5.0.0-beta1/
-.. _varnish-5.1.3.tar.gz: https://repo.varnish-cache.org/source/varnish-5.1.3.tar.gz
-.. _varnish-5.0.0.tar.gz: https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz
-.. _varnish-4.1.8.tar.gz: https://repo.varnish-cache.org/source/varnish-4.1.8.tar.gz
-.. _varnish-4.0.5.tar.gz: https://repo.varnish-cache.org/source/varnish-4.0.5.tar.gz
-.. _varnish-3.0.7.tar.gz: https://repo.varnish-cache.org/source/varnish-3.0.7.tar.gz
 
 
 `Changelog for all releases <https://github.com/varnishcache/varnish-cache/blob/master/doc/changes.rst>`_
@@ -117,9 +110,43 @@ Older Releases
 	rel4.1.4
 	rel4.1.3
 	rel4.1.2
+	rel4.1.1
+	rel4.1.0
 	rel4.0.5
 	rel4.0.4
 	rel4.0.3
+	rel4.0.2
+	rel4.0.1
+	rel4.0.0
+        rel3.0.7
+        rel3.0.6
+        rel3.0.5
+        rel3.0.4
+        rel3.0.3
+        rel3.0.2
+        rel3.0.1
+        rel3.0.0
+        rel2.1.5
+        rel2.1.4
+        rel2.1.3
+        rel2.1.2
+        rel2.1.1
+        rel2.1
+        rel2.0.6
+        rel2.0.5
+        rel2.0.4
+        rel2.0.3
+        rel2.0.2
+        rel2.0.1
+        rel1.1.2
+        rel1.1.1
+        rel1.0.4
+        rel1.0.3
+        rel1.0.2
+        rel1.0.1
+        rel1.0
+        rel0.9.1
+
 
 .. toctree::
 	:hidden:

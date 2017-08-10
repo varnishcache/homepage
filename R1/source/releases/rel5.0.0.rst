@@ -1,11 +1,15 @@
 .. _rel5.0.0:
 
-Varnish Cache 5.0
-=================
+Varnish Cache 5.0.0
+===================
+
+* Source download :download:`varnish-5.0.0.tar.gz <varnish-5.0.0.tar.gz>`
+
+* SHA=5101ad72b29d288a07e2e5ded4c2abe850b70ff000c13ceb1764625e83823f4a
+
+* `SHA evidence <https://svnweb.freebsd.org/ports/head/www/varnish5/distinfo?view=markup&pathrev=424580>`_
 
 * 2016-09-15 /phk
-
-`Source download <https://repo.varnish-cache.org/source/varnish-5.0.0.tar.gz>`_
 
 Varnish Cache 5.0 is a major release from the head of tree.
 
@@ -24,6 +28,4 @@ Operating System Specific Installation Guides
 * :ref:`install_debian`
 * :ref:`install_redhat`
 * :ref:`install_freebsd`
-
-Binary packages for Debian, Ubuntu and Enterprise Linux: https://repo.varnish-cache.org/pkg/5.0.0/
 

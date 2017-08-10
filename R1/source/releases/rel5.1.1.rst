@@ -3,9 +3,13 @@
 Varnish Cache 5.1.1
 ===================
 
- - 2017-03-16 /rubén
+* Source download :download:`varnish-5.1.1.tar.gz <varnish-5.1.1.tar.gz>`
 
-`Source package can be found here <http://repo.varnish-cache.org/source/varnish-5.1.1.tar.gz>`_
+* SHA=6f4b85b52a827f28b3964fbe6a11296e2ed50156c70d511c10feff19459493ae
+
+* `SHA evidence <https://svnweb.freebsd.org/ports/head/www/varnish5/distinfo?view=markup&pathrev=436546>`_
+
+* 2017-03-16 /rubén
 
 More information:
 
