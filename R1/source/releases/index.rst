@@ -148,6 +148,7 @@ Older Releases
         rel1.0.1
         rel1.0
         rel0.9.1
+        rel0.9
 
 
 .. toctree::
