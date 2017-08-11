@@ -22,6 +22,15 @@ Release                    Date         Notes        Download
 
 :ref:`Extras, Utilities, etc. <extras>`
 
+Deb and RPM repositories now at Packagecloud
+--------------------------------------------
+
+The official packages for Debian, Ubuntu, CentOS and Red Hat are now located
+in repositories at Packagecloud.io.
+Users of repo.varnish-cache.org repositories will have to change their hosts
+over to the new repository configuration. For details see the below sections
+for the distribution in question.
+
 Pre-built packages
 ------------------
 
