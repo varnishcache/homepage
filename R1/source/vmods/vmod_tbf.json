@@ -1,6 +1,6 @@
 {
     "name": "tbf",
-    "date": "2017-05-10",
+    "date": "2017-08-10",
     "desc": "Token Bucket Filtering",
     "license": "GPLv2",
     "status": "mature",
@@ -15,6 +15,10 @@
             "url_doc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/README?h=varnish-4.0"
         },
         "4.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc",
+            "url_doc": "http://www.gnu.org.ua/software/vmod-tbf"
+        },
+        "5.1": {
             "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc",
             "url_doc": "http://www.gnu.org.ua/software/vmod-tbf"
         }
