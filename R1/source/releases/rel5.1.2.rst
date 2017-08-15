@@ -3,7 +3,7 @@
 Varnish Cache 5.1.2
 ===================
 
-* Source download :download:`varnish-5.1.2.tar.gz <varnish-5.1.2.tar.gz>`
+* Source download :download:`varnish-5.1.2.tgz <varnish-5.1.2.tgz>`
 
 * SHA=39d858137e26948a7c85f07363f13f0778da61d234126e03a160a0cb9ba4fce3
 

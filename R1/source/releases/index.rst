@@ -8,11 +8,11 @@ Varnish Cache is released every 6 months.
 ========================== ============ ===========  ===========
 Release                    Date         Notes        Download
 ========================== ============ ===========  ===========
-:ref:`rel5.1.3`            2017-08-02   Fresh        :download:`varnish-5.1.3.tar.gz <varnish-5.1.3.tar.gz>`
-:ref:`rel5.0.0`            2016-09-15   Retired      :download:`varnish-5.0.0.tar.gz <varnish-5.0.0.tar.gz>`
-:ref:`rel4.1.8`            2017-08-02   Supported    :download:`varnish-4.1.8.tar.gz <varnish-4.1.8.tar.gz>`
-:ref:`rel4.0.5`            2017-08-02   End Of Life  :download:`varnish-4.0.5.tar.gz <varnish-4.0.5.tar.gz>`
-:ref:`rel3.0.7`            2015-03-23   End Of Life  :download:`varnish-3.0.7.tar.gz <varnish-3.0.7.tar.gz>`
+:ref:`rel5.1.3`            2017-08-02   Fresh        :download:`varnish-5.1.3.tgz <varnish-5.1.3.tgz>`
+:ref:`rel5.0.0`            2016-09-15   Retired      :download:`varnish-5.0.0.tgz <varnish-5.0.0.tgz>`
+:ref:`rel4.1.8`            2017-08-02   Supported    :download:`varnish-4.1.8.tgz <varnish-4.1.8.tgz>`
+:ref:`rel4.0.5`            2017-08-02   End Of Life  :download:`varnish-4.0.5.tgz <varnish-4.0.5.tgz>`
+:ref:`rel3.0.7`            2015-03-23   End Of Life  :download:`varnish-3.0.7.tgz <varnish-3.0.7.tgz>`
 ========================== ============ ===========  ===========
 
 

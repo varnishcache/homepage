@@ -3,7 +3,7 @@
 Varnish Cache 4.1.4
 ===================
 
-* Source download :download:`varnish-4.1.4.tar.gz <varnish-4.1.4.tar.gz>`
+* Source download :download:`varnish-4.1.4.tgz <varnish-4.1.4.tgz>`
 
 * SHA=44fdeb66fb27af9c18fde6123ef7b0038d6d263c7999a02a780ce4ea1a3965fc
 

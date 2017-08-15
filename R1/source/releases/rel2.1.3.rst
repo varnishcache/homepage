@@ -3,7 +3,7 @@
 Varnish Cache 2.1.3
 ===================
 
-* Source download :download:`varnish-2.1.3.tar.gz <varnish-2.1.3.tar.gz>`
+* Source download :download:`varnish-2.1.3.tgz <varnish-2.1.3.tgz>`
 
 * SHA=09a97dabbc081a28f3b4530491fcbc6f2510ee9964794e24cbc9f1f6935340ef
 

@@ -3,13 +3,13 @@
 Varnish Cache 4.0.4
 ===================
 
-* Source download :download:`varnish-4.0.4.tar.gz <varnish-4.0.4.tar.gz>`
+* Source download :download:`varnish-4.0.4.tgz <varnish-4.0.4.tgz>`
 
 * SHA256=7d73eeb15df3866013450df2d1a84a21c9be13ac85b5a6e535c6845c58a2144c
 
 * MD5=0915ca5e14c53f5f157695b0447f37db
 
-* `MD5 evidence <http://pkgs.fedoraproject.org/repo/pkgs/varnish/varnish-4.0.4.tar.gz/>`_
+* `MD5 evidence <http://pkgs.fedoraproject.org/repo/pkgs/varnish/varnish-4.0.4.tgz/>`_
 
 * `Change log <https://github.com/varnishcache/varnish-cache/blob/4.0/doc/changes.rst>`_
 
