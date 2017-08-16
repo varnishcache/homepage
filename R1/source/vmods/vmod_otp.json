@@ -1,0 +1,17 @@
+{
+    "date": "2017-08-16",
+    "desc": "One-time password generator(HOTP/TOTP)",
+    "github": {
+        "branches": {
+            "5.1": "varnish51",
+            "master": "master"
+        },
+        "project": "libvmod-otp",
+        "user": "xcir",
+        "vcc_path": "src/vmod_otp.vcc",
+        "doc_path": "README.rst"
+    },
+    "license": "FreeBSD",
+    "name": "otp",
+    "status": "development"
+}
