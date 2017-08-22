@@ -1,0 +1,18 @@
+{
+    "date": "2017-08-22",
+    "desc": "Parse POST field",
+    "github": {
+        "branches": {
+            "5.1": "varnish51",
+            "master": "master"
+        },
+        "project": "libvmod-parseform",
+        "user": "xcir",
+        "vcc_path": "src/vmod_parseform.vcc",
+        "doc_path": "README.rst"
+    },
+    "license": "FreeBSD",
+    "name": "parseform",
+    "status": "development",
+    "maintainer": "kokoniimasu@gmail.com"
+}
