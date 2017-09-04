@@ -8,7 +8,7 @@ V(E)TLA
 
 Varnish (Extended) Three Letter Acronym.
 Because we ended up naming so many things 'Vsomething', VCL, VMOD and so
-one, somebody eventually started talking about all our 'VTLA' and somebody
+on, somebody eventually started talking about all our 'VTLA' and somebody
 else pointed out that would have to be VETLA because it is four letters.
 
 VCL
