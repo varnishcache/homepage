@@ -17,4 +17,5 @@ Operating System Specific Installation Guides
 * :ref:`install_redhat`
 * :ref:`install_freebsd`
 
-Information about installing this release candidate will be made available soon.
+EL6, EL7, Debian-Jessie, Debian-Stretch, Ubuntu-Trusty and Ubuntu-Xenial packages can be found
+on `PackageCloud.io <https://packagecloud.io/varnishcache/varnish52>`_
