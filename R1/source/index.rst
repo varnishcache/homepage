@@ -8,14 +8,11 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
-2017-09-07 - Release Candidate available in the repositories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2017-09-15 - Varnish 5.2.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is just eight days until the release of Varnish Cache 5.2, and now
-the second release candidate, Varnish Cache 5.2.0-rc2, is available
-for installation. See :ref:`rel5.2.0-rc2` for details.
+Come and get it... :ref:`rel5.2.0`
 
-Pål Hermunn Johansen, Varnish Software
 
 2017-08-02 - Security Advisory: Denial of Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
