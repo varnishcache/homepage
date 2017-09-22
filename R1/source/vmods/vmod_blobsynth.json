@@ -1,0 +1,18 @@
+{
+    "date": "2017-09-22",
+    "desc": "Generate synthetic() responses from BLOBs",
+    "license": "Public Domain",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "blobsynth",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobsynth",
+    "rev": {
+	"5.2": {
+	    "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobsynth/raw/master/src/vmod_blobsynth.vcc",
+	    "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobsynth/blob/master/README.rst"
+	}
+    },
+    "status": "mature",
+    "support": [
+	"Uplex"
+    ]
+}
