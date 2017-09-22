@@ -19,6 +19,18 @@
         "5.0": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/5.0/src/vmod_re.vcc",
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.0/README.rst"
+        },
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/5.1/src/vmod_re.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.1/README.rst"
+        },
+        "5.2": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/master/src/vmod_re.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/master/README.rst"
+        },
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/master/src/vmod_re.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/master/README.rst"
         }
     },
     "status": "mature",

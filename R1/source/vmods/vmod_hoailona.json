@@ -7,10 +7,23 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-hoailona",
     "rev": {
         "5.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/master/src/vmod_hoailona.vcc"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/5.0/src/vmod_hoailona.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/5.0/README.rst"
+        },
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/5.1/src/vmod_hoailona.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/5.1/README.rst"
+        },
+        "5.2": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/master/src/vmod_hoailona.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/master/README.rst"
+        },
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/master/src/vmod_hoailona.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/master/README.rst"
         }
     },
-    "status": "development",
+    "status": "mature",
     "support": [
         "Uplex"
     ]

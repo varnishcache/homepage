@@ -1,6 +1,6 @@
 {
     "date": "2016-04-21",
-    "desc": "VSLP (StateLess Persistence) - continued as shard director in directors vmod (varnish core)",
+    "desc": "VSLP (StateLess Persistence) aka shard",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "vslp",
@@ -16,7 +16,7 @@
 	    "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-vslp/blob/master/src/vmod_vslp.vcc"
         }
     },
-    "status": "mature",
+    "status": "included in Varnish-Cache since release 5.0 as the shard director",
     "support": [
         "Uplex"
     ]

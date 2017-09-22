@@ -19,7 +19,7 @@
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobcode/blob/master/README.rst"
         }
     },
-    "status": "mature",
+    "status": "included in Varnish-Cache since release 5.2 as vmod_blob",
     "support": [
         "Uplex"
     ]

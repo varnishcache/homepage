@@ -15,6 +15,14 @@
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/5.0/README.rst"
         },
         "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/5.1/src/vmod_blobdigest.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/5.1/README.rst"
+        },
+        "5.2": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/master/src/vmod_blobdigest.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/master/README.rst"
+        },
+        "master": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/master/src/vmod_blobdigest.vcc",
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/master/README.rst"
         }
