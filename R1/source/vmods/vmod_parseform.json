@@ -3,6 +3,7 @@
     "desc": "Parse POST field",
     "github": {
         "branches": {
+            "4.1": "varnish41",
             "5.1": "varnish51",
             "master": "master"
         },
