@@ -4,7 +4,7 @@ How to contribute documentation to varnish-cache.org
 ====================================================
 
 This is where we walk you through the mechanics of adding content to
-varnish-cache.org (see phk's note :ref:`20160425_website` for an
+varnish-cache.org (see phk's note :ref:`dogfood` for an
 insight into the innards of site).
 
 Git Repository
