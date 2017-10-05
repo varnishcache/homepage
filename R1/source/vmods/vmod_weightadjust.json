@@ -1,0 +1,30 @@
+{
+    "date": "2017-10-05",
+    "desc": "random director with dynamically adjustable weights",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "weightadjust",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust",
+    "rev": {
+        "4.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/4.1/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/4.1/README.rst"
+        },
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/5.1/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/5.1/README.rst"
+        },
+        "5.2": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/master/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/master/README.rst"
+        },
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/master/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/master/README.rst"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
