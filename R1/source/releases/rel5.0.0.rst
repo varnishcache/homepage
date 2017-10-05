@@ -28,4 +28,3 @@ Operating System Specific Installation Guides
 * :ref:`install_debian`
 * :ref:`install_redhat`
 * :ref:`install_freebsd`
-

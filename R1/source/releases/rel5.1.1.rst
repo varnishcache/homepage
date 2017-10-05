@@ -27,6 +27,9 @@ Operating System Specific Installation Guides
 EL7, Debian-Jessie, Ubuntu-Trusty and Ubuntu-Xenial packages can be found
 on `PackageCloud.io <https://packagecloud.io/varnishcache/varnish5>`_
 
+We recommend using the manual installation procedure available at:
+https://packagecloud.io/varnishcache/varnish5/install#manual
+
 And yes, it is called 5.1.1 and we're one day late and it's all PHK's
 fault. He will tell us about it later, but first he'll do some
 housekeeping.

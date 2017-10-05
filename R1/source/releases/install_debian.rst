@@ -21,10 +21,13 @@ Starting from Varnish Cache 5.0, we've simplified our packaging down to two:
 the main package and a development package.
 
 The official Varnish Cache repository is now hosted at Packagecloud.io.
+Note that while Packagecloud.io provides Bash Script installs, we recommend
+using the manual installation procedures.
+
 Instructions for installing the official repository which contains the newest 
 Varnish Cache 5 release are available at:
 
-* https://packagecloud.io/varnishcache/varnish5/install
+* https://packagecloud.io/varnishcache/varnish5/install#manual-deb
 
 For manual installation instructions, use the instructions under "Manual" and
 +select "deb" for Deb-based distributions.
@@ -35,18 +38,10 @@ Official packages of 4.1
 To use Varnish Cache 4.1 packages from the official varnish-cache.org repos,
 follow the instructions available at:
 
-* https://packagecloud.io/varnishcache/varnish41/install
+* https://packagecloud.io/varnishcache/varnish41/install#manual-deb
 
 For manual installation instructions, use the instructions under "Manual" and
 +select "deb" for Deb-based distributions.
-
-Archival builds
----------------
-
-Multiple older repositories are kept for archival purposes for 2.x, 3.x and 
-4.0.x. Note that these versions are unsupported:
-
-* https://packagecloud.io/varnishcache
 
 Cloud images
 ------------

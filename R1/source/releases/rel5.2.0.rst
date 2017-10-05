@@ -22,4 +22,7 @@ Operating System Specific Installation Guides
 
 EL6, EL7, Debian-Jessie, Debian-Stretch, Ubuntu-Trusty and Ubuntu-Xenial
 packages can be found on
-`PackageCloud.io <https://packagecloud.io/varnishcache/varnish52>`_
+`PackageCloud.io <https://packagecloud.io/varnishcache/varnish5>`_
+
+We recommend using the manual installation procedure available at:
+https://packagecloud.io/varnishcache/varnish5/install#manual
