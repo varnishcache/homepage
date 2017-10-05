@@ -22,9 +22,6 @@ Varnish Cache 5 release are available at:
 
 * https://packagecloud.io/varnishcache/varnish5/install#manual-rpm
 
-For manual installation instructions, use the instructions under "Manual" and
-+select "rpm" for RPM-based distributions.
-
 Official packages of 4.1
 ------------------------
 
@@ -32,9 +29,6 @@ To use Varnish Cache 4.1 packages from the official varnish-cache.org repos,
 follow the instructions available at:
 
 * https://packagecloud.io/varnishcache/varnish41/install#manual-rpm
-
-For manual installation instructions, use the instructions under "Manual" and
-+select "rpm" for RPM-based distributions.
 
 External packaging
 ------------------
