@@ -1,0 +1,18 @@
+{
+    "date": "2017-11-06",
+    "desc": "ETag and Last-Modified for ESI",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "esiextra",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-esiextra",
+    "rev": {
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-esiextra/raw/master/src/vmod_esiextra.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-esiextra/blob/master/README.rst"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
