@@ -23,7 +23,7 @@
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/master/README.rst"
         }
     },
-    "status": "development",
+    "status": "mature",
     "support": [
         "Uplex"
     ]
