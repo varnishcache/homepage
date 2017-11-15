@@ -1,0 +1,86 @@
+.. _vsv00002:
+
+VSV00002 Data leak - '-sfile' Stevedore transient objects
+=========================================================
+
+`CVE-2017-8807 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8807>`_
+
+Date:	2017-11-15
+
+A wrong if statement in the varnishd source code means that synthetic
+objects in stevedores which over-allocate, may leak up to page size of
+data from a malloc(3) memory allocation.
+
+In a unpredictable percentage of the cases where this condition
+arises, a segmentation fault will happen instead.
+
+All the following conditions are required to trigger the problem:
+
+* A `-sfile` or `-spersistent` stevedore must be configured
+
+* A synthetic object must be created in `vcl_backend_error{}`
+
+* The synthetic object ends up in the `file` or `persistent` stevedore.
+
+For the third condition can arise in two different ways:
+
+* The stevedore named `Transient` is configured as `-sfile` or `-spersistent`
+  (The default is `-smalloc`)
+
+* The default stevedore is `-sfile` or `-spersistent` and the synthetic
+  object is given a TTL larger than the `shortlived` parameter
+  (default: 10 seconds.)
+
+It is not inconceiveable that an attack can provoke this situation
+on vulnerable varnishd instances, where the leaked memory contains
+confidential data and therefore we have classified this as a security
+vulnerability.
+
+Mitigation is possible from VCL or by updating to a fixed version
+of Varnish Cache.
+
+Versions affected
+-----------------
+
+* 4.1.0 to 5.2.0
+
+Versions not affected
+---------------------
+
+* All releases up to but not including 4.1.0
+* Varnish Cache Plus from Varnish Software.
+
+Fixed in
+--------
+
+* 4.1.9 and forward
+* 5.2.1 and forward
+
+Mitigation from VCL
+-------------------
+
+Do not configure the Transient storage with `-sfile` or `-spersistent`
+stevedores.
+
+Do not assign ttls longer than the parameter `shortlived` in
+`vcl_backend_error{}`
+
+Source code fix
+~~~~~~~~~~~~~~~
+
+	https://github.com/varnishcache/varnish-cache/commit/176f8a075a
+
+Thankyous and credits
+~~~~~~~~~~~~~~~~~~~~~
+
+Github user @shamger submitted a fix for the segmentation fault issue.
+
+Carlo Cannas of Altervista.org pointed out that the data-leak was
+a security issue.
+
+Martin and Espen from Varnish Software has done most of the work
+on this security incident.
+
+And yes: I apologize for getting the code wrong in the first place.
+
+*phk*

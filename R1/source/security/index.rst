@@ -1,11 +1,12 @@
 Security, bugs & vulnerabilities
 ================================
 
-* Rev. 2018-08-02 *phk*
+* Rev. 2018-11-15 *phk*
 
 .. toctree::
 	:maxdepth: 1
 
+	VSV00002.rst
 	VSV00001.rst
 
 We take security and quality *very* seriously in the Varnish project,

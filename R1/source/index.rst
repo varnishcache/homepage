@@ -8,6 +8,16 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2017-11-15 - Security Advisory: (Unlikely) data leak
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Certain uncommon configurations of Varnish may leak data in
+synthetic responses from `vcl_backend_error{}`
+
+Please see :ref:`vsv00002`
+
+We have released Varnish 4.1.9 and 5.2.1 to fix this issue.
+
 2017-09-15 - Varnish 5.2.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
