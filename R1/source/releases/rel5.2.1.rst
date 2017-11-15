@@ -5,6 +5,10 @@ Varnish Cache 5.2.1
 
 * Source download :download:`varnish-5.2.1.tgz <varnish-5.2.1.tgz>`
 
+Fixes :ref:`VSV00002`
+
+* 2017-11-14 /Pål Hermunn
+
 More information:
 
 * `List of changes and other good reasons to update to 5.2 </docs/5.2/whats-new/changes-5.2.html>`_

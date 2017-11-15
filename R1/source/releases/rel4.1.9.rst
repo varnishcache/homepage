@@ -9,6 +9,8 @@ Varnish Cache 4.1.9
 
 * 2017-11-14 /Pål Hermunn
 
+Fixes :ref:`VSV00002`
+
 Varnish Cache 4.1.9 is a maintenance and stability release of the 4.1 branch.
 
 All users on 4.1 and 4.0 are recommended to upgrade to this version.

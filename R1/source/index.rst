@@ -16,7 +16,7 @@ synthetic responses from `vcl_backend_error{}`
 
 Please see :ref:`vsv00002`
 
-We have released Varnish 4.1.9 and 5.2.1 to fix this issue.
+We have released Varnish :ref:`rel4.1.9` and :ref:`rel5.2.1` to fix this issue.
 
 2017-09-15 - Varnish 5.2.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
