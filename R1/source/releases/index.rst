@@ -109,11 +109,13 @@ Older Releases
 .. toctree::
 	:maxdepth: 1
 
+	rel5.2.1
 	rel5.2.0
 	rel5.1.3
 	rel5.1.2
 	rel5.1.1
 	rel5.0.0
+	rel4.1.9
 	rel4.1.8
 	rel4.1.7
 	rel4.1.6
