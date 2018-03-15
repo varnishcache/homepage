@@ -22,7 +22,7 @@ Operating System Specific Installation Guides
 * :ref:`install_redhat`
 * :ref:`install_freebsd`
 
-EL6, EL7, Debian-Jessie, Debian-Stretch, Ubuntu-Trusty and Ubuntu-Xenial
+EL7, Debian-Stretch and Ubuntu-Xenial
 packages can be found on
 `PackageCloud.io <https://packagecloud.io/varnishcache/varnish6>`_
 
