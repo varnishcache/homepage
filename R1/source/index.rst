@@ -8,6 +8,15 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2018-03-15 - Varnish 6.0.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Come and get it... :ref:`rel6.0.0`
+
+Now with support for Unix Domain Sockets, better HTTP/2 support,
+many bugfixes and ... Well read more about it all
+`here </docs/6.0/whats-new/changes-6.0.html>`_
+
 2017-11-15 - Security Advisory: (Unlikely) data leak
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
