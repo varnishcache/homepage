@@ -24,7 +24,7 @@ Operating System Specific Installation Guides
 
 EL7, Debian-Stretch and Ubuntu-Xenial
 packages can be found on
-`PackageCloud.io <https://packagecloud.io/varnishcache/varnish6>`_
+`PackageCloud.io <https://packagecloud.io/varnishcache/varnish60>`_
 
 We recommend using the manual installation procedure available at:
-https://packagecloud.io/varnishcache/varnish5/install#manual
+https://packagecloud.io/varnishcache/varnish60/install#manual
