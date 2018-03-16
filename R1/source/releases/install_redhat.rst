@@ -20,7 +20,7 @@ using the manual installation procedures.
 Instructions for installing the official repository which contains the newest 
 Varnish Cache 6 release are available at:
 
-* https://packagecloud.io/varnishcache/varnish5/install#manual-rpm
+* https://packagecloud.io/varnishcache/varnish60/install#manual-rpm
 
 Official packages of 4.1
 ------------------------
