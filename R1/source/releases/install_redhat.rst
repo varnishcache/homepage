@@ -7,7 +7,7 @@ Varnish Cache is packaged in RPMs for easy installation and upgrade on Red Hat
 systems. The Varnish Cache project maintains official packages for the current
 Enterprise Linux versions. Varnish Cache 4.1 and 5.x are supported on EL6 and EL7.
 
-Official packages of 5
+Official packages of 6
 ----------------------
 
 Starting from Varnish Cache 5.0, we've simplified our packaging down to two:
@@ -18,7 +18,7 @@ Note that while Packagecloud.io provides Bash Script installs, we recommend
 using the manual installation procedures.
 
 Instructions for installing the official repository which contains the newest 
-Varnish Cache 5 release are available at:
+Varnish Cache 6 release are available at:
 
 * https://packagecloud.io/varnishcache/varnish5/install#manual-rpm
 

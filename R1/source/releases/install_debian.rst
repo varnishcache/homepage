@@ -14,7 +14,7 @@ way of getting started with Varnish Cache.
     $ sudo apt-get install varnish
 
 
-Official packages of 5
+Official packages of 6
 ----------------------
 
 Starting from Varnish Cache 5.0, we've simplified our packaging down to two:
@@ -25,9 +25,9 @@ Note that while Packagecloud.io provides Bash Script installs, we recommend
 using the manual installation procedures.
 
 Instructions for installing the official repository which contains the newest 
-Varnish Cache 5 release are available at:
+Varnish Cache 6 release are available at:
 
-* https://packagecloud.io/varnishcache/varnish5/install#manual-deb
+* https://packagecloud.io/varnishcache/varnish60/install#manual-deb
 
 Official packages of 4.1
 ------------------------
