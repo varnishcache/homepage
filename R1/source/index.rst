@@ -8,6 +8,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2018-04-26 - Maintenance release: Varnish Cache 4.1.10
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This maintenance release is recommended for all users of 4.0 and 4.1 versions,
+and contains several bug fixes. More information is available in the
+`Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
+
 2018-03-15 - Varnish 6.0.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
