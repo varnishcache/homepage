@@ -3,10 +3,17 @@
     "desc": "UUID",
     "github": {
         "branches": {
-            "4.1": "master"
+            "3.0": "3.0",
+            "4.0": "4.0",
+            "4.1": "4.1",
+            "5.0": "5.x",
+            "5.1": "5.x",
+            "5.2": "5.x",
+            "6.0": "6.0",
+            "master": "master"
         },
         "project": "libvmod-uuid",
-        "user": "Sharecare",
+        "user": "otto-de",
         "vcc_path": "src/vmod_uuid.vcc"
     },
     "license": "Apache2",
