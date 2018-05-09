@@ -45,6 +45,7 @@ Here is a list of the ones we know about:
 * `Alpine Linux`_
 * :ref:`install_debian`
 * :ref:`install_freebsd`
+* :ref:`install_openbsd`
 * :ref:`install_redhat`
 * :ref:`install_ubuntu`
 
@@ -110,6 +111,7 @@ Older Releases
 .. toctree::
 	:maxdepth: 1
 
+	rel6.0.0
 	rel5.2.1
 	rel5.2.0
 	rel5.1.3
@@ -170,6 +172,7 @@ Older Releases
 	:hidden:
 
 	install_freebsd
+	install_openbsd
 	install_ubuntu
 	install_debian
 	install_redhat
