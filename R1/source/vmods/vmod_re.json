@@ -1,5 +1,5 @@
 {
-    "date": "2017-04-21",
+    "date": "2018-06-01",
     "desc": "regexp matches and backreferences",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
@@ -25,8 +25,12 @@
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.1/README.rst"
         },
         "5.2": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/master/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/master/README.rst"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/5.2/src/vmod_re.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.2/README.rst"
+        },
+        "6.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/6.0/src/vmod_re.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/6.0/README.rst"
         },
         "master": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/master/src/vmod_re.vcc",
