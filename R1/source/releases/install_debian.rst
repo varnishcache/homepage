@@ -77,3 +77,13 @@ Google Cloud Platform (GCP):
 .. _`Varnish Cache 4 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-4-payg-ubuntu
 .. _`Varnish Cache 5 on Ubuntu LTS 14.04 on GCP`: https://console.cloud.google.com/launcher/details/varnish-public/varnish-cache-5-payg-ubuntu
 
+UPLEX Packages with vmods
+.........................
+
+`UPLEX`_ provides packages of varnish-cache and various vmods for
+Debian, Ubuntu and RHEL/CentOS
+
+* `UPLEX Packages`_
+
+.. _`UPLEX Packages`: https://pkg.uplex.de/
+.. _`UPLEX`: https://uplex.de/#anchorvarnish

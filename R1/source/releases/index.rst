@@ -43,6 +43,7 @@ Here is a list of the ones we know about:
 
 * `ArchLinux package`_ and `ArchLinux wiki`_
 * `Alpine Linux`_
+* `UPLEX Packages`_ with various vmods for Debian, Ubuntu and RHEL/CentOS
 * :ref:`install_debian`
 * :ref:`install_freebsd`
 * :ref:`install_openbsd`
@@ -52,7 +53,7 @@ Here is a list of the ones we know about:
 .. _`ArchLinux package`: https://www.archlinux.org/packages/extra/x86_64/varnish/
 .. _`ArchLinux wiki`: https://wiki.archlinux.org/index.php/Varnish
 .. _`Alpine Linux`: https://pkgs.alpinelinux.org/package/edge/main/x86_64/varnish
-
+.. _`UPLEX Packages`: https://pkg.uplex.de/
 
 Cloud images
 ------------
