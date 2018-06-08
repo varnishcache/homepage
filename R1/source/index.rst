@@ -11,11 +11,11 @@ What is happening
 2018-06-08 - Publically available packages from UPLEX
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The varnish-cache contributors from `UPLEX`_ are happy to anounce an
+The varnish-cache contributors from `UPLEX`_ are happy to announce an
 alternative source for varnish binary packages for Debian, Ubuntu and
 RHEL/CentOS (work in progress).
 
-Debian/Ubuntu packges are based on fairly recent varnish-cache master
+Debian/Ubuntu packages are based on fairly recent varnish-cache master
 snapshots and are expected to be updated on a bi-weekly basis,
 synchronized with the official varnish-cache weekly builds.
 
@@ -25,7 +25,7 @@ additional vmods which are not commonly found in package repositories
 like `blobdigest`_, `re`_, `re2`_, `geoip2`_ and `dcs`_ in addition to
 the `varnish-modules`_ vmod bundle. Other will be added over time.
 
-This packaging effort is still in its early stages and will grow over time
+This packaging effort is still in its early stages and will grow over time.
 
 .. _`UPLEX Packages`: https://pkg.uplex.de/
 .. _`UPLEX`: https://uplex.de/#anchorvarnish
