@@ -101,10 +101,7 @@ like.
 We save the logfiles from our Varnish instance for a limited period,
 in order to be able to debug problems.
 
-The old homepage ran Google Analytics, and we have continued that here
-for now, but unless we actually learn something useful from the data
-they collect, it will be discontinued.
-
+We do not use any external trackers and do not analyze traffic.
 
 .. toctree::
    :hidden:
