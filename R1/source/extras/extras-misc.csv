@@ -1,5 +1,6 @@
 Name,Description,Repository,Commercial support
 Emacs VCL Mode,Pretty VCL in your Emacs,https://github.com/ssm/elisp/blob/master/vcl-mode.el,No
+Jetbrains IDEs VCL plugin, "Pretty VCL in your IntelliJ IDEA, Pycharm, PHPStorm etc.", https://github.com/blckct/varnish_jetbrains_plugin, No
 Kate/Kwrite VCL/VTC Highlighting,Included by defaultPretty VCL in your Emacs,https://kate-editor.org/,No
 SublimeText VCL plugin,Pretty VCL in your Sublimetext,https://github.com/brandonwamboldt/sublime-varnish,No
 TextMate VCL plugin,Pretty VCL in your TextMate,https://github.com/mattiasgeniar/Varnish.tmbundle,No
