@@ -15,8 +15,6 @@ Both are kept in same source repository and both are available online:
    5.2 <https://www.varnish-cache.org/docs/5.2/>`__
 -  `Documentation for
    5.1 <https://www.varnish-cache.org/docs/5.1/>`__
--  `Documentation for
-   5.0 <https://www.varnish-cache.org/docs/5.0/>`__
 -  `Documentation for the stable release
    4.1 <https://www.varnish-cache.org/docs/4.1/>`__
 -  `Documentation for the deprecated release
