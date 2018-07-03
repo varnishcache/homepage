@@ -10,8 +10,12 @@ We're trying to keep the official documentation in sync with the code.
 Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
+   6.0 <https://www.varnish-cache.org/docs/6.0/>`__
+-  `Documentation for
+   5.2 <https://www.varnish-cache.org/docs/5.2/>`__
+-  `Documentation for
    5.1 <https://www.varnish-cache.org/docs/5.1/>`__
--  `Documentation for 
+-  `Documentation for
    5.0 <https://www.varnish-cache.org/docs/5.0/>`__
 -  `Documentation for the stable release
    4.1 <https://www.varnish-cache.org/docs/4.1/>`__
@@ -59,7 +63,7 @@ us `pull-requests <https://github.com/varnish/Varnish-Book/pulls>`__.
 The Varnish (Web Developer) Wiki
 --------------------------------
 
-`Varnish Software <https://www.varnish-software.com/>`__ has compiled a 
+`Varnish Software <https://www.varnish-software.com/>`__ has compiled a
 wiki for Web Developers with Tutorials, Step-by-step guides, tips, VCL
 snippets and more. The content focused on the following web technologies:
 
