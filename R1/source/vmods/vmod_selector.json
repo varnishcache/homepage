@@ -1,0 +1,22 @@
+{
+    "date": "2018-07-08",
+    "desc": "match strings associated with backends, regexen and other strings",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "selector",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-selector",
+    "rev": {
+        "6.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/master/src/vmod_selector.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/master/README.rst"
+        },
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/master/src/vmod_selector.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/master/README.rst"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
