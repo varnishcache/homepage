@@ -1,11 +1,27 @@
 {
-    "date": "2018-07-08",
+    "date": "2018-07-13",
     "desc": "match strings associated with backends, regexen and other strings",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "selector",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-selector",
     "rev": {
+        "4.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/4.1/src/vmod_selector.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/4.1/README.rst"
+        },
+        "5.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/5.0/src/vmod_selector.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/5.0/README.rst"
+        },
+        "5.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/5.1/src/vmod_selector.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/5.1/README.rst"
+        },
+        "5.2": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/5.2/src/vmod_selector.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/5.2/README.rst"
+        },
         "6.0": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-selector/raw/master/src/vmod_selector.vcc",
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-selector/blob/master/README.rst"
