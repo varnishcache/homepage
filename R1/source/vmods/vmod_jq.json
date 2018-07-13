@@ -1,0 +1,15 @@
+{
+    "date": "2018-07-13",
+    "desc": "JSON processor",
+    "github": {
+        "branches": {
+            "master": "devel"
+        },
+        "project": "libvmod-jq",
+        "user": "fgsch",
+        "vcc_path": "src/vmod_jq.vcc"
+    },
+    "license": "BSD 2-Clause",
+    "name": "jq",
+    "status": "development"
+}
