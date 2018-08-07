@@ -27,6 +27,11 @@ and which you can pay to help you with Varnish:
 
   Germany, Consulting.
 
+`Section.IO <https://www.section.io/>`_
+---------------------------------------
+
+  USA & Australia, Edge Platform As A Service
+
 How to get your company on this list
 ------------------------------------
 
