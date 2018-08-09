@@ -1,0 +1,18 @@
+{
+    "date": "2018-08-09",
+    "desc": "simple and easy cache clustering / peering",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "cluster",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-cluster",
+    "rev": {
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-cluster/raw/master/src/vmod_cluster.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-cluster/blob/master/README.rst"
+        }
+    },
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
+}
