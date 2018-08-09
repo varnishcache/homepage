@@ -25,7 +25,8 @@ and which you can pay to help you with Varnish:
 `UPLEX <http://uplex.de/>`_
 ---------------------------
 
-  Germany, Consulting.
+  Support, Consulting, Development. Focused on but not limited to
+  Germany.
 
 `Section.IO <https://www.section.io/>`_
 ---------------------------------------
