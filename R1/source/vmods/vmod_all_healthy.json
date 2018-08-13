@@ -1,0 +1,23 @@
+{
+    "date": "2018-08-13",
+    "desc": "more than one probe or a different backend's probe",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "all_healthy",
+    "repos": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy",
+    "rev": {
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/raw/master/src/vmod_all_healthy.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/blob/master/README.rst"
+        },
+        "4.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/raw/4.1/src/vmod_all_healthy.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/blob/4.1/README.rst"
+        }
+
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
