@@ -1,5 +1,5 @@
 {
-    "date": "2018-08-13",
+    "date": "2018-08-16",
     "desc": "more than one probe or a different backend's probe",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
@@ -16,7 +16,7 @@
         }
 
     },
-    "status": "development",
+    "status": "mature",
     "support": [
         "Uplex"
     ]
