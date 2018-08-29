@@ -8,6 +8,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2018-08-29 - Maintenance release: Varnish Cache 6.0.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This maintenance release is recommended for all users of 6.0.0,
+and contains many bug fixes. More information is available in the
+`Change log <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst>`_
+
 2018-06-08 - Publically available packages from UPLEX
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
