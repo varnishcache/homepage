@@ -1,24 +1,21 @@
 {
     "date": "2018-09-17",
-    "desc": "Access to local / remote .ini / .json files, access to environment variables, and execution of local / remote Lua scripts",
+    "desc": "Dump information about contents stored in the cache to a JSON file",
     "github": {
         "branches": {
             "4.1": "4.1",
-            "5.0": "5.0",
-            "5.1": "5.1",
-            "5.2": "5.2",
             "6.0": "6.0",
             "6.1": "6.1",
             "master": "master"
         },
-        "project": "libvmod-cfg",
+        "project": "libvmod-gossip",
         "user": "carlosabalde",
-        "vcc_path": "src/vmod_cfg.vcc"
+        "vcc_path": "src/vmod_gossip.vcc"
     },
     "license": "FreeBSD",
     "maintainer": "carlos.abalde@gmail.com",
-    "name": "cfg",
-    "status": "mature",
+    "name": "gossip",
+    "status": "development",
     "support": [
         "Allenta Consulting S.L."
     ]
