@@ -8,6 +8,16 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2018-09-17 - Varnish 6.1.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Come and get it... :ref:`rel6.1.0`
+
+This release brings many improvements under the hood with no
+need for reconfiguration for practically all users.
+
+Read more about it `here </docs/6.1/whats-new/changes-6.1.html>`_
+
 2018-08-29 - Maintenance release: Varnish Cache 6.0.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
