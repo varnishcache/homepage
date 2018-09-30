@@ -1,11 +1,11 @@
 {
-    "date": "2018-07-13",
+    "date": "2018-09-30",
     "desc": "Query MaxMind GeoIP2 DB files",
     "github": {
         "branches": {
             "4.1": "oldstable",
-            "5.2": "oldstable",
-            "6.0": "master",
+            "6.0": "oldstable",
+            "6.1": "master",
             "master": "devel"
         },
         "project": "libvmod-geoip2",
