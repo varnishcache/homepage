@@ -1,0 +1,18 @@
+{
+    "date": "2018-10-17",
+    "desc": "top request (across all ESI levels) scoped variables as objects in VCL",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "topvar",
+    "repos": "https://code.uplex.de/uplex-varnish/varnish-objvar",
+    "rev": {
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/varnish-objvar/blob/master/src/vmod_topvar.rst",
+            "url_doc": "https://code.uplex.de/uplex-varnish/varnish-objvar/blob/master/README.rst"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}

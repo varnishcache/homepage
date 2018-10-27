@@ -1,0 +1,18 @@
+{
+    "date": "2018-10-17",
+    "desc": "task scoped variables as objects in VCL",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "taskvar",
+    "repos": "https://code.uplex.de/uplex-varnish/varnish-objvar",
+    "rev": {
+        "master": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/varnish-objvar/blob/master/src/vmod_taskvar.rst",
+            "url_doc": "https://code.uplex.de/uplex-varnish/varnish-objvar/blob/master/README.rst"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
