@@ -11,7 +11,7 @@ What is happening
 2018-10-26 - Bug fix release: Varnish 6.1.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We are prowd to release :ref:`rel6.1.1` to the world.
+We are proud to release :ref:`rel6.1.1` to the world.
 
 This release is recommended for everyone running 6.1, and packages are
 available from the official repositories. There are no new features in
