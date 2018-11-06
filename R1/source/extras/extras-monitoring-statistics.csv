@@ -27,3 +27,4 @@ Zabbix Template for Varnish Cache >= 4.0,,https://github.com/allenta/zabbix-temp
 Tracking Log Reader (trackrdrd),,https://code.uplex.de/uplex-varnish/trackrdrd,Uplex,Uplex
 varnish-influxdb,Varnish counters to InfluxDB over UDP,https://github.com/lkarsten/varnish-influxdb,No,No
 varnishevent,Varnish log reader designed for heavy loads,https://code.uplex.de/uplex-varnish/varnishevent,Uplex,Uplex
+varnishslog,Reads Varnish Cache VSL (binary) log stream and produces structured log records in JSON format,https://github.com/jpastuszek/varnishslog,No,No
