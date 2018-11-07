@@ -8,6 +8,41 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2018-11-12 - Varnish 6.0.2 released, official Long Time Support
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are happy to announce the release of :ref:`rel6.0.2`.
+
+This release is recommended for everyone running 6.0, and it contains
+many bug fixes and some new features.
+
+At the same time we bring you the news that that 6.0 will maintained
+much longer than other Varnish Cache Releases, and that new
+repositories, Varnish 6.0 LTS, are introduced.
+
+If you are currently using official packages, you need to change to
+the new LTS repositories to get 6.0.2. Please follow the instructions
+on the release page to set up the new repository for your platform.
+
+The packaging of this release differs slightly from previous Varnish
+versons. This is described in the
+`upgrading notes <docs/6.0/whats-new/upgrading-6.0.html#packaging-changes>`_
+for 6.0. These changes were originally intended for the initial 6.0
+release, but unfortunately they did not make it into the 6.0.0 or
+6.0.1 packages.
+
+At some point the previous LTS, Varnish 4.1, will reach its End of
+Life. It was first released in September 2015, and now is the time
+for users to start upgrading to Varnish 6.0 LTS.
+
+If you are still using Varnish 4.1, you should be able to migrate to
+6.0 without touching your VCL.  In our experience so far, upgrading is
+very straightforward.
+
+Read more about `upgrading <docs/6.1/whats-new/upgrading-6.0.html>`_
+and `what's new </docs/6.0/whats-new/changes-6.0.html>`_ in Varnish
+Cache 6.0.
+
 2018-10-26 - Bug fix release: Varnish 6.1.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
