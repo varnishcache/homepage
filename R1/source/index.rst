@@ -8,7 +8,7 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
-2018-10-26 - Bug fix release: Varnish 6.1.0
+2018-10-26 - Bug fix release: Varnish 6.1.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We are proud to release :ref:`rel6.1.1` to the world.
