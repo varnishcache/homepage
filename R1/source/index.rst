@@ -8,7 +8,7 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
-2018-11-12 - Varnish 6.0.2 released, official Long Time Support
+2018-11-12 - Varnish 6.0.2 released, official Long Term Support
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We are happy to announce the release of :ref:`rel6.0.2`.
