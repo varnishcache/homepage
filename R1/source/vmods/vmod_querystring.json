@@ -1,15 +1,17 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "QueryString",
+    "date": "2018-11-19",
+    "desc": "Advanced query-string filtering.",
     "github": {
         "branches": {
             "4.1": "master"
+            "5.x": "master"
+            "6.x": "master"
         },
         "project": "libvmod-querystring",
         "user": "Dridi",
         "vcc_path": "src/vmod_querystring.vcc"
     },
-    "license": "FreeBSD",
+    "license": "GPLv3+",
     "name": "querystring",
     "status": "mature"
 }
