@@ -1,0 +1,19 @@
+{
+    "date": "2018-11-19",
+    "desc": "Custom counter",
+    "github": {
+        "branches": {
+            "6.0": "master",
+            "6.1": "master",
+            "master": "master"
+        },
+        "project": "libvmod-xcounter",
+        "user": "xcir",
+        "vcc_path": "src/vmod_xcounter.vcc",
+        "doc_path": "README.rst"
+    },
+    "license": "FreeBSD",
+    "name": "xcounter",
+    "status": "development",
+    "maintainer": "kokoniimasu@gmail.com"
+}
