@@ -3,8 +3,8 @@
     "desc": "Advanced query-string filtering.",
     "github": {
         "branches": {
-            "4.1": "master"
-            "5.x": "master"
+            "4.1": "master",
+            "5.x": "master",
             "6.x": "master"
         },
         "project": "libvmod-querystring",
