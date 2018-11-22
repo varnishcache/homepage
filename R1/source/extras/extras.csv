@@ -5,6 +5,7 @@ ScaleSimple - CDN & VCL UI,,Node Management,http://github.com/scalesimple,No
 Varnish Administration Console (VAC),,Cluster Management,https://www.varnish-software.com/vac,Varnish Software
 VaaS -,,Cluster Management,https://github.com/allegro/vaas,No
 Vaban,,Cluster Management,https://github.com/martensson/vaban,No
+k8s-ingress,Kubernetes Ingress Controller based on Varnish,Cluster Management,https://code.uplex.de/uplex-varnish/k8s-ingress,Uplex
 Emacs VCL Mode,,Syntax Highlighting,https://github.com/ssm/elisp/blob/master/vcl-mode.el,No
 Kate/Kwrite VCL/VTC Highlighting,,Syntax Highlighting,https://kate-editor.org/,No
 SublimeText VCL plugin,,Syntax Highlighting,https://github.com/brandonwamboldt/sublime-varnish,No
