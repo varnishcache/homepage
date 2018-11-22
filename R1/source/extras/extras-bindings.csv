@@ -1,4 +1,5 @@
 Name,Description,Repository,Commercial support
 python-varnishapi,Python bindings to libvarnish api using ctypes,https://github.com/xcir/python-varnishapi,No
 vago,Go bindings for the Varnish API,https://github.com/phenomenes/vago,No
+varnishapi,"Go bindings for the Varnish logging, stats and admin APIs",https://code.uplex.de/uplex-varnish/varnishapi,Uplex
 vapi-rust,Rust bindings for Varnish Shared Memory Log,https://github.com/gquintard/vapi-rust,No
