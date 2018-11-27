@@ -9,7 +9,7 @@ Varnish Cache is released every 6 months.
 Release                Date         Notes        Download
 ====================== ============ ===========  ===========
 :ref:`rel6.1.1`        2018-10-26   Fresh        :download:`varnish-6.1.1.tgz <varnish-6.1.1.tgz>`
-:ref:`rel6.0.1`        2018-08-28   Supported    :download:`varnish-6.0.1.tgz <varnish-6.0.1.tgz>`
+:ref:`rel6.0.2`        2018-11-12   Supported    :download:`varnish-6.0.2.tgz <varnish-6.0.2.tgz>`
 :ref:`rel5.2.1`        2017-11-14   Retired      :download:`varnish-5.2.1.tgz <varnish-5.2.1.tgz>`
 :ref:`rel5.1.3`        2017-08-02   Retired      :download:`varnish-5.1.3.tgz <varnish-5.1.3.tgz>`
 :ref:`rel5.0.0`        2016-09-15   Retired      :download:`varnish-5.0.0.tgz <varnish-5.0.0.tgz>`
@@ -115,6 +115,7 @@ Older Releases
 
 	rel6.1.1
 	rel6.1.0
+	rel6.0.2
 	rel6.0.1
 	rel6.0.0
 	rel5.2.1
