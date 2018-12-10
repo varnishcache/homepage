@@ -1,6 +1,6 @@
 {
     "name": "dbrw",
-    "date": "2017-08-10",
+    "date": "2018-12-10",
     "desc": "Database-driven rewrites",
     "license": "GPLv2",
     "status": "mature",
@@ -19,6 +19,10 @@
             "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw"
         },
         "5.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc",
+            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw"
+        },
+        "6.0": {
             "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc",
             "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw"
         }

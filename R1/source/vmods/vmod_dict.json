@@ -1,6 +1,6 @@
 {
     "name": "dict",
-    "date": "2017-09-07",
+    "date": "2018-12-10",
     "desc": "Dictionary look-up",
     "license": "GPLv2",
     "status": "mature",
@@ -15,6 +15,10 @@
 	    "url_doc": "http://www.gnu.org.ua/software/vmod-dict"
         },
         "5.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dict.git/plain/src/vmod_dict.vcc",
+	    "url_doc": "http://www.gnu.org.ua/software/vmod-dict"
+        },
+        "6.0": {
             "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dict.git/plain/src/vmod_dict.vcc",
 	    "url_doc": "http://www.gnu.org.ua/software/vmod-dict"
         }
