@@ -1,6 +1,6 @@
 {
     "name": "basicauth",
-    "date": "2017-08-10",
+    "date": "2018-12-10",
     "desc": "Basicauth",
     "license": "GPLv2",
     "status": "mature",
@@ -19,6 +19,10 @@
             "url_doc": "http://www.gnu.org.ua/software/vmod-basicauth"
         },
         "5.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/src/vmod_basicauth.vcc",
+            "url_doc": "http://www.gnu.org.ua/software/vmod-basicauth"
+        },
+        "6.0": {
             "url_vcc": "http://git.gnu.org.ua/cgit/vmod-basicauth.git/plain/src/vmod_basicauth.vcc",
             "url_doc": "http://www.gnu.org.ua/software/vmod-basicauth"
         }
