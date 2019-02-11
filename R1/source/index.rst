@@ -11,6 +11,8 @@ What is happening
 2019-02-11 - Maintenance release: Varnish Cache 4.1.11
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+We are happy to announce the release of :ref:`rel4.1.11`.
+
 This maintenance release is recommended for all users of 4.0 and 4.1 versions,
 and contains several bug fixes. More information is available in the
 `Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
