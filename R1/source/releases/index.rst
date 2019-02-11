@@ -13,7 +13,7 @@ Release                Date         Notes        Download
 :ref:`rel5.2.1`        2017-11-14   Retired      :download:`varnish-5.2.1.tgz <varnish-5.2.1.tgz>`
 :ref:`rel5.1.3`        2017-08-02   Retired      :download:`varnish-5.1.3.tgz <varnish-5.1.3.tgz>`
 :ref:`rel5.0.0`        2016-09-15   Retired      :download:`varnish-5.0.0.tgz <varnish-5.0.0.tgz>`
-:ref:`rel4.1.10`       2018-04-25   Supported    :download:`varnish-4.1.10.tgz <varnish-4.1.10.tgz>`
+:ref:`rel4.1.11`       2019-02-11   Supported    :download:`varnish-4.1.11.tgz <varnish-4.1.11.tgz>`
 :ref:`rel4.0.5`        2017-08-02   End Of Life  :download:`varnish-4.0.5.tgz <varnish-4.0.5.tgz>`
 :ref:`rel3.0.7`        2015-03-23   End Of Life  :download:`varnish-3.0.7.tgz <varnish-3.0.7.tgz>`
 ====================== ============ ===========  ===========
@@ -124,6 +124,7 @@ Older Releases
 	rel5.1.2
 	rel5.1.1
 	rel5.0.0
+	rel4.1.11
 	rel4.1.10
 	rel4.1.9
 	rel4.1.8
