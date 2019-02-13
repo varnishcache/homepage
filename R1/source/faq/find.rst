@@ -8,11 +8,11 @@ Install on FreeBSD
 
 This should work::
 
-  pkg install varnish
+  pkg install varnish6
 
 or::
 
-  cd /usr/ports/www/varnish
+  cd /usr/ports/www/varnish6
   make all install clean
 
 Where is the bug I opened in 2012?
