@@ -5,6 +5,7 @@
     "maintainer": "varnish-support@uplex.de",
     "name": "brotli",
     "repos": "https://code.uplex.de/uplex-varnish/libvfp-brotli",
+    "rev": {
         "master": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvfp-brotli/raw/master/src/vfp_brotli.vcc",
             "url_doc": "https://code.uplex.de/uplex-varnish/libvfp-brotli/blob/master/README.rst"
