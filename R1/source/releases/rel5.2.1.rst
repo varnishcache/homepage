@@ -5,6 +5,8 @@ Varnish Cache 5.2.1
 
 * Source download :download:`varnish-5.2.1.tgz <varnish-5.2.1.tgz>`
 
+* SHA256=b8452c9d78c16f78c8cfd1c1a1e696523bf64b7721c330150dcc0852459014b3
+
 Fixes :ref:`VSV00002`
 
 * 2017-11-14 /Pål Hermunn

@@ -5,6 +5,8 @@ Varnish Cache 4.1.10
 
 * Source download :download:`varnish-4.1.10.tgz <varnish-4.1.10.tgz>`
 
+* SHA256=364833fbf6fb7540ddd54b62b5ac52b2fb00e915049c8446d71d334323e87c22
+
 * `Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
 
 * 2018-04-26 /Pål Hermunn

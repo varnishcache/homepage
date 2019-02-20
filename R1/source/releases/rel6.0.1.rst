@@ -5,6 +5,8 @@ Varnish Cache 6.0.1
 
 * Source download :download:`varnish-6.0.1.tgz <varnish-6.0.1.tgz>`
 
+* SHA256=47f28e4da9d46f0e48fbe6067de734a01786081cda681bf2764f87914339f3b8
+
 * 2018-08-29 /Pål Hermunn Johansen
 
 Varnish Cache 6.0.1 is a maintenance and stability release of the 6.0 branch. All users of

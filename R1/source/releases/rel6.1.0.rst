@@ -5,6 +5,8 @@ Varnish Cache 6.1.0
 
 * Source download :download:`varnish-6.1.0.tgz <varnish-6.1.0.tgz>`
 
+* SHA256=161b92519801240886a55cc27484efc995dde1ad4703d9afd49fa8f32656e27d
+
 Varnish Cache 6.1 is a continuation of the development of Varnish Cache 6, and it brings new features and greater stability without any major breaking changes to most users' setups.
 
 If upgrading from 6.0, you should not expect to encounter any problems. However, VMODs and and VUT programs have to be recompiled.
