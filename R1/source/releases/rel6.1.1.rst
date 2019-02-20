@@ -7,6 +7,8 @@ Varnish Cache 6.1.1
 
 * SHA256=e0ee7c88a8149d8890b26fd9e1d909859ea895a39ca188d76a96869cff87c93d
 
+* `SHA256 evidence <https://www.virustotal.com/en/file/e0ee7c88a8149d8890b26fd9e1d909859ea895a39ca188d76a96869cff87c93d/analysis/1540575453/>`_
+
 Varnish Cache 6.1.1 is a bug fix update for Varnish Cache 6.1, and it contains many bug fixes.
 This release is a recommended upgrade for all users of 6.1.0.
 

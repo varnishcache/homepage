@@ -7,6 +7,8 @@ Varnish Cache 4.1.9
 
 * SHA256=22d884aad87e585ce5f3b4a6d33442e3a855162f27e48358c7c93af1b5f2fc87
 
+* `SHA256 evidence <https://git.alpinelinux.org/aports/tree/main/varnish/APKBUILD?id=336cc11a149e0b1e44bf74c1ba3fa8aa340a828f>`_
+
 * `Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
 
 * 2017-11-14 /Pål Hermunn
