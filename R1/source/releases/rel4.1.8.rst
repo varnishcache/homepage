@@ -5,9 +5,9 @@ Varnish Cache 4.1.8
 
 * Source download :download:`varnish-4.1.8.tgz <varnish-4.1.8.tgz>`
 
-* SHA=908e7fbfa0325498717686b2050181134aa0a69d1495c02b2625cd34d35a4ff1
+* SHA256=908e7fbfa0325498717686b2050181134aa0a69d1495c02b2625cd34d35a4ff1
 
-* `SHA evidence <https://svnweb.freebsd.org/ports/head/www/varnish4/distinfo?view=markup&pathrev=447140>`_
+* `SHA256 evidence <https://svnweb.freebsd.org/ports/head/www/varnish4/distinfo?view=markup&pathrev=447140>`_
 
 * `Change log <https://github.com/varnishcache/varnish-cache/blob/4.1/doc/changes.rst>`_
 

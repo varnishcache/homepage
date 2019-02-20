@@ -5,9 +5,9 @@ Varnish Cache 5.1.3
 
 * Source download :download:`varnish-5.1.3.tgz <varnish-5.1.3.tgz>`
 
-* SHA=7439c93ca581340f3722b8c790160f46dc6c5328188e4c0bc233c42f3f04a54e
+* SHA256=7439c93ca581340f3722b8c790160f46dc6c5328188e4c0bc233c42f3f04a54e
 
-* `SHA evidence <https://svnweb.freebsd.org/ports/head/www/varnish5/distinfo?view=markup&pathrev=447142>`_
+* `SHA256 evidence <https://svnweb.freebsd.org/ports/head/www/varnish5/distinfo?view=markup&pathrev=447142>`_
 
 * 2017-08-02 /Pål Hermunn
 
