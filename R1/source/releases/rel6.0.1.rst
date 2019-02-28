@@ -16,6 +16,8 @@ Varnish Cache 6.0.1 is a maintenance and stability release of the 6.0 branch. Al
 
 More information:
 
+* `changes.rst entry for 6.0.1 <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst#varnish-cache-601-2018-08-29>`_
+
 * `List of changes and other good reasons to update to 6.0 </docs/6.0/whats-new/changes-6.0.html>`_
 
 * `Upgrading </docs/6.0/whats-new/upgrading-6.0.html>`_

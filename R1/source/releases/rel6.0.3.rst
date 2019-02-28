@@ -16,6 +16,8 @@ Varnish Cache 6.0.3
 
 More information:
 
+* `changes.rst entry for 6.0.3 <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst#varnish-cache-603-2019-02-19>`_
+
 * `List of changes and other good reasons to update to 6.0 </docs/6.0/whats-new/changes-6.0.html>`_
 
 * `Upgrading </docs/6.0/whats-new/upgrading-6.0.html>`_

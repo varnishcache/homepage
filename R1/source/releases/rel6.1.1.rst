@@ -16,6 +16,8 @@ If upgrading from 6.0, you should not expect to encounter any problems. However,
 
 More information:
 
+* `changes.rst entry for 6.1.1 <https://github.com/varnishcache/varnish-cache/blob/6.1/doc/changes.rst#varnish-cache-611-2018-10-26>`_
+
 * `List of changes and other good reasons to update to 6.1 </docs/6.1/whats-new/changes-6.1.html>`_
 
 * `Upgrading </docs/6.1/whats-new/upgrading-6.1.html>`_

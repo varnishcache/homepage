@@ -12,8 +12,9 @@ Varnish Cache 6.0.2
 * 2018-11-07 /Pål Hermunn Johansen
 
 
-
 More information:
+
+* `changes.rst entry for 6.0.2 <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst#varnish-cache-602-2018-11-07>`_
 
 * `List of changes and other good reasons to update to 6.0 </docs/6.0/whats-new/changes-6.0.html>`_
 
