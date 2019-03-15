@@ -8,6 +8,16 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2019-03-15 - Varnish 6.2.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Come and get it... :ref:`rel6.2.0`
+
+This release brings many improvements under the hood and also some changes that VCL writers need to be aware of.
+
+Read more about it `here </docs/6.2/whats-new/changes-6.2.html>`_
+
+
 2019-02-20 - Maintenance release: Varnish Cache 6.0.3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
