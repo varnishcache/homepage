@@ -10,6 +10,8 @@ We're trying to keep the official documentation in sync with the code.
 Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
+   6.2 <https://www.varnish-cache.org/docs/6.2/>`__
+-  `Documentation for the latest release
    6.1 <https://www.varnish-cache.org/docs/6.1/>`__
 -  `Documentation for the latest release
    6.0 <https://www.varnish-cache.org/docs/6.0/>`__
