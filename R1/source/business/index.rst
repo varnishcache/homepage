@@ -33,6 +33,12 @@ and which you can pay to help you with Varnish:
 
   USA & Australia, Edge Platform As A Service
 
+`Isokron <http://www.isokron.no/>`_
+---------------------------------------
+
+  Oslo-based consultancy that can help you with development, consulting and deployments.
+
+
 How to get your company on this list
 ------------------------------------
 
