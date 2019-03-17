@@ -203,6 +203,7 @@ We do not use any external trackers and do not analyze traffic.
    intro/index
    security/index
    business/index
+   governance/index
    faq/index
    releases/index
    docs/index
