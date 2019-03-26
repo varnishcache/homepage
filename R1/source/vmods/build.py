@@ -25,12 +25,15 @@ class vmod(object):
 		return self.j["name"]
 
 	def repos(self):
-		i = self.j.get("repos")
-		if i != None:
-			return i
 		g = self.j.get("github")
 		if g != None:
-			return "https://github.com/" + g["user"] + "/" + g["project"]
+			return {"Github": "https://github.com/" + g["user"] + "/" + g["project"]}
+		i = self.j.get("repos")
+		if isinstance(i, dict):
+			return i
+		if i != None:
+			return {"Repos": i}
+		return None
 
 	def versions(self):
 		r = self.j.get("rev")
@@ -91,10 +94,10 @@ class vmod(object):
 		l.append(self.j.get("status"))
 
 		s = ""
-		if "github" in self.j:
-			s += " `Github <%s>`__ " % self.repos()
-		elif "repos" in self.j:
-			s += " `Repos <%s>`__ " % self.repos()
+		i = self.repos()
+		if i != None:
+			for n in sorted(i.iterkeys()):
+				s += " `%s <%s>`__ " % (n, i[n])
 		l.append(s)
 
 		s = ""
