@@ -1,17 +1,22 @@
 {
-    "date": "2018-08-28",
+    "date": "2019-03-26",
     "desc": "Efficient JSON parsing based on the frozen parser",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "frozen",
-    "repos": "https://code.uplex.de/uplex-varnish/libvmod-frozen",
-    "rev": {
-        "master": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-frozen/raw/master/src/vmod_frozen.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-frozen/blob/master/README.rst"
-        }
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-frozen",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-frozen"
     },
-    "status": "development",
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-frozen/raw/%s/src/vmod_frozen.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-frozen/blob/%s/README.rst"
+    },
+    "rev": {
+        "6.2": { "branch": "6.2" },
+        "master": { "branch": "master" }
+    },
+    "status": "mature",
     "support": [
         "Uplex"
     ]
