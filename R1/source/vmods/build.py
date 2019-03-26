@@ -76,7 +76,7 @@ class vmod(object):
 			if "url_doc" in r[rev]:
 				return r[rev]["url_doc"]
 			fmt = self.j.get("fmt")
-			if fmt != None and "url_vcc" in fmt:
+			if fmt != None and "url_doc" in fmt:
 				fmt = fmt["url_doc"]
 			else:
 				fmt = None
