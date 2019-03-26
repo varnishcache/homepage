@@ -1,10 +1,13 @@
 {
-    "date": "2017-10-05",
+    "date": "2019-03-26",
     "desc": "random director with dynamically adjustable weights",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "weightadjust",
-    "repos": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-weightadjust"
+    },
     "rev": {
         "4.1": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/4.1/src/vmod_weightadjust.vcc",
@@ -15,8 +18,20 @@
             "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/5.1/README.rst"
         },
         "5.2": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/master/src/vmod_weightadjust.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/master/README.rst"
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/5.2/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/5.2/README.rst"
+        },
+        "6.0": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/6.0/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/6.0/README.rst"
+        },
+        "6.1": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/6.1/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/6.1/README.rst"
+        },
+        "6.2": {
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/6.2/src/vmod_weightadjust.vcc",
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/blob/6.2/README.rst"
         },
         "master": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-weightadjust/raw/master/src/vmod_weightadjust.vcc",
