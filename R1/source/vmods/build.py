@@ -51,7 +51,15 @@ class vmod(object):
 	def url_vcc(self, rev):
 		r = self.j.get("rev")
 		if r != None:
-			return r[rev]["url_vcc"]
+			if "url_vcc" in r[rev]:
+				return r[rev]["url_vcc"]
+			fmt = self.j.get("fmt")
+			if fmt != None and "url_vcc" in fmt:
+				fmt = fmt["url_vcc"]
+			else:
+				fmt = None
+			if fmt != None and "branch" in r[rev]:
+				return fmt % r[rev]["branch"]
 		g = self.j.get("github")
 		if g != None:
 			s = "https://raw.githubusercontent.com/"
@@ -64,8 +72,16 @@ class vmod(object):
 
 	def url_doc(self, rev):
 		r = self.j.get("rev")
-		if r != None and "url_doc" in r[rev]:
-			return r[rev]["url_doc"]
+		if r != None:
+			if "url_doc" in r[rev]:
+				return r[rev]["url_doc"]
+			fmt = self.j.get("fmt")
+			if fmt != None and "url_vcc" in fmt:
+				fmt = fmt["url_doc"]
+			else:
+				fmt = None
+			if fmt != None and "branch" in r[rev]:
+				return fmt % r[rev]["branch"]
 		g = self.j.get("github")
 		if g != None and "doc_path" in g:
 			s = "https://github.com/"
