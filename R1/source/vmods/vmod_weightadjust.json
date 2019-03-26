@@ -18,7 +18,7 @@
         "5.2": { "branch": "5.2" },
         "6.0": { "branch": "6.0" },
         "6.1": { "branch": "6.1" },
-        "6.2": { "branch": "6.1" },
+        "6.2": { "branch": "6.2" },
         "master": { "branch": "master" }
     },
     "status": "mature",
