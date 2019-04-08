@@ -11,15 +11,15 @@ Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
    6.2 <https://www.varnish-cache.org/docs/6.2/>`__
--  `Documentation for the latest release
+-  `Documentation for
    6.1 <https://www.varnish-cache.org/docs/6.1/>`__
--  `Documentation for the latest release
+-  `Documentation for the long-term support release
    6.0 <https://www.varnish-cache.org/docs/6.0/>`__
 -  `Documentation for
    5.2 <https://www.varnish-cache.org/docs/5.2/>`__
 -  `Documentation for
    5.1 <https://www.varnish-cache.org/docs/5.1/>`__
--  `Documentation for the stable release
+-  `Documentation for
    4.1 <https://www.varnish-cache.org/docs/4.1/>`__
 -  `Documentation for the deprecated release
    4.0 <https://www.varnish-cache.org/docs/4.0/>`__
