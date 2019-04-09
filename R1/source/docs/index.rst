@@ -30,9 +30,8 @@ Both are kept in same source repository and both are available online:
 -  `Documentation for the current development
    version </docs/trunk/>`__ (git master)
 
-You also probably want to have a look at
-the old  \ `wiki </trac/wiki>`__ - especially the
-`VCL Examples </trac/wiki/VCLExamples>`__. 
+For the historically inclined, Archive.org has a complete copy
+of `the old Trac Wiki <https://web.archive.org/web/20150929070920/https://www.varnish-cache.org/trac>`__.
 
 Quick install guides various operating systems:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
