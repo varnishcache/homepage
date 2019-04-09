@@ -15,7 +15,7 @@ Vim VCL Highlighting,,Syntax Highlighting,https://github.com/fgsch/vim-varnish,N
 varnish-mib,,Monitoring+Statistics,http://www.gnu.org.ua/software/varnish-mib/download.html,NXC International
 Datadog,,Monitoring+Statistics,https://docs.datadoghq.com/integrations/varnish/,Varnish Software
 Munin Varnish plugin,,Monitoring+Statistics,http://munin-monitoring.org/,Varnish Software
-Nagios Varnish plugin,,Monitoring+Statistics,http://repo.varnish-cache.org/source/,Varnish Software
+Nagios Varnish plugin,,Monitoring+Statistics,https://github.com/varnish/varnish-nagios,Varnish Software
 Varnish Custom Statistics (VCS),,Monitoring+Statistics,https://www.varnish-software.com/varnish-custom-statistics,Varnish Software
 AppDynamics Varnish plugin,,Monitoring+Statistics,https://github.com/Appdynamics/varnish-monitoring-extension,No
 Cacti Varnish plugin,,Monitoring+Statistics,https://github.com/glensc/cacti-template-varnish,No

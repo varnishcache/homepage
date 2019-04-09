@@ -12,7 +12,7 @@ Mailing lists
 The varnish-misc list is open for questions.
 
 There are other lists available as well, but those have other
-purposes. See `Mailman <https://www.varnish-cache.org/lists/mailman/listinfo>`_ for a complete listing.
+purposes. See `Mailman </lists/mailman/listinfo>`_ for a complete listing.
 
 IRC Channel
 -----------

@@ -20,7 +20,7 @@ Where is the bug I opened in 2012?
 
 We saved a snapshot of the old tickets from 'Trac',
 if you remember the number,
-`click here <http://r.varnish-cache.org/trac/ticket/1234>`_
+`click here </trac/ticket/1234>`_
 and fix up the URL with the ticket number.
 
 We have also created place-holder tickets on Github, so

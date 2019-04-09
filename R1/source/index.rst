@@ -182,8 +182,6 @@ at Packagecloud.io.
 A list of all available repositories can be found at:
 https://packagecloud.io/varnishcache
 
-The old http://repo.varnish-cache.org/ is going to be removed on the 31st of August.
-
 For more details on packages, see :ref:`Releases & Downloads <releases>`
 
 Privacy

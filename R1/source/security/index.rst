@@ -21,7 +21,7 @@ Send email to phk@, my PGP key is at the bottom of this page.
 I want to hear about security vulnerabilities
 ---------------------------------------------
 
-Subscribe to the `Varnish Announce mailing list <https://www.varnish-cache.org/lists/mailman/listinfo/varnish-announce>`_
+Subscribe to the `Varnish Announce mailing list </lists/mailman/listinfo/varnish-announce>`_
 
 Vulnerabilities are and will also be listed further at the top of this page when they are new
 and further down when they get older.
@@ -93,7 +93,7 @@ Yes, indeed.  Luck probably has a lot to do with it, but luck tends
 to favour the well-prepared, and we have had a big focus on quality
 since the very start.
 
-`Here is a piece I wrote about it last year <https://r.varnish-cache.org/docs/trunk/phk/thatslow.html>`_
+`Here is a piece I wrote about it last year </docs/trunk/phk/thatslow.html>`_
 
 
 List of all Varnish security issues

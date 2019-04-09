@@ -12,7 +12,7 @@ requirements, how to get your Varnish deployment to run well, how to
 discover the cause of a problem and so forth.
 
 In part, this section is intended as a successor to the old  \ `wiki
-<https://www.varnish-cache.org/trac/wiki>`__, which had a wide range
+</trac/wiki>`__, which had a wide range
 of useful hints, but much of which was written for older versions and
 is now outdated.
 
