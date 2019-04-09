@@ -4,7 +4,7 @@ How our website works
 =====================
 
 The principle of eating your own dogfood is important for software
-quality, that is how you experience what your users are dealing with
+quality, that is how you experience what your users are dealing with,
 and I am not the least ashamed to admit that several obvious improvements
 have happened to Varnish as a result of running the project webserver.
 
@@ -26,7 +26,7 @@ virtual server somewhere near CDG/Paris.
 And as backup/integration/testing server we can use any server,
 virtual or physical, as long as it has a internet connection and
 contemporary performance, because the entire install is scripted
-and under version control (more below)
+and under version control (more below).
 
 Operating System
 ----------------
@@ -131,7 +131,8 @@ our "Admin" git repos and access to github.
 And when `FreeBSD 11 <https://www.youtube.com/watch?v=KOO5S4vxi0o>`_
 comes out, or a new version of sphinx or something else, mucking
 about with things until they work can be done at leisure without
-guess work.
+guess work.  (We're actually at 12 now, but the joke is too good
+to delete.)
 
 For instance I just added the forum snapshot, by working out all
 the kinks on one of my test-machines.
@@ -155,4 +156,3 @@ And by doing it this way, I *know* it will work next time also.
 2016-04-25 /phk
 
 PS: All that buzz about "reproducible builds" ?  Yeah, not a new idea.
-

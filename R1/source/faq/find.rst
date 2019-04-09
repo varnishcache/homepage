@@ -3,26 +3,15 @@
 Finding things
 --------------
 
-Install on FreeBSD
-~~~~~~~~~~~~~~~~~~
-
-This should work::
-
-  pkg install varnish6
-
-or::
-
-  cd /usr/ports/www/varnish6
-  make all install clean
-
 Where is the bug I opened in 2012?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We saved a snapshot of the old tickets from 'Trac',
-if you remember the number,
-`click here </trac/ticket/1234>`_
-and fix up the URL with the ticket number.
+When we migrated to github, we created placeholder tickets, so if you
+know the ticket number go to:
 
-We have also created place-holder tickets on Github, so
-you can find it by browsing
-`closed issues. <https://github.com/varnishcache/varnish-cache/issues?q=is%3Aissue+is%3Aclosed>`_
+	https://github.com/varnishcache/varnish-cache/issues/42
+
+for a suitable value of 42.
+
+If you don't know the ticket number,
+`search github for closed issues <https://github.com/varnishcache/varnish-cache/issues?q=is%3Aissue+is%3Aclosed>`_

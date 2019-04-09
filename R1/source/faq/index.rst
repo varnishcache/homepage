@@ -1,12 +1,10 @@
 .. _faq:
 
-Questions and Answers
-=====================
+(In)Frequently asked Questions
+==============================
 
 .. toctree::
-	comm
 	find
-	what
 
 
 .. toctree::
