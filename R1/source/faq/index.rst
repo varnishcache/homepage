@@ -10,6 +10,5 @@
 .. toctree::
 	:maxdepth: 1
 
-	dogfood
 	who
 

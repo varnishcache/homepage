@@ -20,7 +20,6 @@ so please feel free to add your ideas, update the content, or to correct
 errors. The :ref:`HowTo <contribdoc>` section will help you get started.
 
 .. toctree::
-   contribdoc/index
    vcl/index
    varnishlog/index
    migration/index
