@@ -22,18 +22,5 @@ More information:
 
 * `Upgrading </docs/6.0/whats-new/upgrading-6.0.html>`_
 
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
-
-EL7, Debian-Stretch and Ubuntu-Xenial should be available soon after the
-release on
-`PackageCloud.io <https://packagecloud.io/varnishcache/varnish60lts>`_
-
-We recommend using the manual installation procedure available at:
-https://packagecloud.io/varnishcache/varnish60lts/install#manual
+For installation instructions including information about cloud images see
+`the Varnish Installation Manual </docs/trunk/installation/index.html>`_

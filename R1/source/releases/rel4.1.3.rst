@@ -22,12 +22,3 @@ Some minor functionality has been added, including support for TCP Fast Open on
 client sockets and varnishncsa improvements for accounting purposes.
 
 All users on 4.1 and 4.0 are recommended to upgrade to this version.
-
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`

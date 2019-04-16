@@ -90,14 +90,3 @@ All the releases
         rel1.0
         rel0.9.1
         rel0.9
-
-
-.. toctree::
-	:hidden:
-
-	install_freebsd
-	install_openbsd
-	install_ubuntu
-	install_debian
-	install_redhat
-

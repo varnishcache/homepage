@@ -21,19 +21,3 @@ More information:
 * `List of changes and other good reasons to update to 6.1 </docs/6.1/whats-new/changes-6.1.html>`_
 
 * `Upgrading </docs/6.1/whats-new/upgrading-6.1.html>`_
-
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
-
-EL7, Debian-Stretch and Ubuntu-Xenial
-packages can be found on
-`PackageCloud.io <https://packagecloud.io/varnishcache/varnish61>`_
-
-We recommend using the manual installation procedure available at:
-https://packagecloud.io/varnishcache/varnish61/install#manual

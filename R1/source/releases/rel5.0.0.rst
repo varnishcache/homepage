@@ -20,11 +20,3 @@ More information:
 * `Release Note </docs/5.0/whats-new/relnote-5.0.html>`_
 * `Changes </docs/5.0/whats-new/changes-5.0.html>`_
 * `Upgrading </docs/5.0/whats-new/upgrading-5.0.html>`_
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`

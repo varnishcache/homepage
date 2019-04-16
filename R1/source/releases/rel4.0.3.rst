@@ -13,17 +13,6 @@ Varnish Cache 4.0.3
 
 * 2015-02-19 /scn
 
-
-By Operating System 
--------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
-
-
-
 Summary of changes
 ------------------
 

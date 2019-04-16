@@ -17,11 +17,3 @@ This release addresses a performance regression as well as fixing multiple
 bugs seen since 4.1.1.
 
 It is recommended for all users to upgrade.
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`

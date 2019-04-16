@@ -15,11 +15,5 @@ Varnish Cache 4.1.11 is a maintenance and stability release of the 4.1 branch.
 
 All users on 4.1 and 4.0 are recommended to upgrade to this version.
 
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
+For installation instructions including information about cloud images see
+`the Varnish Installation Manual </docs/trunk/installation/index.html>`_

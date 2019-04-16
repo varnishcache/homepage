@@ -17,12 +17,3 @@ Varnish Cache 4.1.4 is a maintenance release of the 4.1 branch with
 severaly bug fixes. See the change log for a complete list of changes.
 
 All users on 4.1 and 4.0 are recommended to upgrade to this version.
-
-
-Operating System Specific Installation Guides
----------------------------------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
