@@ -3,8 +3,6 @@ Varnish HTTP Cache
 
 :ref:`I'm new here, please explain this Varnish thing <intro>`
 
-:ref:`Questions and Answers<faq>`
-
 What is happening
 -----------------
 
@@ -201,7 +199,6 @@ We do not use any external trackers and do not analyze traffic.
    intro/index
    security/index
    business/index
-   faq/index
    releases/index
    docs/index
    support/index
