@@ -33,15 +33,6 @@ Both are kept in same source repository and both are available online:
 For the historically inclined, Archive.org has a complete copy
 of `the old Trac Wiki <https://web.archive.org/web/20150929070920/https://www.varnish-cache.org/trac>`__.
 
-Quick install guides various operating systems:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  `Ubuntu </releases/install_ubuntu.html>`__
--  `Debian </releases/install_debian.html>`__
--  `Red Hat Enterprise Linux and
-   Centos </releases/install_redhat.html>`__
--  `FreeBSD </releases/install_freebsd.html>`__
-
 The Varnish Book
 ----------------
 
