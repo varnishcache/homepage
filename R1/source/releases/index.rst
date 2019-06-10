@@ -10,7 +10,6 @@ Release                Date         Notes        Download
 ====================== ============ ===========  ===========
 :ref:`rel6.2.0`        2019-03-15   Fresh        :download:`varnish-6.2.0.tgz <varnish-6.2.0.tgz>`
 :ref:`rel6.0.3`        2019-02-19   Supported    :download:`varnish-6.0.3.tgz <varnish-6.0.3.tgz>`
-:ref:`rel4.1.11`       2019-02-11   Supported    :download:`varnish-4.1.11.tgz <varnish-4.1.11.tgz>`
 ====================== ============ ===========  ===========
 
 For installation instructions including information about cloud images see
