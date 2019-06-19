@@ -1,0 +1,21 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "Cookie (newer versions)",
+    "github": {
+        "branches": {
+            "6.1": "6.1",
+            "6.2": "6.2",
+            "master": "master"
+        },
+        "doc_path": "docs/cookie.rst",
+        "project": "varnish-modules",
+        "user": "nigoroll",
+        "vcc_path": "src/vmod_cookie.vcc"
+    },
+    "license": "FreeBSD",
+    "name": "cookie (newer versions)",
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
+}
