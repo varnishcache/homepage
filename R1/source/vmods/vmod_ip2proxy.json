@@ -1,0 +1,18 @@
+{
+	"date": "2019-06-28",
+	"desc": "A Varnish module that enables the user to find the country, region, city, ISP and proxy information by IP address.",
+	"github": {
+		"branches": {
+			"master": "master"
+		},
+		"project": "IP2Proxy-Varnish",
+		"user": "ip2location",
+		"vcc_path": "src/vmod_ip2proxy.vcc"
+	},
+	"license": "MIT",
+	"name": "ip2location",
+	"status": "development",
+	"support": [ "IP2Location" ],
+	"maintainer": "support@ip2location.com",
+	"product": "https://www.ip2location.com/database/ip2location"
+}
