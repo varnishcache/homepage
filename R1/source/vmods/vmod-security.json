@@ -3,12 +3,12 @@
     "desc": "ModSecurity Binding",
     "github": {
         "branches": {
-            "6.1": "master"
+            "6.1": "master",
             "6.2": "master"
         },
         "project": "vmod-modsecurity",
         "user": "xdecock",
-        "vcc_path": "src/vmod_sec.vcc"
+        "vcc_path": "src/vmod_sec.vcc",
         "doc_path": "README.md"
     },
     "license": "BSD",
