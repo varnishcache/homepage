@@ -6,6 +6,7 @@ Security, bugs & vulnerabilities
 .. toctree::
 	:maxdepth: 1
 
+	VSV00003.rst
 	VSV00002.rst
 	VSV00001.rst
 
