@@ -9,7 +9,7 @@ Varnish Cache is released every 6 months.
 Release                Date         Notes        Download
 ====================== ============ ===========  ===========
 :ref:`rel6.2.1`        2019-09-03   Fresh        :download:`varnish-6.2.1.tgz <varnish-6.2.1.tgz>`
-:ref:`rel6.0.3`        2019-02-19   Supported    :download:`varnish-6.0.3.tgz <varnish-6.0.3.tgz>`
+:ref:`rel6.0.4`        2019-02-19   Supported    :download:`varnish-6.0.4.tgz <varnish-6.0.4.tgz>`
 ====================== ============ ===========  ===========
 
 For installation instructions including information about cloud images see
@@ -31,6 +31,7 @@ All the releases
 	rel6.2.0
 	rel6.1.1
 	rel6.1.0
+	rel6.0.4
 	rel6.0.3
 	rel6.0.2
 	rel6.0.1
