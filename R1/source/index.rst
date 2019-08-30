@@ -6,6 +6,19 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2019-09-03 - Security Advisory: Denial of Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All supported versions of Varnish are vulnerable to a Denial of
+Service attack, please see :ref:`VSV00003 <VSV00003>`.
+
+2019-09-03 - Security releases: 6.0.4 and 6.2.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions 6.0.4 and 6.2.1 are now available. See
+:ref:`VSV00003 <VSV00003>` for details.
+
+
 2019-03-15 - Varnish 6.2.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
