@@ -13,11 +13,6 @@ More information:
 
 * `changes.rst entry for 6.3.0 <https://github.com/varnishcache/varnish-cache/blob/6.3/doc/changes.rst>`_
 
-* `List of changes and other good reasons to update to 6.3 </docs/6.3/whats-new/changes-6.3.html>`_
-
-* `Upgrading </docs/6.3/whats-new/upgrading-6.3.html>`_
-
-
 For installation instructions including information about cloud images see
 `the Varnish Installation Manual </docs/trunk/installation/index.html>`_
 
