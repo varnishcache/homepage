@@ -23,3 +23,4 @@ errors. The :ref:`HowTo <contribdoc>` section will help you get started.
    vcl/index
    varnishlog/index
    migration/index
+   alpine/index
