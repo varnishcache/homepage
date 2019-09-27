@@ -3,11 +3,11 @@
 Migrating Varnish versions
 ==========================
 
-This page is a continuous work in progress, and contributions to this
-is very much welcomed. Do not hesitate to open a "pull request" on
+This page is a continuous work in progress, and contributions to it
+are very much welcomed. Do not hesitate to open a "pull request" on
 `our GitHub repository <https://github.com/varnishcache/homepage/>`.
 
-The following resources documents upgrades from unsupported versions:
+The following resources document upgrades from unsupported versions:
 
 * `Migrating from 3.0.x to 4.0.x
   </docs/4.1/whats-new/upgrade-4.0.html>`_
