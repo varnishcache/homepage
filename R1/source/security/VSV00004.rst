@@ -1,0 +1,97 @@
+.. _VSV00004:
+
+Subject: VSV00004 Workspace information leak
+
+
+VSV00004 Workspace information leak
+===================================
+
+Date: 2019-10-21
+
+A bug has been discovered in Varnish Cache where we fail to clear a
+pointer between the handling of one client requests and the next on the
+same connection. This can under specific circumstances lead to information
+being leaked from the connection workspace.
+
+The impact is an information leak, limited to the data in the workspace
+used for handling the connection. This will typically be data structures
+and stale header data from previous requests on the same connection, but
+could also be temporary headers set during processing of VCL.
+
+For the leak to occur, Varnish needs to switch to synthetic handling due
+to an internal error, in order to generate an error response to the client
+request. Note that it will not be a problem when synthetic response
+handling is reached explicitly through VCL statements.
+
+The leaked data will be pre populated in the `resp.reason` variable on
+entering `vcl_synth`, and will unless overridden show up in the response
+field of the HTTP response sent.
+
+The following error situations will cause Varnish to go directly to
+synthetic handling for the current client request, and can cause data to
+be leaked:
+
+* Reaching max_restarts. There is a maximum limit on how many times the
+  VCL is allowed to do a `return(restart)`, and when this limit is reached
+  the request is forced to synthetic handling to send an error response.
+
+* Requests initiating backend fetches, there is no grace candidate, and
+  the backend responds, but fails to send valid HTTP headers in return. In
+  this situation, specifically for the single request initiating the
+  backend fetch, the request is forced to synthetic handling to send an
+  error response.
+
+* Attempting to switch to another VCL label after a restart. Switching to
+  another VCL is only allowed on the first run through `vcl_recv`, and
+  attempts to do it later will force the request to synthetic handling to
+  send an error response.
+
+To successfully attack a vulnerable Varnish server, the system must either
+be vulnerable from its VCL configuration (max restarts or erroneous VCL
+switching), or the attacker must be able to cause backend response issues.
+
+Mitigation is possible from VCL or by updating to a fixed version
+of Varnish Cache.
+
+
+Versions affected
+-----------------
+
+* 5.0 and forward
+* 6.0 LTS by Varnish Software up to and including 6.0.4
+
+
+Fixed in
+--------
+
+* 6.3.1
+* 6.2.2
+* 6.0.5 LTS by Varnish Software
+* GitHub Varnish Cache master branch at commit bd7b3d6d47ccbb5e1747126f8e2a297f38e56b8c
+
+
+Mitigation from VCL
+-------------------
+
+It is possible to mitigate the problem through VCL, by making sure that
+the `resp.reason` field is overridden in the `vcl_synth` function. That
+will update the stale pointer value to a known value, eliminating the
+problem.
+
+The following does this by setting `resp.status` to itself, updating
+`resp.reason` to the generic value for that status code in the process::
+
+	sub vcl_synth {
+		# This line should be added last in vcl_synth,
+		# or just before any return statements
+		set resp.status = resp.status;
+	}
+
+
+Thankyous and credits
+---------------------
+
+Trygve Tønnesland of VG/Schibsted for discovering the vulnerability, and
+responsible disclosure.
+
+Varnish Software for handling this security incident.

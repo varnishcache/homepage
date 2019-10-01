@@ -32,6 +32,7 @@ Versions     CVE             What
 	:hidden:
 	:maxdepth: 1
 
+	VSV00004.rst
 	VSV00003.rst
 	VSV00002.rst
 	VSV00001.rst
