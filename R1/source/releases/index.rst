@@ -28,6 +28,12 @@ All the releases
 ----------------
 
 .. toctree::
+	:hidden:
+	:maxdepth: 1
+
+	oldnews
+
+.. toctree::
 	:maxdepth: 1
 
 	rel6.3.0
