@@ -1,9 +1,33 @@
 Security, bugs & vulnerabilities
 ================================
 
-* Rev. 2018-11-15 *phk*
+* Rev. 2019-10-07 *phk*
+
+List of all Varnish CVEs
+------------------------
+
+============ =============== ============================================
+Versions     CVE             What
+============ =============== ============================================
+6.0, 6.2     CVE-2019-15892_ :ref:`vsv00003`
+4.1, 5.2     CVE-2017-8807_  :ref:`vsv00002`
+4.x, 5.x     CVE-2017-12425_ :ref:`vsv00001`
+< 3.0.5      CVE-2013-4484_  DoS
+<= 3.0.3     CVE-2013-0345_  Local information leak
+2.0.6        CVE-2009-4488_  Trophy hunting
+< 2.1.0      CVE-2009-2936_  Trophy hunting
+============ =============== ============================================
+
+.. _CVE-2019-15892:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15892
+.. _CVE-2017-8807:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8807
+.. _CVE-2017-12425:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12425
+.. _CVE-2013-4484:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4484
+.. _CVE-2013-0345:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0345
+.. _CVE-2009-4488:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4488
+.. _CVE-2009-2936:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2936
 
 .. toctree::
+	:hidden:
 	:maxdepth: 1
 
 	VSV00003.rst
@@ -71,7 +95,7 @@ would react to a major security issue:
 Define "Major"
 --------------
 
-As you will notice if you peruse the CVEs listed below, we are not
+As you will notice if you peruse the CVEs listed above, we are not
 kindly inclined to trophy-hunting and shrill alarmism.
 
 If security advisories are to have any utility, they should be both
@@ -86,7 +110,6 @@ On the other hand, if we find anything, on our own or thanks to
 external contributors, which imperil Varnish users, we will not
 hesitate to issue a CVE to get peoples attention.
 
-
 11 years, really?
 -----------------
 
@@ -95,17 +118,6 @@ to favour the well-prepared, and we have had a big focus on quality
 since the very start.
 
 `Here is a piece I wrote about it last year </docs/trunk/phk/thatslow.html>`_
-
-
-List of all Varnish security issues
-----------------------------------------
-
-* CVE-____-____ -- :ref:`vsv00001`
-* `CVE-2013-4484 -- < 3.0.5 -- DoS <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4484>`_
-* `CVE-2013-0345 -- <= 3.0.3 -- Local information leak <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0345>`_
-* `CVE-2009-4488 -- 2.0.6 -- Trophy hunting <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4488>`_
-* `CVE-2009-2936 -- < 2.1.0 -- Trophy hunting <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2936>`_
-
 
 
 PGP key
