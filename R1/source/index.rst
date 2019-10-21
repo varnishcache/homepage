@@ -6,6 +6,19 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2019-09-03 - Security Advisory: Information leak
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All supported versions of Varnish can potentially leak some
+information when certain conditions are met. Please see :ref:`VSV00004
+<VSV00004>`.
+
+2019-09-03 - Security releases: 6.0.5, 6.2.2 and 6.3.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions 6.0.5, 6.2.2 and 6.3.1 are now available. See
+:ref:`VSV00004 <VSV00004>` for details.
+
 2019-09-17 - Varnish 6.3.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
