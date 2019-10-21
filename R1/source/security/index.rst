@@ -19,7 +19,7 @@ Versions      CVE             What
 <= 3.0.3      CVE-2013-0345_  Local information leak
 2.0.6         CVE-2009-4488_  Trophy hunting
 < 2.1.0       CVE-2009-2936_  Trophy hunting
-============  =============== ============================================
+============= =============== ============================================
 
 .. _CVE-2019-15892:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15892
 .. _CVE-2017-8807:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8807
