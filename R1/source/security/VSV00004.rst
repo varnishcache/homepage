@@ -1,8 +1,5 @@
 .. _VSV00004:
 
-Subject: VSV00004 Workspace information leak
-
-
 VSV00004 Workspace information leak
 ===================================
 
