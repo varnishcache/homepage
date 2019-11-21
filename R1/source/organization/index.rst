@@ -88,7 +88,10 @@ made by project maintainers on:
 * which contributors should be granted the commit bit
 * and all other relevant decisions regarding the design of Varnish Cache
 
-For disputes amongst them, maintainers decide by a 2/3 majority.
+When a change is proposed, maintainers must get ample time to review
+the proposition. Then, if the maintainers who are *for* the change
+outnumber the ones *against* by at least two, the pull request can be
+merged or the change implemented.
 
 Maintainers are nominated by VDD participants by majority decision,
 and will in the future be ratified by the VGB.
@@ -154,8 +157,8 @@ qualify for the exceptions laid out below.
 
 Everybody are encouraged to review pull requests.
 
-A 2/3 majority of maintainers can approve pull requests, unless a
-maintainer vetos.
+Maintainers can approve pull requests, as described in
+:ref:`organization_maintainers` above.
 
 The exception to the pull request process are trivial, *risk free*
 changes, which can be committed and pushed (by a developer with the
