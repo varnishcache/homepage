@@ -1,0 +1,100 @@
+.. _VSV00005:
+
+VSV00005 Varnish HTTP Proxy Protocol V2 Denial of Service
+=========================================================
+
+Date: 2020-xx-xx <XXX-update-date>
+
+An assert can be triggered in Varnish Cache when using Varnish with a TLS
+termination proxy, and the proxy and Varnish use the PROXY version 2
+protocol to communicate connection details. Depending on the type of proxy
+used and the details it include in the proxy payload, it may be possible
+for remote clients to cause Varnish to assert and restart, making it a
+denial of service attack.
+
+The assert will cause Varnish to restart, and the cache will be empty
+after the restart. This will reduce overall performance due to an
+increased number of cache misses, and may cause higher load on the backend
+servers.
+
+There is no potential for remote code execution or data leaks related to
+this vulnerability.
+
+Mitigation is possible by configuration tuning, or by updating to a fixed
+version of Varnish Cache.
+
+
+Versions affected
+-----------------
+
+* 6.0 and forward
+* 6.0 LTS by Varnish Software up to and including 6.0.5
+
+
+Fixed in
+--------
+
+* Varnish Cache 6.2.3
+* Varnish Cache 6.3.2
+* 6.0.6 LTS by Varnish Software
+* GitHub Varnish Cache master branch at commit <XXX-Insert-SHA-value-here>
+
+
+Mitigation
+----------
+
+It is possible to mitigate the problem in several ways.
+
+Switch to proxy protocol version 1
+""""""""""""""""""""""""""""""""""
+
+Setups using proxy protocol version 1 are not affected, so if the TLS
+termination proxy used supports both versions, switching to version 1 will
+mitigate the problem. This is the recommended mitigation method.
+
+Note that version 1 of the proxy protocol will communicate less details
+about the connection than what is possible when using version 2. For
+example the SNI server name used by the connecting client will not be
+transferred, and can then not be queried using the Proxy VMOD in VCL.
+
+When using the Hitch TLS proxy, version 1 of the proxy protocol can be
+selected by replacing any ``write-proxy`` or ``write-proxy-v2`` options
+with ``write-proxy-v1``, and restarting Hitch.
+
+
+Disallow non-matching SNI names in Hitch
+""""""""""""""""""""""""""""""""""""""""
+
+When using Hitch as the TLS termination proxy, one can work around the
+problem by disallowing client connects connecting using a SNI servername
+that does not match any of the configured certificates. This can be done
+by adding the ``sni-nomatch-abort`` option to the Hitch configuration.
+
+Please not that this mitigation strategy is only effective if none of the
+configured certificates allow wildcard domain names.
+
+Increase the session workspace
+""""""""""""""""""""""""""""""
+
+By increasing the session workspace, one can make sure that an attacker
+can not successfully exhaust the space available, thus not triggering the
+assert. The size it needs to be set at depends on the TLS proxy in use,
+and what fields it include in the proxy payload and how a remote client
+can influence its contents.
+
+By default the session workspace is set to 512 bytes. The session
+workspace can be changed by setting the ``workspace_session`` Varnish
+parameter, and restarting the Varnish daemon.
+
+When using Hitch as the TLS proxy, setting the session workspace to 34k
+will mitigate the problem completely. Add "-p workspace_session=34k" to
+the `varnishd` command line to set this value.
+
+Note that increasing the session workspace will increase the amount of
+memory Varnish holds per connection, and you may want to decrease the
+memory cache size to compensate.
+
+Thankyous and credits
+---------------------
+
+Varnish Software for handling this security incident.
