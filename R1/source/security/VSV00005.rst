@@ -3,7 +3,7 @@
 VSV00005 Varnish HTTP Proxy Protocol V2 Denial of Service
 =========================================================
 
-Date: 2020-xx-xx <XXX-update-date>
+Date: 2020-02-04
 
 An assert can be triggered in Varnish Cache when using Varnish with a TLS
 termination proxy, and the proxy and Varnish use the PROXY version 2
