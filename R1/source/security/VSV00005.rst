@@ -71,7 +71,7 @@ problem by disallowing client connects connecting using a SNI servername
 that does not match any of the configured certificates. This can be done
 by adding the ``sni-nomatch-abort`` option to the Hitch configuration.
 
-Please not that this mitigation strategy is only effective if none of the
+Please note that this mitigation strategy is only effective if none of the
 configured certificates allow wildcard domain names.
 
 Increase the session workspace
