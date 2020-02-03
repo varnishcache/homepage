@@ -27,7 +27,8 @@ version of Varnish Cache.
 Versions affected
 -----------------
 
-* 6.0 and forward
+* Varnish Cache releases 6.0.0, 6.0.1, 6.0.2, 6.0.3, 6.0.4, 6.0.5, 6.1.0,
+  6.1.1, 6.2.0, 6.2.1, 6.2.2, 6.3.0, 6.3.1.
 * 6.0 LTS by Varnish Software up to and including 6.0.5
 
 
