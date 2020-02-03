@@ -6,6 +6,19 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2020-02-04 - Security Advisory: Denial of Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All supported versions of Varnish suffer from a denial of service attack
+when using the Proxy Protocol version 2. Please see :ref:`VSV00005
+<VSV00005>`.
+
+2020-02-04 - Security releases: 6.0.6, 6.2.3 and 6.3.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions 6.0.5, 6.2.2 and 6.3.1 are now available. See
+:ref:`VSV00005 <VSV00005>` for details.
+
 2019-10-21 - Security Advisory: Information leak
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
