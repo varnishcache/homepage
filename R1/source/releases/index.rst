@@ -45,6 +45,7 @@ All the releases
 	rel6.2.0
 	rel6.1.1
 	rel6.1.0
+	rel6.0.6
 	rel6.0.5
 	rel6.0.4
 	rel6.0.3
