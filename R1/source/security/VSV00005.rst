@@ -31,14 +31,14 @@ Versions affected
   6.1.1, 6.2.0, 6.2.1, 6.2.2, 6.3.0, 6.3.1.
 * 6.0 LTS by Varnish Software up to and including 6.0.5
 
-
 Fixed in
 --------
 
 * Varnish Cache 6.2.3
 * Varnish Cache 6.3.2
 * 6.0.6 LTS by Varnish Software
-* GitHub Varnish Cache master branch at commit <XXX-Insert-SHA-value-here>
+* GitHub Varnish Cache master branch at commit
+  2d8fc1a784a1e26d78c30174923a2b14ee2ebf62
 
 
 Mitigation
