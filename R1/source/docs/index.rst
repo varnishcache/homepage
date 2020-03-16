@@ -10,18 +10,20 @@ We're trying to keep the official documentation in sync with the code.
 Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
+   6.4 </docs/6.4/>`__
+-  `Documentation for the previous release
    6.3 </docs/6.3/>`__
--  `Documentation for the latest release
+-  `Documentation for the deprecated release
    6.2 </docs/6.2/>`__
--  `Documentation for the latest release
+-  `Documentation for the deprecated release
    6.1 </docs/6.1/>`__
--  `Documentation for the latest release
+-  `Documentation for the supported (LTS) release
    6.0 </docs/6.0/>`__
--  `Documentation for
+-  `Documentation for the deprecated release
    5.2 </docs/5.2/>`__
--  `Documentation for
+-  `Documentation for the deprecated release
    5.1 </docs/5.1/>`__
--  `Documentation for the stable release
+-  `Documentation for the deprecated release
    4.1 </docs/4.1/>`__
 -  `Documentation for the deprecated release
    4.0 </docs/4.0/>`__

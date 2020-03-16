@@ -6,6 +6,11 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2020-03-16 - Varnish 6.4.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release :ref:`rel6.4.0`
+
 2020-02-04 - Security Advisory: Denial of Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
