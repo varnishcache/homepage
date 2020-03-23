@@ -1,0 +1,30 @@
+{
+    "name": "remoteip",
+    "date": "2020-03-23",
+    "desc": "Determine the actual client IP address from X-Forwarded-For or similar header",
+    "license": "GPLv3+",
+    "status": "mature",
+    "maintainer": "gray@gnu.org",
+    "support": [
+        "Norse Digital"
+    ],
+    "repos": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/",
+    "rev": {
+        "6.0": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc",
+	    "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip"
+        },
+        "6.1": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc",
+	    "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip"
+        },
+        "6.2": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc",
+	    "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip"
+        },
+        "6.3": {
+            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc",
+	    "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip"
+        }
+    }
+}
