@@ -5,21 +5,13 @@ Varnish Cache 4.0.5
 
 * Source download :download:`varnish-4.0.5.tgz <varnish-4.0.5.tgz>`
 
-* SHA=d90ffa33902d3ac40742cbb50588a37f467f23797f93e67a261724f4a7fb0aff
+* SHA256=d90ffa33902d3ac40742cbb50588a37f467f23797f93e67a261724f4a7fb0aff
 
-* `SHA evidence <https://gitweb.gentoo.org/repo/gentoo.git/tree/www-servers/varnish/Manifest?id=535d9754989fe98588d9c2e74e052a3d84d95acd>`_
+* `SHA256 evidence <https://gitweb.gentoo.org/repo/gentoo.git/tree/www-servers/varnish/Manifest?id=535d9754989fe98588d9c2e74e052a3d84d95acd>`_
 
 * `Change log <https://github.com/varnishcache/varnish-cache/blob/4.0/doc/changes.rst>`_
 
 * 2017-08-02 /Pål Hermunn
-
-By Operating System
--------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
 
 Varnish Cache 4.0.5 is a stability release for the 4.0 branch, released in spite of 4.0 being "end of life". See :ref:`vsv00001` for details.
 

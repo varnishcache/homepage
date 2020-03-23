@@ -1,41 +1,28 @@
 {
-    "date": "2018-06-01",
-    "desc": "regexp matches and backreferences",
+    "date": "2019-03-26",
+    "desc": "regular expression (regexp) matches and backreferences",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "re",
-    "repos": "https://code.uplex.de/uplex-varnish/libvmod-re",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-re",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-re"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/%s/src/vmod_re.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/%s/README.rst"
+    },
     "rev": {
-        "3.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/3.0/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/3.0/README.rst"
-        },
-        "4.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/4.0/src/vmod_re.vcc"
-        },
-        "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/4.0/src/vmod_re.vcc"
-        },
-        "5.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/5.0/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.0/README.rst"
-        },
-        "5.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/5.1/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.1/README.rst"
-        },
-        "5.2": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/5.2/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/5.2/README.rst"
-        },
-        "6.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/6.0/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/6.0/README.rst"
-        },
-        "master": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/master/src/vmod_re.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/master/README.rst"
-        }
+        "3.0": { "branch": "3.0" },
+        "4.0": { "branch": "4.0" },
+        "4.1": { "branch": "4.0", "comment": "yes, 4.1->4.0"},
+        "5.0": { "branch": "5.0" },
+        "5.1": { "branch": "5.1" },
+        "5.2": { "branch": "5.2" },
+        "6.0": { "branch": "6.0" },
+        "6.1": { "branch": "6.1" },
+        "6.2": { "branch": "6.2" },
+        "master": { "branch": "master" }
     },
     "status": "mature",
     "support": [

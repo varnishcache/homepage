@@ -1,22 +1,56 @@
 {
-    "date": "2016-04-21",
+    "date": "2019-03-26",
     "desc": "Device Classifier Service",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "dcs",
-    "repos": "https://code.uplex.de/uplex-varnish/dcs_classifier",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/dcs_classifier",
+        "gitlab": "https://gitlab.com/uplex/varnish/dcs_classifier"
+    },
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blob/%s/README.rst"
+    },
     "rev": {
         "3.0": {
+            "branch": "master",
             "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs3.vcc"
         },
         "4.0": {
+            "branch": "master",
             "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs40.vcc"
         },
         "4.1": {
+            "branch": "master",
             "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs41.vcc"
         },
         "5.0": {
+            "branch": "master",
             "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs5.vcc"
+        },
+        "5.1": {
+            "branch": "master",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs5.vcc"
+        },
+        "5.2": {
+            "branch": "master",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs5.vcc"
+        },
+        "6.0": {
+            "branch": "master",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs5.vcc"
+        },
+        "6.1": {
+            "branch": "master",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs5.vcc"
+        },
+        "6.2": {
+            "branch": "master",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs62.vcc"
+        },
+        "master": {
+            "branch": "master",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs62.vcc"
         }
     },
     "status": "mature",

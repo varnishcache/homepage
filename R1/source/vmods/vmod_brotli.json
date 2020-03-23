@@ -1,0 +1,23 @@
+{
+    "date": "2019-03-26",
+    "desc": "Varnish Fetch Processor (VFP) for brotli de-/compression",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "brotli",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvfp-brotli",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvfp-brotli"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvfp-brotli/raw/%s/src/vmod_weightadjust.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvfp-brotli/blob/%s/README.rst"
+    },
+    "rev": {
+        "6.2": { "branch": "6.2" },
+        "master": { "branch": "master" }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}

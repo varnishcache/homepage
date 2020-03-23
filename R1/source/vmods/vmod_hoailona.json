@@ -1,27 +1,24 @@
 {
-    "date": "2017-01-16",
+    "date": "2019-03-26",
     "desc": "support use of the SecureHD Policy service provided by Akamai Media Services",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "hoailona",
-    "repos": "https://code.uplex.de/uplex-varnish/libvmod-hoailona",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-hoailona",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-hoailona"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/%s/src/vmod_hoailona.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/blob/%s/README.rst"
+    },
     "rev": {
-        "5.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/5.0/src/vmod_hoailona.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/blob/5.0/README.rst"
-        },
-        "5.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/5.1/src/vmod_hoailona.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/blob/5.1/README.rst"
-        },
-        "5.2": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/master/src/vmod_hoailona.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/blob/master/README.rst"
-        },
-        "master": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/raw/master/src/vmod_hoailona.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-hoailona/blob/master/README.rst"
-        }
+        "5.0": { "branch": "5.0" },
+        "5.1": { "branch": "5.1" },
+        "5.2": { "branch": "5.2" },
+        "6.1": { "branch": "6.1" },
+        "6.2": { "branch": "6.2" },
+        "master": { "branch": "master" }
     },
     "status": "mature",
     "support": [

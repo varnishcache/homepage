@@ -29,9 +29,9 @@ enables you to write policies on how incoming requests should be
 handled. In such a policy you can decide what content you want to serve,
 from where you want to get the content and how the request or response
 should be altered. And, you can `extend Varnish with modules
-(VMODs) <https://www.varnish-cache.org/vmods>`__. You can read more
+(VMODs) </vmods>`__. You can read more
 about this in our
-`tutorial <https://www.varnish-cache.org/docs/trunk/tutorial/>`__.
+`tutorial </docs/trunk/tutorial/>`__.
 
 Further reading
 ~~~~~~~~~~~~~~~
@@ -68,7 +68,7 @@ Logo
 ----
 
 A high resolution version of the Varnish Cache logo can be found
-`here <https://www.varnish-cache.org/_static/varnishcache_rgb-gimp2-alpha.png>`__
+`here </_static/varnishcache_rgb-gimp2-alpha.png>`__
 
 About this website
 ------------------

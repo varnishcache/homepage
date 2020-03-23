@@ -10,34 +10,32 @@ We're trying to keep the official documentation in sync with the code.
 Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
-   6.0 <https://www.varnish-cache.org/docs/6.0/>`__
--  `Documentation for
-   5.2 <https://www.varnish-cache.org/docs/5.2/>`__
--  `Documentation for
-   5.1 <https://www.varnish-cache.org/docs/5.1/>`__
--  `Documentation for the stable release
-   4.1 <https://www.varnish-cache.org/docs/4.1/>`__
+   6.4 </docs/6.4/>`__
+-  `Documentation for the previous release
+   6.3 </docs/6.3/>`__
 -  `Documentation for the deprecated release
-   4.0 <https://www.varnish-cache.org/docs/4.0/>`__
+   6.2 </docs/6.2/>`__
+-  `Documentation for the deprecated release
+   6.1 </docs/6.1/>`__
+-  `Documentation for the supported (LTS) release
+   6.0 </docs/6.0/>`__
+-  `Documentation for the deprecated release
+   5.2 </docs/5.2/>`__
+-  `Documentation for the deprecated release
+   5.1 </docs/5.1/>`__
+-  `Documentation for the deprecated release
+   4.1 </docs/4.1/>`__
+-  `Documentation for the deprecated release
+   4.0 </docs/4.0/>`__
 -  `Documentation for old version
-   3.0 <https://www.varnish-cache.org/docs/3.0/>`__ (unsupported)
+   3.0 </docs/3.0/>`__ (unsupported)
 -  `Documentation for older version
-   2.1 <https://www.varnish-cache.org/docs/2.1/>`__ (unsupported)
+   2.1 </docs/2.1/>`__ (unsupported)
 -  `Documentation for the current development
-   version <https://www.varnish-cache.org/docs/trunk/>`__ (git master)
+   version </docs/trunk/>`__ (git master)
 
-You also probably want to have a look at
-the old  \ `wiki <https://www.varnish-cache.org/trac/wiki>`__ - especially the
-`VCL Examples <https://www.varnish-cache.org/trac/wiki/VCLExamples>`__. 
-
-Quick install guides various operating systems:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  `Ubuntu <https://www.varnish-cache.org/releases/install_ubuntu.html>`__
--  `Debian <https://www.varnish-cache.org/releases/install_debian.html>`__
--  `Red Hat Enterprise Linux and
-   Centos <https://www.varnish-cache.org/releases/install_redhat.html>`__
--  `FreeBSD <https://www.varnish-cache.org/releases/install_freebsd.html>`__
+For the historically inclined, Archive.org has a complete copy
+of `the old Trac Wiki <https://web.archive.org/web/20150929070920/https://www.varnish-cache.org/trac>`__.
 
 The Varnish Book
 ----------------

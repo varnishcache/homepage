@@ -1,31 +1,26 @@
 {
-    "date": "2017-04-21",
+    "date": "2019-03-26",
     "desc": "digests and hmacs for BLOBs",
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "blobdigest",
-    "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-blobdigest"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/%s/src/vmod_blobdigest.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/%s/README.rst"
+    },
     "rev": {
-        "4.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/4.1/src/vmod_blobdigest.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/4.1/README.rst"
-        },
-        "5.0": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/5.0/src/vmod_blobdigest.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/5.0/README.rst"
-        },
-        "5.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/5.1/src/vmod_blobdigest.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/5.1/README.rst"
-        },
-        "5.2": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/master/src/vmod_blobdigest.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/master/README.rst"
-        },
-        "master": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/master/src/vmod_blobdigest.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/master/README.rst"
-        }
+        "4.1": { "branch": "4.1" },
+        "5.0": { "branch": "5.0" },
+        "5.1": { "branch": "5.1" },
+        "5.2": { "branch": "5.2" },
+        "6.0": { "branch": "6.0" },
+        "6.1": { "branch": "6.1" },
+        "6.2": { "branch": "6.2" },
+        "master": { "branch": "master" }
     },
     "status": "mature",
     "support": [

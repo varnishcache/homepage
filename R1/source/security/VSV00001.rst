@@ -196,4 +196,4 @@ And yes, I apologize for writing that buggy line of code.
 
 *phk*
 
-PS: See also `Yah! A security issue - finally! <http://varnish-cache.org/docs/trunk/phk/VSV00001.html>`_
+PS: See also `Yah! A security issue - finally! </docs/trunk/phk/VSV00001.html>`_

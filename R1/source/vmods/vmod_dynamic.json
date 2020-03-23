@@ -1,12 +1,14 @@
 {
     "date": "2016-10-04",
-    "desc": "Dynamic Backends from DNS lookups",
+    "desc": "Dynamic Backends from DNS lookups and service discovery from SRV records",
     "github": {
         "branches": {
             "4.1": "4.1",
             "5.0": "5.0",
             "5.1": "5.1",
             "5.2": "5.2",
+            "6.0": "6.0",
+            "6.2": "6.2",
             "master": "master"
         },
         "project": "libvmod-dynamic",

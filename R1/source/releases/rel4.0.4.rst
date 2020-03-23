@@ -15,15 +15,6 @@ Varnish Cache 4.0.4
 
 * 2016-11-30 /Pål Hermunn
 
-By Operating System 
--------------------
-
-* :ref:`install_ubuntu`
-* :ref:`install_debian`
-* :ref:`install_redhat`
-* :ref:`install_freebsd`
-
-
 Varnish Cache 4.0.4 is the last maintenance release of the 4.0 branch,
 with severaly bug fixes. See the change log for a complete list of
 changes.

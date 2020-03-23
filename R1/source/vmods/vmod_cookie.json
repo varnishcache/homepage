@@ -5,7 +5,7 @@
         "branches": {
             "4.1": "master"
         },
-        "doc_path": "docs/cookie.rst",
+        "doc_path": "docs/vmod_cookie.rst",
         "project": "varnish-modules",
         "user": "varnish",
         "vcc_path": "src/vmod_cookie.vcc"

@@ -1,0 +1,19 @@
+{
+    "date": "2019-06-01",
+    "desc": "ModSecurity Binding",
+    "github": {
+        "branches": {
+            "6.1": "6.1",
+            "6.2": "6.2",
+            "master": "master"
+        },
+        "project": "vmod-modsecurity",
+        "user": "xdecock",
+        "vcc_path": "src/vmod_sec.vcc",
+        "doc_path": "README.md"
+    },
+    "license": "BSD",
+    "name": "vmod-modsecurity",
+    "status": "alpha",
+    "maintainer": "xdecock@gmail.com"
+}

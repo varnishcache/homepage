@@ -1,0 +1,64 @@
+.. _VSV00003:
+
+VSV00003 DoS attack vector
+==========================
+
+`CVE-2019-15892 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15892>`_
+
+Date: 2019-09-03
+
+An HTTP/1 parsing failure has been uncovered in Varnish Cache that will
+allow a remote attacker to trigger an assert in Varnish Cache by sending
+specially crafted HTTP/1 requests. The assert will cause Varnish to
+automatically restart with a clean cache, which makes it a Denial of
+Service attack.
+
+The problem was uncovered by internal testing at Varnish Software. It has
+to the best of our knowledge not been exploited.
+
+The following is required for a successful attack:
+
+* The attacker must be able to send multiple HTTP/1 requests processed on
+  the same HTTP/1 keepalive connection.
+
+Mitigation is possible from VCL or by updating to a fixed version
+of Varnish Cache.
+
+
+Versions affected
+-----------------
+
+* 6.1.0 and forward
+* 6.0 LTS by Varnish Software up to and including 6.0.3
+
+
+Versions not affected
+---------------------
+
+* Versions prior to 6.1.0 contains parsing bugs that are requisites for
+  successfully exploiting the issue, but these versions will not
+  assert. This includes the end-of-lifed 4.1 LTS series.
+
+Fixed in
+--------
+
+* 6.2.1
+* 6.0.4 LTS by Varnish Software
+* GitHub Varnish Cache master branch at commit 406b583fe54634afd029e7a41e35b3cf9ccac28a
+
+
+Mitigation from VCL
+-------------------
+
+See :ref:`VSV00003-mitigation` for information about mitigation
+through VCL.
+
+
+Thankyous and credits
+---------------------
+
+Alf-André Walla at Varnish Software for uncovering the problem.
+
+Nils Goroll at UPLEX for patch review and VCL mitigation.
+
+Varnish Software for handling this security incident.

@@ -11,7 +11,7 @@ and which you can pay to help you with Varnish:
 `Varnish Software <https://www.varnish-software.com/>`_
 -------------------------------------------------------
 
-  Global Training, Support, Varnish extensions and rather good beer.
+  Global provider of web and API acceleration, media streaming and custom CDN solutions.
 
 .. _business_fastly:
 
@@ -31,7 +31,13 @@ and which you can pay to help you with Varnish:
 `Section.IO <https://www.section.io/>`_
 ---------------------------------------
 
-  USA & Australia, Edge Platform As A Service
+  USA & Australia, Edge Platform As A Service.
+
+`Isokron <http://www.isokron.no/>`_
+---------------------------------------
+
+  Oslo-based consultancy that can help you with development, consulting and deployments.
+
 
 How to get your company on this list
 ------------------------------------

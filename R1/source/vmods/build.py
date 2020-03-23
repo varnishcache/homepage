@@ -25,12 +25,15 @@ class vmod(object):
 		return self.j["name"]
 
 	def repos(self):
-		i = self.j.get("repos")
-		if i != None:
-			return i
 		g = self.j.get("github")
 		if g != None:
-			return "https://github.com/" + g["user"] + "/" + g["project"]
+			return {"Github": "https://github.com/" + g["user"] + "/" + g["project"]}
+		i = self.j.get("repos")
+		if isinstance(i, dict):
+			return i
+		if i != None:
+			return {"Repos": i}
+		return None
 
 	def versions(self):
 		r = self.j.get("rev")
@@ -48,7 +51,15 @@ class vmod(object):
 	def url_vcc(self, rev):
 		r = self.j.get("rev")
 		if r != None:
-			return r[rev]["url_vcc"]
+			if "url_vcc" in r[rev]:
+				return r[rev]["url_vcc"]
+			fmt = self.j.get("fmt")
+			if fmt != None and "url_vcc" in fmt:
+				fmt = fmt["url_vcc"]
+			else:
+				fmt = None
+			if fmt != None and "branch" in r[rev]:
+				return fmt % r[rev]["branch"]
 		g = self.j.get("github")
 		if g != None:
 			s = "https://raw.githubusercontent.com/"
@@ -61,8 +72,16 @@ class vmod(object):
 
 	def url_doc(self, rev):
 		r = self.j.get("rev")
-		if r != None and "url_doc" in r[rev]:
-			return r[rev]["url_doc"]
+		if r != None:
+			if "url_doc" in r[rev]:
+				return r[rev]["url_doc"]
+			fmt = self.j.get("fmt")
+			if fmt != None and "url_doc" in fmt:
+				fmt = fmt["url_doc"]
+			else:
+				fmt = None
+			if fmt != None and "branch" in r[rev]:
+				return fmt % r[rev]["branch"]
 		g = self.j.get("github")
 		if g != None and "doc_path" in g:
 			s = "https://github.com/"
@@ -91,10 +110,10 @@ class vmod(object):
 		l.append(self.j.get("status"))
 
 		s = ""
-		if "github" in self.j:
-			s += " `Github <%s>`__ " % self.repos()
-		elif "repos" in self.j:
-			s += " `Repos <%s>`__ " % self.repos()
+		i = self.repos()
+		if i != None:
+			for n in sorted(i.iterkeys()):
+				s += " `%s <%s>`__ " % (n, i[n])
 		l.append(s)
 
 		s = ""
