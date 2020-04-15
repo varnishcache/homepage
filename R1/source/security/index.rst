@@ -11,8 +11,8 @@ List of all Varnish CVEs
 ============= =============== ============================================
 Versions      CVE             What
 ============= =============== ============================================
-6.0, 6.2, 6.3 TBD             :ref:`vsv00005`
-6.0, 6.2, 6.3 TBD             :ref:`vsv00004`
+6.0, 6.2, 6.3 CVE-2020-11653_ :ref:`vsv00005`
+6.0, 6.2, 6.3 CVE-2019-20637_ :ref:`vsv00004`
 6.0, 6.2      CVE-2019-15892_ :ref:`vsv00003`
 4.1, 5.2      CVE-2017-8807_  :ref:`vsv00002`
 4.x, 5.x      CVE-2017-12425_ :ref:`vsv00001`
@@ -22,6 +22,8 @@ Versions      CVE             What
 < 2.1.0       CVE-2009-2936_  Trophy hunting
 ============= =============== ============================================
 
+.. _CVE-2020-11653:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11653
+.. _CVE-2019-20637:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20637
 .. _CVE-2019-15892:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15892
 .. _CVE-2017-8807:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8807
 .. _CVE-2017-12425:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12425
