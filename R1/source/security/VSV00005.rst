@@ -3,6 +3,8 @@
 VSV00005 Varnish HTTP Proxy Protocol V2 Denial of Service
 =========================================================
 
+`CVE-2020-11653 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11653>`_
+
 Date: 2020-02-04
 
 An assert can be triggered in Varnish Cache when using Varnish with a TLS

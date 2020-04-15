@@ -3,6 +3,8 @@
 VSV00004 Workspace information leak
 ===================================
 
+`CVE-2019-20637 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20637>`_
+
 Date: 2019-10-21
 
 A bug has been discovered in Varnish Cache where we fail to clear a
