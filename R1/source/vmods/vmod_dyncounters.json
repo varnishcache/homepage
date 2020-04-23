@@ -1,0 +1,16 @@
+{
+    "date": "2020-04-17",
+    "desc": "create custom VSC at run time",
+    "github": {
+        "branches": {
+            "master": "master"
+        },
+        "project": "libvmod-dyncounters",
+        "user": "ehocdet",
+        "vcc_path": "src/vmod_dyncounters.vcc"
+    },
+    "license": "FreeBSD",
+    "name": "dyncounters",
+    "status": "development",
+    "maintainer": "ehocdet@club.fr"
+}
