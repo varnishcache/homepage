@@ -18,3 +18,8 @@ For installation instructions including information about cloud images see
 
 We recommend using the manual installation procedure available at:
 https://packagecloud.io/varnishcache/varnish64/install#manual
+
+Errata
+======
+
+The VSB_QUOTE_GLOB flag was mismerged, and should not be used.
