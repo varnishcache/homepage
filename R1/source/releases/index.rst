@@ -8,7 +8,7 @@ Varnish Cache is released every 6 months.
 ====================== ============ ===============  ===========
 Release                Date         EOL Date         Download
 ====================== ============ ===============  ===========
-:ref:`rel6.4.0`        2020-02-04   2021-03-15       :download:`varnish-6.4.0.tgz <varnish-6.4.0.tgz>`
+:ref:`rel6.4.0`        2020-03-16   2021-03-15       :download:`varnish-6.4.0.tgz <varnish-6.4.0.tgz>`
 :ref:`rel6.3.2`        2020-02-04   2020-09-15       :download:`varnish-6.3.2.tgz <varnish-6.3.2.tgz>`
 :ref:`rel6.0.6`        2020-02-04   Supported        :download:`varnish-6.0.6.tgz <varnish-6.0.6.tgz>`
 ====================== ============ ===============  ===========
