@@ -8,7 +8,7 @@
     "support": "51Degrees.mobi Limited",
     "product": "https://github.com/51Degrees/device-detection-varnish",
     "github": {
-        "user": "51Degrees.mobi Limited",
+        "user": "51Degrees",
         "project": "device-detection-varnish",
         "vcc_path": "src/vmod_fiftyonedegrees.vcc",
         "doc_path": "src/vmod_fiftyonedegrees.rst",
