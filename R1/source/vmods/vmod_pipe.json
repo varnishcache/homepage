@@ -1,0 +1,22 @@
+{
+    "date": "2020-08-17",
+    "desc": "Varnish Delivery and Fetch Processors that pipe responses through external commands",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "pipe",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvdfp-pipe",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvdfp-pipe"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvdfp-pipe/raw/%s/src/vdfp_pipe.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvdfp-pipe/blob/%s/README.rst"
+    },
+    "rev": {
+        "master": { "branch": "master" }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}

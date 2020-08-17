@@ -1,0 +1,22 @@
+{
+    "date": "2020-08-17",
+    "desc": "Varnish Module for encrypted Content-Encoding per RFC 8188",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "ece",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-ece",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-ece"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-ece/raw/%s/src/vmod_ece.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-ece/blob/%s/README.rst"
+    },
+    "rev": {
+        "master": { "branch": "master" }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
