@@ -17,7 +17,7 @@ purposes. See `Mailman </lists/mailman/listinfo>`_ for a complete listing.
 IRC Channel
 -----------
 
-Internet Relay Chat (IRC), the multiuser, real time instant messaging service, is available. A lot of Varnish users hang out here and help is often given in a friendly manner. You need to connect to the channel #varnish on the server irc.linpro.no.
+Internet Relay Chat (IRC), the multiuser, real time instant messaging service, is available. A lot of Varnish users hang out here and help is often given in a friendly manner. You need to connect to the channel #varnish on the server irc.redpill-linpro.com.
 
 Social Media
 ------------
