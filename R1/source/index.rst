@@ -6,6 +6,24 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2020-09-25 - Varnish 6.5.1 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When preparing the 6.5.0 release, it was forgotten to bump the
+VRT_MAJOR_VERSION number defined in the `vrt.h` include file. This major
+version bump is needed due to the API and ABI changes as part of the
+release, to make sure that VMODs are not allowed used if they were
+compiled for the wrong Varnish version.
+
+This has been fixed in the :ref:`rel6.5.1` release.
+
+
+2020-09-15 - Varnish 6.5.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Come and get it... :ref:`rel6.5.0`
+
+
 2020-03-16 - Varnish 6.4.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

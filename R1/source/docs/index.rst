@@ -10,8 +10,10 @@ We're trying to keep the official documentation in sync with the code.
 Both are kept in same source repository and both are available online:
 
 -  `Documentation for the latest release
-   6.4 </docs/6.4/>`__
+   6.5 </docs/6.5/>`__
 -  `Documentation for the previous release
+   6.4 </docs/6.4/>`__
+-  `Documentation for the deprecated release
    6.3 </docs/6.3/>`__
 -  `Documentation for the deprecated release
    6.2 </docs/6.2/>`__
