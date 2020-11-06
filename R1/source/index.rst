@@ -6,6 +6,17 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2020-11-06 - Varnish 6.0.7 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are happy to announce the release of :ref:`rel6.0.7`.
+
+This maintenance release is recommended for all users of the 6.0 LTS
+and contains several bug fixes, improvements and new features. More
+information is available in the
+`Change log <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst>`_
+
+
 2020-09-25 - Varnish 6.5.1 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
