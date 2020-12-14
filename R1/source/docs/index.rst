@@ -6,25 +6,29 @@ Varnish Documentation
 The official documentation contains a **install guide**, a **tutorial**
 and a **reference**.
 
-We're trying to keep the official documentation in sync with the code.
-Both are kept in same source repository and both are available online:
+Relevant releases:
 
 -  `Documentation for the latest release
    6.5 </docs/6.5/>`__
 -  `Documentation for the previous release
    6.4 </docs/6.4/>`__
+-  `Documentation for the supported (LTS) release
+   6.0 </docs/6.0/>`__
+
+If you run one of these release, you should *really* upgrade:
+
 -  `Documentation for the deprecated release
    6.3 </docs/6.3/>`__
 -  `Documentation for the deprecated release
    6.2 </docs/6.2/>`__
 -  `Documentation for the deprecated release
    6.1 </docs/6.1/>`__
--  `Documentation for the supported (LTS) release
-   6.0 </docs/6.0/>`__
 -  `Documentation for the deprecated release
    5.2 </docs/5.2/>`__
 -  `Documentation for the deprecated release
    5.1 </docs/5.1/>`__
+-  `Documentation for the deprecated release
+   5.0 </docs/5.0/>`__
 -  `Documentation for the deprecated release
    4.1 </docs/4.1/>`__
 -  `Documentation for the deprecated release
@@ -33,6 +37,9 @@ Both are kept in same source repository and both are available online:
    3.0 </docs/3.0/>`__ (unsupported)
 -  `Documentation for older version
    2.1 </docs/2.1/>`__ (unsupported)
+
+The bleeding edge:
+
 -  `Documentation for the current development
    version </docs/trunk/>`__ (git master)
 
