@@ -5,7 +5,7 @@ Varnish Documentation
 
 .. tabularcolumns:: l | l | l | l | l | l
 
-.. list-table:: Direct Documentation Links
+.. list-table:: Documentation Links
     :widths: auto
 
     * - `6.5 </docs/6.5/>`__
