@@ -61,7 +61,7 @@ the word:
     #. **To give a deceptively attractive appearance to; gloss over.**
 
 To get in touch with the people operating this website please send an
-email to phk@ or `ruben@varni.sh <mailto:ruben@varni.sh>`__.
+email to `webmaster@varnish-cache.org <mailto:webmaster@varnish-cache.org>`__.
 
 
 Logo
