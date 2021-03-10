@@ -3,7 +3,7 @@
 Security, bugs & vulnerabilities
 ================================
 
-* Rev. 2019-10-07 *phk*
+* Rev. 2021-03-16 *slink*
 
 List of all Varnish CVEs
 ------------------------
@@ -11,6 +11,7 @@ List of all Varnish CVEs
 ============= =============== ============================================
 Versions      CVE             What
 ============= =============== ============================================
+(6.5)         TBD             :ref:`vsv00006`
 6.0, 6.2, 6.3 CVE-2020-11653_ :ref:`vsv00005`
 6.0, 6.2, 6.3 CVE-2019-20637_ :ref:`vsv00004`
 6.0, 6.2      CVE-2019-15892_ :ref:`vsv00003`
@@ -36,6 +37,7 @@ Versions      CVE             What
 	:hidden:
 	:maxdepth: 1
 
+	VSV00006.rst
 	VSV00005.rst
 	VSV00004.rst
 	VSV00003.rst

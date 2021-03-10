@@ -1,0 +1,141 @@
+
+.. _VSV00006:
+
+VSV00006 varnish-modules Denial of Service
+==========================================
+
+Date: 2021-03-16
+
+An assert or NULL pointer dereference can be triggered in Varnish
+Cache through the ``header.append()`` and ``header.copy()`` functions
+from the separate `varnish-modules` bundle, which, depending on
+specifics of the Varnish Configuration Language (VCL) file used, might
+allow for remote clients to cause Varnish to assert and restart.
+
+A restart reduces overall availability and performance due to an
+increased number of cache misses, and may cause higher load on backend
+servers.
+
+Note that the ``header`` vmod is *not* shipped with Varnish Cache, but
+rather only available with the separate `varnish-modules`
+package. The Varnish Cache team decided to release this advisory
+because `varnish-modules` is a commonly used component with Varnish
+Cache installations.
+
+There is no potential for remote code execution or data leaks related
+to this vulnerability.
+
+Mitigation is possible through VCL, or by updating to a fixed version
+of `varnish-modules`.
+
+How to check for affected VCL
+-----------------------------
+
+This issue is only relevant if an affected version of
+`varnish-modules` is installed (see below) and ``header.append()``
+and/or ``header.copy()`` are used in VCL. A shell command like this
+can be used to check a number of vcl files (denoted here by ``vcl1
+vcl2 ...``::
+
+  grep -E '\bheader\.append\b|\bheader\.copy\b' vcl1 vcl2 ...
+
+If this command returns no results, the given VCL files are unaffected.
+
+Versions affected
+-----------------
+
+* `varnish-modules`_ version 0.17.0
+
+* `varnish-modules klarlack`_ version 0.17.0
+
+Notice that these versions of `varnish-modules` require Varnish Cache
+version 6.5 or later.
+
+Notice that users are only affected if the ``header.append()`` or
+``header.copy()`` functions are used.
+
+Versions not affected
+---------------------
+
+Any version of `varnish-modules` compatible with Varnish Cache
+versions 6.4 and earlier are not affected. This includes the Varnish
+Cache 6.0-LTS series and all versions of Varnish Cache Plus.
+
+Fixed in
+--------
+
+* `varnish-modules`_ and `varnish-modules klarlack`_ version 0.18.0.
+
+  Notice that this version of `varnish-modules` requires Varnish Cache
+  version 6.6 or later.
+
+* `varnish-modules`_ and `varnish-modules klarlack`_ version 0.17.1.
+
+  Notice that this version of `varnish-modules` requires Varnish Cache
+  version 6.5 or later.
+
+Mitigation
+----------
+
+To mitigate the problem in VCL, add the following snippet somewhere at
+the top of the VCL after the ``vcl`` statement::
+
+  import vtc;
+  sub check_client_ws {
+    if (vtc.workspace_overflowed(client) || vtc.workspace_free(client) < 512) {
+      return(fail);
+    }
+  }
+  sub check_backend_ws {
+    if (vtc.workspace_overflowed(backend) || vtc.workspace_free(backend) < 512) {
+      return(fail);
+    }
+  }
+
+Then ``call check_client_ws;`` needs to be inserted before every call to
+``header.append`` and ``header.copy`` on the client side, and,
+likewise, ``call check_backend_ws;`` needs to be inserted before these
+calls on the backend side, as for example in::
+
+  sub vcl_deliver {
+    # ...
+    call check_client_ws;
+    header.append(resp.http.Set-Cookie, "foo=bar");
+    # ...
+  }
+
+  sub vcl_backend_response {
+    # ...
+    call check_backend_ws;
+    header.copy(beresp.http.set-cookie, beresp.http.x-old-cookie);
+    # ...
+  }
+
+Notice that, for optimum protection, ``512`` in the code snippet can
+be adjusted to a reasonable upper limit of the appended headers' size
+(including the header name, colon and whitespace). ``512`` has been
+chosen as a safe upper bound for a header length which will likely fit
+most scenarios. If this number is chosen too high, a VCL failure might
+be triggered without reason.
+
+References
+----------
+
+`varnish-modules`_ is a bundle of VMODs commonly used together with
+Varnish Cache.
+
+`varnish-modules klarlack`_ is a bundle of VMODs maintained by UPLEX
+that includes the ones from `varnish-modules`_.
+
+Credits
+-------
+
+Nils Goroll of UPLEX analysed this issue, contributed the fix and
+developed the VCL mitigation method. Geoffrey Simmons of UPLEX helped
+with reviews.
+
+We thank Martin Blix Grydeland of Varnish Software and Poul-Henning
+Kamp for valuable feedback and reviews.
+
+.. _varnish-modules: https://github.com/varnish/varnish-modules
+.. _varnish-modules klarlack: https://github.com/nigoroll/varnish-modules
