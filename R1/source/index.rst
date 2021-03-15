@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2021-03-15 - Varnish 6.6.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual"fresh" release is here:  :ref:`rel6.6.0`
+
+(The 2021-09-15 release is likely to be 7.0.0)
+
 2020-11-06 - Varnish 6.0.7 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

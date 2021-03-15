@@ -5,7 +5,7 @@ Varnish Cache 6.6.0
 
 * Source download :download:`varnish-6.6.0.tgz <varnish-6.6.0.tgz>`
 
-* SHA256=XXX
+* SHA256=d5ff82f2041276dfaeb9a652a88b6d7287cfcf7ca345bb02c438fb65d2bca2e5
 
 Varnish Cache 6.6.0 is a regular bi-annual "fresh" release. It supersedes
 the :ref:`rel6.5.1` release.
