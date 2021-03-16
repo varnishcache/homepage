@@ -6,6 +6,15 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2021-03-16 - Denial of Service in varnish-modules
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some versions of the separate `varnish-modules` bundle allow for a
+potential denial of service attack when the ``header.append()`` or
+``header.copy()`` functions are used.
+
+Please see :ref:`VSV00006`.
+
 2021-03-15 - Varnish 6.6.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
