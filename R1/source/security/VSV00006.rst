@@ -1,8 +1,9 @@
-
 .. _VSV00006:
 
 VSV00006 varnish-modules Denial of Service
 ==========================================
+
+`CVE-2021-28543 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28543>`_
 
 Date: 2021-03-16
 
