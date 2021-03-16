@@ -24,10 +24,10 @@ Nils Goroll
 
 ::
 
-	pub   rsa2048/0x1DCD8F57A3868BD7 2015-02-18 [SCA] [expires: 2020-02-17]
-	      Key fingerprint = 89C7 65AB 0FBD 41AF 743C  198D 1DCD 8F57 A386 8BD7
-	uid                   [  full  ] Nils Goroll <nils.goroll@uplex.de>
-	sub   rsa2048/0x2D43703652D8F4A4 2015-02-18 [E] [expires: 2020-02-17]
+	pub   rsa2048 2015-02-18 [SCA] [expires: 2024-02-25]
+	      89C7 65AB 0FBD 41AF 743C  198D 1DCD 8F57 A386 8BD7
+	uid           [ultimate] Nils Goroll <nils.goroll@uplex.de>
+	sub   rsa2048 2015-02-18 [E] [expires: 2024-02-25]
 
 Martin Grydeland
 ----------------
