@@ -10,7 +10,7 @@
 		"vcc_path": "src/vmod_ip2proxy.vcc"
 	},
 	"license": "MIT",
-	"name": "ip2location",
+	"name": "ip2proxy",
 	"status": "development",
 	"support": [ "IP2Location" ],
 	"maintainer": "support@ip2location.com",
