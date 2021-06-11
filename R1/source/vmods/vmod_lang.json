@@ -9,7 +9,8 @@
             "5.2": "master",
             "6.2": "master"
         },
-        "project": "libvmod-lang",
+        "project": "varnish-vmod-lang",
+        "user": "byteworks-ch",
         "vcc_path": "src/vmod_lang.vcc",
         "doc_path": "README.md"
     },
