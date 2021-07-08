@@ -1,12 +1,12 @@
 .. _VSV00007:
 
-VSV00007 Varnish HTTP/2.0 Request Smuggling Attack
-==================================================
+VSV00007 Varnish HTTP/2 Request Smuggling Attack
+================================================
 
 Date: 2021-07-13
 
 A request smuggling attack can be performed on Varnish Cache and Varnish
-Cache Plus servers that have the HTTP/2.0 protocol enabled. The smuggled
+Cache Plus servers that have the HTTP/2 protocol enabled. The smuggled
 requests do not go through normal VCL processing, and any authorisation
 steps implemented in VCL would be bypassed.
 
@@ -33,9 +33,9 @@ Versions affected
   6.1.1, 6.2.0, 6.2.1, 6.2.2, 6.2.3, 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.5.0,
   6.5.1, 6.6.0.
 
-* Varnish Cache releases 5.x.x. Notice that the experimental HTTP/2.0
+* Varnish Cache releases 5.x.x. Notice that the experimental HTTP/2
   support in these releases are known to have several issues, and enabling
-  HTTP/2.0 is not recommended.
+  HTTP/2 is not recommended.
 
 * Varnish Cache 6.0 LTS by Varnish Software up to and including 6.0.7
 
@@ -59,14 +59,14 @@ Fixed in
 Mitigation
 ----------
 
-Mitigation is possible by either disabling the HTTP/2.0 protocol, or
+Mitigation is possible by either disabling the HTTP/2 protocol, or
 preventing backend connection reuse.
 
-Turning off support for HTTP/2.0:
+Turning off support for HTTP/2:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The problem only affects servers that have HTTP/2.0 support enabled. This
-support can be turned off at runtime. To disable HTTP/2.0 on a server do::
+The problem only affects servers that have HTTP/2 support enabled. This
+support can be turned off at runtime. To disable HTTP/2 on a server do::
 
   sudo varnishadm param.set feature -http2
 
