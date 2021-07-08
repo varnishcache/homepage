@@ -102,4 +102,5 @@ the outgoing backend requests::
 Credits
 -------
 
-Varnish Software for identifying and handling the issue.
+Martin Blix Grydeland at Varnish Software for identifying and handling the
+issue.
