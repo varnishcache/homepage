@@ -16,8 +16,9 @@ vulnerability when the HTTP/2 support is enabled. Please see
 2021-07-13 - Security releases: 6.0.8, 6.6.1 and 6.5.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Varnish versions 6.0.8, 6.6.1 and 6.5.2 are now available. These releases
-fix the vulnerability described in :ref:`VSV00007 <VSV00007>`.
+Varnish versions :ref:`6.0.8 <rel6.0.8>`, :ref:`6.6.1 <rel6.6.1>` and
+:ref:`6.5.2 <rel6.5.2>` are now available. These releases fix the
+vulnerability described in :ref:`VSV00007 <VSV00007>`.
 
 2021-07-13 - Varnish 6.0.8 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
