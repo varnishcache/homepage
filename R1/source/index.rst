@@ -6,6 +6,29 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2021-07-13 - HTTP/2 Request Smuggling Vulnerability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All supported versions of Varnish suffer from a request smuggling
+vulnerability when the HTTP/2 support is enabled. Please see
+:ref:`VSV00007` for more information.
+
+2021-07-13 - Security releases: 6.0.8, 6.6.1 and 6.5.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions 6.0.8, 6.6.1 and 6.5.2 are now available. These releases
+fix the vulnerability described in :ref:`VSV00007 <VSV00007>`.
+
+2021-07-13 - Varnish 6.0.8 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We are happy to announce the release of :ref:`rel6.0.8`.
+
+This combined maintenance and security release is recommended for all
+users of the 6.0 LTS and contains several bug fixes, improvements and new
+features. More information is available in the
+`Change log <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst>`_
+
 2021-03-16 - Denial of Service in varnish-modules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
