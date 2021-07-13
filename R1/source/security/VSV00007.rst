@@ -55,6 +55,8 @@ Fixed in
 
 * Varnish Cache 6.0 LTS version 6.0.8
 
+* GitHub Varnish Cache master branch at commit 450961a019d1c1955ca1851d51940ff2c87bdc98
+
 
 Mitigation
 ----------
