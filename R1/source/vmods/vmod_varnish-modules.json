@@ -1,0 +1,23 @@
+{
+    "date": "2021-08-14",
+    "desc": "vmod collection (accept, bodyaccess, header, saintmode, str, tcp, var, vsthrottle, xkey)",
+    "license": "FreeBSD",
+    "maintainer": "support@varnish-software.com",
+    "name": "varnish-modules",
+    "repos": {
+        "Github": "https://github.com/varnish/varnish-modules"
+    },
+    "fmt": {
+        "url_doc": "https://github.com/varnish/varnish-modules/tree/%s#readme"
+    },
+    "rev": {
+        "6.0-lts": { "branch": "6.0" },
+        "6.5": { "branch": "6.5" },
+        "6.6": { "branch": "6.6" },
+        "master": { "branch": "master" }
+    },
+    "status": "mature",
+    "support": [
+        "Varnish Software"
+    ]
+}
