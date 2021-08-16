@@ -1,0 +1,22 @@
+{
+    "date": "2021-08-16",
+    "desc": "Varnish Delivery Processor for parallel ESI includes",
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "pesi",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvdp-pesi",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvdp-pesi"
+    },
+    "fmt": {
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvdp-pesi/raw/%s/src/vdp_pesi.vcc",
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvdp-pesi/blob/%s/README.rst"
+    },
+    "rev": {
+        "master": { "branch": "master" }
+    },
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
+}
