@@ -6,6 +6,22 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2021-08-17 - Open Source parallel ESI for varnish-cache
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On
+
+  * https://code.uplex.de/uplex-varnish/libvdp-pesi
+  * https://gitlab.com/uplex/varnish/libvdp-pesi (mirror)
+
+we have released a Varnish Delivery Processor (VDP) for parallel ESI processing,
+which can deliver relevant speedups where portions of ESI-processed objects are
+not served from cache.
+
+.. _`The pESI Announcement`: https://varnish-cache.org/lists/pipermail/varnish-announce/2021-August/000746.html
+
+Read `The pESI Announcement`_ for more details.
+
 2021-07-13 - HTTP/2 Request Smuggling Vulnerability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
