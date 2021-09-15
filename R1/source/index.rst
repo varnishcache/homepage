@@ -6,6 +6,15 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2021-09-15 - Varnish 7.0.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release is here:  :ref:`rel7.0.0`
+
+The 6.5 series is no longer supported in any capacity.
+
+(The 2022-03-15 release is likely to be 8.0.0)
+
 2021-08-17 - Open Source parallel ESI for varnish-cache
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -58,7 +67,7 @@ Please see :ref:`VSV00006`.
 2021-03-15 - Varnish 6.6.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our bi-annual"fresh" release is here:  :ref:`rel6.6.0`
+Our bi-annual "fresh" release is here:  :ref:`rel6.6.0`
 
 (The 2021-09-15 release is likely to be 7.0.0)
 

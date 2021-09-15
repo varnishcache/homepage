@@ -8,19 +8,26 @@ Varnish Documentation
 .. list-table:: Documentation Links
     :widths: auto
 
+    * - `7.0 </docs/7.0/>`__
+      - `Installation </docs/7.0/installation/>`__
+      - `Tutorial </docs/7.0/tutorial/>`__
+      - `User-Guide </docs/7.0/users-guide/>`__
+      - `Reference </docs/7.0/reference/>`__
+      - Latest
+
     * - `6.6 </docs/6.6/>`__
       - `Installation </docs/6.6/installation/>`__
       - `Tutorial </docs/6.6/tutorial/>`__
       - `User-Guide </docs/6.6/users-guide/>`__
       - `Reference </docs/6.6/reference/>`__
-      - Latest
+      - Previous
 
     * - `6.5 </docs/6.5/>`__
       - `Installation </docs/6.5/installation/>`__
       - `Tutorial </docs/6.5/tutorial/>`__
       - `User-Guide </docs/6.5/users-guide/>`__
       - `Reference </docs/6.5/reference/>`__
-      - Previous
+      - Deprecated
 
     * - `6.0 </docs/6.0/>`__
       - `Installation </docs/6.0/installation/>`__
