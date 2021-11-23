@@ -6,6 +6,14 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2021-11-23 - Varnish 7.0.1 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish 7.0.1 has been released and can be found here: :ref:`rel7.0.1`
+
+This is a maintenance release to correct some bugs that got into the 7.0.0
+release.
+
 2021-09-15 - Varnish 7.0.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
