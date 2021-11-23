@@ -67,3 +67,4 @@ varnishadm-ninja, Standalone CLI tool to communicate with Varnish Administration
 varnish-influxdb,Varnish counters to InfluxDB over UDP,Monitoring+Statistics,https://github.com/lkarsten/varnish-influxdb,No
 ReactPHP Varnish Esi Booster,Varnish Esi Booster is an asynchronous PSR-7 compatible middleware using ReactPHP,Cache Invalidation,https://github.com/maciejmrozinski/reactphp-varnish-esi-booster,No
 varnishevent,Varnish log reader designed for heavy loads,Monitoring+Statistics,https://code.uplex.de/uplex-varnish/varnishevent,Uplex
+vmod-packager,VMOD package builder,Misc. Tools,https://github.com/xcir/vmod-packager,No
