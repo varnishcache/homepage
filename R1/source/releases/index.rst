@@ -10,7 +10,7 @@ Release                Date         EOL Date         Download
 ====================== ============ ===============  ===========
 :ref:`rel7.0.1`        2021-11-23   2022-09-15       :download:`varnish-7.0.1.tgz <varnish-7.0.1.tgz>`
 :ref:`rel6.6.1`        2021-07-13   2022-03-15       :download:`varnish-6.6.1.tgz <varnish-6.6.1.tgz>`
-:ref:`rel6.0.8`        2021-07-13   Supported        :download:`varnish-6.0.8.tgz <varnish-6.0.8.tgz>`
+:ref:`rel6.0.9`        2021-11-24   Supported        :download:`varnish-6.0.9.tgz <varnish-6.0.9.tgz>`
 ====================== ============ ===============  ===========
 
 All releases not mentioned above are End-Of-Life and unsupported.
@@ -53,6 +53,7 @@ All the releases
 	rel6.2.0
 	rel6.1.1
 	rel6.1.0
+	rel6.0.9
 	rel6.0.8
 	rel6.0.7
 	rel6.0.6
