@@ -44,23 +44,19 @@ Mitigation
 
 If upgrading Varnish is not possible, it is possible to mitigate the
 problem by ensuring that the Varnish Server does not allow connection
-reuse on HTTP/1 client connections.  Be advised that this comes with a
-performance penalty, and should for this reason only be considered as a
-temporary workaround in environments where this performance penalty is
-acceptable. To deploy the workaround, put the following VCL configuration
-towards the top of the VCL configuration::
-  
-  sub vcl_synth {
-      if (req.proto != "HTTP/2.0") {
+reuse on HTTP/1 client connections once a request body has been seen on
+the connection. To deploy the workaround, put the following VCL
+configuration towards the top of the VCL configuration::
+
+  sub vsv8 {
+      if ((req.http.Content-Length || req.http.Transfer-Encoding) &&
+        req.proto != "HTTP/2.0") {
           set resp.http.Connection = "close";
       }
   }
 
-  sub vcl_deliver {
-      if (req.proto != "HTTP/2.0") {
-          set resp.http.Connection = "close";
-      }
-  }
+  sub vcl_synth { call vsv8; }
+  sub vcl_deliver { call vsv8; }
 
 Credits
 -------
