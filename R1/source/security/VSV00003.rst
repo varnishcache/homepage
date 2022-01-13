@@ -3,6 +3,12 @@
 VSV00003 DoS attack vector
 ==========================
 
+.. toctree::
+	:hidden:
+	:maxdepth: 1
+
+	VSV00003-mitigation.rst
+
 `CVE-2019-15892 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15892>`_
 
 Date: 2019-09-03
