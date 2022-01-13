@@ -183,3 +183,5 @@ We do not use any external trackers and do not analyze traffic.
    extras/index
    vmods/index
    tips/index
+   organization/index
+   misc/gdpr-redacted
