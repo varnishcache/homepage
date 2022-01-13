@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2022-01-25 - HTTP/1 Request Smuggling Vulnerability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All supported versions of Varnish suffer from a request smuggling
+vulnerability on HTTP/1 connections. Please see :ref:`VSV00008` for more
+information.
+
 2022-01-25 - Security releases: 6.0.10, 7.0.2 and 6.6.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
