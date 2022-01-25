@@ -3,7 +3,7 @@
 Varnish Cache 6.6.1
 ===================
 
-* Source download :download:`varnish-6.6.1.tgz <varnish-6.6.1.tgz>`
+* Source download `varnish-6.6.1.tgz </downloads/varnish-6.6.1.tgz>`_
 
 * SHA256=ab1a6884332731f983c8dab675c636deb3883a206c8a0127a7c663af2422e628
 

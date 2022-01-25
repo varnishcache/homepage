@@ -3,7 +3,7 @@
 Varnish Cache 7.0.0
 ===================
 
-* Source download :download:`varnish-7.0.0.tgz <varnish-7.0.0.tgz>`
+* Source download `varnish-7.0.0.tgz </downloads/varnish-7.0.0.tgz>`_
 
 * SHA256=8c7a5c0b1f36bc70bcbc9a48830835249e895fb8951f0363110952148cbae087
 
