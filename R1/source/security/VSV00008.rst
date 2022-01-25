@@ -37,7 +37,7 @@ Versions not affected
 
 * Varnish Cache 6.0 LTS version 6.0.10 (released 2022-01-25)
 
-* GitHub Varnish Cache master branch at commit {TBD}
+* GitHub Varnish Cache master branch at commit 1020be7e886399a4e94407ae0dfbfd1475cc5756
 
 Mitigation
 ----------
