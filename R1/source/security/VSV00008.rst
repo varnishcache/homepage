@@ -3,6 +3,8 @@
 VSV00008 Varnish HTTP/1 Request Smuggling Vulnerability
 =======================================================
 
+`CVE-2022-23959 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23959>`_
+
 Date: 2022-01-25
 
 A request smuggling attack can be performed on HTTP/1 connections on
