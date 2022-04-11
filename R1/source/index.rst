@@ -6,6 +6,22 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2022-04-11 - Varnish meetup in Paris
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On **Thursday April 21st**, we're having a Varnish meetup in **Paris**, France.
+
+The meetup is hosted at **Le Méridien Etoile** and starts at 18:00.
+
+.. image:: _static/varnish-meetup-paris-2022.png
+  :width: 600
+  :alt: Varnish meetup in Paris on Thursday April 21st.
+  :target: https://info.varnish-software.com/events/paris-meet-up-2022
+
+The meetup will feature a presentation by Varnish Cache project lead **Poul-Henning Kamp**. 
+
+There will be free drinks, canapés and a Varnish swag giveaway, so `RSVP here <https://info.varnish-software.com/events/paris-meet-up-2022>`_ and see you in Paris!
+
 2022-03-15 - Varnish 7.1.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
