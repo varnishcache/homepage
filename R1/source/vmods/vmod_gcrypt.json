@@ -1,6 +1,7 @@
 {
     "date": "2017-04-21",
     "desc": "access the libgcrypt library of cryptographic building blocks",
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "gcrypt",

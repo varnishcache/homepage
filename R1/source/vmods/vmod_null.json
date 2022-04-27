@@ -9,6 +9,7 @@
         "user": "varnish",
         "vcc_path": "src/vmod_null.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "null",
     "status": "mature"

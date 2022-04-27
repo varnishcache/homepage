@@ -9,6 +9,7 @@
         "user": "xcir",
         "vcc_path": "src/vmod_ldap.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "ldap",
     "status": "development"

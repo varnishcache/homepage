@@ -1,6 +1,7 @@
 {
     "date": "2016-04-21",
     "desc": "SHA256 digests and hmacs for BLOBs",
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "blobsha256",

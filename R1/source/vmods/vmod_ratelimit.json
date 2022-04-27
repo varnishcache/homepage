@@ -9,6 +9,7 @@
         "user": "tobixen",
         "vcc_path": "src/vmod_ratelimit.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "ratelimit",
     "status": "development"

@@ -9,6 +9,7 @@
         "user": "varnish",
         "vcc_path": "src/vmod_curl.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "curl",
     "status": "mature",

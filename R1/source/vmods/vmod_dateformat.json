@@ -11,6 +11,7 @@
         "user": "thomsonreuters",
         "vcc_path": "src/vmod_dateformat.vcc"
     },
+    "inactive": true,
     "license": "BSD 2-Clause",
     "maintainer": "jonathan.huot@thomsonreuters.com",
     "name": "dateformat",

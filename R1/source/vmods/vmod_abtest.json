@@ -9,6 +9,7 @@
         "user": "Destination",
         "vcc_path": "src/vmod_abtest.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "abtest",
     "status": "mature"

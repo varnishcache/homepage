@@ -9,6 +9,7 @@
         "user": "toreanderson",
         "vcc_path": "src/vmod_rfc6052.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "rfc6052",
     "status": "development"

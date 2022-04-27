@@ -9,6 +9,7 @@
         "user": "kataweb",
         "vcc_path": "src/vmod_urlfilter.vcc"
     },
+    "inactive": true,
     "license": "Other",
     "name": "urlfilter",
     "status": "development"

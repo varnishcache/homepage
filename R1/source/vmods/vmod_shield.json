@@ -9,6 +9,7 @@
         "user": "varnish",
         "vcc_path": "src/vmod_shield.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "shield",
     "status": "mature"

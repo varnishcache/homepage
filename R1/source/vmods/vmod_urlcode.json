@@ -9,6 +9,7 @@
         "user": "fastly",
         "vcc_path": "src/vmod_urlcode.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "urlcode",
     "status": "mature"

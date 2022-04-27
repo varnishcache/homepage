@@ -1,6 +1,7 @@
 {
     "date": "2016-04-21",
     "desc": "VSLP (StateLess Persistence) aka shard",
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "vslp",

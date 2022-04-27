@@ -9,6 +9,7 @@
         "user": "webcarrot",
         "vcc_path": "src/vmod_imgdata.vcc"
     },
+    "inactive": true,
     "license": "Other",
     "name": "imgdata",
     "status": "development"

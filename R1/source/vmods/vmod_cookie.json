@@ -10,6 +10,7 @@
         "user": "varnish",
         "vcc_path": "src/vmod_cookie.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "cookie",
     "status": "mature",

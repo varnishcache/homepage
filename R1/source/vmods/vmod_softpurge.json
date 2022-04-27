@@ -9,6 +9,7 @@
         "user": "varnish",
         "vcc_path": "src/vmod_softpurge.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "softpurge",
     "status": "mature",

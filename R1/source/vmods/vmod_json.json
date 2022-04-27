@@ -9,6 +9,7 @@
         "user": "academia-edu",
         "vcc_path": "src/vmod_json.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "json",
     "status": "development"
