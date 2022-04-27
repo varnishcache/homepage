@@ -1,6 +1,7 @@
 {
     "date": "2016-04-21",
     "desc": "create and delete backends at runtime",
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "backend_dyn",

@@ -9,6 +9,7 @@
         "user": "kenshaw",
         "vcc_path": "src/vmod_dns.vcc"
     },
+    "inactive": true,
     "license": "Apache2",
     "name": "dns",
     "status": "mature"

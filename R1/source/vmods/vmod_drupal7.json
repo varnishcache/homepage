@@ -1,6 +1,7 @@
 {
     "date": "2016-07-21",
     "desc": "Provide Drupal-related functions within Varnish",
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "xavier.varnish@kindwolf.org",
     "name": "drupal7",

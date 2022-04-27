@@ -9,6 +9,7 @@
         "user": "sodabrew",
         "vcc_path": "src/vmod_memcached.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "memcached",
     "status": "mature"

@@ -5,7 +5,7 @@
         "branches": {
             "4.1": "master"
         },
-        "project": "libvmod-saintmode",
+        "project": "varnish-modules",
         "user": "varnish",
         "vcc_path": "src/vmod_saintmode.vcc"
     },

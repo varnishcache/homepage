@@ -9,6 +9,7 @@
         "user": "lkarsten",
         "vcc_path": "src/vmod_ipcast.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "ipcast",
     "status": "mature",

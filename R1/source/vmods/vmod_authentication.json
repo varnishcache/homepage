@@ -9,6 +9,7 @@
         "user": "pariahsoft",
         "vcc_path": "src/vmod_authentication.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "authentication",
     "status": "mature"

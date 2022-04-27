@@ -9,6 +9,7 @@
         "user": "jib",
         "vcc_path": "src/vmod_statsd.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "statsd",
     "status": "mature"

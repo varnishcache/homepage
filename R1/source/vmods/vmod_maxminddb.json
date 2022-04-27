@@ -9,6 +9,7 @@
         "user": "simonvik",
         "vcc_path": "src/vmod_maxminddb.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "maxminddb",
     "status": "prototype"

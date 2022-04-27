@@ -9,6 +9,7 @@
         "user": "footplus",
         "vcc_path": "src/vmod.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "secdown",
     "status": "prototype"

@@ -9,6 +9,7 @@
         "user": "cosimo",
         "vcc_path": "src/vmod.vcc"
     },
+    "inactive": true,
     "license": "Other",
     "name": "i18n",
     "status": "mature"

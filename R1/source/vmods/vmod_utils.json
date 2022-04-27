@@ -9,6 +9,7 @@
         "user": "thomsonreuters",
         "vcc_path": "src/vmod_utils.vcc"
     },
+    "inactive": true,
     "license": "Other",
     "name": "utils",
     "status": "mature"

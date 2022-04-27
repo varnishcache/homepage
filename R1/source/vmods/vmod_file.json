@@ -9,6 +9,7 @@
         "user": "academia-edu",
         "vcc_path": "src/vmod_file.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "file",
     "status": "development"

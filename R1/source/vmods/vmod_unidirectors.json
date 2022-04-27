@@ -7,7 +7,7 @@
             "master": "4.1"
         },
         "project": "libvmod-unidirectors",
-        "user": "Gandi",
+        "user": "ehocdet",
         "vcc_path": "src/vmod_unidirectors.vcc"
     },
     "license": "FreeBSD",

@@ -1,6 +1,7 @@
 {
     "date": "2017-04-21",
     "desc": "binary-to-text encodings and decodings for BLOBs",
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "blobcode",

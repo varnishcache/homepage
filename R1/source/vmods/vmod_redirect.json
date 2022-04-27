@@ -9,6 +9,7 @@
         "user": "xcir",
         "vcc_path": "src/vmod_redirect.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "redirect",
     "status": "development"

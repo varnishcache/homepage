@@ -9,6 +9,7 @@
         "user": "TheWeatherChannel",
         "vcc_path": "servers/src/vmod_dclass4.vcc"
     },
+    "inactive": true,
     "license": "Apache2",
     "name": "dclass",
     "status": "mature"

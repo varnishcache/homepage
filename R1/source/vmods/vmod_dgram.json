@@ -9,6 +9,7 @@
         "user": "mmb",
         "vcc_path": "src/vmod_dgram.vcc"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "name": "dgram",
     "status": "development"
