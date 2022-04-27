@@ -217,9 +217,6 @@ Instructions :ref:`how to get your VMOD on this list <vmods_reg>`.
         sep()
 
 if __name__ == "__main__":
-
-    vmods = load_all()
-
     if len(sys.argv) == 1:
         make_www_table()
     elif len(sys.argv) == 2 and sys.argv[1] == "--polish":
