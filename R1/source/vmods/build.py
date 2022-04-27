@@ -231,9 +231,6 @@ Stale VMODS
         tbl(l_inactive)
 
 if __name__ == "__main__":
-
-    vmods = load_all()
-
     if len(sys.argv) == 1:
         make_www_table()
     elif len(sys.argv) == 2 and sys.argv[1] == "--polish":
