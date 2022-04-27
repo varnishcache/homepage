@@ -152,6 +152,7 @@ def make_www_table():
     nms = sorted(vmods.keys())
 
     l = []
+    l_inactive = []
 
     #######################################################################
     # Size columns
@@ -161,7 +162,10 @@ def make_www_table():
 
     for i in nms:
         x = vmods[i].www_table()
-        l.append(x)
+        if vmods[i].j.get("inactive", False):
+            l_inactive.append(x)
+        else:
+            l.append(x)
         for j in range(len(w)):
             if x[j] == None:
                 x[j] = ""
@@ -204,17 +208,26 @@ Instructions :ref:`how to get your VMOD on this list <vmods_reg>`.
             fo.write("+" + ln * (i + 2))
         fo.write("+\n")
 
-    sep("-")
-    for i in range(len(h)):
-        fo.write("| " + h[i].ljust(w[i]) + " ")
-    fo.write("|\n")
-    sep("=")
-
-    for i in l:
-        for j in range(len(w)):
-            fo.write("| " + i[j].ljust(w[j]) + " ")
+    def tbl(vmods):
+        sep("-")
+        for i in range(len(h)):
+            fo.write("| " + h[i].ljust(w[i]) + " ")
         fo.write("|\n")
-        sep()
+        sep("=")
+        for i in vmods:
+            for j in range(len(w)):
+                fo.write("| " + i[j].ljust(w[j]) + " ")
+            fo.write("|\n")
+            sep()
+
+    tbl(l)
+
+    fo.write('''
+Stale VMODS
+..................
+
+''')
+    tbl(l_inactive)
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
