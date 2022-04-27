@@ -1,6 +1,10 @@
 {
     "date": "2019-03-26",
     "desc": "digests and hmacs for BLOBs",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/%s/src/vmod_blobdigest.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "blobdigest",
@@ -8,19 +12,31 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-blobdigest"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/raw/%s/src/vmod_blobdigest.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-blobdigest/blob/%s/README.rst"
-    },
     "rev": {
-        "4.1": { "branch": "4.1" },
-        "5.0": { "branch": "5.0" },
-        "5.1": { "branch": "5.1" },
-        "5.2": { "branch": "5.2" },
-        "6.0": { "branch": "6.0" },
-        "6.1": { "branch": "6.1" },
-        "6.2": { "branch": "6.2" },
-        "master": { "branch": "master" }
+        "4.1": {
+            "branch": "4.1"
+        },
+        "5.0": {
+            "branch": "5.0"
+        },
+        "5.1": {
+            "branch": "5.1"
+        },
+        "5.2": {
+            "branch": "5.2"
+        },
+        "6.0": {
+            "branch": "6.0"
+        },
+        "6.1": {
+            "branch": "6.1"
+        },
+        "6.2": {
+            "branch": "6.2"
+        },
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "mature",
     "support": [

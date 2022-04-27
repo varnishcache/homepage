@@ -6,10 +6,10 @@
             "5.1": "varnish51",
             "master": "master"
         },
+        "doc_path": "README.rst",
         "project": "libvmod-otp",
         "user": "xcir",
-        "vcc_path": "src/vmod_otp.vcc",
-        "doc_path": "README.rst"
+        "vcc_path": "src/vmod_otp.vcc"
     },
     "license": "FreeBSD",
     "name": "otp",

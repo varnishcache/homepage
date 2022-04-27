@@ -6,13 +6,13 @@
             "4.1": "master",
             "5.0": "master"
         },
+        "doc_path": "README.md",
         "project": "libvmod-soap",
         "user": "thomsonreuters",
-        "vcc_path": "src/vmod_soap.vcc",
-        "doc_path": "README.md"
+        "vcc_path": "src/vmod_soap.vcc"
     },
     "license": "BSD 2-Clause",
+    "maintainer": "jonathan.huot@thomsonreuters.com",
     "name": "soap",
-    "status": "development",
-    "maintainer": "jonathan.huot@thomsonreuters.com"
+    "status": "development"
 }

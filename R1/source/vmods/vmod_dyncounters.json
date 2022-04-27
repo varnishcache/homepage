@@ -10,7 +10,7 @@
         "vcc_path": "src/vmod_dyncounters.vcc"
     },
     "license": "FreeBSD",
+    "maintainer": "ehocdet@club.fr",
     "name": "dyncounters",
-    "status": "development",
-    "maintainer": "ehocdet@club.fr"
+    "status": "development"
 }

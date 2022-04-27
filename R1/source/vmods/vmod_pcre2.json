@@ -7,8 +7,8 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-pcre2",
     "rev": {
         "5.1": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-pcre2/raw/master/src/vmod_pcre2.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-pcre2/raw/master/README.rst"
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-pcre2/raw/master/README.rst",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-pcre2/raw/master/src/vmod_pcre2.vcc"
         }
     },
     "status": "development",

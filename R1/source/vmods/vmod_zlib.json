@@ -5,13 +5,13 @@
         "branches": {
             "4.1": "master"
         },
+        "doc_path": "README.rst",
         "project": "libvmod-zlib",
         "user": "thomsonreuters",
-        "vcc_path": "src/vmod_zlib.vcc",
-        "doc_path": "README.rst"
+        "vcc_path": "src/vmod_zlib.vcc"
     },
     "license": "BSD 2-Clause",
+    "maintainer": "jonathan.huot@thomsonreuters.com",
     "name": "zlib",
-    "status": "development",
-    "maintainer": "jonathan.huot@thomsonreuters.com"
+    "status": "development"
 }

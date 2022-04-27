@@ -9,13 +9,13 @@
             "5.2": "master",
             "6.2": "master"
         },
+        "doc_path": "README.md",
         "project": "libvmod-queryfilter",
         "user": "NYTimes",
-        "vcc_path": "src/vmod_queryfilter.vcc",
-        "doc_path": "README.md"
+        "vcc_path": "src/vmod_queryfilter.vcc"
     },
-    "maintainer": "code@nytimes.com",
     "license": "Apache2",
+    "maintainer": "code@nytimes.com",
     "name": "queryfilter",
     "status": "mature"
 }

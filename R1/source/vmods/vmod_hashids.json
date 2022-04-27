@@ -1,23 +1,23 @@
 {
-  "date": "2019-03-20",
-  "desc": "Hashids encode and decode support",
-  "github": {
-      "project": "libvmod-hashids",
-      "user": "schibsted",
-      "vcc_path": "src/vmod_hashids.vcc",
-      "doc_path": "README.md",
-      "branches": {
-        "4.1": "master",
-        "5.0": "master",
-        "5.1": "master",
-        "6.0": "master"
-      }
-  },
-  "name": "hashids",
-  "license": "MIT",
-  "maintainer": "ole.fredrik.skudsvik@schibsted.com",
-  "status": "development",
-  "support": [
-    "Schibsted Media Group"
-  ]
+    "date": "2019-03-20",
+    "desc": "Hashids encode and decode support",
+    "github": {
+        "branches": {
+            "4.1": "master",
+            "5.0": "master",
+            "5.1": "master",
+            "6.0": "master"
+        },
+        "doc_path": "README.md",
+        "project": "libvmod-hashids",
+        "user": "schibsted",
+        "vcc_path": "src/vmod_hashids.vcc"
+    },
+    "license": "MIT",
+    "maintainer": "ole.fredrik.skudsvik@schibsted.com",
+    "name": "hashids",
+    "status": "development",
+    "support": [
+        "Schibsted Media Group"
+    ]
 }

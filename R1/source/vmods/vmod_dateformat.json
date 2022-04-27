@@ -6,13 +6,13 @@
             "4.1": "master",
             "5.0": "master"
         },
+        "doc_path": "README.rst",
         "project": "libvmod-dateformat",
         "user": "thomsonreuters",
-        "vcc_path": "src/vmod_dateformat.vcc",
-        "doc_path": "README.rst"
+        "vcc_path": "src/vmod_dateformat.vcc"
     },
     "license": "BSD 2-Clause",
+    "maintainer": "jonathan.huot@thomsonreuters.com",
     "name": "dateformat",
-    "status": "mature",
-    "maintainer": "jonathan.huot@thomsonreuters.com"
+    "status": "mature"
 }

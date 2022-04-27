@@ -1,19 +1,19 @@
 {
-    "name": "drupal7",
     "date": "2016-07-21",
     "desc": "Provide Drupal-related functions within Varnish",
     "license": "FreeBSD",
-    "status": "mature",
     "maintainer": "xavier.varnish@kindwolf.org",
+    "name": "drupal7",
     "repos": "git://git.kindwolf.org/repo/libvmod-drupal7/",
     "rev": {
         "3.0": {
-            "url_vcc": "https://git.kindwolf.org/libvmod-drupal7/raw/3.0/src/vmod_drupal7.vcc",
-            "url_doc": "https://git.kindwolf.org/libvmod-drupal7/raw/3.0/README.rst"
+            "url_doc": "https://git.kindwolf.org/libvmod-drupal7/raw/3.0/README.rst",
+            "url_vcc": "https://git.kindwolf.org/libvmod-drupal7/raw/3.0/src/vmod_drupal7.vcc"
         },
         "4.0": {
-            "url_vcc": "https://git.kindwolf.org/libvmod-drupal7/raw/4.0/src/vmod_drupal7.vcc",
-            "url_doc": "https://git.kindwolf.org/libvmod-drupal7/raw/4.0/README.rst"
+            "url_doc": "https://git.kindwolf.org/libvmod-drupal7/raw/4.0/README.rst",
+            "url_vcc": "https://git.kindwolf.org/libvmod-drupal7/raw/4.0/src/vmod_drupal7.vcc"
         }
-    }
+    },
+    "status": "mature"
 }

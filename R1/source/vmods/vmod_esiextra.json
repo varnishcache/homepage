@@ -7,8 +7,8 @@
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-esiextra",
     "rev": {
         "master": {
-            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-esiextra/raw/master/src/vmod_esiextra.vcc",
-            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-esiextra/blob/master/README.rst"
+            "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-esiextra/blob/master/README.rst",
+            "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-esiextra/raw/master/src/vmod_esiextra.vcc"
         }
     },
     "status": "development",

@@ -9,13 +9,13 @@
             "5.2": "master",
             "6.2": "master"
         },
+        "doc_path": "README.md",
         "project": "varnish-vmod-lang",
         "user": "byteworks-ch",
-        "vcc_path": "src/vmod_lang.vcc",
-        "doc_path": "README.md"
+        "vcc_path": "src/vmod_lang.vcc"
     },
-    "maintainer": "support@byteworks.ch",
     "license": "Other",
+    "maintainer": "support@byteworks.ch",
     "name": "lang",
     "status": "mature"
 }

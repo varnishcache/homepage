@@ -1,6 +1,10 @@
 {
     "date": "2019-03-26",
     "desc": "director to use more than one probe or a different backend's probe",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/raw/%s/src/vmod_all_healthy.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "all_healthy",
@@ -8,15 +12,19 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-all_healthy"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/raw/%s/src/vmod_all_healthy.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-all_healthy/blob/%s/README.rst"
-    },
     "rev": {
-        "4.1": { "branch": "4.1" },
-        "6.0": { "branch": "6.0" },
-        "6.2": { "branch": "6.2" },
-        "master": { "branch": "master" }
+        "4.1": {
+            "branch": "4.1"
+        },
+        "6.0": {
+            "branch": "6.0"
+        },
+        "6.2": {
+            "branch": "6.2"
+        },
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "mature",
     "support": [
