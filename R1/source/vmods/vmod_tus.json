@@ -1,6 +1,10 @@
 {
     "date": "2020-08-17",
     "desc": "TUS Upload Server (Proxy TUS to single upload)",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-tus/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-tus/raw/%s/src/vmod_tus.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "tus",
@@ -8,12 +12,10 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-tus",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-tus"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-tus/raw/%s/src/vmod_tus.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-tus/blob/%s/README.rst"
-    },
     "rev": {
-        "master": { "branch": "master" }
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "development",
     "support": [

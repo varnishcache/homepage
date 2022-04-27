@@ -7,13 +7,13 @@
             "5.1": "varnish51",
             "master": "master"
         },
+        "doc_path": "README.rst",
         "project": "libvmod-parseform",
         "user": "xcir",
-        "vcc_path": "src/vmod_parseform.vcc",
-        "doc_path": "README.rst"
+        "vcc_path": "src/vmod_parseform.vcc"
     },
     "license": "FreeBSD",
+    "maintainer": "kokoniimasu@gmail.com",
     "name": "parseform",
-    "status": "development",
-    "maintainer": "kokoniimasu@gmail.com"
+    "status": "development"
 }

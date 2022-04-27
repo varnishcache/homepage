@@ -1,6 +1,10 @@
 {
     "date": "2019-03-26",
     "desc": "asymmetric signatures (RSA, DSA) in VCL",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-crypto/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-crypto/raw/%s/src/vmod_crypto.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "crypto",
@@ -8,14 +12,16 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-crypto",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-crypto"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-crypto/raw/%s/src/vmod_crypto.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-crypto/blob/%s/README.rst"
-    },
     "rev": {
-        "6.1": { "branch": "6.1" },
-        "6.2": { "branch": "6.2" },
-        "master": { "branch": "master" }
+        "6.1": {
+            "branch": "6.1"
+        },
+        "6.2": {
+            "branch": "6.2"
+        },
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "mature",
     "support": [

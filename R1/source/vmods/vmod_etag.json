@@ -1,6 +1,10 @@
 {
     "date": "2019-04-17",
     "desc": "ETags generated in Varnish",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-etag/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-etag/raw/%s/src/vmod_etag.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "etag",
@@ -8,12 +12,10 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-etag",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-etag"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-etag/raw/%s/src/vmod_etag.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-etag/blob/%s/README.rst"
-    },
     "rev": {
-        "master": { "branch": "master" }
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "development",
     "support": [

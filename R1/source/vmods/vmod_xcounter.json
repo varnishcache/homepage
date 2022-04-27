@@ -7,13 +7,13 @@
             "6.1": "master",
             "master": "master"
         },
+        "doc_path": "README.rst",
         "project": "libvmod-xcounter",
         "user": "xcir",
-        "vcc_path": "src/vmod_xcounter.vcc",
-        "doc_path": "README.rst"
+        "vcc_path": "src/vmod_xcounter.vcc"
     },
     "license": "FreeBSD",
+    "maintainer": "kokoniimasu@gmail.com",
     "name": "xcounter",
-    "status": "development",
-    "maintainer": "kokoniimasu@gmail.com"
+    "status": "development"
 }

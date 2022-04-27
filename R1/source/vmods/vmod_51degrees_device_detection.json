@@ -1,19 +1,19 @@
 {
-    "name": "fiftyonedegrees",
     "date": "2020-07-16",
     "desc": "51Degrees Device Detection",
-    "license": "EUPL",
-    "status": "mature",
-    "maintainer": "support@51degrees.com",
-    "support": "51Degrees.mobi Limited",
-    "product": "https://github.com/51Degrees/device-detection-varnish",
     "github": {
-        "user": "51Degrees",
-        "project": "device-detection-varnish",
-        "vcc_path": "src/vmod_fiftyonedegrees.vcc",
-        "doc_path": "src/vmod_fiftyonedegrees.rst",
         "branches": {
             "6.0": "master"
-        }
-    }
+        },
+        "doc_path": "src/vmod_fiftyonedegrees.rst",
+        "project": "device-detection-varnish",
+        "user": "51Degrees",
+        "vcc_path": "src/vmod_fiftyonedegrees.vcc"
+    },
+    "license": "EUPL",
+    "maintainer": "support@51degrees.com",
+    "name": "fiftyonedegrees",
+    "product": "https://github.com/51Degrees/device-detection-varnish",
+    "status": "mature",
+    "support": "51Degrees.mobi Limited"
 }

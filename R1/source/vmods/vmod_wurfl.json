@@ -1,11 +1,11 @@
 {
-    "name": "wurfl",
     "date": "2017-12-20",
     "desc": "WURFL by ScientiaMobile (www.scientiamobile.com) gives developers high-performance device detection. ",
     "license": "Other",
-    "status": "mature",
     "maintainer": "support@scientiamobile.com",
+    "name": "wurfl",
     "product": "https://docs.scientiamobile.com/documentation/infuze/infuze-varnish-module-user-guide",
+    "status": "mature",
     "support": [
         "ScientiaMobile Inc."
     ]

@@ -1,6 +1,10 @@
 {
     "date": "2019-03-26",
     "desc": "regular expression (regexp) matches and backreferences",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/%s/src/vmod_re.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "re",
@@ -8,21 +12,38 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-re",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-re"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-re/raw/%s/src/vmod_re.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-re/blob/%s/README.rst"
-    },
     "rev": {
-        "3.0": { "branch": "3.0" },
-        "4.0": { "branch": "4.0" },
-        "4.1": { "branch": "4.0", "comment": "yes, 4.1->4.0"},
-        "5.0": { "branch": "5.0" },
-        "5.1": { "branch": "5.1" },
-        "5.2": { "branch": "5.2" },
-        "6.0": { "branch": "6.0" },
-        "6.1": { "branch": "6.1" },
-        "6.2": { "branch": "6.2" },
-        "master": { "branch": "master" }
+        "3.0": {
+            "branch": "3.0"
+        },
+        "4.0": {
+            "branch": "4.0"
+        },
+        "4.1": {
+            "branch": "4.0",
+            "comment": "yes, 4.1->4.0"
+        },
+        "5.0": {
+            "branch": "5.0"
+        },
+        "5.1": {
+            "branch": "5.1"
+        },
+        "5.2": {
+            "branch": "5.2"
+        },
+        "6.0": {
+            "branch": "6.0"
+        },
+        "6.1": {
+            "branch": "6.1"
+        },
+        "6.2": {
+            "branch": "6.2"
+        },
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "mature",
     "support": [

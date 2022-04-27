@@ -1,7 +1,6 @@
 {
     "date": "2016-09-06",
     "desc": "Backend selection directors (alternative from vmod_directors)",
-    "maintainer": "manu@gandi.net",
     "github": {
         "branches": {
             "4.1": "4.1",
@@ -12,6 +11,7 @@
         "vcc_path": "src/vmod_unidirectors.vcc"
     },
     "license": "FreeBSD",
+    "maintainer": "manu@gandi.net",
     "name": "libvmod_unidirectors",
     "status": "mature"
 }

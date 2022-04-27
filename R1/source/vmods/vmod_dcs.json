@@ -1,15 +1,15 @@
 {
     "date": "2019-03-26",
     "desc": "Device Classifier Service",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blob/%s/README.rst"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "dcs",
     "repos": {
         "UPLEX": "https://code.uplex.de/uplex-varnish/dcs_classifier",
         "gitlab": "https://gitlab.com/uplex/varnish/dcs_classifier"
-    },
-    "fmt": {
-        "url_doc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blob/%s/README.rst"
     },
     "rev": {
         "3.0": {

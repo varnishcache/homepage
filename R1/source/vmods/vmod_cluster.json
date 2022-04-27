@@ -1,6 +1,10 @@
 {
     "date": "2019-03-26",
     "desc": "simple and easy cache clustering",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-cluster/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-cluster/raw/%s/src/vmod_cluster.vcc"
+    },
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "cluster",
@@ -8,14 +12,16 @@
         "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-cluster",
         "gitlab": "https://gitlab.com/uplex/varnish/libvmod-cluster"
     },
-    "fmt": {
-        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-cluster/raw/%s/src/vmod_cluster.vcc",
-        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-cluster/blob/%s/README.rst"
-    },
     "rev": {
-        "6.1": { "branch": "6.1" },
-        "6.2": { "branch": "6.2" },
-        "master": { "branch": "master" }
+        "6.1": {
+            "branch": "6.1"
+        },
+        "6.2": {
+            "branch": "6.2"
+        },
+        "master": {
+            "branch": "master"
+        }
     },
     "status": "mature",
     "support": [
