@@ -13,7 +13,7 @@
     "inactive": true,
     "license": "FreeBSD",
     "name": "cookie",
-    "status": "mature",
+    "status": "included in Varnish-Cache since release 6.4.0",
     "support": [
         "Varnish Software"
     ]
