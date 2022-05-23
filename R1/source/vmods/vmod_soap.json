@@ -1,5 +1,5 @@
 {
-    "date": "2017-03-23",
+    "date": "2022-05-23",
     "desc": "Read SOAP XML messages in HTTP request's body and expose fields",
     "github": {
         "branches": {
@@ -11,7 +11,6 @@
         "user": "thomsonreuters",
         "vcc_path": "src/vmod_soap.vcc"
     },
-    "inactive": true,
     "license": "BSD 2-Clause",
     "maintainer": "jonathan.huot@thomsonreuters.com",
     "name": "soap",
