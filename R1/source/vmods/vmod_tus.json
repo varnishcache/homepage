@@ -1,5 +1,5 @@
 {
-    "date": "2020-08-17",
+    "date": "2022-05-23",
     "desc": "TUS Upload Server (Proxy TUS to single upload)",
     "fmt": {
         "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-tus/blob/%s/README.rst",
@@ -17,7 +17,7 @@
             "branch": "master"
         }
     },
-    "status": "development",
+    "status": "master",
     "support": [
         "Uplex"
     ]
