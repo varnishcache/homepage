@@ -23,8 +23,11 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 
 DESTHTTP	?= /tmp/varnish-home-page
 
-all:	generate html
+all:	polish generate html
 	cp source/favicon.ico build/html
+
+polish:
+	cd source/vmods && python3 build.py --polish
 
 generate:
 	cd source/vmods && python3 build.py
