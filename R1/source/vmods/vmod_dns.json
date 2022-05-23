@@ -1,15 +1,14 @@
 {
-    "date": "YYYY-MM-DD",
+    "date": "2022-05-23",
     "desc": "DNS",
     "github": {
         "branches": {
-            "4.1": "master"
+            "4.1 - master": "master"
         },
         "project": "libvmod-dns",
         "user": "kenshaw",
         "vcc_path": "src/vmod_dns.vcc"
     },
-    "inactive": true,
     "license": "Apache2",
     "name": "dns",
     "status": "mature"
