@@ -1,17 +1,16 @@
 {
-    "date": "2016-04-21",
+    "date": "2022-05-23",
     "desc": "SHA256 digests and hmacs for BLOBs",
-    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "blobsha256",
     "repos": "https://code.uplex.de/uplex-varnish/libvmod-blobsha256",
     "rev": {
-        "4.1": {
+        "4.1 - master": {
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-blobsha256/master/src/vmod_blobsha256.vcc"
         }
     },
-    "status": "development",
+    "status": "mature",
     "support": [
         "Uplex"
     ]
