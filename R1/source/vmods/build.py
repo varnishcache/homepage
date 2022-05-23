@@ -222,12 +222,13 @@ Instructions :ref:`how to get your VMOD on this list <vmods_reg>`.
 
     tbl(l)
 
-    fo.write('''
+    if l_inactive:
+        fo.write('''
 Stale VMODS
 ..................
 
 ''')
-    tbl(l_inactive)
+        tbl(l_inactive)
 
 if __name__ == "__main__":
 
