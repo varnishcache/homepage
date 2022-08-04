@@ -1,0 +1,52 @@
+.. _VSV00009:
+
+VSV00009 Varnish HTTP/1 Denial of Service Vulnerability
+=======================================================
+
+Date: 2022-08-09
+
+A denial of service attack can be performed against Varnish Cache servers
+by specially formatting the reason phrase of the backend response status
+line. In order to execute an attack, the attacker would have to be able to
+influence the HTTP/1 responses that the Varnish Server receives from its
+configured backends. A successful attack would cause the Varnish Server to
+assert and restart.
+
+Versions affected
+-----------------
+
+* Varnish Cache releases 7.0.0, 7.0.1, 7.0.2, 7.1.0
+
+Versions not affected
+---------------------
+
+* Varnish Cache 7.0.3 (released 2022-08-09)
+
+* Varnish Cache 7.1.0 (released 2022-08-09)
+
+* All versions of Varnish Cache 6.0 LTS series
+
+* GitHub Varnish Cache master branch at commit <insert-commit-sha-here>
+
+Mitigation
+----------
+
+If upgrading Varnish is not possible, it is possible to mitigate the
+problem by adding the following snippet at the beginning of the
+`vcl_backend_response` VCL function::
+
+  sub vcl_backend_response {
+	set beresp.status = beresp.status;
+  }
+
+By setting the status code to itself as described above, the reason field
+will automatically be reset to the standard value for the given status
+code, or "Unknown HTTP Status" if no standard value exists for that
+code. This would overwrite any existing attack content in the reason
+field.
+
+Credits
+-------
+
+This problem was reported at the Varnish Cache issue tracker on GitHub as
+issue number `3830 <https://github.com/varnishcache/varnish-cache/issues/3830>`_.
