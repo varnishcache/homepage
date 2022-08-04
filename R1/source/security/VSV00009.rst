@@ -10,7 +10,7 @@ by specially formatting the reason phrase of the backend response status
 line. In order to execute an attack, the attacker would have to be able to
 influence the HTTP/1 responses that the Varnish Server receives from its
 configured backends. A successful attack would cause the Varnish Server to
-assert and restart.
+assert and automatically restart.
 
 Versions affected
 -----------------
