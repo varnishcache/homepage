@@ -3,9 +3,9 @@
 Varnish Cache 7.1.1
 ===================
 
-* Source download `varnish-7.1.1.tgz </downloads/varnish-7.1.1.tgz>` not yet _
+* Source download `varnish-7.1.1.tgz </downloads/varnish-7.1.1.tgz>`_
 
-* SHA256=<sha checksum here>
+* SHA256=2cafbe2590e7d58a7bac8ad99be92e440fe4d38ada6816dd8836f22fa513a190
 
 Varnish Cache 7.1.1 is a security fix of 7.1, related to
 :ref:`VSV00009`. All users should, as soon as possible, upgrade to a
