@@ -3,9 +3,9 @@
 Varnish Cache 7.0.3
 ===================
 
-* Source download `varnish-7.0.3.tgz </downloads/varnish-7.0.3.tgz>` not yet _
+* Source download `varnish-7.0.3.tgz </downloads/varnish-7.0.3.tgz>`_
 
-* SHA256=<sha checksum here>
+* SHA256=45e0b15a5cd20de1c6c4962067ff364dae5b7fd7906f406dbb08cbfb6a0b7375
 
 Varnish Cache 7.0.3 is a security fix of 7.0, related to
 :ref:`VSV00009`. All users should, as soon as possible, upgrade to a
