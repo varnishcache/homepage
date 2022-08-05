@@ -6,6 +6,12 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2022-08-09 - Denial of Service Vulnerability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish Cache releases 7.0 and 7.1 suffer from a Denial of Service
+vulnerability. Please see :ref:`VSV00009` for more information.
+
 2022-08-09 - Security releases: 7.1.1 and 7.0.3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
