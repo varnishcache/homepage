@@ -48,5 +48,6 @@ field.
 Credits
 -------
 
-This problem was reported at the Varnish Cache issue tracker on GitHub as
-issue number `3830 <https://github.com/varnishcache/varnish-cache/issues/3830>`_.
+This problem was first identified and reproduced by Anthony Schwartz. The
+original test case and maintainer notification was made by Guillaume
+Quintard.
