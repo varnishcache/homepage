@@ -1,7 +1,7 @@
 .. _VSV00009:
 
-VSV00009 Varnish HTTP/1 Denial of Service Vulnerability
-=======================================================
+VSV00009 Varnish Denial of Service Vulnerability
+================================================
 
 Date: 2022-08-09
 
