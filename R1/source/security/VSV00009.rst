@@ -22,7 +22,7 @@ Versions not affected
 
 * Varnish Cache 7.0.3 (released 2022-08-09)
 
-* Varnish Cache 7.1.0 (released 2022-08-09)
+* Varnish Cache 7.1.1 (released 2022-08-09)
 
 * All versions of Varnish Cache 6.0 LTS series and Varnish Cache Plus by
   Varnish Software.
