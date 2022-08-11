@@ -3,6 +3,8 @@
 VSV00009 Varnish Denial of Service Vulnerability
 ================================================
 
+`CVE-2022-38150 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38150>`_
+
 Date: 2022-08-09
 
 A denial of service attack can be performed against Varnish Cache servers
