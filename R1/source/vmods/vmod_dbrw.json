@@ -1,27 +1,23 @@
 {
-    "date": "2018-12-10",
+    "date": "2022-08-22",
     "desc": "Database-driven rewrites",
     "license": "GPLv2",
     "maintainer": "gray@gnu.org",
     "name": "dbrw",
-    "repos": "http://git.gnu.org.ua/cgit/vmod-dbrw.git",
+    "repos": "https://git.gnu.org.ua/cgit/vmod-dbrw.git",
     "rev": {
-        "4.0": {
-            "url_doc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/README?h=varnish-4.0",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc?h=varnish-4.0"
-        },
-        "4.1": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
-        },
-        "5.1": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
-        },
         "6.0": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-dbrw",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
-        }
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-dbrw",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
+        },
+        "6.3": {
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-dbrw",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
+        },
+        "7.1": {
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-dbrw",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
+        }	
     },
     "status": "mature",
     "support": [
