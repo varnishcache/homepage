@@ -1,26 +1,22 @@
 {
-    "date": "2018-12-10",
+    "date": "2022-08-22",
     "desc": "Token Bucket Filtering",
     "license": "GPLv2",
     "maintainer": "gray@gnu.org",
     "name": "tbf",
-    "repos": "http://git.gnu.org.ua/cgit/vmod-tbf.git",
+    "repos": "https://git.gnu.org.ua/cgit/vmod-tbf.git",
     "rev": {
-        "4.0": {
-            "url_doc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/README?h=varnish-4.0",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc?h=varnish-4.0"
-        },
-        "4.1": {
-            "url_doc": "http://www.gnu.org.ua/software/vmod-tbf",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
-        },
-        "5.1": {
-            "url_doc": "http://www.gnu.org.ua/software/vmod-tbf",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
-        },
         "6.0": {
-            "url_doc": "http://www.gnu.org.ua/software/vmod-tbf",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
+            "url_doc": "https://www.gnu.org.ua/software/vmod-tbf",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
+        },
+        "6.3": {
+            "url_doc": "https://www.gnu.org.ua/software/vmod-tbf",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
+        },
+        "7.1": {
+            "url_doc": "https://www.gnu.org.ua/software/vmod-tbf",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-tbf.git/plain/src/vmod_tbf.vcc"
         }
     },
     "status": "mature",

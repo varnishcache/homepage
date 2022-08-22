@@ -1,26 +1,30 @@
 {
-    "date": "2020-03-25",
+    "date": "2022-08-22",
     "desc": "Determine the actual client IP address from X-Forwarded-For or similar header",
     "license": "GPLv3+",
     "maintainer": "gray@gnu.org",
     "name": "remoteip",
-    "repos": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/",
+    "repos": "https://git.gnu.org.ua/cgit/vmod-remoteip.git/",
     "rev": {
         "6.0": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-remoteip",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
         },
         "6.1": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-remoteip",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
         },
         "6.2": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-remoteip",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
         },
         "6.3": {
-            "url_doc": "http://puszcza.gnu.org.ua/software/vmod-remoteip",
-            "url_vcc": "http://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-remoteip",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
+        },
+        "7.1": {
+            "url_doc": "https://puszcza.gnu.org.ua/software/vmod-remoteip",
+            "url_vcc": "https://git.gnu.org.ua/cgit/vmod-remoteip.git/plain/src/vmod_remoteip.vcc"
         }
     },
     "status": "mature",
