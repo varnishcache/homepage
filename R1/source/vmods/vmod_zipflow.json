@@ -1,0 +1,23 @@
+{
+    "date": "2022-09-06",
+    "desc": "Streaming ZIP file generation",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-zipflow/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-zipflow/raw/%s/src/vmod_zipflow.vcc"
+    },
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "zipflow",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-zipflow"
+    },
+    "rev": {
+        "master": {
+            "branch": "master"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
