@@ -17,7 +17,7 @@
         "7.1": {
             "url_doc": "https://puszcza.gnu.org.ua/software/vmod-dbrw",
             "url_vcc": "https://git.gnu.org.ua/cgit/vmod-dbrw.git/plain/src/vmod_dbrw.vcc"
-        }	
+        }
     },
     "status": "mature",
     "support": [
