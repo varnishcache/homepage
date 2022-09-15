@@ -8,26 +8,19 @@ Varnish Documentation
 .. list-table:: Documentation Links
     :widths: auto
 
+    * - `7.2 </docs/7.2/>`__
+      - `Installation </docs/7.2/installation/>`__
+      - `Tutorial </docs/7.2/tutorial/>`__
+      - `User-Guide </docs/7.2/users-guide/>`__
+      - `Reference </docs/7.2/reference/>`__
+      - Latest
+
     * - `7.1 </docs/7.1/>`__
       - `Installation </docs/7.1/installation/>`__
       - `Tutorial </docs/7.1/tutorial/>`__
       - `User-Guide </docs/7.1/users-guide/>`__
       - `Reference </docs/7.1/reference/>`__
-      - Latest
-
-    * - `7.0 </docs/7.0/>`__
-      - `Installation </docs/7.0/installation/>`__
-      - `Tutorial </docs/7.0/tutorial/>`__
-      - `User-Guide </docs/7.0/users-guide/>`__
-      - `Reference </docs/7.0/reference/>`__
       - Previous
-
-    * - `6.6 </docs/6.6/>`__
-      - `Installation </docs/6.6/installation/>`__
-      - `Tutorial </docs/6.6/tutorial/>`__
-      - `User-Guide </docs/6.6/users-guide/>`__
-      - `Reference </docs/6.6/reference/>`__
-      - Deprecated
 
     * - `6.0 </docs/6.0/>`__
       - `Installation </docs/6.0/installation/>`__
@@ -42,6 +35,20 @@ Varnish Documentation
       - `User-Guide </docs/trunk/users-guide/>`__
       - `Reference </docs/trunk/reference/>`__
       - Next
+
+    * - `7.0 </docs/7.0/>`__
+      - `Installation </docs/7.0/installation/>`__
+      - `Tutorial </docs/7.0/tutorial/>`__
+      - `User-Guide </docs/7.0/users-guide/>`__
+      - `Reference </docs/7.0/reference/>`__
+      - Deprecated
+
+    * - `6.6 </docs/6.6/>`__
+      - `Installation </docs/6.6/installation/>`__
+      - `Tutorial </docs/6.6/tutorial/>`__
+      - `User-Guide </docs/6.6/users-guide/>`__
+      - `Reference </docs/6.6/reference/>`__
+      - Deprecated
 
     * - `6.5 </docs/6.5/>`__
       - `Installation </docs/6.5/installation/>`__
