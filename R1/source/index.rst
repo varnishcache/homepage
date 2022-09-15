@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2022-09-15 - Varnish 7.2.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release is here:  :ref:`rel7.2.0`
+
+The 7.0 series is no longer supported in any capacity.
+
 2022-08-09 - Denial of Service Vulnerability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
