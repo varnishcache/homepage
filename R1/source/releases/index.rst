@@ -19,7 +19,7 @@ Varnish Cache is released every 6 months.
   * - :ref:`7.1.1 <rel7.1.1>`
     - 2022-08-09
     - 2023-03-15
-    - `varnish-7.1.0.tgz </downloads/varnish-7.1.1.tgz>`_
+    - `varnish-7.1.1.tgz </downloads/varnish-7.1.1.tgz>`_
   * - :ref:`7.0.3 <rel7.0.3>`
     - 2022-08-09
     - 2022-09-15
