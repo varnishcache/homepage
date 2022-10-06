@@ -1,0 +1,56 @@
+.. _VSV00011:
+
+VSV00011 Varnish HTTP/2 Request Forgery Vulnerability
+=====================================================
+
+Date: <TBD>
+
+A request forgery attack can be performed on Varnish Cache servers that
+have the HTTP/2 protocol turned on. An attacker may introduce characters
+through the HTTP/2 pseudo-headers that are invalid in the context of an
+HTTP/1 request line, causing the Varnish server to produce invalid HTTP/1
+requests to the backend. This may in turn be used to successfully exploit
+vulnerabilities in a server behind the Varnish server.
+
+Versions affected
+-----------------
+
+* Varnish Cache releases 5.x, 6.x, 7.0.x, 7.1.0, 7.1.1, 7.2.0.
+
+* Varnish Cache 6.0 LTS series up to and including 6.0.10.
+
+* Varnish Cache Plus by Varnish Software 6.0.x up to and including 6.0.10r2.
+
+Versions not affected
+---------------------
+
+* Varnish Cache 7.1.2 (released <TBD>)
+
+* Varnish Cache 7.2.1 (released <TBD>)
+
+* GitHub Varnish Cache master branch at commit <TBD>
+
+* Varnish Cache Plus by Varnish Software version 6.0.10r3.
+
+Mitigation
+----------
+
+If upgrading Varnish is not possible, it is possible to mitigate the
+problem by adding the following snippet at the beginning of the `vcl_recv`
+VCL function::
+
+  sub vcl_recv {
+	if (req.url ~ "(^$)|[ \t]+" || req.method ~ "(^$)|[ \t]+") {
+		return (synth(400));
+	}
+  }
+
+This VCL statement would test if the VCL variables filled in from incoming
+HTTP/2 pseudo-headers contains any of the problematic characters, and
+answer with a 400 "Bad request" synthetic response if found.
+
+Credits
+-------
+
+This problem was reported by an external security researcher.
+<TODO: Figure out if the OP wants to be credited.>
