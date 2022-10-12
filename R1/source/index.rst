@@ -6,6 +6,19 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2022-11-08 - Request Foggery Vulnerability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All supported versions of Varnish suffer from a request forgery
+vulnerability on HTTP/2 connections. Please see :ref:`VSV00011` for more
+information.
+
+2022-11-08 - Request Smuggling Vulnerability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish Cache releases 7.1 and 7.2 suffer from a Request Smuggling
+vulnerability. Please see :ref:`VSV00010` for more information.
+
 2022-11-08 - Security releases: 6.0.11, 7.2.1 and 7.1.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
