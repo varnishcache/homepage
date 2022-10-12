@@ -3,7 +3,7 @@
 VSV00011 Varnish HTTP/2 Request Forgery Vulnerability
 =====================================================
 
-Date: <TBD>
+Date: 2022-11-08
 
 A request forgery attack can be performed on Varnish Cache servers that
 have the HTTP/2 protocol turned on. An attacker may introduce characters

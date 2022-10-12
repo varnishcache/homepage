@@ -3,7 +3,7 @@
 VSV00010 Varnish Request Smuggling Vulnerability
 ================================================
 
-Date: <TBD>
+Date: 2022-11-08
 
 A request smuggling attack can be performed on Varnish Cache servers by
 requesting that certain headers are made hop-by-hop, preventing the
