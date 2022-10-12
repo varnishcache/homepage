@@ -6,6 +6,14 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2022-11-08 - Security releases: 6.0.11, 7.2.1 and 7.1.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions :ref:`6.0.11 <rel6.0.11>`, :ref:`7.2.1 <rel7.2.1>` and
+:ref:`7.1.2 <rel7.1.2>` are now available. These releases are published to
+address the vulnerabilities described in :ref:`VSV00010 <VSV00010>` and
+:ref:`VSV00011 <VSV00011>`.
+
 2022-09-15 - Varnish 7.2.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
