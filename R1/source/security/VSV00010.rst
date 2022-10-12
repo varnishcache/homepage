@@ -59,5 +59,6 @@ site, add any additional headers needed like the commented tip suggests.
 Credits
 -------
 
-This problem was reported by an external security researcher.
-<TODO: Figure out if the OP wants to be credited.>
+This problem was discovered and reported to us by Martin van Kervel
+Smedshammer, Graduate Student at the University of Oslo. We wish to thank
+him for the responsible disclosure.
