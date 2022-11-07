@@ -40,17 +40,18 @@ VCL function::
 	sub vcl_recv {
 		# Start of mitigation for VSV00010
 		# Tip: Expand the regular expression token list to allow
-		# additional tokens, e.g. "(close|keep-alive|te|my-header)"
+		# additional tokens, e.g.
+		# "(close|keep-alive|te|upgrade|http2-settings|my-header)"
 		if (regsuball(req.http.connection,
-			"(?i)((close|keep-alive|te)[ ,]*)", "") !~ "^[ ,]*$") {
+			"(?i)((close|keep-alive|te|upgrade|http2-settings)[ ,]*)", "") !~ "^[ ,]*$") {
 			return (synth(400));
 		}
 	}
 
 This VCL statement would ensure that any attempt to add anything but the
-very frequently used tokens `close`, `keep-alive` and `TE` in an incoming
-`Connection`-header would be answered with a 400 "Bad request" synthetic
-response.
+frequently used tokens like `close`, `keep-alive`, `TE`, `Upgrade` and
+`HTTP2-Settings` in an incoming `Connection`-header would be answered with
+a 400 "Bad request" synthetic response.
 
 Note that some sites may need to allow other header names as tokens in the
 `Connection`-header to function properly. If that is the case for your
