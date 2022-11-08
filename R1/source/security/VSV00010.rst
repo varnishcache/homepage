@@ -28,7 +28,7 @@ Versions not affected
 * All versions of Varnish Cache 6.0 LTS series and Varnish Cache Plus by
   Varnish Software.
 
-* GitHub Varnish Cache master branch at commit <TBD>
+* GitHub Varnish Cache master branch at commit e40007dfc2243fb5b3be9923f1ed22dfebb90002
 
 Mitigation
 ----------
