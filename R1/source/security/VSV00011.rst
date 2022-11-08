@@ -24,9 +24,9 @@ Versions affected
 Versions not affected
 ---------------------
 
-* Varnish Cache 7.1.2 (released <TBD>)
+* Varnish Cache 7.1.2 (released 2022-11-08)
 
-* Varnish Cache 7.2.1 (released <TBD>)
+* Varnish Cache 7.2.1 (released 2022-11-08)
 
 * GitHub Varnish Cache master branch at commit <TBD>
 
