@@ -6,7 +6,7 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
-2022-11-08 - Request Foggery Vulnerability
+2022-11-08 - Request Forgery Vulnerability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All supported versions of Varnish suffer from a request forgery
