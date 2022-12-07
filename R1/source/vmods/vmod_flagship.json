@@ -1,0 +1,20 @@
+{
+    "date": "2022-12-07",
+    "desc": "Provide feature flagging & experimentation abilities at the web server level and cache server.",
+    "github": {
+        "branches": {
+            "master": "master"
+        },
+        "project": "libvmod-flagship",
+        "user": "flagship-io",
+        "vcc_path": "src/vmod_flagship.vcc",
+        "doc_path": "https://github.com/flagship-io/libvmod-flagship/blob/master/README.rst"
+    },
+    "license": "Apache2",
+    "maintainer": "guillaume.jacquart@abtasty.com",
+    "name": "flagship",
+    "status": "development",
+    "support": [
+        "AB Tasty"
+    ]
+}
