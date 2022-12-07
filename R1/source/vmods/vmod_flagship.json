@@ -8,7 +8,7 @@
         "project": "libvmod-flagship",
         "user": "flagship-io",
         "vcc_path": "src/vmod_flagship.vcc",
-        "doc_path": "https://github.com/flagship-io/libvmod-flagship/blob/master/README.rst"
+        "doc_path": "README.rst"
     },
     "license": "Apache2",
     "maintainer": "guillaume.jacquart@abtasty.com",
