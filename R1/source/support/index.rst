@@ -19,6 +19,11 @@ IRC Channel
 
 Internet Relay Chat (IRC), the multiuser, real time instant messaging service, is available. A lot of Varnish users hang out here and help is often given in a friendly manner. You need to connect to the channel #varnish on the server irc.redpill-linpro.com.
 
+Discord Channel
+---------------
+
+While newer and less populated than the IRC channel, the `Varnish discord server <https://discord.com/invite/EuwdvbZR6d>`_ is also a good place to ask questions about configuration, HTTP, vmods or anything that's even remotely related to Varnish.
+
 Social Media
 ------------
 
