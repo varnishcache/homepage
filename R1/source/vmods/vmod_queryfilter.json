@@ -1,5 +1,5 @@
 {
-    "date": "2020-03-02",
+    "date": "2023-01-09",
     "desc": "Simple query string filter/sort module",
     "github": {
         "branches": {
@@ -7,7 +7,9 @@
             "4.0": "master",
             "4.1": "master",
             "5.2": "master",
-            "6.2": "master"
+            "6.2": "master",
+            "6.3": "main",
+            "7.2.1": "main"
         },
         "doc_path": "README.md",
         "project": "libvmod-queryfilter",
