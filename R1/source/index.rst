@@ -6,6 +6,33 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2023-02-06 - Two new Storage Engines for Varnish-Cache
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _`UPLEX`: https://uplex.de/
+
+Celebrating the 17th anniversary of Varnish-Cache today, your
+Open-Source Varnish-Cache friends from `UPLEX`_ have just released an
+extension with two new storage engines (stevedores) and two basic
+storage routers (loadmasters). One of the storage engines, `fellow`,
+offers persistent storage on disks (or SSDs, rather).
+
+The preferred public repository with support for issues,
+merge-requests and other activities is at
+https://gitlab.com/uplex/varnish/slash
+
+.. _`The SLASH/ Announcement`: https://varnish-cache.org/lists/pipermail/varnish-announce/2023-February/000757.html
+
+.. _`The SLASH/ README`: https://gitlab.com/uplex/varnish/slash/-/blob/master/README.rst
+
+.. _`The SLASH/ module documentation`: https://gitlab.com/uplex/varnish/slash/-/blob/master/src/vmod_slash.man.rst
+
+To read more:
+
+* `The SLASH/ Announcement`_
+* `The SLASH/ README`_
+* `The SLASH/ module documentation`_
+
 2022-11-08 - Request Forgery Vulnerability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
