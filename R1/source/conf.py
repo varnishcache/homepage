@@ -158,6 +158,7 @@ html_static_path = ['_static']
 html_sidebars = {
     '**': [
 	'navigation.html',
+	'mastodon.html',
     ],
 }
 
