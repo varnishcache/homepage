@@ -3,6 +3,8 @@
 VSV00010 Varnish Request Smuggling Vulnerability
 ================================================
 
+`CVE-2022-45059 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45059>`_
+
 Date: 2022-11-08
 
 A request smuggling attack can be performed on Varnish Cache servers by

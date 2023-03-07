@@ -11,8 +11,8 @@ List of all Varnish CVEs
 ============= =============== ============================================
 Versions      CVE             What
 ============= =============== ============================================
-6.x, 7.x      <TBD>           :ref:`vsv00011`
-7.0, 7.1, 7.2 <TBD>           :ref:`vsv00010`
+6.x, 7.x      CVE-2022-45060_ :ref:`vsv00011`
+7.0, 7.1, 7.2 CVE-2022-45059_ :ref:`vsv00010`
 7.0, 7.1      CVE-2022-38150_ :ref:`vsv00009`
 < 7.0.2       CVE-2022-23959_ :ref:`vsv00008`
 6.0, 6.5, 6.6 CVE-2021-36740_ :ref:`vsv00007`
@@ -41,6 +41,8 @@ Versions      CVE             What
 .. _CVE-2021-36740:     https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36740
 .. _CVE-2022-23959:     https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23959
 .. _CVE-2022-38150:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38150
+.. _CVE-2022-45059:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45059
+.. _CVE-2022-45060:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45060
 
 .. toctree::
 	:hidden:
