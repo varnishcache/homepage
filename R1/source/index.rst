@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2023-03-15 - Varnish 7.3.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release is here:  :ref:`rel7.3.0`
+
+The 7.1 series is no longer supported in any capacity.
+
 2023-02-06 - Two new Storage Engines for Varnish-Cache
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
