@@ -1,0 +1,24 @@
+{
+    "date": "2023-03-20",
+    "desc": "high performance storage engines (stevedores): **buddy:** in memory with fixed size **fellow:** on ssd/disk with tiered ram cache, eventually persistent, always consistent",
+    "fmt": {
+        "url_doc": "https://gitlab.com/uplex/varnish/slash/-/blob/%s/README.rst",
+        "url_vcc": "https://gitlab.com/uplex/varnish/slash/-/blob/%s/src/vmod_slash.man.rst"
+    },
+    "license": "LGPL-2.1-only",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "slash",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/slash",
+        "gitlab": "https://gitlab.com/uplex/varnish/slash"
+    },
+    "rev": {
+        "master": {
+            "branch": "master"
+        }
+    },
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
+}
