@@ -5,10 +5,10 @@
         "branches": {
             "master": "master"
         },
+        "doc_path": "README.rst",
         "project": "libvmod-flagship",
         "user": "flagship-io",
-        "vcc_path": "src/vmod_flagship.vcc",
-        "doc_path": "README.rst"
+        "vcc_path": "src/vmod_flagship.vcc"
     },
     "license": "Apache2",
     "maintainer": "guillaume.jacquart@abtasty.com",
