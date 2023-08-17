@@ -1,0 +1,79 @@
+.. _VSV00012:
+
+VSV00012 Base64 decoding vulnerability in vmod-digest
+=====================================================
+
+Date: 2023-08-17
+
+A base64 decoding vulnerability has been discovered in vmod-digest.
+
+The potential outcome of the vulnerability can be both authentication
+bypass and information disclosure, however the exact attack surface
+will depend on the particular VCL configuration in use.
+
+Common usage of vmod-digest is for basic HTTP authentication, in which
+case it may be possible for an attacker to circumvent the
+authentication check. If the decoded result string is somehow being
+made visible to the attacker (for example the result of the decoding
+is added to a response header), then there is the potential for
+information disclosure from reading out of band workspace data.
+
+Mitigation is possible from VCL by using vmod-blob instead of
+vmod-digest for base64 decoding, or by updating to a fixed version of
+vmod-digest.
+
+Vmod-digest is a 3rd party VMOD, maintained and distributed
+by Varnish Software, but since it was one of the first VMODs
+and has seen very wide deployment, we consider this vulnerability
+important enough to issue a VSV, even though no code maintained
+by the Varnish Cache Project is involved.
+
+Varnish Software's description of this vulnerability can be
+found at: https://docs.varnish-software.com/security/VSV00012/
+
+Versions affected
+-----------------
+
+* libvmod-digest built on source code prior to 2023-08-17.
+
+Versions not affected
+---------------------
+
+* libvmod-digest version 1.0.3 (released 2023-08-17)
+
+Users of the Varnish Enterprise product from Varnish Software: See the
+email you received from V-S.
+
+Mitigation from VCL
+-------------------
+
+If upgrading vmod-digest is not possible, it is possible to mitigate the
+problem using a VCL based workaround.
+
+Vmod-blob implements base64 decoding, and this functionality is not
+affected by the issues in vmod-digest. The proposed workaround is to
+change VCL configurations which use vmod-digest for base64 decoding
+into using vmod-blob instead.
+
+There are 3 affected functions in vmod-digest, each for decoding a
+different variant of base64. The functions are `digest.base64_decode`,
+`digest.base64url_decode` and `digest.base64url_nopad_decode`. Each
+invocation of these functions in the VCL needs to be changed into
+using the corresponding vmod-blob construct.
+
+Please see the following examples for how to rewrite the VCL
+configuration, where each commented out usage of vmod-digest is
+followed by the similar construct using vmod-blob::
+
+
+  import blob;
+  sub vcl_recv {
+      # set req.http.decoded = digest.base64_decode(req.http.encoded);
+      set req.http.decoded = blob.transcode(BASE64, IDENTITY, encoded=req.http.encoded);
+
+      # set req.http.decoded = digest.base64url_decode(req.http.encoded);
+      set req.http.decoded = blob.transcode(BASE64URL, IDENTITY, encoded=req.http.encoded);
+
+      # set req.http.decoded = digest.base64url_nopad_decode(req.http.encoded);
+      set req.http.decoded = blob.transcode(BASE64URLNOPAD, IDENTITY, encoded=req.http.encoded);
+  }
