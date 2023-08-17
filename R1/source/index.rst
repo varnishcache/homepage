@@ -6,6 +6,11 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2023-08-17 - VSV00012: Vulnerability in vmod_digest
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Please see :ref:`vsv00012` 
+
 2023-03-15 - Varnish 7.3.0 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
