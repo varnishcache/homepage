@@ -11,7 +11,7 @@ List of all Varnish CVEs
 =============== =============== ====================================
 Versions        CVE             What
 =============== =============== ====================================
-vmod_digest     TBD             :ref:`vsv00012`
+vmod_digest     CVE-2023-41104_ :ref:`vsv00012`
 6.x, 7.x        CVE-2022-45060_ :ref:`vsv00011`
 7.0, 7.1, 7.2   CVE-2022-45059_ :ref:`vsv00010`
 7.0, 7.1        CVE-2022-38150_ :ref:`vsv00009`
@@ -29,6 +29,13 @@ vmod_digest     TBD             :ref:`vsv00012`
 < 2.1.0         CVE-2009-2936_  Trophy hunting
 =============== =============== ====================================
 
+.. _CVE-2023-41104:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41104
+.. _CVE-2022-45060:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45060
+.. _CVE-2022-45059:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45059
+.. _CVE-2022-38150:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38150
+.. _CVE-2022-23959:     https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23959
+.. _CVE-2021-36740:     https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36740
+.. _CVE-2021-28543:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28543
 .. _CVE-2020-11653:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11653
 .. _CVE-2019-20637:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20637
 .. _CVE-2019-15892:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15892
@@ -38,12 +45,6 @@ vmod_digest     TBD             :ref:`vsv00012`
 .. _CVE-2013-0345:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0345
 .. _CVE-2009-4488:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4488
 .. _CVE-2009-2936:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2936
-.. _CVE-2021-28543:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28543
-.. _CVE-2021-36740:     https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36740
-.. _CVE-2022-23959:     https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23959
-.. _CVE-2022-38150:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38150
-.. _CVE-2022-45059:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45059
-.. _CVE-2022-45060:	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45060
 
 .. toctree::
 	:hidden:
