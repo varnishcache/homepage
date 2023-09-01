@@ -1,0 +1,24 @@
+{
+    "date": "2019-03-26",
+    "desc": "iconv character encoding conversions",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-iconv/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-iconv/raw/%s/src/vmod_iconv.vcc"
+    },
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "iconv",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-iconv",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-iconv"
+    },
+    "rev": {
+        "master": {
+            "branch": "trunk"
+        }
+    },
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
+}

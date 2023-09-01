@@ -1,0 +1,24 @@
+{
+    "date": "2023-09-01",
+    "desc": "A JSON formatter for VCL which sucks less",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-j/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-j/raw/%s/src/vmod_j.vcc"
+    },
+    "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
+    "name": "j",
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-j",
+        "gitlab": "https://gitlab.com/uplex/varnish/libvmod-j"
+    },
+    "rev": {
+        "master": {
+            "branch": "trunk"
+        }
+    },
+    "status": "development",
+    "support": [
+        "Uplex"
+    ]
+}
