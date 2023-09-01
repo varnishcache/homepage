@@ -14,7 +14,7 @@
             "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-backend_dyn/raw/master/src/vmod.vcc"
         }
     },
-    "status": "development",
+    "status": "OBSOLETED by vmod_dynamic",
     "support": [
         "Uplex"
     ]
