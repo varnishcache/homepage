@@ -4,6 +4,7 @@
     "fmt": {
         "url_doc": "https://code.uplex.de/uplex-varnish/dcs_classifier/blob/%s/README.rst"
     },
+    "inactive": true,
     "license": "FreeBSD",
     "maintainer": "varnish-support@uplex.de",
     "name": "dcs",
@@ -53,7 +54,7 @@
             "url_vcc": "https://code.uplex.de/uplex-varnish/dcs_classifier/raw/master/src/vmod_dcs62.vcc"
         }
     },
-    "status": "mature",
+    "status": "SPONSOR LOST INTEREST",
     "support": [
         "Uplex"
     ]
