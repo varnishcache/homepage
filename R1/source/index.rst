@@ -6,6 +6,14 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2023-09-15 - Varnish 7.4.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release is here:  :ref:`rel7.4.0`
+
+The 7.2 series is no longer supported in any capacity.
+
+
 2023-08-17 - VSV00012: Vulnerability in vmod_digest
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
