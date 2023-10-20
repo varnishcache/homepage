@@ -6,6 +6,19 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2023-11-13 - Varnish HTTP/2 Rapid Reset Attack
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All Varnish Cache releases with HTTP/2 support suffer a vulnerability in
+the HTTP/2 protocol. Please see :ref:`VSV00013` for more information.
+
+2023-11-13 - Security releases: 6.0.12, 7.3.1 and 7.4.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions :ref:`6.0.12 <rel6.0.12>`, :ref:`7.3.1 <rel7.3.1>` and
+:ref:`7.4.2 <rel7.4.2>` are now available. These releases are published to
+address the vulnerability described in :ref:`VSV00013 <VSV00013>`.
+
 2023-09-20 - Varnish 7.4.1 is released
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

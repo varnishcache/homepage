@@ -1,0 +1,134 @@
+.. _VSV00013:
+
+VSV00013 Varnish HTTP/2 Rapid Reset Attack
+==========================================
+
+`CVE-2023-44487 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487>`_
+
+Date: 2023-11-13
+
+A denial of service attack can be performed on Varnish Cache servers that
+have the HTTP/2 protocol turned on. An attacker can create a large volume
+of streams and immediately reset them without ever reaching the maximum
+number of concurrent streams allowed for the session, causing the Varnish
+server to consume unnecessary resources processing requests for which the
+response will not be delivered.
+
+This is a vulnerability of the protocol itself, HTTP/2 has no provisions
+for servers to pace the creation of new streams from clients.
+
+The Rapid Reset Attack was disclosed on October 10th 2023.
+
+Versions affected
+-----------------
+
+* Varnish Cache releases 5.x, 6.x, 7.0.x, 7.1.x, 7.2.x, 7.3.0, 7.4.0, 7.4.1.
+
+* Varnish Cache 6.0 LTS series up to and including 6.0.11.
+
+* Varnish Enterprise by Varnish Software 6.0.x up to and including 6.0.11r7.
+
+Versions not affected
+---------------------
+
+* Varnish Cache 7.3.1 (released 2023-11-13)
+
+* Varnish Cache 7.4.2 (released 2023-11-13)
+
+* Varnish Cache 6.0 LTS version 6.0.12 (released 2023-11-13)
+
+* GitHub Varnish Cache master branch at commit 0c166fb5cc04cb379f7e1b6089beba7e0f75a9cc.
+
+* Varnish Enterprise by Varnish Software version 6.0.12r1.
+
+Mitigation
+----------
+
+If upgrading Varnish is not possible, it is possible to mitigate the problem
+by simply disabling HTTP/2 support::
+
+    varnishadm param.set feature -http2
+
+You must also remove ``h2`` from the list of protocols if your TLS terminator
+is advertising it with ALPN.
+
+After upgrading, two mitigations are enabled by default.
+
+The first one closes HTTP/2 connections when a rapid reset attack is
+detected. This can be tuned with the following parameters:
+
+- ``h2_rapid_reset`` (duration under which a reset is considered rapid)
+- ``h2_rapid_reset_limit`` (budget for rapid resets over a sliding period)
+- ``h2_rapid_reset_period`` (the sliding period enforcing the reset limit)
+
+A new *vmod_h2* module can tweak these parameters on a per-session basis,
+allowing for example to relax the limit or period of trusted clients.
+
+The second mitigation adds a circuit breaker before the execution of VCL
+subroutines to fail the transaction if the client reset its stream. This
+will also avoid processing VCL legitimate resets or prematurely closed
+connections, and help free resources sooner.
+
+This is guarded by a feature flag ``vcl_req_reset`` that can be disabled
+for VCL relying on code to always be reached, for example for accounting
+purposes with the help of a VMOD::
+
+    varnishadm param.set feature -vcl_req_reset
+
+There is always the possibility of a VCL transaction failing for other
+reasons, like a workspace overflow, so there are no guarantees that VCL
+always completes, even when this feature is disabled.
+
+It is also possible that the second mitigation triggers before any VCL
+is executed for the HTTP/2 stream.
+
+Monitoring the mitigations
+--------------------------
+
+When a VCL transaction is interrupted because a stream was reset, a
+``Timestamp`` record is emitted with the ``Reset`` prefix. The second
+field after the prefix tells how much time elapsed between the start
+of the VCL task and the moment when the circuit breaker bypassed VCL
+execution.
+
+This may not reflect how fast the ``RST_FRAME`` was received, as it
+is subject to time spent executing VCL, which can be significant
+depending on what the code is doing or how far the execution went,
+for example triggering a backend fetch.
+
+A high cache hit ratio can also reduce the effect of this attack.
+
+The new time stamp makes it possible to collect access logs dedicated
+to interrupted request transactions::
+
+    varnishncsa -q 'Timestamp:Reset[2] < 1.0' -F '%{VSL:Begin[2]}x ...'
+
+The command above collects all transactions reset in less than a second
+and output logs with a format starting with the session VXID. It becomes
+possible to observe resets across HTTP/2 connections and find a pattern
+of attack if applicable.
+
+When a client VCL task is reset, it increments the ``MAIN.req_reset``
+counter, which can be used to raise an alarm.
+
+Likewise, when ``h2_rapid_reset_limit`` is exceeded, the connection is
+closed with the reason ``SC_RAPID_RESET`` visible in raw Varnish logs,
+and the ``MAIN.sc_rapid_reset`` counter is incremented and can also be
+used to raise an alarm.
+
+Thankyous and credits
+---------------------
+
+None of the members of the Varnish projects were part of the one month
+embargo of the CVE, so we learned about this vulnerability when it was
+disclosed.
+
+Varnish Software initially assessed the vulnerability and started two
+efforts in parallel. Dag Haavi Finstad implemented the Rapid Reset Attack
+detection and Dridi Boukelmoune implemented the VCL circuit breaker.
+
+Nils Goroll of UPLEX implemented *vmod_h2*. He reviewed the two mitigations
+along with Poul-Henning Kamp.
+
+And Tomas Korbar tested both mitigations as soon as they became public
+and provided early positive feedback on Github.
