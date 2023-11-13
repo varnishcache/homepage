@@ -7,7 +7,7 @@ Varnish Cache 7.4.2
 
 * SHA256=6d3d03c67514e6bb4e8584e40a381f51e708607d39337a63dc4ae42061d9a46f
 
-Varnish Cache 7.3.2 is a security fix of the Varnish Cache related
+Varnish Cache 7.4.2 is a security fix of the Varnish Cache related
 to :ref:`VSV00013`. All users should, as soon as possible, upgrade to a secure
 version, either 6.0.12, 7.4.2 or 7.3.1.
 
