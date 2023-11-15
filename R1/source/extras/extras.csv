@@ -33,7 +33,7 @@ Dynatrace Varnish support,,Monitoring+Statistics,https://www.dynatrace.com/techn
 Varnish Agent 2 Dashboard,,Monitoring+Statistics,https://github.com/pbruna/Varnish-Agent-Dashboard,No
 Varnish Agent 2 Dashboard for Drupal,,Monitoring+Statistics,https://drupal.org/project/varnish_dashboard,No
 varnishhoststat (per domain or url-pattern stat),,Monitoring+Statistics,https://github.com/xcir/varnishHostStat,No
-varnishkafka - varnishlog + Apache Kafka,,Monitoring+Statistics,https://github.com/wikimedia/varnishkafka,No
+varnishkafka - varnishlog + Apache Kafka,,Monitoring+Statistics,https://gitlab.wikimedia.org/repos/sre/varnishkafka,No
 Varnishlog parser / vsltrans (Python),,Monitoring+Statistics,https://github.com/xcir/vsltrans,No
 Varnishlog parser (PHP),,Monitoring+Statistics,https://github.com/TOMHTML/varnishlog-parser,No
 Varnishsentry,,Monitoring+Statistics,https://github.com/carlosabalde/varnishsentry,No
