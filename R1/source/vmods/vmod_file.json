@@ -1,16 +1,23 @@
 {
-    "date": "YYYY-MM-DD",
-    "desc": "File",
-    "github": {
-        "branches": {
-            "3.0": "master"
-        },
-        "project": "libvmod-file",
-        "user": "academia-edu",
-        "vcc_path": "src/vmod_file.vcc"
+    "date": "2023-12-12",
+    "desc": "Reading files that may be updated at intervals",
+    "fmt": {
+        "url_doc": "https://code.uplex.de/uplex-varnish/libvmod-file/blob/%s/README.rst",
+        "url_vcc": "https://code.uplex.de/uplex-varnish/libvmod-file/blob/%s/src/vmod_file.vcc"
     },
-    "inactive": true,
     "license": "FreeBSD",
+    "maintainer": "varnish-support@uplex.de",
     "name": "file",
-    "status": "development"
+    "repos": {
+        "UPLEX": "https://code.uplex.de/uplex-varnish/libvmod-file"
+    },
+    "rev": {
+        "master": {
+            "branch": "master"
+        }
+    },
+    "status": "mature",
+    "support": [
+        "Uplex"
+    ]
 }

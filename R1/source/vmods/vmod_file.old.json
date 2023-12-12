@@ -1,0 +1,16 @@
+{
+    "date": "YYYY-MM-DD",
+    "desc": "File",
+    "github": {
+        "branches": {
+            "3.0": "master"
+        },
+        "project": "libvmod-file",
+        "user": "academia-edu",
+        "vcc_path": "src/vmod_file.vcc"
+    },
+    "inactive": true,
+    "license": "FreeBSD",
+    "name": "file (old)",
+    "status": "development"
+}
