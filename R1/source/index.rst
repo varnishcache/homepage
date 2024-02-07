@@ -6,6 +6,40 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2024-02-06 - `SLASH/`_ 1.0.0-rc1
+--------------------------------
+
+.. _`SLASH/`: https://gitlab.com/uplex/varnish/slash/-/blob/master/README.rst
+
+Celebrating the 18th anniversary of Varnish-Cache and the first
+anniversary of the `SLASH/`_ storage engines today, your Open-Source
+Varnish-Cache friends from `UPLEX`_ have just tagged the first version
+1.0.0 candidate of our extension with storage engines (stevedores) and
+storage routers (loadmasters).
+
+Over the past year, we have received a lot of helpful input from our
+users and have implemented substantial improvements. THANK YOU to
+everyone who has contributed by reporting issues, providing feedback
+and, just recently, adding documentation. SLASH/fellow has also helped
+improve Varnish-Cache itself.
+
+After rigorous testing in particular over the past weeks, we now
+boldly claim that SLASH/ deserves a 1.0 version tag.
+
+HAPPY BIRTHDAY Varnish-Cache!
+
+HAPPY BIRTHDAY SLASH/buddy and SLASH/fellow!
+
+.. _`Mastodon post`: https://fosstodon.org/@slink/111886397903235142
+
+.. _`Changelog`: https://gitlab.com/uplex/varnish/slash/-/blob/master/CHANGES.rst?ref_type=heads
+
+Continue reading:
+
+* `Mastodon post`_
+* `Changelog`_
+
+
 2023-11-13 - Varnish HTTP/2 Rapid Reset Attack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
