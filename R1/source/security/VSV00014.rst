@@ -43,34 +43,52 @@ Timeline
 
 * **2019-04-19** the vulnerability is theorized (see commit message of e1a1fdc7_)
 * **2023-08-24** the vulnerability is confirmed
+
   * it happened while working on bringing back the parameters ``timeout_req``
-  and ``timeout_reqbody`` to Varnish Enterprise 6.0
+    and ``timeout_reqbody`` to Varnish Enterprise 6.0
+
 * **2023-09-20** the vulnerability is studied
+
   * once the timeouts are reintroduced in Varnish Enterprise, work started to
-  find an appropriate mitigation
+    find an appropriate mitigation
+
 * **2023-10-10** the HTTP/2 Rapid Reset Attack is disclosed
-  * work on the Rapid Reset Attack starts, see :ref:`VSV00013_`
+
+  * work on the Rapid Reset Attack starts, see :ref:`VSV00013`
   * work on the Broke Window Attack mitigation is postponed
+
 * **2023-10-23** CVE-2023-43622 is published
+
   * it describes a subset of the vulnerability for the Apache HTTP Server
   * work on the Broke Window Attack mitigation resumes
   * a first iteration is ready and submitted for a review
   * the Varnish Cache maintainers are informed
+
 * **2023-11-16** a second iteration is submitted for review
 * **2023-11-29** the second iteration is approved
+
   * Varnish Enterprise ships the mitigation in the 6.0.12r4 release
+
 * **2023-12-05** the mitigation is ported to Varnish Cache
+
   * the master branch is targeted
   * the mitigation is not ready to publish
+
 * **2024-01-15** the port to Varnish Cache resumes
+
   * ported to supported branches 7.4, 7.4 and 6.0 LTS
+
 * **2024-01-17** a regression is discovered
+
   * the second iteration of the mitigation is racy
   * when a race occurs, it is partially effective
   * offending HTTP/2 streams are reset, but the connection is not closed
+
 * **2024-01-23** the regression is fixed
+
   * the ports to Varnish Cache are updated
   * a bug fix is submitted to Varnish Enterprise
+
 * **2024-03-05** the port to Varnish Cache master branch is updated
 * **2024-03-18** public advisory and releases
 
