@@ -1,0 +1,113 @@
+.. _VSV00014:
+
+VSV00014 Varnish HTTP/2 Broke Window Attack
+===========================================
+
+`CVE-2023-43622 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43622>`_
+
+Date: 2024-03-18
+
+A denial of service attack can be performed on Varnish Cacher servers that
+have the HTTP/2 protocol turned on. An attacker can let the server's HTTP/2
+connection control flow window run out of credits indefinitely and prevent
+progress in the processing of streams, retaining the associated resources.
+
+Versions affected
+-----------------
+
+* All Varnish Cache releases with HTTP/2 support except:
+
+  * 7.5.x releases
+
+  * 7.4.x releases after 7.4.2.
+
+  * 7.3.x releases after 7.3.1.
+
+  * 6.0.x LTS releases after 6.0.12
+
+* Varnish Enterprise by Varnish Software 6.0.x up to and including 6.0.12r5.
+
+Versions not affected
+---------------------
+
+* Varnish Cache 7.3.2 (released 2024-03-18)
+
+* Varnish Cache 7.4.3 (released 2024-03-18)
+
+* Varnish Cache 6.0 LTS version 6.0.13 (released 2024-03-18)
+
+* Varnish Enterprise by Varnish Software version 6.0.12r6.
+
+Timeline
+--------
+
+* **2019-04-19** the vulnerability is theorized (see commit message of e1a1fdc7_)
+* **2023-08-24** the vulnerability is confirmed
+  * it happened while working on bringing back the parameters ``timeout_req``
+  and ``timeout_reqbody`` to Varnish Enterprise 6.0
+* **2023-09-20** the vulnerability is studied
+  * once the timeouts are reintroduced in Varnish Enterprise, work started to
+  find an appropriate mitigation
+* **2023-10-10** the HTTP/2 Rapid Reset Attack is disclosed
+  * work on the Rapid Reset Attack starts, see :ref:`VSV00013_`
+  * work on the Broke Window Attack mitigation is postponed
+* **2023-10-23** CVE-2023-43622 is published
+  * it describes a subset of the vulnerability for the Apache HTTP Server
+  * work on the Broke Window Attack mitigation resumes
+  * a first iteration is ready and submitted for a review
+  * the Varnish Cache maintainers are informed
+* **2023-11-16** a second iteration is submitted for review
+* **2023-11-29** the second iteration is approved
+  * Varnish Enterprise ships the mitigation in the 6.0.12r4 release
+* **2023-12-05** the mitigation is ported to Varnish Cache
+  * the master branch is targeted
+  * the mitigation is not ready to publish
+* **2024-01-15** the port to Varnish Cache resumes
+  * ported to supported branches 7.4, 7.4 and 6.0 LTS
+* **2024-01-17** a regression is discovered
+  * the second iteration of the mitigation is racy
+  * when a race occurs, it is partially effective
+  * offending HTTP/2 streams are reset, but the connection is not closed
+* **2024-01-23** the regression is fixed
+  * the ports to Varnish Cache are updated
+  * a bug fix is submitted to Varnish Enterprise
+* **2024-03-05** the port to Varnish Cache master branch is updated
+* **2024-03-18** public advisory and releases
+
+.. _e1a1fdc7: https://github.com/varnishcache/varnish-cache/commit/e1a1fdc7688de5f37e35fc528639019d5bd3efbf
+
+Mitigation
+----------
+
+If upgrading Varnish is not possible, it is possible to mitigate the problem
+by simply disabling HTTP/2 support::
+
+    varnishadm param.set feature -http2
+
+You must also remove ``h2`` from the list of protocols if your TLS terminator
+is advertising it with ALPN.
+
+After upgrading, two mitigations are enabled by default.
+
+A new ``h2_window_timeout`` triggers a reset of "broke" HTTP/2 streams that
+were waiting for control flow window credits from the client. If all streams
+are broke when the timeout triggers, the connection is considered bankrupt
+and closed immediately.
+
+The default value of 5 seconds for ``h2_window_timeout`` is very conservative
+because web browsers may use the control flow window to pause the delivery of
+certain resources past a certain point to prioritize others. For example the
+metadata of images may be fetched for layout purposes, while the rest of the
+images payload could be postponed until all latency-sensitive resources are
+ready.
+
+Monitoring the mitigations
+--------------------------
+
+In the event of a connection bankruptcy, the ``MAIN.sc_bankrupt`` counter is
+incremented and can be used to raise an alarm.
+
+With Varnish Enterprise, it would have been possible to infer an attack before
+it was patched with the ``varnishscoreboard`` utility. The accumulation of
+HTTP/2 streams stuck in the transmit step would be visible. However, this
+attack vector has to the best of our knowledge not been exploited.

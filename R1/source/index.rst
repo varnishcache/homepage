@@ -6,6 +6,26 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2024-03-18 - Varnish 7.5.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release is here:  :ref:`rel7.5.0`
+
+The 7.3 series is no longer supported in any capacity.
+
+2024-03-18 - Varnish HTTP/2 Broke Window Attack
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All Varnish Cache releases with HTTP/2 support suffer a vulnerability in
+the HTTP/2 protocol. Please see :ref:`VSV00014` for more information.
+
+2024-03-18 - Security releases: 6.0.13, 7.3.2 and 7.4.3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions :ref:`6.0.13 <rel6.0.13>`, :ref:`7.3.2 <rel7.3.2>` and
+:ref:`7.4.3 <rel7.4.3>` are now available. These releases are published to
+address the vulnerability described in :ref:`VSV00014 <VSV00014>`.
+
 2024-02-06 - `SLASH/`_ 1.0.0-rc1
 --------------------------------
 

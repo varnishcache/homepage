@@ -12,18 +12,18 @@ Varnish Cache is released every 6 months.
     - Date
     - EOL Date
     - Download
-  * - :ref:`7.4.2 <rel7.4.2>`
-    - 2023-11-13
+  * - :ref:`7.5.0 <rel7.5.0>`
+    - 2024-03-18
+    - 2025-03-15
+    - `varnish-7.5.0.tgz </downloads/varnish-7.5.0.tgz>`_
+  * - :ref:`7.4.3 <rel7.4.3>`
+    - 2024-03-18
     - 2024-09-15
-    - `varnish-7.4.2.tgz </downloads/varnish-7.4.2.tgz>`_
-  * - :ref:`7.3.1 <rel7.3.1>`
-    - 2023-11-13
-    - 2024-03-15
-    - `varnish-7.3.1.tgz </downloads/varnish-7.3.1.tgz>`_
-  * - :ref:`6.0.12 <rel6.0.12>`
+    - `varnish-7.4.3.tgz </downloads/varnish-7.4.3.tgz>`_
+  * - :ref:`6.0.13 <rel6.0.13>`
     - 2023-11-13
     - Supported
-    - `varnish-6.0.12.tgz </downloads/varnish-6.0.12.tgz>`_
+    - `varnish-6.0.13.tgz </downloads/varnish-6.0.13.tgz>`_
 
 All releases not mentioned above are End-Of-Life and unsupported.
 
@@ -48,9 +48,12 @@ All the releases
 .. toctree::
 	:maxdepth: 1
 
+	rel7.5.0
+	rel7.4.3
 	rel7.4.2
 	rel7.4.1
 	rel7.4.0
+	rel7.3.2
 	rel7.3.1
 	rel7.3.0
 	rel7.2.1
@@ -78,6 +81,7 @@ All the releases
 	rel6.2.0
 	rel6.1.1
 	rel6.1.0
+	rel6.0.13
 	rel6.0.12
 	rel6.0.11
 	rel6.0.10
