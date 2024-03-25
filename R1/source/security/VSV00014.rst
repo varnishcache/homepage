@@ -3,7 +3,7 @@
 VSV00014 Varnish HTTP/2 Broke Window Attack
 ===========================================
 
-`CVE-2023-43622 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43622>`_
+`CVE-2024-30156 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30156>`_
 
 Date: 2024-03-18
 
