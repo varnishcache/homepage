@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Varnish Cache Project'
-copyright = u'2016-2023, Poul-Henning Kamp'
-author = u'Poul-Henning Kamp'
+copyright = u'2016-2024, The Varnish Cache Contributors'
+author = u'The Varnish Cache Contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
