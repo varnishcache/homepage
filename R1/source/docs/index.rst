@@ -8,18 +8,18 @@ Varnish Documentation
 .. list-table:: Documentation Links
     :widths: auto
 
+    * - `7.6 </docs/7.6/>`__
+      - `Installation </docs/7.6/installation/>`__
+      - `Tutorial </docs/7.6/tutorial/>`__
+      - `User-Guide </docs/7.6/users-guide/>`__
+      - `Reference </docs/7.6/reference/>`__
+      - Latest
+
     * - `7.5 </docs/7.5/>`__
       - `Installation </docs/7.5/installation/>`__
       - `Tutorial </docs/7.5/tutorial/>`__
       - `User-Guide </docs/7.5/users-guide/>`__
       - `Reference </docs/7.5/reference/>`__
-      - Latest
-
-    * - `7.4 </docs/7.4/>`__
-      - `Installation </docs/7.4/installation/>`__
-      - `Tutorial </docs/7.4/tutorial/>`__
-      - `User-Guide </docs/7.4/users-guide/>`__
-      - `Reference </docs/7.4/reference/>`__
       - Previous
 
     * - `6.0 </docs/6.0/>`__
@@ -35,6 +35,13 @@ Varnish Documentation
       - `User-Guide </docs/trunk/users-guide/>`__
       - `Reference </docs/trunk/reference/>`__
       - Next
+
+    * - `7.4 </docs/7.4/>`__
+      - `Installation </docs/7.4/installation/>`__
+      - `Tutorial </docs/7.4/tutorial/>`__
+      - `User-Guide </docs/7.4/users-guide/>`__
+      - `Reference </docs/7.4/reference/>`__
+      - Deprecated
 
     * - `7.3 </docs/7.3/>`__
       - `Installation </docs/7.3/installation/>`__
@@ -161,7 +168,7 @@ of `the old Trac Wiki <https://web.archive.org/web/20150929070920/https://www.va
 Documentation from Varnish Software
 -----------------------------------
 
-`Varnish Software <https://www.varnish-software.com/>`__ offers 
+`Varnish Software <https://www.varnish-software.com/>`__ offers
 documentation resources which also apply to the FOSS Version:
 
 `The Varnish Book <https://book.varnish-software.com/>`__
