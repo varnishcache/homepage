@@ -1,18 +1,13 @@
 {
-    "date": "2018-11-19",
-    "desc": "Advanced query-string filtering.",
-    "github": {
-        "branches": {
-            "4.1": "master",
-            "5.x": "master",
-            "6.x": "master",
-            "master": "master"
-        },
-        "project": "libvmod-querystring",
-        "user": "Dridi",
-        "vcc_path": "src/vmod_querystring.vcc"
-    },
-    "license": "GPLv3+",
+    "date": "2024-10-13",
+    "desc": "Advanced query-string filtering toolkit",
+    "license": "GPL-3.0-or-later",
     "name": "querystring",
+    "rev": {
+        "2.0": {
+            "url_doc": "https://git.sr.ht/~dridi/vmod-querystring",
+            "url_vcc": "https://git.sr.ht/~dridi/vmod-querystring/tree/master/item/src/vmod_querystring.vcc.in"
+        }
+    },
     "status": "mature"
 }
