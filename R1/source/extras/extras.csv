@@ -1,4 +1,5 @@
 Name,Description,Category,Repository,Commercial support
+VCDK,Varnish Cache Development Kit,Development,https://git.sr.ht/~dridi/vcdk,No
 ScaleSimple - CDN & VCL UI,,Node Management,http://github.com/scalesimple,No
 VaaS -,,Cluster Management,https://github.com/allegro/vaas,No
 Vaban,,Cluster Management,https://github.com/martensson/vaban,No
