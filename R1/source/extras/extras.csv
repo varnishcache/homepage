@@ -1,8 +1,5 @@
 Name,Description,Category,Repository,Commercial support
-Varnish Agent,,Node Management,https://github.com/varnish/varnish-agent,Varnish Software
-Varnish Agent 2,,Node Management,https://github.com/varnish/vagent2,Varnish Software
 ScaleSimple - CDN & VCL UI,,Node Management,http://github.com/scalesimple,No
-Varnish Administration Console (VAC),,Cluster Management,https://www.varnish-software.com/vac,Varnish Software
 VaaS -,,Cluster Management,https://github.com/allegro/vaas,No
 Vaban,,Cluster Management,https://github.com/martensson/vaban,No
 k8s-ingress,Kubernetes Ingress Controller based on Varnish,Cluster Management,https://code.uplex.de/uplex-varnish/k8s-ingress,Uplex
@@ -40,7 +37,6 @@ Varnishsentry,,Monitoring+Statistics,https://github.com/carlosabalde/varnishsent
 vlogdump,,Monitoring+Statistics,https://github.com/cosimo/vlogdump,No
 Zabbix Template for Varnish Cache >= 4.0,,Monitoring+Statistics,https://github.com/allenta/zabbix-template-for-varnish-cache,No
 Logana,CLI to analyse varnish logs,Monitoring+Statistics,https://github.com/thimoonxy/logana,No
-Super Fast Purger (part of VAC),,Cache Invalidation,https://www.varnish-software.com/vac,Varnish Software
 Xkey VMOD (Surrogate keys Hash Ninja Secondary Hash/Hash-Two),,Cache Invalidation,https://github.com/varnish/libvmod-xkey,Varnish Software
 MOC Varnish,,Cache Invalidation,https://github.com/mocdk/MOC.Varnish,No
 Thinner - Slow purges for Varnish (app friendly),,Cache Invalidation,https://github.com/propublica/thinner,No
