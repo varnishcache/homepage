@@ -7,3 +7,4 @@ Tutorials
    :maxdepth: 1
 
    vmod_sets
+   vmod_file
