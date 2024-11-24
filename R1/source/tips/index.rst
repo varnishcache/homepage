@@ -17,7 +17,7 @@ for older versions and is now outdated.
 
 A Tips & Tricks sections thrives from everyone's active contribution,
 so please feel free to add your ideas, update the content, or to correct
-errors. The :ref:`HowTo <contribdoc>` section will help you get started.
+errors.
 
 .. toctree::
    vcl/index
