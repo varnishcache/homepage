@@ -446,7 +446,7 @@ example, the initial component of the URL path is removed and the
 
 The string rewrites are accomplished with the standard VCL function
 ``regsub()``, which uses capturing groups from a regular expression
-match to replace the URL path. ``regsub()`` the first maching portion
+match to replace the URL path. ``regsub()`` replaces the first maching portion
 of the target string (``req.url`` in the example) with the string in
 the third argument. Here we have used a backreference ``\1`` to
 extract the string in the captured group. ``regsub()`` only replaces
@@ -640,7 +640,7 @@ matches is for a URL prefix, which could be performed by selector's
 of the clauses above set a backend, but some return ``pass`` while
 others do not, and one of them assigns the Host header.
 
-One approach would be to split the patterns to match into sets that do
+One approach would be to split the patterns to match into sets that
 lead to common actions. Despite the variation in the example above,
 the first two clauses do lead for the same code pattern. Long
 ``if-elsif`` sequences in real-world deployments may well include
