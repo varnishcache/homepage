@@ -1,11 +1,10 @@
 {
-    "date": "2018-09-17",
+    "date": "2025-02-04",
     "desc": "Access to local / remote .ini / .json files, access to environment variables, and execution of local / remote Lua and JavaScript scripts",
     "github": {
         "branches": {
-            "4.1": "4.1",
             "6.0": "6.0",
-            "6.2": "6.2",
+            "7.6": "7.6",
             "master": "master"
         },
         "project": "libvmod-cfg",

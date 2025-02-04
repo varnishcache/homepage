@@ -1,20 +1,18 @@
 {
     "date": "2025-02-04",
-    "desc": "Access to Redis Server / Redis Cluster databases, including Redis Sentinel support",
+    "desc": "Access to Valkey Server / Valkey Cluster databases, including Valkey Sentinel support",
     "github": {
         "branches": {
-            "6.0": "6.0",
-            "7.6": "7.6",
             "master": "master"
         },
-        "project": "libvmod-redis",
+        "project": "libvmod-valkey",
         "user": "carlosabalde",
-        "vcc_path": "src/vmod_redis.vcc"
+        "vcc_path": "src/vmod_valkey.vcc"
     },
     "license": "FreeBSD",
     "maintainer": "carlos.abalde@gmail.com",
-    "name": "redis",
-    "status": "mature",
+    "name": "valkey",
+    "status": "development",
     "support": [
         "Allenta Consulting S.L."
     ]

@@ -2,7 +2,6 @@ Name,Description,Repository,Commercial support
 Device detection in Varnish,VCL based device detection for Varnish Cache,https://github.com/varnishcache/varnish-devicedetect,No
 mobiledetect2vcl,Python script that transforms Mobile Detect JSON DB to VCL,https://github.com/carlosabalde/mobiledetect2vcl,No
 NuCache: VCL Library & Config Templates,Varnish-Cache Modular Configurations & VCLs with Pre-Defined Production Ready Templates & Tweaks,https://github.com/slashsBin/nuCache,No
-VAC Templater,Extends VAC for advance VCL management,https://github.com/allenta/vac-templater,No
 Varnish 3 Configuration Templates,Varnish VCL Samples for Wordpress Drupal Joomla (WIP) Fork CMS & OpenPhoto,https://github.com/mattiasgeniar/varnish-3.0-configuration-templates,No
 Varnish-bites,Varnish VCL Samples and Hacks,https://github.com/NITEMAN/varnish-bites,
 Dreamhost VCL collection,Collection of Varnish VCL files ,https://github.com/dreamhost/varnish-vcl-collection/,
