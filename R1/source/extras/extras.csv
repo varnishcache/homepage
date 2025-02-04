@@ -34,9 +34,8 @@ varnishhoststat (per domain or url-pattern stat),,Monitoring+Statistics,https://
 varnishkafka - varnishlog + Apache Kafka,,Monitoring+Statistics,https://gitlab.wikimedia.org/repos/sre/varnishkafka,No
 Varnishlog parser / vsltrans (Python),,Monitoring+Statistics,https://github.com/xcir/vsltrans,No
 Varnishlog parser (PHP),,Monitoring+Statistics,https://github.com/TOMHTML/varnishlog-parser,No
-Varnishsentry,,Monitoring+Statistics,https://github.com/carlosabalde/varnishsentry,No
 vlogdump,,Monitoring+Statistics,https://github.com/cosimo/vlogdump,No
-Zabbix Template for Varnish Cache >= 4.0,,Monitoring+Statistics,https://github.com/allenta/zabbix-template-for-varnish-cache,No
+Zabbix Template for Varnish Cache >= 6.0,,Monitoring+Statistics,https://github.com/allenta/zabbix-template-for-varnish-cache,Allenta Consulting S.L.
 Logana,CLI to analyse varnish logs,Monitoring+Statistics,https://github.com/thimoonxy/logana,No
 Xkey VMOD (Surrogate keys Hash Ninja Secondary Hash/Hash-Two),,Cache Invalidation,https://github.com/varnish/libvmod-xkey,Varnish Software
 MOC Varnish,,Cache Invalidation,https://github.com/mocdk/MOC.Varnish,No
@@ -54,7 +53,6 @@ ESI parser 1.00 - Poor Man's ESI,,Misc. Tools,https://github.com/quintonparker/
 mobiledetect2vcl,,Misc. Tools,https://github.com/carlosabalde/mobiledetect2vcl,No
 NuCache: VCL Library & Config Templates,,Misc. Tools,https://github.com/slashsBin/nuCache,No
 python-varnishapi,,Misc. Tools,https://github.com/xcir/python-varnishapi,No
-VAC Templater,,Misc. Tools,https://github.com/allenta/vac-templater,No
 Varnish 3 Configuration Templates,,Misc. Tools,https://github.com/mattiasgeniar/varnish-3.0-configuration-templates,No
 Varnishtest Cucumber,,Misc. Tools,https://github.com/nstielau/varnishtest_cucumber,No
 Varnishtest parser / vtctrans,,Misc. Tools,https://github.com/xcir/vtctrans,No
@@ -65,3 +63,4 @@ varnish-influxdb,Varnish counters to InfluxDB over UDP,Monitoring+Statistics,htt
 ReactPHP Varnish Esi Booster,Varnish Esi Booster is an asynchronous PSR-7 compatible middleware using ReactPHP,Cache Invalidation,https://github.com/maciejmrozinski/reactphp-varnish-esi-booster,No
 varnishevent,Varnish log reader designed for heavy loads,Monitoring+Statistics,https://code.uplex.de/uplex-varnish/varnishevent,Uplex
 vmod-packager,VMOD package builder,Misc. Tools,https://github.com/xcir/vmod-packager,No
+varnishmon,Record + visualize + share historical varnishstat output,https://github.com/allenta/varnishmon,Allenta Consulting S.L.

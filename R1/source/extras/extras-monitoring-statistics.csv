@@ -21,10 +21,10 @@ varnishhoststat (per domain or url-pattern stat),,https://github.com/xcir/varnis
 varnishkafka - varnishlog + Apache Kafka,,https://github.com/wikimedia/varnishkafka,No,No
 Varnishlog parser / vsltrans (Python),,https://github.com/xcir/vsltrans,No,No
 Hyperic Varnish plugin,,https://github.com/TOMHTML/varnishlog-parser,No,No
-Varnishsentry,,https://github.com/carlosabalde/varnishsentry,No,No
 vlogdump,,https://github.com/cosimo/vlogdump,No,No
-Zabbix Template for Varnish Cache >= 4.0,,https://github.com/allenta/zabbix-template-for-varnish-cache,No,No
+Zabbix Template for Varnish Cache >= 6.0,,https://github.com/allenta/zabbix-template-for-varnish-cache,Allenta Consulting S.L.,Allenta Consulting S.L.
 Tracking Log Reader (trackrdrd),,https://code.uplex.de/uplex-varnish/trackrdrd,Uplex,Uplex
 varnish-influxdb,Varnish counters to InfluxDB over UDP,https://github.com/lkarsten/varnish-influxdb,No,No
 varnishevent,Varnish log reader designed for heavy loads,https://code.uplex.de/uplex-varnish/varnishevent,Uplex,Uplex
 varnishslog,Reads Varnish Cache VSL (binary) log stream and produces structured log records in JSON format,https://github.com/jpastuszek/varnishslog,No,No
+varnishmon,Record + visualize + share historical varnishstat output,https://github.com/allenta/varnishmon,Allenta Consulting S.L.,Allenta Consulting S.L.
