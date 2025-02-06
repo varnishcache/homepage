@@ -63,4 +63,4 @@ varnish-influxdb,Varnish counters to InfluxDB over UDP,Monitoring+Statistics,htt
 ReactPHP Varnish Esi Booster,Varnish Esi Booster is an asynchronous PSR-7 compatible middleware using ReactPHP,Cache Invalidation,https://github.com/maciejmrozinski/reactphp-varnish-esi-booster,No
 varnishevent,Varnish log reader designed for heavy loads,Monitoring+Statistics,https://code.uplex.de/uplex-varnish/varnishevent,Uplex
 vmod-packager,VMOD package builder,Misc. Tools,https://github.com/xcir/vmod-packager,No
-varnishmon,Record + visualize + share historical varnishstat output,https://github.com/allenta/varnishmon,Allenta Consulting S.L.
+varnishmon,Record + visualize + share historical varnishstat output,Monitoring+Statistics,https://github.com/allenta/varnishmon,Allenta Consulting S.L.
