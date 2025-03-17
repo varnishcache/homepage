@@ -6,6 +6,14 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-03-17  - Varnish 7.7.0 is released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Our bi-annual "fresh" release is here:  :ref:`rel7.7.0`
+
+The 7.5 series is no longer supported in any capacity.
+
+
 2025-03-17 - Varnish HTTP/1 client-side desync vulnerability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
