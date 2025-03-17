@@ -6,6 +6,11 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-03-17 - Varnish HTTP/1 client-side desync vulnerability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Please see :ref:`vsv00015`.
+
 2025-03-17 - Security release 7.6.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
