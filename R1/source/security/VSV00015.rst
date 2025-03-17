@@ -1,0 +1,115 @@
+.. _VSV00015:
+
+VSV00015 Varnish HTTP/1 client-side desync vulnerability
+========================================================
+
+A client-side desync vulnerability can be triggered in Varnish Cache
+and Varnish Enterprise. This vulnerability can be triggered under
+specific circumstances involving malformed HTTP/1 requests.
+
+Certain malformed HTTP/1 requests have been handled by issuing a ``400
+Bad Request`` response, and then allowing the connection to carry on
+with a subsequent request on that same connection. For the case where
+the initial malformed request contains a request body, the body is not
+properly processed and is instead treated as the basis for a
+subsequent request. This can result in the client receiving a response
+associated with the improperly embedded request as a response to a
+subsequent request.
+
+The malformed requests that can trigger this behavior are limited to
+the following cases:
+
+* A request containing multiple ``Host`` request headers.
+* A request containing multiple ``Content-Length`` request headers.
+
+The vulnerability was discovered internally during a code review
+session and, to our knowledge, has not been exploited to date.
+
+Impact
+------
+
+The primary risk of this vulnerability is enabling HTTP request
+smuggling attacks, which could have consequences for downstream
+systems. Specifically:
+
+**Cache Poisoning**: A downstream cache positioned in front of Varnish
+could cache incorrect or malicious content if it allows the
+aforementioned malformed HTTP/1 requests to pass through
+unhandled. This can lead to unintended responses being served to
+users, potentially exposing sensitive information or delivering
+harmful payloads.
+
+**Security Risks**: Bypass of WAF type products downstream from
+Varnish could be achieved if these products are configured to not
+inspect request bodies and in addition allow the aforementioned
+malformed HTTP/1 requests to pass through.
+
+Given the pretty much complete absence of software products that allow
+the aforementioned malformed HTTP/1 requests to pass through to
+Varnish without failing the request itself, we find it extremely
+unlikely for a Varnish setup to be positioned in such a way that this
+vulnerability can be effectively abused.
+
+The vulnerability has been given a severity rating of **low**.
+
+Versions affected
+-----------------
+
+* Varnish Cache release 7.5.0
+
+* Varnish Cache release 7.6.0
+
+* Varnish Cache release 7.6.1
+
+* Older unsupported releases may also be vulnerable.
+
+* Varnish Enterprise 6.0 series up to and including 6.0.13r9
+
+Versions not affected
+---------------------
+
+* All versions of Varnish Cache 6.0 LTS.
+
+Resolved in
+-----------
+
+* Varnish Enterprise 6.0.13r10 (released 2024-12-20)
+* Varnish Cache 7.6.2 (released 2025-03-17)
+* Varnish Cache 7.7.0 (released 2025-03-17)
+
+Solution
+--------
+
+The recommended solution is to upgrade Varnish to one of the versions
+where this issue has been resolved, and then ensure that Varnish is
+restarted.
+
+Timeline
+--------
+
+**2024-12-17**
+
+* Issue is identified during code review.
+
+**2024-12-18**
+
+* Knowledge is gained that the pattern from the PR is also used in
+  other existing code paths, making it an open vulnerability.
+
+**2024-12-20**
+
+* A patched release of Varnish Enterprise closing the vulnerability is
+  released.
+
+**2025-01-07**
+
+* Details are disclosed and discussed with the Varnish Cache upstream
+  core team. Classification as low severity and date for public
+  information disclosure is agreed upon.
+
+
+**2025-03-17**
+
+* Source code patches pushed to the Varnish Cache git repository at Github.
+* Varnish Cache packages released to the official Varnish Cache package repositories.
+* Public announcement.
