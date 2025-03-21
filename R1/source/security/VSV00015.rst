@@ -3,6 +3,8 @@
 VSV00015 Varnish HTTP/1 client-side desync vulnerability
 ========================================================
 
+`CVE-2025-30346 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30346>`_
+
 Date: 2025-03-18
 
 A client-side desync vulnerability can be triggered in Varnish Cache
