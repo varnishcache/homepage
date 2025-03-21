@@ -110,7 +110,7 @@ Timeline
   information disclosure is agreed upon.
 
 
-**2025-03-17**
+**2025-03-18**
 
 * Source code patches pushed to the Varnish Cache git repository at Github.
 * Varnish Cache packages released to the official Varnish Cache package repositories.
