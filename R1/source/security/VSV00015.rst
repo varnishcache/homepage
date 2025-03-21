@@ -3,6 +3,8 @@
 VSV00015 Varnish HTTP/1 client-side desync vulnerability
 ========================================================
 
+Date: 2025-03-18
+
 A client-side desync vulnerability can be triggered in Varnish Cache
 and Varnish Enterprise. This vulnerability can be triggered under
 specific circumstances involving malformed HTTP/1 requests.
