@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-05-12 - Security release 7.6.3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions :ref:`7.6.3 <rel7.6.3>` is now available.
+This release addresses the vulnerability described in
+:ref:`VSV00016 <VSV00016>`.
+
 2025-05-12 - Security release 6.0.14
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
