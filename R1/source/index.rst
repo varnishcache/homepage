@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-05-12 - Security release 7.7.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish versions :ref:`7.7.1 <rel7.7.1>` is now available.
+This release addresses the vulnerability described in
+:ref:`VSV00016 <VSV00016>`.
+
 2025-05-12 - Request Smuggling Attack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
