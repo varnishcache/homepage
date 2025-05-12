@@ -11,6 +11,7 @@ List of all Varnish CVEs
 =============== =============== ====================================
 Versions        CVE             What
 =============== =============== ====================================
+6.x, 7.x        N/A             :ref:`vsv00016`
 7.x             CVE-2025-30346_ :ref:`vsv00015`
 5.x, 6.x, 7.x   CVE-2024-30156_ :ref:`vsv00014`
 5.x, 6.x, 7.x   CVE-2023-44487_ :ref:`vsv00013`
@@ -56,6 +57,7 @@ vmod_digest     CVE-2023-41104_ :ref:`vsv00012`
 	:hidden:
 	:maxdepth: 1
 
+	VSV00016.rst
 	VSV00015.rst
 	VSV00014.rst
 	VSV00013.rst
