@@ -1,0 +1,144 @@
+.. _VSV00016
+
+VSV00016 Request Smuggling Attack
+=================================
+
+`CVE-2025-XXXXX <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-XXXXX>`_
+
+Date: 2025-05-12
+
+A client-side desync vulnerability can be triggered in Varnish Cache
+and Varnish Enterprise. This vulnerability can be triggered under
+specific circumstances involving malformed HTTP/1 chunked requests.
+
+An attacker can abuse a flaw in Varnish's handling of chunked
+transfer encoding which allows certain malformed HTTP/1 requests
+to exploit improper framing of the message body to smuggle
+additional requests. Specifically, Varnish incorrectly permits
+CRLF to be skipped to delimit chunk boundaries.
+
+Impact
+------
+
+The primary risk of this vulnerability is enabling HTTP request
+smuggling attacks, which could have consequences for downstream
+systems. Specifically:
+
+**Cache Poisoning**: A downstream cache positioned in front of Varnish
+could cache incorrect or malicious content if it allows the
+aforementioned malformed HTTP/1 requests to pass through
+unhandled. This can lead to unintended responses being served to
+users, potentially exposing sensitive information or delivering
+harmful payloads.
+
+**Security Risks**: Bypass of WAF type products downstream from
+Varnish could be achieved if these products are configured to not
+inspect request bodies and in addition allow the aforementioned
+malformed HTTP/1 requests to pass through.
+The vulnerability has been given a severity rating of **low/medium**.
+
+Versions affected
+-----------------
+
+* Varnish Cache releases up to and including 7.7.0.
+
+* Varnish Cache 6.0 LTS series up to and including 6.0.13.
+
+* Varnish Enterprise by Varnish Software 6.0.x up to and including 6.0.13r13.
+
+Versions not affected
+---------------------
+
+* Varnish Cache 7.7.1 (released 2025-05-12)
+
+* Varnish Cache 7.6.3 (released 2025-05-12)
+
+* Varnish Cache 6.0 LTS version 6.0.14 (released 2025-05-12)
+
+* Varnish Enterprise 6.0.13r14 by Varnish Software (released 2025-04-09).
+
+Mitigation
+----------
+
+This mitigation is likely to also impact legitimate client traffic, so some sort of additional filtering is needed depending on the traffic.
+
+If upgrading Varnish is not possible, then you could add this to the beginning of your VCL file::
+
+	sub vcl_recv {
+
+    	if (req.http.transfer-encoding ~ "(?i)chunked") {
+
+        	return (fail);
+
+    	}
+
+	}
+
+The VCL snippets work by failing all client requests which attempt to use Transfer-encoding: chunked.
+
+Solution
+--------
+
+The recommended solution is to upgrade Varnish to one of the versions
+where this issue has been resolved, and then ensure that Varnish is restarted.
+
+Timeline
+--------
+
+**2025-03-29**
+
+* The issue is reported to the security contact list.
+
+**2025-03-31**
+
+* An acknowledgement is sent out to thank the user for reporting it.
+
+* A person is assigned the lead role to handle the issue.
+
+* The issue is reproduced in both Varnish Cache and Varnish Enterprise.
+
+**2025-04-01**
+
+* A workaround and initial patch is crafted.
+
+**2025-04-02**
+
+* The patch is reviewed.
+
+* The outcome is a new and improved patch.
+
+**2025-04-04**
+
+* The new patch gets reviewed and approved.
+
+**2025-04-07**
+
+* A preliminary disclosure date between the Varnish Cache core team and the reporter is agreed upon.
+
+**2025-04-09**
+
+* A patched release of Varnish Enterprise closing the vulnerability is released.
+
+**2025-05-05**
+
+* A communication channel is established with the downstream package
+
+  distributions to share the fix and synchronize the effort.
+
+  The planned disclosure date is good.
+
+**2025-05-12**
+
+* Source code patches pushed to the Varnish Cache git repository at Github.
+
+* Varnish Cache packages released to the official Varnish Cache package repositories.
+
+* Public announcement.
+
+
+Thankyous and credits
+=====================
+
+Ben Kallus at Dartmouth College for finding and reporting the issue to the project in a responsible manner.
+Nils Goroll (UPLEX), Dridi Boukelmoune (Varnish Software) and Poul-Henning Kamp for the patches.
+Varnish Software for handling this security incident.

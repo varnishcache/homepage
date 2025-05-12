@@ -6,6 +6,11 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-05-12 - Request Smuggling Attack
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Please see :ref:`vsv00016`.
+
 2025-05-12 - Security release 7.6.3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
