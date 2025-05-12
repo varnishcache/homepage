@@ -1,4 +1,4 @@
-.. _VSV00016
+.. _VSV00016:
 
 VSV00016 Request Smuggling Attack
 =================================

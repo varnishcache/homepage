@@ -26,7 +26,7 @@ This release addresses the vulnerability described in
 :ref:`VSV00016 <VSV00016>`.
 
 2025-05-12 - Security release 6.0.14
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Varnish versions :ref:`6.0.14 <rel6.0.14>` is now available.
 This release addresses the vulnerability described in
