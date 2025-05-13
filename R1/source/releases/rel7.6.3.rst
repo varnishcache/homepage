@@ -10,6 +10,8 @@ Varnish Cache 7.6.3
 Varnish Cache 7.6.3 is a security release that addresses the vulnerability
 described in :ref:`VSV00016 <VSV00016>`.
 
+If upgrading from 7.6.2, you should not expect to encounter any problems. However, VMODs have to be recompiled.
+
 More information:
 
 * List of most important `Changes in 7.6 <https://varnish-cache.org/docs/7.6/whats-new/changes-7.6.html>`_
