@@ -3,7 +3,7 @@
 VSV00016 Request Smuggling Attack
 =================================
 
-`CVE-2025-XXXXX <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-XXXXX>`_
+`CVE-2025-47905 <https://www.cve.org/CVERecord?id=CVE-2025-47905>`_
 
 Date: 2025-05-12
 
