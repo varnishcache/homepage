@@ -35,7 +35,8 @@ harmful payloads.
 Varnish could be achieved if these products are configured to not
 inspect request bodies and in addition allow the aforementioned
 malformed HTTP/1 requests to pass through.
-The vulnerability has been given a severity rating of **low/medium**.
+
+The vulnerability has been given a severity rating of **medium**.
 
 Versions affected
 -----------------
@@ -65,13 +66,9 @@ This mitigation is likely to also impact legitimate client traffic, so some sort
 If upgrading Varnish is not possible, then you could add this to the beginning of your VCL file::
 
 	sub vcl_recv {
-
-    	if (req.http.transfer-encoding ~ "(?i)chunked") {
-
-        	return (fail);
-
-    	}
-
+		if (req.http.transfer-encoding ~ "(?i)chunked") {
+			return (fail);
+		}
 	}
 
 The VCL snippets work by failing all client requests which attempt to use Transfer-encoding: chunked.
@@ -122,9 +119,7 @@ Timeline
 **2025-05-05**
 
 * A communication channel is established with the downstream package
-
   distributions to share the fix and synchronize the effort.
-
   The planned disclosure date is good.
 
 **2025-05-12**
@@ -140,5 +135,7 @@ Thankyous and credits
 =====================
 
 Ben Kallus at Dartmouth College for finding and reporting the issue to the project in a responsible manner.
+
 Nils Goroll (UPLEX), Dridi Boukelmoune (Varnish Software) and Poul-Henning Kamp for the patches.
+
 Varnish Software for handling this security incident.
