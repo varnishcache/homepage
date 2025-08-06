@@ -1,0 +1,79 @@
+.. _VSV00017:
+
+VSV00017 Varnish HTTP/2 Made You Reset Attack
+=============================================
+
+Date: 2025-08-13
+
+A denial of service attack can be performed on Varnish Cache servers that
+have the HTTP/2 protocol turned on. An attacker can create a large number
+of streams and immediately reset them without ever reaching the maximum
+number of concurrent streams allowed for the session, causing the Varnish
+server to consume unnecessary resources processing requests for which the
+response will not be delivered.
+
+This attack is a variant of the HTTP/2 Rapid Reset Attack, which was
+handled as :ref:`VSV00013 <VSV00013>`. The countermeasure put in place for
+:ref:`VSV00013 <VSV00013>` was to implement a rate limit on the number of
+stream resets allowed before the session would be closed by the Varnish
+server. The new variant of the attack bypasses this rate limit by
+executing a benign protocol violation, causing the stream to be reset by
+the server rather than by the client. This would effectively bypass the
+rate limit, reopening the attack vector.
+
+The Made You Reset Attack was disclosed on August 13 2025.
+
+Versions affected
+-----------------
+
+* Varnish Cache releases 5.x, 6.x, 7.0.x, 7.1.x, 7.2.x, 7.3.x, 7.4.x,
+  7.5.x, 7.6.0, 7.6.1, 7.6.2, 7.6.3, 7.7.0, 7.7.1
+
+* Varnish Cache 6.0 LTS series up to and including 6.0.14.
+
+* Varnish Enterprise by Varnish Software 6.0.x up to and including 6.0.14r4.
+
+Versions not affected
+---------------------
+
+* Varnish Cache 7.6.4 (released 2025-08-13)
+
+* Varnish Cache 7.7.2 (released 2025-08-13)
+
+* Varnish Cache 6.0 LTS version 6.0.15 (released 2025-08-13)
+
+* GitHub Varnish Cache master branch at commit <TODO!!!>.
+
+* Varnish Enterprise by Varnish Software version 6.0.14r5.
+
+Mitigation
+----------
+
+If upgrading Varnish is not possible, it is possible to mitigate the
+problem by simply disabling HTTP/2 support::
+
+    varnishadm param.set feature -http2
+
+You must also remove ``h2`` from the list of protocols if your TLS
+terminator is advertising it with ALPN.
+
+The attack is also partly mitigated by the second line of defense that was
+put in place when the similar :ref:`VSV00013 <VSV00013>` Rapid Reset
+Attack was patched. A circuit breaker before the execution of VCL
+subroutines was put in place to fail the transaction if the client reset
+its stream. This mechanism is controlled by a feature flag
+``vsl_req_reset`` that defaults to on. With this mechanism in place,
+Varnish servers are much more resilient to this type of attack.
+
+Monitoring the mitigations
+--------------------------
+
+The monitoring strategies described in :ref:`VSV00013 <VSV00013>` are also
+applicable to this issue.
+
+
+Thankyous and credits
+---------------------
+
+Thanks to the reporters, Gal Bar Nahum, Anat Bremler-Barr, and Yaniv Harel
+of Tel Aviv University.
