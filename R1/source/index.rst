@@ -6,6 +6,32 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-08-13 - Varnish HTTP/2 Made You Reset Attack
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Please see :ref:`vsv00017`
+
+2025-08-13 - Security release 7.7.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish version :ref:`7.7.2 <rel7.7.2>` is now available.
+This release addresses the vulnerability described in
+:ref:`VSV00017 <VSV00017>`.
+
+2025-08-13 - Security release 7.6.4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish version :ref:`7.6.4 <rel7.6.4>` is now available.
+This release addresses the vulnerability described in
+:ref:`VSV00017 <VSV00017>`.
+
+2025-08-13 - Security release 6.0.15
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Varnish version :ref:`6.0.15 <rel6.0.15>` is now available.
+This release addresses the vulnerability described in
+:ref:`VSV00017 <VSV00017>`.
+
 2025-05-12 - Security release 7.7.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
