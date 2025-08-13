@@ -42,7 +42,7 @@ Versions not affected
 
 * Varnish Cache 6.0 LTS version 6.0.15 (released 2025-08-13)
 
-* GitHub Varnish Cache master branch at commit <TODO!!!>.
+* GitHub Varnish Cache master branch at commit 5202a6e329651cd0121e9eac78e60b66351a50bf.
 
 * Varnish Enterprise by Varnish Software version 6.0.14r5.
 
