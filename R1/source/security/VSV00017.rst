@@ -3,6 +3,9 @@
 VSV00017 Varnish HTTP/2 Made You Reset Attack
 =============================================
 
+`CVE-2025-8671 <https://www.cve.org/CVERecord?id=CVE-2025-8671>`_
+`VU#767506 <https://kb.cert.org/vuls/id/767506>`_
+
 Date: 2025-08-13
 
 A denial of service attack can be performed on Varnish Cache servers that
