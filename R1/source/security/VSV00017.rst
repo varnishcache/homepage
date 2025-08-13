@@ -62,7 +62,7 @@ put in place when the similar :ref:`VSV00013 <VSV00013>` Rapid Reset
 Attack was patched. A circuit breaker before the execution of VCL
 subroutines was put in place to fail the transaction if the client reset
 its stream. This mechanism is controlled by a feature flag
-``vsl_req_reset`` that defaults to on. With this mechanism in place,
+``vcl_req_reset`` that defaults to on. With this mechanism in place,
 Varnish servers are much more resilient to this type of attack.
 
 Monitoring the mitigations
