@@ -26,6 +26,13 @@ rate limit, reopening the attack vector.
 
 The Made You Reset Attack was disclosed on August 13 2025.
 
+Note: When this issue was first patched, the releases unfortunately
+contained an HTTP/2 regression bug (4380_). This affected the 7.6.4, 7.7.2
+and 6.0.15 releases. This bug has been fixed in the 7.6.5, 7.7.3 and
+6.0.16 releases.
+
+.. _4380: https://github.com/varnishcache/varnish-cache/issues/4380
+
 Versions affected
 -----------------
 
@@ -36,8 +43,8 @@ Versions affected
 
 * Varnish Enterprise by Varnish Software 6.0.x up to and including 6.0.14r4.
 
-Versions not affected
----------------------
+Versions not affected, but has regression
+-----------------------------------------
 
 * Varnish Cache 7.6.4 (released 2025-08-13)
 
@@ -45,7 +52,16 @@ Versions not affected
 
 * Varnish Cache 6.0 LTS version 6.0.15 (released 2025-08-13)
 
-* GitHub Varnish Cache master branch at commit 5202a6e329651cd0121e9eac78e60b66351a50bf.
+Versions not affected
+---------------------
+
+* Varnish Cache 7.6.5 (released 2025-08-20)
+
+* Varnish Cache 7.7.3 (released 2025-08-20)
+
+* Varnish Cache 6.0 LTS version 6.0.16 (released 2025-08-20)
+
+* GitHub Varnish Cache master branch at commit <TODO: Update this>
 
 * Varnish Enterprise by Varnish Software version 6.0.14r5.
 
