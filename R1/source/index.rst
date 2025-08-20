@@ -6,6 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-08-20 - New releases: 7.7.3, 7.6.5 and 6.0.16
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are new releases available, :ref:`7.7.3 <rel7.7.3>`, :ref:`7.6.5
+<rel7.6.5>` and :ref:`6.0.16 <rel6.0.16>`. These address a regression from
+the handling of :ref:`VSV00017 <VSV00017>`.
+
 2025-08-13 - Varnish HTTP/2 Made You Reset Attack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
