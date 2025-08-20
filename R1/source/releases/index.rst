@@ -48,6 +48,9 @@ All the releases
 .. toctree::
 	:maxdepth: 1
 
+	rel7.7.3
+	rel7.6.5
+	rel6.0.16
 	rel7.7.2
 	rel7.6.4
 	rel6.0.15
