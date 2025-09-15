@@ -6,6 +6,111 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+2025-09-15 - New release: 8.0.0 with bonus project news
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We have a new major release today: :ref:`8.0.0 <rel8.0.0>`,
+and some major project news for you.
+
+20 years old and it is time to get serious(er)
+----------------------------------------------
+
+Slagelse, 2025-09-15
+
+This coming february 22nd, The Varnish Cache Project will officially
+be 20 years old.  We consider the first surviving commit from the
+subversion-to-git conversion the official birthday of the Project.
+
+This is as good as any excuse to take stock and make some changes
+so we are ready for the next 20 years.
+
+Open Source is not what it used to be:  The EU has launched a
+broadside of directives against software related industries, and
+while they have gone to great lengths to carve out a niche for Free
+and Open Source Software, they have wisely not chosen to make it a
+"Get out of jail for free" card to slap "FOSS" sticker on something.
+
+Concepts like "Maintainers", "Stewards" and "Contributors" of FOSS
+have formal legal definitions now, and we need to find out how we
+can and want to fit in.
+
+Which again means we have to find out who makes that kind of decisions
+for the project, both now and in the future.
+
+Many successful FOSS projects have spawned "Foundations" which are
+typically tax-exempt benefical/charity corporations in some country
+or other, but we have decided to not go there.  For one thing, none
+of us want to take on such a task, but more importantly:  We're are
+less than impressed by how well that model seems to work in practice.
+
+We will instead form a voluntary association, a "Forening", under
+the laws of Denmark, with bylaws that set out what the goal is
+(develop, maintain and distribute the software), who gets to make
+the decisions (a governing board appointed by the members), who can
+become members (anybody but subject to approval by the members) and
+that the association cannot ever hold or handle any money.
+
+The commented bylaws of the association will be ratified by the
+founders and made public this autumn, and the first general assembly
+will be on Monday February 23rd 2026 - hopefully with many membership
+applications to approve - more about that when we publish the bylaws.
+
+We will also, at the same time, reluctantly change the name of the project.
+
+The Varnish Cache FOSS software was initiated and sponsored by the
+Norvegian newspaper Verdens Gang.  They hired a company called
+"Linpro" to handle the logistics and me to write the code.
+
+From Linpro grew the company Varnish Software, and if anybody had,
+they had earned the right to use "Varnish" in their name commercially. 
+
+I was deeply worried about the potential for confusion and line
+drawing issues between the commercial entity and the FOSS project,
+and as Varnish Software have grown to become a huge international
+company, those worries materialized.
+
+I thought I had an verbal agreement with them, that "Varnish Cache"
+was the FOSS project and "Varnish Software" was the commercial
+entitity, but the current position of Varnish Software's IP-lawyers
+is that nobody can use "Varnish Cache" in any context, without their
+explicit permission.
+
+The need to get permission from Varnish Software to use our own
+name has already caused some potential contributors and supporters
+from engaging with the FOSS project.
+
+We have tried to negotiatiate with Varnish Software for many months
+about this issue, but their IP-Lawyers still insist that Varnish
+Software owns the Varnish Cache name, and at most we have being
+offered a strictly limited, subject to their veto, permission
+for the FOSS project to use the "Varnish Cache" name.
+
+We cannot live with that:  We are independent FOSS project with our own name.
+
+So we will change the name of the project.
+
+The new association and the new project will be named "The Vinyl
+Cache Project", and this release 8.0.0, will be the last under the
+"Varnish Cache" name.  The next release, in March will be under the
+new name, and will include compatility scripts, to make the
+transition as smooth as possible for everybody.
+
+I want to make it absolutely clear that this is 100% a mess of my
+making:  I should have insisted on a firm written agreement about
+the name sharing, but I did not.
+
+I will also state for the record, that there are no hard feelings
+between Varnish Software and the FOSS project.
+
+Varnish Software has always been, and still is, an important and
+valued contributor to the FOSS project, but sometimes even friends
+can make a mess of a situation.
+
+On behalf of the Varnish Cache Project,
+
+Poul-Henning Kamp
+
+
 2025-08-20 - New releases: 7.7.3, 7.6.5 and 6.0.16
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

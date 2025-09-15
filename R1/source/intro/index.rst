@@ -63,13 +63,6 @@ the word:
 To get in touch with the people operating this website please send an
 email to `webmaster@varnish-cache.org <mailto:webmaster@varnish-cache.org>`__.
 
-
-Logo
-----
-
-A high resolution version of the Varnish Cache logo can be found
-`here </_static/varnishcache_rgb-gimp2-alpha.png>`__
-
 About this website
 ------------------
 
