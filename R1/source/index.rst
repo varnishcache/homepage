@@ -92,7 +92,7 @@ So we will change the name of the project.
 The new association and the new project will be named "The Vinyl
 Cache Project", and this release 8.0.0, will be the last under the
 "Varnish Cache" name.  The next release, in March will be under the
-new name, and will include compatility scripts, to make the
+new name, and will include compatibility scripts, to make the
 transition as smooth as possible for everybody.
 
 I want to make it absolutely clear that this is 100% a mess of my
