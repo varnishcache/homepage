@@ -80,7 +80,7 @@ the new LTS repositories to get 6.0.2. Please follow the instructions
 on the release page to set up the new repository for your platform.
 
 The packaging of this release differs slightly from previous Varnish
-versons. This is described in the
+versions. This is described in the
 `upgrading notes <docs/6.0/whats-new/upgrading-6.0.html#packaging-changes>`_
 for 6.0. These changes were originally intended for the initial 6.0
 release, but unfortunately they did not make it into the 6.0.0 or
@@ -128,8 +128,8 @@ This maintenance release is recommended for all users of 6.0.0,
 and contains many bug fixes. More information is available in the
 `6.0 Change log`_
 
-2018-06-08 - Publically available packages from UPLEX
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2018-06-08 - Publicly available packages from UPLEX
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The varnish-cache contributors from `UPLEX`_ are happy to announce an
 alternative source for varnish binary packages for Debian, Ubuntu and
