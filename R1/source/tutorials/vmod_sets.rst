@@ -446,7 +446,7 @@ example, the initial component of the URL path is removed and the
 
 The string rewrites are accomplished with the standard VCL function
 ``regsub()``, which uses capturing groups from a regular expression
-match to replace the URL path. ``regsub()`` replaces the first maching portion
+match to replace the URL path. ``regsub()`` replaces the first matching portion
 of the target string (``req.url`` in the example) with the string in
 the third argument. Here we have used a backreference ``\1`` to
 extract the string in the captured group. ``regsub()`` only replaces
@@ -603,8 +603,8 @@ match against the regex that was saved for the string that matched in
 the most recent invocation of ``.match()`` or ``.hasprefix()``, in the
 same client or backend scope.
 
-Arbritrary logic with associated subroutines
---------------------------------------------
+Arbitrary logic with associated subroutines
+-------------------------------------------
 
 We have seen that sets in the two VMODs make it possible to replace
 lengthy and poorly scalable ``if-elsif-elsif`` sequences of string
@@ -906,7 +906,7 @@ all of the examples prior to this section.
 
 VMOD selector has the means to ensure that overlapping prefixes do not
 appear in the set, by setting the parameter ``allow_overlap=false`` in
-the contructor::
+the constructor::
 
   import selector;
 
@@ -987,7 +987,7 @@ shorter.
 
 Redirect rules are a common source of long ``if-elsif-elsif``
 sequences in VCL. The use of an integer as associated data supports
-indivdual decisions about the HTTP response status for redirect that
+individual decisions about the HTTP response status for redirect that
 should be used::
 
   import re2;

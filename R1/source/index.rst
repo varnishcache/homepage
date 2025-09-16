@@ -71,7 +71,7 @@ company, those worries materialized.
 
 I thought I had an verbal agreement with them, that "Varnish Cache"
 was the FOSS project and "Varnish Software" was the commercial
-entitity, but the current position of Varnish Software's IP-lawyers
+entity, but the current position of Varnish Software's IP-lawyers
 is that nobody can use "Varnish Cache" in any context, without their
 explicit permission.
 

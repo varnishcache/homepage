@@ -45,7 +45,7 @@ That's it, that's the response. Both users and project managers have
 been known to be alarmed to see a site looking like that.
 
 Moreover, a look at the code for builtin ``vcl_synth`` reveals that
-maintaing HTML output, even for something as simple as the Guru
+maintaining HTML output, even for something as simple as the Guru
 Meditation, is not an especially elegant task for VCL::
 
   sub vcl_builtin_synth {
@@ -138,7 +138,7 @@ File reads and updates with VMOD file
 -------------------------------------
 
 VMOD file implements file reads with its reader object, which reads
-the contents of a file, and periodically chacks it for updates in a
+the contents of a file, and periodically checks it for updates in a
 background thread::
 
   import file;
