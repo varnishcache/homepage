@@ -467,10 +467,10 @@ that matched::
         # is compiled and stored, and hence can be used for rewrites
         # with the .sub() method.
   	new path_rewrite = re2.set(anchor=both);
-        path_rewrite.add("^/foo(/.*)$", save=true, string="www.foo.com");
-        path_rewrite.add("^/bar(/.*)$", save=true, string="www.bar.com");
-        path_rewrite.add("^/baz(/.*)$", save=true, string="www.baz.com");
-        path_rewrite.add("^/quux(/.*)$", save=true, string="www.quux.com");
+        path_rewrite.add("/foo(/.*)", save=true, string="www.foo.com");
+        path_rewrite.add("/bar(/.*)", save=true, string="www.bar.com");
+        path_rewrite.add("/baz(/.*)", save=true, string="www.baz.com");
+        path_rewrite.add("/quux(/.*)", save=true, string="www.quux.com");
   }
 
   sub vcl_recv {
@@ -479,6 +479,11 @@ that matched::
                 set req.url = path_matcher.sub(req.url, "\1");
         }
   }
+
+The constructor parameter ``anchor=both`` means that each pattern in the
+set is matched as if it begins with the regular expression symbol ``^``
+for start-of-text and end with the regular expression symbol ``$`` for
+end-of-text.
 
 As described above, sets in the RE2 library are formed as the "or"
 (``|``) of all of the regular expressions that are added to it. When
@@ -505,10 +510,10 @@ matched string. An alternative to the example above uses
         # construct the Host header, and the other to replace
         # the URL path.
   	new path_rewrite = re2.set(anchor=both);
-        path_rewrite.add("^/(foo)(/.*)$", save=true);
-        path_rewrite.add("^/(bar)(/.*)$", save=true);
-        path_rewrite.add("^/(baz)(/.*)$", save=true);
-        path_rewrite.add("^/(quux)(/.*)$", save=true);
+        path_rewrite.add("/(foo)(/.*)", save=true);
+        path_rewrite.add("/(bar)(/.*)", save=true);
+        path_rewrite.add("/(baz)(/.*)", save=true);
+        path_rewrite.add("/(quux)(/.*)", save=true);
   }
 
   sub vcl_recv {
