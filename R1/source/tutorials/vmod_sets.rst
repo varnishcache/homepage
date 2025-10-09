@@ -544,9 +544,9 @@ retrieved after a match::
         # regex parameter.
   	new path_rewrite = selector.set();
         path_rewrite.add("/foo", regex="^/foo(/.*)$", string="www.foo.com");
-        path_rewrite.add("/bar", regex"^/bar(/.*)$", string="www.bar.com");
-        path_rewrite.add("/baz", regex"^/baz(/.*)$", string="www.baz.com");
-        path_rewrite.add("/quux", regex"^/quux(/.*)$", string="www.quux.com");
+        path_rewrite.add("/bar", regex="^/bar(/.*)$", string="www.bar.com");
+        path_rewrite.add("/baz", regex="^/baz(/.*)$", string="www.baz.com");
+        path_rewrite.add("/quux", regex="^/quux(/.*)$", string="www.quux.com");
   }
 
   sub vcl_recv {
