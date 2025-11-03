@@ -93,10 +93,11 @@ our long-term contributor https://uplex.de/
 - You get bonus karma points if you work with FOSS tools only (but we do not
   want to discriminate against any artist who chooses otherwise).
 
+.. _`CC BY-NC-SA`: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 - By entering designs into the contest, you promise to make them available under
-  the CC BY-NC-SA https://creativecommons.org/licenses/by-nc-sa/4.0/ license if
-  selected as a winner. Note that the Vinyl Cache project will have the same
-  rights as everyone else.
+  the `CC BY-NC-SA`_ license if selected as a winner. Note that the Vinyl Cache
+  project will have the same rights as everyone else.
 
 - You are free to re-use non-winning entries for any other purpose, but we ask
   you to avoid a public conflict with the chosen Vinyl Cache project branding.
