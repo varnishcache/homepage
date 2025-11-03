@@ -50,7 +50,7 @@ with the mascot are it being
 
 - versatile,
 
-- resilient, working reliably under touch conditions
+- resilient, working reliably under tough conditions
 
 - clean, secure, well tested
 
