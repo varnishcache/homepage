@@ -9,6 +9,9 @@ What is happening
 Vinyl Cache - Logo and Mascot Contest
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**Edit** We changed the license to be granted to plain simple `CC BY`_. See
+`edit1`_ below.
+
 After nearly 20 years, we decided to rename the FOSS Varnish Cache project to
 Vinyl Cache as explained in `20 years old and it is time to get serious(er)`_.
 
@@ -82,8 +85,10 @@ our long-term contributor https://uplex.de/
 
 - You may not use any AI tools for the creation of your submissions.
 
-- You may only use fonts and other elements compatible with licensing under CC
-  BY-NC-SA. You may not use any elements incurring additional license fees.
+.. _`CC BY`: https://creativecommons.org/licenses/by/4.0/
+
+- You may only use fonts and other elements compatible with licensing under `CC
+  BY`_. You may not use any elements incurring additional license fees.
 
 - Provide the logos and mascot character in SVG and PNG.
 
@@ -93,10 +98,8 @@ our long-term contributor https://uplex.de/
 - You get bonus karma points if you work with FOSS tools only (but we do not
   want to discriminate against any artist who chooses otherwise).
 
-.. _`CC BY-NC-SA`: https://creativecommons.org/licenses/by-nc-sa/4.0/
-
 - By entering designs into the contest, you promise to make them available under
-  the `CC BY-NC-SA`_ license if selected as a winner. Note that the Vinyl Cache
+  the `CC BY`_ license if selected as a winner. Note that the Vinyl Cache
   project will have the same rights as everyone else.
 
 - You are free to re-use non-winning entries for any other purpose, but we ask
@@ -112,6 +115,18 @@ our long-term contributor https://uplex.de/
   submissions meet our quality expectations.
 
 - To redeem a price, you will need to issue a formal invoice.
+
+.. _`edit1`:
+
+*Erratum:*
+
+We originally published the contest asking for entries to be made available
+under CC BY-NC-SA license. After publication, it was pointed out to us that this
+license was prohibitive for inclusion of the logo in some software distributions
+and could be problematic, for example, for use in commercially distributed
+books. We do want to allow such uses and, consequently, reduced the license
+requirement to `CC BY`_, even if it does not restrict commercial use and might
+allow some commercial use cases which we did originally want to prevent.
 
 2025-09-15 - New release: 8.0.0 with bonus project news
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
