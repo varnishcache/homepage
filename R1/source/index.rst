@@ -71,7 +71,8 @@ our long-term contributor https://uplex.de/
 
 *Timeline*
 
-- Submit your designs until the end of November via email.
+- Submit your designs until the end of November via email to:
+  `logo@vinyl-cache.org <mailto:logo@vinyl-cache.org>`_.
 
 - The winners will be announced in December 2025 on https://vinyl-cache.org/ and Mastodon.
 
