@@ -6,6 +6,111 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+Vinyl Cache - Logo and Mascot Contest
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After nearly 20 years, we decided to rename the FOSS Varnish Cache project to
+Vinyl Cache as explained in `20 years old and it is time to get serious(er)`_.
+
+To make this rebranding happen, we need a new logo and a mascot. This is why we
+open a contest for the best design. The top 3 to 6 winners will be rewarded
+monetary prizes and eternal fame among Vinyl Cache users (not guaranteed but
+likely).
+
+*How can you enter this contest?*
+
+The contest consists of two categories. We encourage you to make combined
+submissions for both, and we suspect that selecting matching submissions will be
+a good choice, but we can not know this upfront.
+
+*(1) Logotype and logomark*
+
+Design a logo. The logo should consist of two elements:
+
+- the text "Vinyl Cache" (logotype)
+
+- and a graphical logo / symbol (logomark) for Vinyl Cache.
+
+It should be possible to use the logotype and logomark both in combination with
+each other and separately, so provide both visual representations.
+
+*(2) Mascot*
+
+The mascot should be a friendly character which users and contributors to Vinyl
+Cache can positively identify with. Please do not suggest characters relating to
+vinyl turntable records.
+
+Some of the properties of Vinyl Cache which we think would be great to associate
+with the mascot are it being
+
+- fast and efficient,
+
+- versatile,
+
+- resilient, working reliably under touch conditions
+
+- clean, secure, well tested
+
+It should be possible to use the mascot character as a standalone visual and
+also in combination with the logotype and logomark, so please provide both
+visual representations if you make submissions to both categories.
+
+*Monetary prizes*
+
+We will award prizes to the three best designs either in both categories
+combined or individually.
+
+- top 1 winner: 1000€ or 500€ + 500€
+
+- top 2 winner: 250€ or 125€ + 125€
+
+- top 3 winner: 250€ or 125€ + 125€
+
+The Vinyl Cache project does not handle any money. These prizes are donated by
+our long-term contributor https://uplex.de/
+
+*Timeline*
+
+- Submit your designs until the end of November via email.
+
+- The winners will be announced in December 2025 on https://vinyl-cache.org/ and Mastodon.
+
+*Rules*
+
+- You can submit as many design proposals as you wish.
+
+- You may not use any AI tools for the creation of your submissions.
+
+- You may only use fonts and other elements compatible with licensing under CC
+  BY-NC-SA. You may not use any elements incurring additional license fees.
+
+- Provide the logos and mascot character in SVG and PNG.
+
+- You get bonus points if you provide a good approximation of the logotype and
+  logomark in 7 bit ASCII (sorry, no UTF-8, we live in HTTP land).
+
+- You get bonus karma points if you work with FOSS tools only (but we do not
+  want to discriminate against any artist who chooses otherwise).
+
+- By entering designs into the contest, you promise to make them available under
+  the CC BY-NC-SA https://creativecommons.org/licenses/by-nc-sa/4.0/ license if
+  selected as a winner. Note that the Vinyl Cache project will have the same
+  rights as everyone else.
+
+- You are free to re-use non-winning entries for any other purpose, but we ask
+  you to avoid a public conflict with the chosen Vinyl Cache project branding.
+
+- The selection process is entirely up to the founding members of the Vinyl
+  Cache project. We promise to be as fair and objective as possible to mere
+  mortals and the judges will not get to see any creator identifying information
+  (unless you put it into your submission). But other than giving our word, we
+  accept no jurisdiction of a court regarding the procedure of this competition.
+
+- In particular, we reserve the right not to name any winners if too few
+  submissions meet our quality expectations.
+
+- To redeem a price, you will need to issue a formal invoice.
+
 2025-09-15 - New release: 8.0.0 with bonus project news
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
