@@ -6,11 +6,13 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+.. _logo_contest:
+
 Vinyl Cache - Logo and Mascot Contest
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Edit** We changed the license to be granted to plain simple `CC BY`_. See
-`edit1`_ below.
+**Edits:** We made changes since the first publication of this call for
+participation. See :ref:`logo_contest_edits`.
 
 After nearly 20 years, we decided to rename the FOSS Varnish Cache project to
 Vinyl Cache as explained in `20 years old and it is time to get serious(er)`_.
@@ -115,18 +117,6 @@ our long-term contributor https://uplex.de/
   submissions meet our quality expectations.
 
 - To redeem a price, you will need to issue a formal invoice.
-
-.. _`edit1`:
-
-*Erratum:*
-
-We originally published the contest asking for entries to be made available
-under CC BY-NC-SA license. After publication, it was pointed out to us that this
-license was prohibitive for inclusion of the logo in some software distributions
-and could be problematic, for example, for use in commercially distributed
-books. We do want to allow such uses and, consequently, reduced the license
-requirement to `CC BY`_, even if it does not restrict commercial use and might
-allow some commercial use cases which we did originally want to prevent.
 
 2025-09-15 - New release: 8.0.0 with bonus project news
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
