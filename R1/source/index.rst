@@ -146,9 +146,9 @@ finalize their work and pay out the remaining 750€ (for logo and mascot) or 37
 - You get bonus karma points if you work with FOSS tools only (but we do not
   want to discriminate against any artist who chooses otherwise).
 
-- By entering designs into the contest, you promise to make them available under
-  the `CC BY`_ license if selected as a winner. Note that the Vinyl Cache
-  project will have the same rights as everyone else.
+- By entering designs into the contest, you promise to make a finalized version
+  of your entry available under the `CC BY`_ license if selected as a winner.
+  Note that the Vinyl Cache project will have the same rights as everyone else.
 
 - You are free to re-use non-winning entries for any other purpose, but we ask
   you to avoid a public conflict with the chosen Vinyl Cache project branding.

@@ -33,6 +33,8 @@ allow some commercial use cases which we did originally want to prevent.
 Edit 2: Clarification of the Vinyl Cache logo competition
 ---------------------------------------------------------
 
+2025-11-06:
+
 Please read the long story below if you can, but first things first: We called
 for participation in a competition and learned that the idea was bad and our
 communication insufficient. We do not want to retract the competition, so we
