@@ -28,7 +28,7 @@ The contest consists of two categories. We encourage you to make combined
 submissions for both, and we suspect that selecting matching submissions will be
 a good choice, but we can not know this upfront.
 
-*(1) Logotype and logomark*
+*(A1) Logotype and logomark*
 
 Design a logo. The logo should consist of two elements:
 
@@ -39,7 +39,7 @@ Design a logo. The logo should consist of two elements:
 It should be possible to use the logotype and logomark both in combination with
 each other and separately, so provide both visual representations.
 
-*(2) Mascot*
+*(A2) Mascot*
 
 The mascot should be a friendly character which users and contributors to Vinyl
 Cache can positively identify with. Please do not suggest characters relating to
@@ -60,12 +60,53 @@ It should be possible to use the mascot character as a standalone visual and
 also in combination with the logotype and logomark, so please provide both
 visual representations if you make submissions to both categories.
 
+*What to submit*
+
+Please regard the competition as a pitch: Our intention is to see your ideas -
+we do not need polished, finalized work, but rather drafts or sketches and
+some idea of how your finished designs usually looks like. This can be in the
+form of some examples or a portfolio.
+
+To be clear, please submit:
+
+* (A) your drafts/sketches of
+
+  * (A1) Logotype and logomark *and/or*
+
+  * (A2) Mascot
+
+  and
+
+* (B) your portfolio or other examples of your finished designs.
+
+The competition entries can be in any accessible digital format like SVG, PNG or
+PDF.
+
+Please do not submit entries in proprietary formats.
+
+*Winner selection*
+
+The selection process will be guided not by how finished your entries are, but
+rather by originality and how well your ideas represent our project, given that
+you showed that you are able to finalize your work.
+
+You get bonus points if you provide a good approximation of the logotype and
+logomark in 7 bit ASCII (sorry, no UTF-8, we live in HTTP land).
+
+See also `other rules <logo-other-rules>`_ below.
+
+We promise to be as fair and objective as possible to mere mortals and the
+judges will not get to see any creator identifying information (unless you put
+it into your submission). But other than giving our word, the selection process
+is entirely up to the founding members of the Vinyl Cache project and we accept
+no jurisdiction of a court regarding the procedure of this competition.
+
 *Monetary prizes*
 
 We will award prizes to the three best designs either in both categories
 combined or individually.
 
-- top 1 winner: 1000€ or 500€ + 500€
+- top 1 winner: 1000€ or 500€ + 500€ in total
 
 - top 2 winner: 250€ or 125€ + 125€
 
@@ -74,6 +115,14 @@ combined or individually.
 The Vinyl Cache project does not handle any money. These prizes are donated by
 our long-term contributor https://uplex.de/
 
+To make clear that we want to reward the tedious work of finalizing drafts, we
+will first grant the same price of 250€ (for logo and mascot) or 125€ + 125€
+(for logo or mascot) to all 3-6 best entries as submitted.
+
+We will then work with the first winner for logo and/or mascot, respectively, to
+finalize their work and pay out the remaining 750€ (for logo and mascot) or 375€
++ 375€ (for logo or mascot) for the final design.
+
 *Timeline*
 
 - Submit your designs until the end of November via email to:
@@ -81,21 +130,18 @@ our long-term contributor https://uplex.de/
 
 - The winners will be announced in December 2025 on https://vinyl-cache.org/ and Mastodon.
 
-*Rules*
+.. _logo-other-rules:
+
+*Other Rules*
+
+.. _`CC BY`: https://creativecommons.org/licenses/by/4.0/
 
 - You can submit as many design proposals as you wish.
 
 - You may not use any AI tools for the creation of your submissions.
 
-.. _`CC BY`: https://creativecommons.org/licenses/by/4.0/
-
 - You may only use fonts and other elements compatible with licensing under `CC
   BY`_. You may not use any elements incurring additional license fees.
-
-- Provide the logos and mascot character in SVG and PNG.
-
-- You get bonus points if you provide a good approximation of the logotype and
-  logomark in 7 bit ASCII (sorry, no UTF-8, we live in HTTP land).
 
 - You get bonus karma points if you work with FOSS tools only (but we do not
   want to discriminate against any artist who chooses otherwise).
@@ -106,12 +152,6 @@ our long-term contributor https://uplex.de/
 
 - You are free to re-use non-winning entries for any other purpose, but we ask
   you to avoid a public conflict with the chosen Vinyl Cache project branding.
-
-- The selection process is entirely up to the founding members of the Vinyl
-  Cache project. We promise to be as fair and objective as possible to mere
-  mortals and the judges will not get to see any creator identifying information
-  (unless you put it into your submission). But other than giving our word, we
-  accept no jurisdiction of a court regarding the procedure of this competition.
 
 - In particular, we reserve the right not to name any winners if too few
   submissions meet our quality expectations.
