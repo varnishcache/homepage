@@ -6,6 +6,27 @@ Varnish HTTP Cache
 What is happening
 -----------------
 
+Announcing VCOT: OpenTelemetry Instrumentation for Vinyl-Cache
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We're happy to announce to have opened the repository of `VCOT
+(VinylCacheOpenTelemetry)
+<https://gitlab.com/uplex/varnish/VinylCacheOpenTelemetry>`_, a brand new
+open-source (GPL) Go utility designed to enhance observability in Vinyl-Cache
+(and, for the time being, Varnish-Cache) environments through an integration
+with OpenTelemetry.
+
+Up until now Vinyl-Cache was able to produce highly-detailed logs and provide
+precise insight into the cache behavior, but it was not able to integrate with
+modern observability standards.
+
+VCOT addresses the need for modern monitoring in high-performance systems by
+parsing Varnish Shared Logs (VSL) in real-time and exporting telemetry data -
+traces, metrics, and logs - to OpenTelemetry-compatible backends.
+
+This is just the beginning, VCOT is destined to evolve based on users' feedback.
+Please open issue and/or PRs if you wish to see this tool improve.
+
 .. _logo_contest:
 
 Vinyl Cache - Logo and Mascot Contest
