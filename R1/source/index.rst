@@ -1,10 +1,19 @@
-Varnish HTTP Cache
-==================
+Vinyl HTTP Cache
+================
+
+(The FOSS software formerly known as "Varnish HTTP Cache")
 
 :ref:`I'm new here, please explain this Varnish thing <intro>`
 
 What is happening
 -----------------
+
+Name-change in progress
+~~~~~~~~~~~~~~~~~~~~~~~
+
+We are in the process changing the project name now, so dont
+be confused if you see Vinyl/Varnish being mixed up for a
+while.
 
 Announcing VCOT: OpenTelemetry Instrumentation for Vinyl-Cache
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
