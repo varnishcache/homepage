@@ -12,8 +12,8 @@ the :ref:`rel7.7.3` release.
 
 More information:
 
-* List of most important `Changes in 8.0.0 <https://varnish-cache.org/docs/8.0/whats-new/changes-8.0.html>`_
-* Help on `Upgrading to Varnish 8.0.0 <https://varnish-cache.org/docs/8.0/whats-new/upgrading-8.0.html>`_
+* List of most important `Changes in 8.0.0 <https://vinyl-cache.org/docs/8.0/whats-new/changes-8.0.html>`_
+* Help on `Upgrading to Varnish 8.0.0 <https://vinyl-cache.org/docs/8.0/whats-new/upgrading-8.0.html>`_
 * `Full changes.rst entry for 8.0.0 <https://github.com/varnishcache/varnish-cache/blob/8.0/doc/changes.rst#varnish-cache-800-2025-09-15>`_
 
 For installation instructions including information about cloud images see

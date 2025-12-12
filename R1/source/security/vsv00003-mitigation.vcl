@@ -3,7 +3,7 @@
 #
 # Copyright 2019 UPLEX - Nils Goroll Systemoptimierung
 #
-# See: https://varnish-cache.org/security/VSV00003-mitigation.html
+# See: https://vinyl-cache.org/security/VSV00003-mitigation.html
 #
 # USE AT YOUR OWN RISK
 #

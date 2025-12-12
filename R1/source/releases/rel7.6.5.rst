@@ -13,8 +13,8 @@ Varnish Cache 7.6.5 addresses a regression that went in to the
 
 More information:
 
-* List of most important `Changes in 7.6 <https://varnish-cache.org/docs/7.6/whats-new/changes-7.6.html>`_
-* Help on `Upgrading to Varnish 7.6 <https://varnish-cache.org/docs/7.6/whats-new/upgrading-7.6.html>`_
+* List of most important `Changes in 7.6 <https://vinyl-cache.org/docs/7.6/whats-new/changes-7.6.html>`_
+* Help on `Upgrading to Varnish 7.6 <https://vinyl-cache.org/docs/7.6/whats-new/upgrading-7.6.html>`_
 * `Full changes.rst entry for 7.6.5 <https://github.com/varnishcache/varnish-cache/blob/7.6/doc/changes.rst#varnish-cache-765-2025-08-20>`_
 
 For installation instructions including information about cloud images see

@@ -13,8 +13,8 @@ version, either 6.0.14, 7.6.3 or 7.7.1.
 
 More information:
 
-* List of most important `Changes in 6.0 <https://varnish-cache.org/docs/6.0/whats-new/changes-6.0.html>`_
-* Help on `Upgrading to Varnish 6.0 <https://varnish-cache.org/docs/6.0/whats-new/upgrading-6.0.html>`_
+* List of most important `Changes in 6.0 <https://vinyl-cache.org/docs/6.0/whats-new/changes-6.0.html>`_
+* Help on `Upgrading to Varnish 6.0 <https://vinyl-cache.org/docs/6.0/whats-new/upgrading-6.0.html>`_
 * `Full changes.rst entry for 6.0.14 <https://github.com/varnishcache/varnish-cache/blob/6.0/doc/changes.rst#varnish-cache-6014-2025-05-12>`_
 
 For installation instructions including information about cloud images see

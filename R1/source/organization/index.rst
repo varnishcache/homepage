@@ -137,7 +137,7 @@ encrypted email to one or more of the maintainers. See
 :ref:`security` for more information on this.
 
 Feature requests should be sent to the `varnish-misc mailing list
-<https://varnish-cache.org/lists/mailman/listinfo/varnish-misc>`_. A
+<https://vinyl-cache.org/lists/mailman/listinfo/varnish-misc>`_. A
 feature request which is considered important and where a developer is
 assigned to implement it, *can* be made into an issue. The list is
 meant to be a place where developers can bring up ideas of features and

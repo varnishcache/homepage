@@ -496,7 +496,7 @@ The preferred public repository with support for issues,
 merge-requests and other activities is at
 https://gitlab.com/uplex/varnish/slash
 
-.. _`The SLASH/ Announcement`: https://varnish-cache.org/lists/pipermail/varnish-announce/2023-February/000757.html
+.. _`The SLASH/ Announcement`: https://vinyl-cache.org/lists/pipermail/varnish-announce/2023-February/000757.html
 
 .. _`The SLASH/ README`: https://gitlab.com/uplex/varnish/slash/-/blob/master/README.rst
 
@@ -607,7 +607,7 @@ we have released a Varnish Delivery Processor (VDP) for parallel ESI processing,
 which can deliver relevant speedups where portions of ESI-processed objects are
 not served from cache.
 
-.. _`The pESI Announcement`: https://varnish-cache.org/lists/pipermail/varnish-announce/2021-August/000746.html
+.. _`The pESI Announcement`: https://vinyl-cache.org/lists/pipermail/varnish-announce/2021-August/000746.html
 
 Read `The pESI Announcement`_ for more details.
 

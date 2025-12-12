@@ -90,7 +90,7 @@ provided by team members who produce the site's HTML already, and VCL
 authors wouldn't have to maintain it, a situation that usually makes
 both teams much happier.
 
-.. _vmod_std: https://varnish-cache.org/docs/7.6/reference/vmod_std.html
+.. _vmod_std: https://vinyl-cache.org/docs/7.6/reference/vmod_std.html
 .. _vmod_file: https://gitlab.com/uplex/varnish/libvmod-file
 
 Reading file contents is not strictly supported by the VCL language,
@@ -181,7 +181,7 @@ performed in a separate thread. Access methods such as ``.get()`` and
 ``.synth()`` get the file's contents from its most recent read, but
 never invoke any file I/O while Varnish is processing a request.
 
-.. _varnishlog: https://varnish-cache.org/docs/7.6/reference/varnishlog.html
+.. _varnishlog: https://vinyl-cache.org/docs/7.6/reference/varnishlog.html
 
 Because of the fact that checks for changes and file reads are run in
 the background, any logging that is emitted while doing so,
@@ -361,7 +361,7 @@ further discussion about the differences between the two digest
 methods. Since ``.id()`` is entirely suitable for the next example, we
 will only consider it here.
 
-.. _vmod_blob: https://varnish-cache.org/docs/trunk/reference/vmod_blob.html
+.. _vmod_blob: https://vinyl-cache.org/docs/trunk/reference/vmod_blob.html
 
 The values returned by the two digest methods are sutiable for use in
 the ``ETag`` response header, and can be compared with a request's

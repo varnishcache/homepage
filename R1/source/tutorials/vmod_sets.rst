@@ -725,7 +725,7 @@ above is always legal in its context. An illegal call leads to VCL
 failure at runtime, which ordinarily results in a 503 error response.
 But that is an avoidable error.
 
-.. _vcl-var: https://varnish-cache.org/docs/trunk/reference/vcl-var.html
+.. _vcl-var: https://vinyl-cache.org/docs/trunk/reference/vcl-var.html
 
 The legality of a subroutine call depends on the VCL variables that it
 references; this is documented in the `vcl-var`_ manual. For example,

@@ -134,7 +134,7 @@ would react to a major security issue:
 * Create a VCL workaround, if at all possible.
 * Fix the problem.
 * If it makes sense (ie: no VCL workaround), roll a point-release.
-* Announce on announce@varnish-cache.org and homepage.
+* Announce on announce@vinyl-cache.org and homepage.
 * Kick ourselves, for *months*, for missing the bug.
 
 Define "Major"

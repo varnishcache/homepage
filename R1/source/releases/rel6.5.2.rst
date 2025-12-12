@@ -13,8 +13,8 @@ version, either 6.0.8, 6.6.1 or 6.5.2.
 
 More information:
 
-* List of most important `Changes in 6.5 <https://varnish-cache.org/docs/6.5/whats-new/changes-6.5.html>`_
-* Help on `Upgrading to Varnish 6.5 <https://varnish-cache.org/docs/6.5/whats-new/upgrading-6.5.html>`_
+* List of most important `Changes in 6.5 <https://vinyl-cache.org/docs/6.5/whats-new/changes-6.5.html>`_
+* Help on `Upgrading to Varnish 6.5 <https://vinyl-cache.org/docs/6.5/whats-new/upgrading-6.5.html>`_
 * `Full changes.rst entry for 6.5.2 <https://github.com/varnishcache/varnish-cache/blob/6.5/doc/changes.rst#varnish-cache-652-2021-07-13>`_
 
 For installation instructions including information about cloud images see

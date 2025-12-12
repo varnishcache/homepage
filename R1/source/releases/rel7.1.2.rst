@@ -13,8 +13,8 @@ possible, upgrade to a secure version.
 
 More information:
 
-* List of most important `Changes in 7.1 <https://varnish-cache.org/docs/7.1/whats-new/changes-7.1.html>`_
-* Help on `Upgrading to Varnish 7.1 <https://varnish-cache.org/docs/7.1/whats-new/upgrading-7.1.html>`_
+* List of most important `Changes in 7.1 <https://vinyl-cache.org/docs/7.1/whats-new/changes-7.1.html>`_
+* Help on `Upgrading to Varnish 7.1 <https://vinyl-cache.org/docs/7.1/whats-new/upgrading-7.1.html>`_
 * `Full changes.rst entry for 7.1.2 <https://github.com/varnishcache/varnish-cache/blob/7.1/doc/changes.rst#varnish-cache-712-2022-11-08>`_
 
 For installation instructions including information about cloud images see

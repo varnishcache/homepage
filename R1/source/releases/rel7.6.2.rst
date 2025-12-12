@@ -12,8 +12,8 @@ described in :ref:`VSV00015 <VSV00015>`.
 
 More information:
 
-* List of most important `Changes in 7.6 <https://varnish-cache.org/docs/7.6/whats-new/changes-7.6.html>`_
-* Help on `Upgrading to Varnish 7.6 <https://varnish-cache.org/docs/7.6/whats-new/upgrading-7.6.html>`_
+* List of most important `Changes in 7.6 <https://vinyl-cache.org/docs/7.6/whats-new/changes-7.6.html>`_
+* Help on `Upgrading to Varnish 7.6 <https://vinyl-cache.org/docs/7.6/whats-new/upgrading-7.6.html>`_
 * `Full changes.rst entry for 7.6.2 <https://github.com/varnishcache/varnish-cache/blob/7.6/doc/changes.rst#varnish-cache-762-2025-03-17>`_
 
 For installation instructions including information about cloud images see

@@ -12,8 +12,8 @@ the :ref:`rel7.1.0` release.
 
 More information:
 
-* List of most important `Changes in 7.2 <https://varnish-cache.org/docs/7.2/whats-new/changes-7.2.html>`_
-* Help on `Upgrading to Varnish 7.2 <https://varnish-cache.org/docs/7.2/whats-new/upgrading-7.2.html>`_
+* List of most important `Changes in 7.2 <https://vinyl-cache.org/docs/7.2/whats-new/changes-7.2.html>`_
+* Help on `Upgrading to Varnish 7.2 <https://vinyl-cache.org/docs/7.2/whats-new/upgrading-7.2.html>`_
 * `Full changes.rst entry for 7.2.0 <https://github.com/varnishcache/varnish-cache/blob/7.2/doc/changes.rst#varnish-cache-720-2022-09-15>`_
 
 For installation instructions including information about cloud images see

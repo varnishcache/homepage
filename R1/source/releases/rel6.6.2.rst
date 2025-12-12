@@ -13,8 +13,8 @@ secure version, either 6.0.10, 7.0.2 or 6.6.2.
 
 More information:
 
-* List of most important `Changes in 6.6 <https://varnish-cache.org/docs/6.6/whats-new/changes-6.6.html>`_
-* Help on `Upgrading to Varnish 6.6 <https://varnish-cache.org/docs/6.6/whats-new/upgrading-6.6.html>`_
+* List of most important `Changes in 6.6 <https://vinyl-cache.org/docs/6.6/whats-new/changes-6.6.html>`_
+* Help on `Upgrading to Varnish 6.6 <https://vinyl-cache.org/docs/6.6/whats-new/upgrading-6.6.html>`_
 * `Full changes.rst entry for 6.6.2 <https://github.com/varnishcache/varnish-cache/blob/6.6/doc/changes.rst#varnish-cache-662-2022-01-25>`_
 
 For installation instructions including information about cloud images see

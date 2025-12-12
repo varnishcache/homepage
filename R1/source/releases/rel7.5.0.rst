@@ -12,8 +12,8 @@ the :ref:`rel7.4.0` release.
 
 More information:
 
-* List of most important `Changes in 7.5 <https://varnish-cache.org/docs/7.5/whats-new/changes-7.5.html>`_
-* Help on `Upgrading to Varnish 7.5 <https://varnish-cache.org/docs/7.5/whats-new/upgrading-7.5.html>`_
+* List of most important `Changes in 7.5 <https://vinyl-cache.org/docs/7.5/whats-new/changes-7.5.html>`_
+* Help on `Upgrading to Varnish 7.5 <https://vinyl-cache.org/docs/7.5/whats-new/upgrading-7.5.html>`_
 * `Full changes.rst entry for 7.5.0 <https://github.com/varnishcache/varnish-cache/blob/7.5/doc/changes.rst#varnish-cache-750-2024-03-18>`_
 
 For installation instructions including information about cloud images see

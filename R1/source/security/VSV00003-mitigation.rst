@@ -28,7 +28,7 @@ server load is to be expected.
 To apply this mitigation method, add this snippet near the top of your
 VCL after the `vcl 4.0` or `vcl 4.1` statement::
 
- # https://varnish-cache.org/security/VSV00003-mitigation.html
+ # https://vinyl-cache.org/security/VSV00003-mitigation.html
  sub return_deliver_mitigate_vsv00003 {
     if (req.esi_level == 0 && req.proto != "HTTP/2.0") {
 	set resp.http.Connection = "close";
