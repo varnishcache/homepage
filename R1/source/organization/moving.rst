@@ -3,7 +3,7 @@
 Vinyl Cache is moving
 =====================
 
-As of 2026-02-16, we are about to move all our collaboration activities off
+As of 2026-02-12, we are about to move all our collaboration activities off
 github. First and foremost, here is
 
 ... what you need to do
