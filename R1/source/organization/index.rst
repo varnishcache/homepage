@@ -1,6 +1,14 @@
 .. _organization:
 
 
+Vinyl Cache is moving - your action is required
+===============================================
+
+We are moving. If you want to continue to interact with us, you need to take
+action.
+
+Please read `moving`_ for more.
+
 Varnish Cache organization and day-to-day operation
 ===================================================
 
@@ -185,3 +193,5 @@ Commit bits expire after 36 months with no contribution.
 
 .. toctree::
    :hidden:
+
+   moving

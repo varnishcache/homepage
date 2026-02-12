@@ -15,20 +15,13 @@ We are in the process changing the project name now, so dont
 be confused if you see Vinyl/Varnish being mixed up for a
 while.
 
-Vinyl Cache is moving - please prepare
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vinyl Cache is moving - your action is required
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To prepare for the upcoming move of Vinyl Cache to a self hosted code forge,
-please register an account if you are interested in continued collaboration with
-the project by following `this link <https://code.vinyl-cache.org/user/sign_up?jwt=eyJhbGciOiJSUzI1NiIsImtpZCI6IkRWZFVKUFU5QlJVVUNRdHl5Uk1xcS00TmdIVXZJVmtSbE5BUE5jeDgyMmciLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiIvdXNlci9zaWduX3VwIiwiZXhwIjoxNzcxNDQwNjkyLCJpYXQiOjE3NzA4MzU4OTIsImlzcyI6Ii91c2VyL3NldHRpbmdzL2ludml0YXRpb25zIiwibmJmIjoxNzcwODM1ODkyLCJzdWIiOiJzbGluayJ9.LFDvydBh_cxhyvP1sOdobInlEr4OtqISQtwoDiYE6AvvI6q4A2PxqikFOrwpg5NP5dqSU84ctwxMmiDI61-ypk2nRGya6RW5xAu4PskcaDO8_41gob9SQ-MUtbJCBeldHpDJIrYi1GS_tmdjh4x2jEXne9vSoTXBAmFmh8k7c1gyJvtRJx_HJApPTbcreZ-ug2RjLGvK8zLf-llnPA1AeaeF1SRLZIGD6i8-wvT25u6Taaz64gPICl-I5k8mvwODCt1aZy3R9sUB9jY1YKxvKiBEhCpLn51Nr2cmSc9MzCOonqwsnIZ3Ql-aJo5BwAdvDl82fBiKOoZV6La7GOoW5Q>`_.
+We are moving. If you want to continue to interact with us, you need to take
+action.
 
-It expires 2026-02-18T19:51:32+01:00.
-
-After this date, anyone who already has an account should be able to help out,
-unless we still get abused by spammers and need to close registrations again.
-
-If you have registered and do not receive the email confirmation, please check
-your SPAM folder.
+Please read :ref:`moving` for more.
 
 Announcing VCOT: OpenTelemetry Instrumentation for Vinyl-Cache
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
