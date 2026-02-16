@@ -60,6 +60,8 @@ new location. The translation rules are:
 
 * in the project name, ``varnish`` is replaced with ``vinyl``.
 
+The main/trunk branch is going to be ``main``.
+
 Or expressed as a ``sed`` command::
 
         sed -e 's:github.com/varnish:code.vinyl-cache.org/vinyl-:; s:varnish:vinyl:'
@@ -82,7 +84,7 @@ https://github.com/varnishcache/varnish-release-rpm  https://code.vinyl-cache.or
 These are the web frontend URLs. The git clone URLs change accordingly with
 ``.git`` appended, ssh access changes from ``git@github.com:___.git`` to
 ``git@code.vinyl-cache.org/___.git`` with paths substituted as per the table
-above.
+above. The main/trunk branch changes to ``main``.
 
 Note that some repositories have not been in use for some time. We will still
 migrate them and possibly decide to then also archive them on our own forge.
