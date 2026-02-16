@@ -1,17 +1,21 @@
 .. _moving:
 
+Status
+======
+
+* The main repository has been migrated.
+
 Vinyl Cache is moving
 =====================
 
-As of 2026-02-12, we are about to move all our collaboration activities off
-github. First and foremost, here is
+We are moving, so here is
 
 ... what you need to do
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-To prepare for the upcoming move of Vinyl Cache to a self hosted code forge,
-please register an account if you are interested in continued collaboration with
-the project by following `this link <https://code.vinyl-cache.org/user/sign_up?jwt=eyJhbGciOiJSUzI1NiIsImtpZCI6IkRWZFVKUFU5QlJVVUNRdHl5Uk1xcS00TmdIVXZJVmtSbE5BUE5jeDgyMmciLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiIvdXNlci9zaWduX3VwIiwiZXhwIjoxNzcxNDQwNjkyLCJpYXQiOjE3NzA4MzU4OTIsImlzcyI6Ii91c2VyL3NldHRpbmdzL2ludml0YXRpb25zIiwibmJmIjoxNzcwODM1ODkyLCJzdWIiOiJzbGluayJ9.LFDvydBh_cxhyvP1sOdobInlEr4OtqISQtwoDiYE6AvvI6q4A2PxqikFOrwpg5NP5dqSU84ctwxMmiDI61-ypk2nRGya6RW5xAu4PskcaDO8_41gob9SQ-MUtbJCBeldHpDJIrYi1GS_tmdjh4x2jEXne9vSoTXBAmFmh8k7c1gyJvtRJx_HJApPTbcreZ-ug2RjLGvK8zLf-llnPA1AeaeF1SRLZIGD6i8-wvT25u6Taaz64gPICl-I5k8mvwODCt1aZy3R9sUB9jY1YKxvKiBEhCpLn51Nr2cmSc9MzCOonqwsnIZ3Ql-aJo5BwAdvDl82fBiKOoZV6La7GOoW5Q>`_.
+If you are interested in continued collaboration with the Vinyl Cache project,
+please register an account on our self hosted code forge by following
+`this link <https://code.vinyl-cache.org/user/sign_up?jwt=eyJhbGciOiJSUzI1NiIsImtpZCI6IkRWZFVKUFU5QlJVVUNRdHl5Uk1xcS00TmdIVXZJVmtSbE5BUE5jeDgyMmciLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiIvdXNlci9zaWduX3VwIiwiZXhwIjoxNzcxNDQwNjkyLCJpYXQiOjE3NzA4MzU4OTIsImlzcyI6Ii91c2VyL3NldHRpbmdzL2ludml0YXRpb25zIiwibmJmIjoxNzcwODM1ODkyLCJzdWIiOiJzbGluayJ9.LFDvydBh_cxhyvP1sOdobInlEr4OtqISQtwoDiYE6AvvI6q4A2PxqikFOrwpg5NP5dqSU84ctwxMmiDI61-ypk2nRGya6RW5xAu4PskcaDO8_41gob9SQ-MUtbJCBeldHpDJIrYi1GS_tmdjh4x2jEXne9vSoTXBAmFmh8k7c1gyJvtRJx_HJApPTbcreZ-ug2RjLGvK8zLf-llnPA1AeaeF1SRLZIGD6i8-wvT25u6Taaz64gPICl-I5k8mvwODCt1aZy3R9sUB9jY1YKxvKiBEhCpLn51Nr2cmSc9MzCOonqwsnIZ3Ql-aJo5BwAdvDl82fBiKOoZV6La7GOoW5Q>`_.
 
 It expires 2026-02-18T19:51:32+01:00.
 
@@ -21,15 +25,13 @@ unless we still get abused by spammers and need to close registrations again.
 If you have registered and do not receive the email confirmation, please check
 your SPAM folder.
 
-... an overview of what is going to happen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+... an overview of what is happening
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-At some point in time, probably at around 2026-02-13 (no, we are absolutely not
-superstitious), we are going to start the migration from github to
+One by one, we are going to migrate our repositories from github to
 https://code.vinyl-cache.org.
 
-After this point, the following will happen for each of our github repositories
-in turn:
+The following will happen for each in turn:
 
 * A ``last`` tag will be pushed.
 
@@ -120,6 +122,19 @@ adjust the ``origin=origin`` line accordingly::
   	mv "${top}" "${new}"
   	echo NOW CALL: cd "${new}"
   fi
+
+What else is changing
+~~~~~~~~~~~~~~~~~~~~~
+
+We are trying hard to reduce the impact of (AI) crawlers and (spam) bots. Hence,
+the configuration of ``code.vinyl-cache.org`` deliberately breaks and changes
+some functionality.
+
+If anything breaks your workflow, please get in touch.
+
+The following are known and deliberate:
+
+* No HTTP Authorization. Git pushes only via ssh
 
 What we will do after the migration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
