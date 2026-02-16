@@ -90,6 +90,37 @@ Note that some repositories have not been in use for some time. We will still
 migrate them and possibly decide to then also archive them on our own forge.
 
 
+Changing your git settings
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following ``bash`` script automates changing the origin and main branch. Use
+it from within a git-directory. If your "main origin" is not called ``origin``,
+adjust the ``origin=origin`` line accordingly::
+
+  #!/bin/bash
+  
+  ## call this from a varnish-cache git directory
+  
+  set -eux
+  top=$(git rev-parse --show-toplevel)
+  cd "${top}"
+  
+  # determine the new origin and use it
+  origin=origin
+  newurl=$(git remote get-url "${origin}" | sed -e 's:github.com\([\:/]\)varnishcache:code.vinyl-cache.org\1vinyl-cache:;s:varnish:vinyl:')
+  git remote set-url "${origin}" "${newurl}"
+  git fetch
+  
+  # rename main to master
+  git checkout -b main master
+  git branch -u origin/main main
+  git branch -d master
+  if [[ "${top}" == *varnish* ]] ; then
+  	new="${top/varnish/vinyl}"
+  	mv "${top}" "${new}"
+  	echo NOW CALL: cd "${new}"
+  fi
+
 What we will do after the migration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
